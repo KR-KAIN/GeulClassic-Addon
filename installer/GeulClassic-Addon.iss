@@ -29,9 +29,11 @@ ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 OutputDir=Output
 OutputBaseFilename=GeulClassic-Addon-Setup-v{#AppVersion}
-Compression=lzma2/ultra64
-SolidCompression=yes
-LZMANumBlockThreads=4
+; the translation models are already compressed: normal LZMA2 in its own
+; process keeps the compiler well inside its memory
+Compression=lzma2/normal
+SolidCompression=no
+LZMAUseSeparateProcess=yes
 WizardStyle=modern
 UninstallDisplayName={#AppName}
 UninstallDisplayIcon={app}\{#AppExe}
