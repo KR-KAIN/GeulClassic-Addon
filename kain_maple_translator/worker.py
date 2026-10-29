@@ -331,6 +331,8 @@ class LiveWorker(QThread):
                              'auto_chat_region':dict(stream.auto_region) if stream.auto_region else None,
                              'auto_chat_method':stream.auto_method,
                              'auto_chat_confidence':stream.auto_confidence,
+                             'auto_ui_scale':stream.auto_scale,
+                             'auto_chat_game_size':list(stream.auto_size) if stream.auto_size else None,
                              'wgc_frames':stream.wgc_arrivals,
                              'wgc_dropped_previews':stream.wgc_queue_overflows}
                     stats.update(general_confirmation_pending=admission.pending,

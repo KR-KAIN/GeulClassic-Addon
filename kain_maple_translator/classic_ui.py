@@ -21,13 +21,29 @@ from PySide6.QtGui import QColor, QFont, QFontMetrics, QImage, QPainter, QPixmap
 NATIVE_W, NATIVE_H = 1366, 768
 # Game window 1920x1080 -> 1366x768 native UI. Updated from the real window.
 SCALE = [1920 / 1366, 1080 / 768]
+# The translated-chat window skin is cut from a 1920x1080 screenshot; that
+# window is sized by the user, so its parts keep this one size.
+CHAT_SKIN_SCALE = (1920 / 1366, 1080 / 768)
 
 
-def set_game_size(width: int, height: int):
-    """Match the stretch of the game window that is actually open."""
+def set_ui_scale(scale: float) -> bool:
+    """Draw the addon's game-style parts at the game's own UI scale.
+
+    Returns True when the scale changed (open windows must then refit).
+    """
+    scale = max(1.0, min(3.0, float(scale)))
+    if abs(SCALE[0] - scale) < .005 and abs(SCALE[1] - scale) < .005:
+        return False
+    SCALE[0] = SCALE[1] = scale
+    return True
+
+
+def set_game_size(width: int, height: int) -> bool:
+    """Match the UI scale of the game window that is actually open."""
     if width > 0 and height > 0:
-        SCALE[0] = width / NATIVE_W
-        SCALE[1] = height / NATIVE_H
+        from .layout import game_ui_scale
+        return set_ui_scale(game_ui_scale(width, height))
+    return False
 
 
 def _root() -> Path:

@@ -15,6 +15,10 @@ DEFAULTS = {
     "output": "overlay", "opacity": 86, "font_size": 13, "theme_variant": "rounded",
     "floating_mode": "overlay", "top_mode": "game", "hud_panels_match": True, "pin_settings_above_game": False, "game_title_keyword": "maple",
     "game_resolution": "auto", "region_source": "manual", "relative_chat_region": None,
+    # game client size (and its UI scale) the chat region was taken at
+    "chat_region_game": None,
+    # the how-to poster opens by itself only on the first start
+    "help_seen_r19": False,
     "engine": "argos", "libre_url": "", "libre_key": "",
     "ocr_scale": 1.8, "show_original": False, "capture_interval": 0.08, "capture_backend": "wgc", "auto_chat_region": True, "source_chat_colors": True,
     "game_priority": False, "glyph_debug_enabled": False, "glyph_dictionary_enabled": False,

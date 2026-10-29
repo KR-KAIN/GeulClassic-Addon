@@ -33,7 +33,8 @@ from .timings import LatencyBook
 from .translation import Translator, prepare_models
 from .item_catalog import CatalogError, install_catalog, current_catalog
 from .noonnu_fonts import cached_font_from_noonnu, FontUrlError
-from .layout import GAME_RESOLUTIONS, estimate_chat_area, dock_to_side, resolution_size, hud_panel_geometry
+from .layout import (GAME_RESOLUTIONS, estimate_chat_area, dock_to_side, resolution_size,
+                     hud_panel_geometry, game_ui_scale, hud_relative_region)
 from .game_window import find_maple_window, region_to_relative, relative_to_region
 from .obs_source import OBSChatSource
 from .chat_style import normalize_style, text_css, rgba_color, qt_rgba_color, effective_font_color
@@ -478,7 +479,7 @@ class FloatingChat(Glass):
                    Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignVCenter,self.general_tab._title)
         # the game's blue X at the right of each title box (decoration, like
         # every game window's title; the window itself is closed from the panel)
-        x_pix=CU.close_pixmap()
+        x_pix=CU.close_pixmap('normal',*CU.CHAT_SKIN_SCALE)
         for top in (9,header_y+k['bottom']+k['gap']+9):
             p.drawPixmap(self.width()-33,top+(32-x_pix.height())//2,x_pix)
         p.end()
@@ -510,7 +511,7 @@ class FloatingChat(Glass):
         row.addStretch(1)
         # decorative blue X, like the game window titles
         x_mark=QLabel()
-        x_mark.setPixmap(CU.close_pixmap())
+        x_mark.setPixmap(CU.close_pixmap('normal',*CU.CHAT_SKIN_SCALE))
         x_mark.setStyleSheet('background:transparent;border:0;padding:0;')
         row.addWidget(x_mark,0,Qt.AlignmentFlag.AlignVCenter)
         row.addSpacing(4)
@@ -933,6 +934,11 @@ class FloatingChat(Glass):
         return super().eventFilter(watched,event)
 
 
+def hud_panel_cap() -> int:
+    """Tallest side panel: 126 px at 1920x1080, more for a larger game UI."""
+    return max(126, round(126 * CU.SCALE[1] / (1080 / 768)))
+
+
 def _paint_hud(widget):
     """Bottom HUD panels: the game's own status-bar texture behind the controls."""
     from PySide6.QtGui import QPainter
@@ -944,7 +950,11 @@ def _paint_hud(widget):
 class CompactSettings(Glass):
     PANEL_TITLE = '글클메 애드온'
     PANEL_SUB = '제작자 KAIN'
-    STRIP_PX = 30      # the status line sits on the steel strip
+    STRIP_PX = 30      # the status line sits on the steel strip (at 1920x1080)
+
+    def strip_px(self) -> int:
+        """The strip's height at the game's current UI scale."""
+        return max(22, round(self.STRIP_PX * CU.SCALE[1] / (1080 / 768)))
 
     def mousePressEvent(self, event):
         # R18: the title band's X quits, like the old × button did
@@ -962,7 +972,7 @@ class CompactSettings(Glass):
             from PySide6.QtGui import QPainter
             p=QPainter(self)
             p.drawPixmap(0,0,CU.panel_pixmap(self.width(),self.height(),self.PANEL_TITLE,
-                                              self.PANEL_SUB,self.STRIP_PX-4))
+                                              self.PANEL_SUB,self.strip_px()-4))
             p.end()
             return
         _paint_hud(self)
@@ -996,14 +1006,14 @@ class CompactSettings(Glass):
         lay = QVBoxLayout(self.card)
         lay.setContentsMargins(8, 6, 8, 6)
         lay.setSpacing(3)
-        self.brand=CU.ClassicText('글클메 애드온 R19')
+        self.brand=CU.ClassicText('글클메 애드온 R20')
         self.brand.setObjectName('brand')
         lay.addWidget(self.brand)
         self.description=CU.ClassicText('제작자 KAIN  ·  실시간 게임 채팅 번역')
         self.description.setObjectName('eyebrow')
         lay.addWidget(self.description)
         a=QHBoxLayout()
-        self.toggle_btn=CU.ClassicButton('● 번역 OFF · R19')
+        self.toggle_btn=CU.ClassicButton('● 번역 OFF · R20')
         self.toggle_btn.setProperty('classic','pink')  # ON turns lime
         self.toggle_btn.setCheckable(True)
         self.toggle_btn.clicked.connect(self.toggle)
@@ -1011,6 +1021,7 @@ class CompactSettings(Glass):
         prefs=CU.ClassicButton('≡')  # Gulim has no ⚙ glyph
         prefs.setProperty('classic','blue')
         prefs.setFixedWidth(29)
+        self.prefs_btn=prefs
         prefs.setToolTip('번역 엔진·폰트·글자 크기·투명도')
         prefs.clicked.connect(self.details)
         a.addWidget(prefs)
@@ -1101,11 +1112,16 @@ class CompactSettings(Glass):
         height=max(95,int(height))
         width=max(155,int(width))
         compact=height<=210
-        if compact: height=min(height,126)
+        if compact: height=min(height,hud_panel_cap())
         if (self.width(),self.height(),self._hud_compact)==(width,height,compact):
             return
         self._hud_compact=compact
         self.set_theme_variant(getattr(self,'_requested_theme_variant',self.theme_variant))
+        # Fixed button widths were set for the 1920x1080 UI scale.
+        k=CU.SCALE[0]/(1920/1366)
+        self.prefs_btn.setFixedWidth(max(22,round(29*k)))
+        self.close_btn.setFixedWidth(max(20,round(25*k)))
+        self.scroll_button.setFixedWidth(max(46,round(62*k)))
         self.brand.setVisible(not compact)
         self.description.setVisible(not compact)
         self.close_btn.setVisible(not compact)
@@ -1114,7 +1130,7 @@ class CompactSettings(Glass):
             height+=title
             self.card.layout().setContentsMargins(5,title+2,5,0)
             self.status.setObjectName('strip')
-            self.status.strip_px=self.STRIP_PX-4     # the strip paintEvent draws
+            self.status.strip_px=self.strip_px()-4     # the strip paintEvent draws
         else:
             self.card.layout().setContentsMargins(8,6,8,6)
             self.status.setObjectName('subtle')
@@ -1148,8 +1164,8 @@ class CompactSettings(Glass):
             widget.setMinimumHeight(0)
             widget.setMaximumHeight(26 if compact else 16777215)
         if compact:
-            self.status.setMaximumHeight(self.STRIP_PX)
-            self.status.setMinimumHeight(self.STRIP_PX)
+            self.status.setMaximumHeight(self.strip_px())
+            self.status.setMinimumHeight(self.strip_px())
         # Merge visually with the game's central HUD instead of showing an
         # inset, rounded floating-card frame surrounded by empty gutters.
         self.card.setStyleSheet(strip_stylesheet('left'))
@@ -1158,7 +1174,7 @@ class CompactSettings(Glass):
     def update_live(self, running: bool):
         self.toggle_btn.blockSignals(True)
         self.toggle_btn.setChecked(running)
-        self.toggle_btn.setText('● 번역 ON · R19' if running else '● 번역 OFF · R19')
+        self.toggle_btn.setText('● 번역 ON · R20' if running else '● 번역 OFF · R20')
         self.toggle_btn.blockSignals(False)
 
     def set_status(self, value: str):
@@ -1240,7 +1256,7 @@ class CompactComposer(Glass):
         """Keep Korean input and translated result at the same HUD top/bottom."""
         width=max(155,int(width));height=max(95,int(height))
         compact=height<=210
-        if compact: height=min(height,126)
+        if compact: height=min(height,hud_panel_cap())
         if (self.width(),self.height(),self._hud_compact)==(width,height,compact):
             return
         self._hud_compact=compact
@@ -1248,6 +1264,7 @@ class CompactComposer(Glass):
         self.heading.setText('한→영' if compact else '글클메 애드온 · 영어 입력기')
         # below the title band (20 native px of the stat window's top)
         top=round(21*CU.SCALE[1])
+        self.copy.setFixedWidth(max(32,round(42*CU.SCALE[0]/(1920/1366))))
         self.card.layout().setContentsMargins(6, top, 6, 4)
         self.card.layout().setSpacing(2)
         # Fill the panel height with real controls, not blank black pixels.
@@ -1738,6 +1755,8 @@ class Controller(QObject):
         self._game_probe_at=0.0
         self._last_valid_game_at=0.0
         self.last_game_window=None
+        # (width, height, scale) the chat auto detection measured on screen
+        self._detected_ui_scale=None
         self._prior_stack_active = None
         self._last_stack_mode = None
         self._last_foreground_context = None
@@ -2052,7 +2071,7 @@ class Controller(QObject):
         x,y,w,h=estimate_chat_area(win.rect,self.cfg.get('game_resolution','auto'))
         region={'left':x,'top':y,'width':w,'height':h}
         self.cfg['regions']['chat']=region
-        self.cfg['relative_chat_region']=vars(region_to_relative(win.rect, region))
+        self._remember_region(win,region)
         self.cfg['region_source']='auto'
         g=self.cfg.setdefault('chat_geometry',{})
         g.update({'overlay_dx':0,'overlay_dy':0,'width':w,'height':h})
@@ -2064,6 +2083,32 @@ class Controller(QObject):
         self.save()
         if notify:self.left.set_status(f'게임 PID {win.pid} 연결 · 초기 채팅 위치 추정 · 인식 영역으로 확정 권장')
         return True
+
+    def game_ui_scale_for(self, win) -> float:
+        """The game's UI scale: measured by auto detection, else from size."""
+        gw,gh=int(win.rect[2]),int(win.rect[3])
+        found=self._detected_ui_scale
+        if found and found[:2]==(gw,gh) and self.cfg.get('auto_chat_region',True):
+            return found[2]
+        return game_ui_scale(gw,gh)
+
+    def _remember_region(self, win, region):
+        """Store the chat crop relative to the game and the size it was made at."""
+        self.cfg['relative_chat_region']=vars(region_to_relative(win.rect,region))
+        self.cfg['chat_region_game']={'width':int(win.rect[2]),'height':int(win.rect[3]),
+                                      'scale':round(self.game_ui_scale_for(win),4)}
+
+    def _region_reference(self, win) -> dict:
+        ref=self.cfg.get('chat_region_game')
+        if isinstance(ref,dict) and ref.get('width') and ref.get('height'):
+            return ref
+        # Settings from before R20 do not say which game size the crop was
+        # made at: a chosen game resolution tells it, else the current size.
+        size=resolution_size(self.cfg.get('game_resolution','auto')) or (int(win.rect[2]),int(win.rect[3]))
+        ref={'width':size[0],'height':size[1],'scale':round(game_ui_scale(*size),4)}
+        self.cfg['chat_region_game']=ref
+        self.save()
+        return ref
 
     def anchor_rect(self) -> QRect | None:
         win=self._find_game()
@@ -2082,19 +2127,25 @@ class Controller(QObject):
                 and old['left']+old['width']<=gx+gw
                 and old['top']+old['height']<=gy+gh)
             if contained and self.cfg.get('region_source')=='manual':
-                relative=vars(region_to_relative(win.rect,old))
+                self._remember_region(win,old)
             else:
                 x,y,w,h=estimate_chat_area(win.rect,self.cfg.get('game_resolution','auto'))
                 old={'left':x,'top':y,'width':w,'height':h}
                 self.cfg['regions']['chat']=old
                 self.cfg['region_source']='auto'
-                relative=vars(region_to_relative(win.rect,old))
+                self._remember_region(win,old)
                 self.cfg['chat_geometry'].update({'width':w,'height':h,'overlay_dx':0,'overlay_dy':0})
                 self.left.set_status(f'PID {win.pid} 감지 · 채팅 영역 자동 추정 · [인식 영역] 재지정 권장')
-            self.cfg['relative_chat_region']=relative
+            relative=self.cfg['relative_chat_region']
             self.save()
         if isinstance(relative,dict) and all(k in relative for k in ('x','y','w','h')):
-            region=relative_to_region(win.rect,relative)
+            ref=self._region_reference(win)
+            if (int(ref['width']),int(ref['height']))==(int(win.rect[2]),int(win.rect[3])):
+                region=relative_to_region(win.rect,relative)
+            else:
+                # Another game resolution: the chat HUD stays at the bottom
+                # centre and follows the game's UI scale, not the window.
+                region=hud_relative_region(relative,ref,win.rect)
             if region != self.cfg['regions'].get('chat'):
                 self.cfg['regions']['chat']=region
                 if self.worker and self.worker.isRunning():self.worker.update_settings(self.cfg)
@@ -2114,18 +2165,35 @@ class Controller(QObject):
         finally:
             self._placing=False
 
+    def _refit_for_ui_scale(self):
+        """The game's UI scale changed: lay the game-style panels out again."""
+        CU.close_pixmap.cache_clear()
+        for panel in (self.left,self.right):
+            panel._hud_compact=None          # fit_bottom_hud lays out afresh
+            for child in panel.findChildren(QWidget):
+                child.updateGeometry()
+            if panel.card.layout() is not None:
+                panel.card.layout().invalidate()
+            panel.update()
+
     def relayout(self):
         if self.selector is not None or self.closing or self._placing:
             return
         game=self.anchor_rect()
         mon=monitor_for(self.cfg['regions'].get('chat'))
         target=game or mon
+        ui_scale=None
+        if game is not None and self.last_game_window is not None:
+            # The panels, buttons and windows follow the game's own UI scale.
+            ui_scale=self.game_ui_scale_for(self.last_game_window)
+            if CU.set_ui_scale(ui_scale):
+                self._refit_for_ui_scale()
         if game is not None and self.cfg.get('hud_panels_match',True):
             # Fit ONLY left controls and right Korean→English translator.
             # The draggable translated-chat splitter/dock geometry is separate.
             l_rect,r_rect=hud_panel_geometry((game.x(),game.y(),game.width(),game.height()),
                     (mon.x(),mon.y(),mon.width(),mon.height()),
-                    self.cfg['regions'].get('chat'))
+                    self.cfg['regions'].get('chat'),ui_scale=ui_scale)
             self.left.fit_bottom_hud(l_rect[2],l_rect[3])
             self.right.fit_bottom_hud(r_rect[2],r_rect[3])
             self.left.move(l_rect[0],l_rect[1]+l_rect[3]-self.left.height())
@@ -2325,7 +2393,7 @@ class Controller(QObject):
             self.cfg['auto_chat_region']=False  # explicit manual override wins
             win=self._find_game()
             if win:
-                self.cfg['relative_chat_region']=vars(region_to_relative(win.rect,region))
+                self._remember_region(win,region)
                 self.left.set_status(f'MapleStory PID {win.pid} · 게임 창 상대 위치 저장')
             else:
                 self.cfg['relative_chat_region']=None
@@ -2393,14 +2461,24 @@ class Controller(QObject):
         region=metrics.get('auto_chat_region')
         if not is_valid_region(region):
             return
+        win=self._find_game()
+        found_size=tuple(metrics.get('auto_chat_game_size') or ())
+        if win and found_size and found_size!=(int(win.rect[2]),int(win.rect[3])):
+            return   # found before the game changed resolution; wait for the new one
+        scale_changed=False
+        if win and metrics.get('auto_ui_scale'):
+            found=(int(win.rect[2]),int(win.rect[3]),float(metrics['auto_ui_scale']))
+            scale_changed=found!=self._detected_ui_scale
+            self._detected_ui_scale=found
         previous=self.cfg['regions'].get('chat')
-        if previous==region:
+        ref=self.cfg.get('chat_region_game') or {}
+        same_size=bool(win) and (ref.get('width'),ref.get('height'))==(int(win.rect[2]),int(win.rect[3]))
+        if previous==region and same_size and not scale_changed:
             return
         self.cfg['regions']['chat']=dict(region)
         self.cfg['region_source']='auto'
-        win=self._find_game()
         if win:
-            self.cfg['relative_chat_region']=vars(region_to_relative(win.rect,region))
+            self._remember_region(win,region)
         # Do not force a UI change from every frame; this fires only when
         # the actual region moves/resizes or the initial calibration completes.
         self.save()

@@ -20,12 +20,13 @@ RECT=(100,200,1366,768)
 def fake_maple_frame():
     # Reproduce the relevant *geometry and colors* of the bottom-left Maple
     # '전체' chat toolbar using synthetic pixels (does not depend on fixtures).
+    # R20: where the 1366x768 client really draws the button (287..366 x
+    # 706..723) with the white chat input field right of it.
     img=np.full((768,1366,3), (155,155,155), np.uint8)
-    predicted=estimate((0,0,1366,768)).region
-    x=predicted['left'];y=predicted['top']+predicted['height']-2
-    cv2.rectangle(img,(x,y),(x+93,y+21),(111,83,54),-1)
+    cv2.rectangle(img,(370,706),(830,721),(245,245,245),-1)
+    cv2.rectangle(img,(287,706),(366,723),(111,83,54),-1)
     # The small gray text knockouts are not mandatory for color-bar detection.
-    cv2.rectangle(img,(x+24,y+6),(x+45,y+13),(210,210,210),-1)
+    cv2.rectangle(img,(311,710),(332,717),(210,210,210),-1)
     return img
 
 

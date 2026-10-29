@@ -207,6 +207,8 @@ class ChatCaptureStream:
         self.auto_region = None
         self.auto_method = 'waiting'
         self.auto_confidence = 0.0
+        self.auto_scale = 0.0    # the game's UI scale found with the chat HUD
+        self.auto_size = None    # the game client size auto_region belongs to
         # Text-change analysis costs ~70 ms per frame on a busy streaming PC
         # (i7-7700 at 99% CPU with game+OBS), i.e. a whole core at 15/s,
         # while OCR handles ~1 frame/s. Chat rows stay visible for seconds,
@@ -331,6 +333,8 @@ class ChatCaptureStream:
         last_publish = 0.0
         last_frame = None
         auto_hwnd = 0
+        auto_size = None         # game client size the auto region belongs to
+        auto_found_at = 0.0
         auto_relative = None
         game_rect_last = None
         game_for_fallback = None
@@ -379,11 +383,23 @@ class ChatCaptureStream:
                                 source.close();source=None;source_hwnd=0
                             if game is not None:
                                 if automatic:
-                                    if auto_hwnd!=game.hwnd:
+                                    size=(int(game.rect[2]),int(game.rect[3]))
+                                    if auto_hwnd!=game.hwnd or auto_size!=size:
+                                        # A new game window or a new game
+                                        # resolution: the HUD scale changes
+                                        # with height, not with the window, so
+                                        # find the chat area again.
                                         auto_hwnd=game.hwnd
+                                        auto_size=size
                                         auto_relative=None
                                         self.auto_region=None
                                         self.auto_method='waiting-for-frame'
+                                    elif (auto_relative is not None and source is not None
+                                          and self.auto_method=='geometry-estimate'
+                                          and started-auto_found_at>=4.0):
+                                        # Only a guess so far (loading screen,
+                                        # cash shop, chat hidden): look again.
+                                        auto_relative=None
                                     if auto_relative is not None:
                                         region=relative_to_region(game.rect,auto_relative)
                                         self.auto_region=dict(region)
@@ -423,7 +439,13 @@ class ChatCaptureStream:
                                 else:
                                     # Do not replace pending full-client auto detection
                                     # with an estimated crop before the first frame.
-                                    if not (automatic and auto_relative is None):
+                                    if automatic and auto_relative is None:
+                                        # Ask for one whole client frame to
+                                        # look at (after a resize or a retry).
+                                        source.set_geometry(game.rect,
+                                            {'left':game.rect[0],'top':game.rect[1],
+                                             'width':game.rect[2],'height':game.rect[3]})
+                                    else:
                                         source.set_geometry(game.rect,region)
                             elif source is not None:
                                 source.close();source=None;source_hwnd=0
@@ -440,6 +462,13 @@ class ChatCaptureStream:
                                 frame,region,timestamp=raw
                                 started=timestamp
                                 used='wgc'
+                                full_rect={'left':game_for_fallback.rect[0],'top':game_for_fallback.rect[1],
+                                           'width':game_for_fallback.rect[2],'height':game_for_fallback.rect[3]} \
+                                    if game_for_fallback is not None else None
+                                if (automatic and game_for_fallback is not None and auto_relative is None
+                                        and region!=full_rect):
+                                    # A crop from before the full-client request.
+                                    continue
                                 if automatic and game_for_fallback is not None and auto_relative is None:
                                     # First WGC frame: direct CLIENT content, not screen.
                                     found=detect_chat_region(frame,game_for_fallback.rect)
@@ -448,6 +477,9 @@ class ChatCaptureStream:
                                     self.auto_region=dict(region)
                                     self.auto_method=result.method
                                     self.auto_confidence=result.confidence
+                                    self.auto_scale=result.scale
+                                    self.auto_size=(int(game_for_fallback.rect[2]),int(game_for_fallback.rect[3]))
+                                    auto_found_at=started
                                     auto_relative=region_to_relative(game_for_fallback.rect,region)
                                     frame=local_crop(frame,game_for_fallback.rect,region)
                                     source.set_geometry(game_for_fallback.rect,region)
@@ -493,14 +525,18 @@ class ChatCaptureStream:
                                 self.stop_event.wait(.2)
                                 continue
                             game=game_for_fallback
-                            if auto_hwnd!=game.hwnd:
+                            size=(int(game.rect[2]),int(game.rect[3]))
+                            if auto_hwnd!=game.hwnd or auto_size!=size:
                                 auto_hwnd=game.hwnd
+                                auto_size=size
                                 auto_relative=None
                             if auto_relative is None:
                                 result=estimate(game.rect)
                                 auto_relative=region_to_relative(game.rect,result.region)
                                 self.auto_method='mss-'+result.method
                                 self.auto_confidence=result.confidence
+                                self.auto_scale=result.scale
+                                self.auto_size=size
                             region=relative_to_region(game.rect,auto_relative)
                             self.auto_region=dict(region)
                         if not is_valid_region(region):

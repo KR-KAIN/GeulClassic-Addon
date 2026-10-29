@@ -5,7 +5,7 @@
 ; kept on uninstall.
 
 #ifndef AppVersion
-  #define AppVersion "0.4.54-R19"
+  #define AppVersion "0.4.54-R20"
 #endif
 #define AppName "글클메 애드온"
 #define AppExe "글클메 애드온.exe"
