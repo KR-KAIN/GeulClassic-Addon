@@ -72,13 +72,19 @@ def norm(name: str) -> str:
     return re.sub(r'[^a-z0-9]+', ' ', name.lower()).strip()
 
 
+ENGLISH_WORD = re.compile('[A-Za-z]{4,}')   # 'Speed 포션' - but 'HP', 'STR' are Korean usage
+
+
 def build(items, kms: dict[str, str], gms: list[dict[str, str]]):
-    """items: (id, English, Korean-or-empty) from Classic World.
+    """items: (id, English, Korean-or-empty[, category]) from Classic World.
 
     1. Same ID: the KMS name, when a GMS client gives the ID the same English name.
     2. Same English name: Classic World renumbered some items (Megaphone is
        5070000 there, 5071000 in GMS/KMS), so a GMS item with exactly this
        English name lends its KMS name, when every such GMS item agrees.
+    Items whose Classic World Korean is half English ('Speed 포션') get the
+    KMS name as well, marked over_cw. One-word hair/face names are skipped:
+    'Casanova' or 'Redemption' in chat is a word, not an item.
     """
     by_name: dict[str, set] = {}
     for g in gms:
@@ -86,23 +92,38 @@ def build(items, kms: dict[str, str], gms: list[dict[str, str]]):
             ko = kms.get(ident, '')
             if HANGUL.search(ko):
                 by_name.setdefault(norm(en), set()).add(ko)
-    out, stats = [], {'has_cw_korean': 0, 'same_id': 0, 'same_name': 0,
-                      'ambiguous': 0, 'not_found': 0}
-    for ident, en, ko in items:
+    out, stats = [], {'has_cw_korean': 0, 'same_id': 0, 'same_name': 0, 'over_half_english': 0,
+                      'ambiguous': 0, 'not_found': 0, 'one_word_hair': 0}
+    for row in items:
+        ident, en, ko = row[:3]
+        category = row[3] if len(row) > 3 else ''
         key = str(ident)
-        if ko and HANGUL.search(ko) and ko != en:
+        if category == 'Character' and ' ' not in en.strip():
+            stats['one_word_hair'] += 1
+            continue
+        half_english = bool(ko and HANGUL.search(ko) and ENGLISH_WORD.search(ko))
+        if ko and HANGUL.search(ko) and ko != en and not half_english:
             stats['has_cw_korean'] += 1
             continue
         kname = kms.get(key, '')
         english = {norm(g[key]) for g in gms if key in g}
         if HANGUL.search(kname) and norm(en) in english:
-            out.append({'id': ident, 'en': en, 'ko': kname, 'by': 'id'})
-            stats['same_id'] += 1
-            continue
-        found = by_name.get(norm(en), set())
+            found, by = {kname}, 'id'
+        else:
+            found, by = by_name.get(norm(en), set()), 'name'
         if len(found) == 1:
-            out.append({'id': ident, 'en': en, 'ko': next(iter(found)), 'by': 'name'})
-            stats['same_name'] += 1
+            name = next(iter(found))
+            if half_english:
+                if ENGLISH_WORD.search(name):
+                    stats['has_cw_korean'] += 1   # no better name: keep Classic World's
+                    continue
+                out.append({'id': ident, 'en': en, 'ko': name, 'by': by, 'over_cw': True})
+                stats['over_half_english'] += 1
+                continue
+            out.append({'id': ident, 'en': en, 'ko': name, 'by': by})
+            stats['same_id' if by == 'id' else 'same_name'] += 1
+        elif half_english:
+            stats['has_cw_korean'] += 1
         elif found:
             stats['ambiguous'] += 1    # GMS items of this name differ in Korean
         else:
@@ -118,7 +139,7 @@ def main():
     args = ap.parse_args()
     cache = Path(args.cache) if args.cache else None
     con = sqlite3.connect('file:' + DB.as_posix() + '?mode=ro', uri=True)
-    items = con.execute('SELECT id, name, name_ko FROM items WHERE name != ""').fetchall()
+    items = con.execute('SELECT id, name, name_ko, category FROM items WHERE name != ""').fetchall()
     con.close()
     kms: dict[str, str] = {}
     for ver in args.kms.split(','):

@@ -1,14 +1,51 @@
 {
 "source": "maplestory.io KMS 284,389 client item names for Classic World (MCW) item IDs, each ID confirmed by the same English name in GMS 62,83,95,111,150,176,213,240,270",
-"fetched": "2026-10-29",
+"fetched": "2026-10-30",
 "stats": {
-"has_cw_korean": 4172,
+"has_cw_korean": 3753,
 "same_id": 103,
 "same_name": 2095,
+"over_half_english": 9,
 "ambiguous": 70,
-"not_found": 910
+"not_found": 910,
+"one_word_hair": 410
 },
 "items": [
+{
+"id": 1002048,
+"en": "Red Thief Hood",
+"ko": "레드 시프 후드",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 1002049,
+"en": "Green Thief Hood",
+"ko": "그린 시프 후드",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 1002050,
+"en": "Blue Thief Hood",
+"ko": "블루 시프 후드",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 1002051,
+"en": "Yellow Thief Hood",
+"ko": "옐로우 시프 후드",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 1002052,
+"en": "Black Thief Hood",
+"ko": "블랙 시프 후드",
+"by": "name",
+"over_cw": true
+},
 {
 "id": 1007000,
 "en": "Brown Flight Headgear",
@@ -12526,10 +12563,38 @@
 "by": "id"
 },
 {
+"id": 2002000,
+"en": "Warrior Potion",
+"ko": "전사의 물약",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 2002003,
+"en": "Dexterity Potion",
+"ko": "민첩함의 물약",
+"by": "name",
+"over_cw": true
+},
+{
+"id": 2002004,
+"en": "Speed Potion",
+"ko": "속도향상의 물약",
+"by": "name",
+"over_cw": true
+},
+{
 "id": 2020023,
 "en": "Cake",
 "ko": "케이크",
 "by": "name"
+},
+{
+"id": 2028000,
+"en": "Mysterious Meso Pouch",
+"ko": "의문의 메소 주머니",
+"by": "name",
+"over_cw": true
 },
 {
 "id": 2190002,

@@ -46,7 +46,10 @@ def meowdb_path() -> Path:
 
 def mcw_pairs() -> list[tuple[str, str]]:
     """(English, Korean) names from Classic World's own client data
-    (resources/item-info, scripts/fetch_item_info.py)."""
+    (resources/item-info, scripts/fetch_item_info.py).
+
+    One-word hair and face names ('Casanova', 'Catalyst', 'Redemption'...)
+    are left out: they are ordinary words in chat, never traded items."""
     try:
         import sqlite3
         from .item_info import db_path
@@ -55,7 +58,8 @@ def mcw_pairs() -> list[tuple[str, str]]:
             return []
         con = sqlite3.connect('file:' + path.as_posix() + '?mode=ro&immutable=1', uri=True)
         try:
-            rows = con.execute("SELECT name, name_ko FROM items WHERE name_ko != '' AND name_ko != name").fetchall()
+            rows = con.execute("SELECT name, name_ko FROM items WHERE name_ko != '' AND name_ko != name"
+                               " AND NOT (category = 'Character' AND instr(trim(name), ' ') = 0)").fetchall()
         finally:
             con.close()
         return [((en or '').strip(), (ko or '').strip()) for en, ko in rows
@@ -69,10 +73,11 @@ def kms_names_path() -> Path:
     return root / 'resources' / 'item-info' / 'kms-names.json'
 
 
-def kms_pairs() -> list[tuple[str, str]]:
-    """(English, Korean) names of Classic World items that the Classic World
-    data leaves without Korean, from the Korean client (KMS) for the same item
-    (scripts/fetch_kms_names.py). Public game data: no meowdb needed."""
+def kms_rows() -> list[dict]:
+    """Korean-client (KMS) names for Classic World items whose Classic World
+    Korean is missing or half English (scripts/fetch_kms_names.py): rows of
+    en, ko and over_cw (True: use instead of the half-English name).
+    Public game data: no meowdb needed."""
     try:
         obj = json.loads(kms_names_path().read_text(encoding='utf-8'))
         rows = obj.get('items', []) if isinstance(obj, dict) else []
@@ -80,10 +85,12 @@ def kms_pairs() -> list[tuple[str, str]]:
         return []
     out = []
     for row in rows[:20000]:
+        if not isinstance(row, dict):
+            continue
         en = str(row.get('en') or '').strip()
         ko = str(row.get('ko') or '').strip()
         if re.search(r'[A-Za-z]', en) and re.search('[가-힣]', ko) and len(en) <= 150 and len(ko) <= 150:
-            out.append((en, ko))
+            out.append({'en': en, 'ko': ko, 'over_cw': bool(row.get('over_cw'))})
     return out
 
 
@@ -167,29 +174,26 @@ class ClassicItemIndex:
                         self.meowdb_count += 1
         # R19: Classic World's own Korean client names (resources/item-info,
         # maplestory.io MCW) fill names that are still missing.
+        # R20: where Classic World's Korean is half English ('Speed 포션',
+        # '빨간 Thief 후드'), the Korean client's name for the same item goes
+        # first ('속도향상의 물약', '레드 시프 후드').
+        kms=kms_rows()
+        self.kms_count=0
+        for row in kms:
+            if row.get('over_cw'):
+                self._add_name(row['en'],row['ko'],curated,'kms_count')
+        # Same length rule as the meowdb names: one-word names of 8+ letters
+        # count ('Sapphire', 'Crossbow' are traded every day).
         self.mcw_count=0
         for en,ko in mcw_pairs():
-            if re.sub(r'[^a-z0-9]+',' ',en.lower()).strip() in curated:
-                continue
-            if len(en)>=7 and (len(en.split())>1 or len(en)>=12):
-                old=self.by_en.get(en.casefold())
-                if not old or not old[1]:
-                    self.by_en[en.casefold()]=(en,ko)
-                    self.mcw_count += 1
+            self._add_name(en,ko,curated,'mcw_count')
         # R20: Korean-client (KMS) names for Classic World items that have no
         # Korean in the Classic World data: megaphones, pets, cash items...
         # The same names meowdb's table carried, from game data alone, so the
         # public build has them too. Same length rule as the meowdb names.
-        self.kms_count=0
-        for en,ko in kms_pairs():
-            if re.sub(r'[^a-z0-9]+',' ',en.lower()).strip() in curated:
-                continue
-            for variant in {en, en.replace('-', ' ')}:
-                if len(variant) >= 5 and (len(variant.split())>1 or len(variant)>=8):
-                    old=self.by_en.get(variant.casefold())
-                    if not old or not old[1]:
-                        self.by_en[variant.casefold()]=(variant,ko)
-                        self.kms_count += 1
+        for row in kms:
+            if not row.get('over_cw'):
+                self._add_name(row['en'],row['ko'],curated,'kms_count')
         # Public Classic World wiki names complement the legacy v83 index.
         # The publisher's export is English-first. Do not claim Korean names.
         from .open_classic_data import item_name_rows
@@ -206,6 +210,18 @@ class ClassicItemIndex:
             self.prefix.setdefault(en[0].lower(),[]).append((en,ko))
         for entries in self.prefix.values():
             entries.sort(key=lambda x:-len(x[0]))
+
+    def _add_name(self, en, ko, curated, counter):
+        """Fill a name that has no Korean yet. One-word names need 8+
+        letters, others 5+ (the rule the meowdb names always used)."""
+        if re.sub(r'[^a-z0-9]+',' ',en.lower()).strip() in curated:
+            return   # the user's own wording (market_item_terms) wins
+        for variant in {en, en.replace('-', ' ')}:
+            if len(variant) >= 5 and (len(variant.split())>1 or len(variant)>=8):
+                old=self.by_en.get(variant.casefold())
+                if not old or not old[1]:
+                    self.by_en[variant.casefold()]=(variant,ko)
+                    setattr(self,counter,getattr(self,counter)+1)
 
     @property
     def count(self):
