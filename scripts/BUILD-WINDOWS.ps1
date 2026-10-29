@@ -302,7 +302,11 @@ try {
         'tests\test_glossary.py', 'tests\test_python_bootstrap.py',
         'tests\test_windows_build.py'
     )
+    # The real game screenshots (tests\fixtures) are not in the public repository;
+    # a clone without them builds, and the tests that need them are skipped.
+    $HasFixtures = Test-Path -LiteralPath (Join-Path $Root 'tests\fixtures') -PathType Container
     foreach ($RelativePath in $RequiredPaths) {
+        if (-not $HasFixtures -and $RelativePath.StartsWith('tests\fixtures\')) { continue }
         if (-not (Test-Path -LiteralPath (Join-Path $Root $RelativePath) -PathType Leaf)) {
             throw ('ZIP extraction incomplete. Missing bundled file: {0}' -f $RelativePath)
         }
