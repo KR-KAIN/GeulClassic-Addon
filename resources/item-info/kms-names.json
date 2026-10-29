@@ -1,0 +1,13201 @@
+{
+"source": "maplestory.io KMS 284,389 client item names for Classic World (MCW) item IDs, each ID confirmed by the same English name in GMS 62,83,95,111,150,176,213,240,270",
+"fetched": "2026-10-29",
+"stats": {
+"has_cw_korean": 4172,
+"same_id": 103,
+"same_name": 2095,
+"ambiguous": 70,
+"not_found": 910
+},
+"items": [
+{
+"id": 1007000,
+"en": "Brown Flight Headgear",
+"ko": "갈색 항공 모자",
+"by": "name"
+},
+{
+"id": 1007002,
+"en": "Green Camping Hat",
+"ko": "연두색 캠핑 모자",
+"by": "name"
+},
+{
+"id": 1007004,
+"en": "Puffy Brown Hat",
+"ko": "갈색 빵모자",
+"by": "name"
+},
+{
+"id": 1007007,
+"en": "Red Flight Headgear",
+"ko": "붉은색 항공 모자",
+"by": "name"
+},
+{
+"id": 1007008,
+"en": "Blue Flight Headgear",
+"ko": "파란색 항공 모자",
+"by": "name"
+},
+{
+"id": 1007009,
+"en": "Sky Blue Camping Hat",
+"ko": "하늘색 캠핑 모자",
+"by": "name"
+},
+{
+"id": 1007010,
+"en": "Pink Camping Hat",
+"ko": "분홍색 캠핑 모자",
+"by": "name"
+},
+{
+"id": 1007011,
+"en": "Blue Pre-School Hat",
+"ko": "파란색 유치원 모자",
+"by": "name"
+},
+{
+"id": 1007012,
+"en": "Red Pre-School Hat",
+"ko": "빨간색 유치원 모자",
+"by": "name"
+},
+{
+"id": 1007013,
+"en": "Blue Chinese Undead Hat",
+"ko": "파란색 강시모자",
+"by": "name"
+},
+{
+"id": 1007014,
+"en": "Maroon Chinese Undead Hat",
+"ko": "자주색 강시모자",
+"by": "name"
+},
+{
+"id": 1007015,
+"en": "Rosy Swimming Cap",
+"ko": "꽃한송이 수영모자",
+"by": "name"
+},
+{
+"id": 1007016,
+"en": "Flowery Swimming Cap",
+"ko": "꽃다발 수영모자",
+"by": "name"
+},
+{
+"id": 1007017,
+"en": "Blue Baseball Helmet",
+"ko": "파란색 야구 헬멧",
+"by": "name"
+},
+{
+"id": 1007018,
+"en": "Red Baseball Helmet",
+"ko": "빨간색 야구 헬멧",
+"by": "name"
+},
+{
+"id": 1007019,
+"en": "Indigo Baseball Helmet",
+"ko": "남색 야구 헬멧",
+"by": "name"
+},
+{
+"id": 1007020,
+"en": "Black Baseball Helmet",
+"ko": "검은색 야구 헬멧",
+"by": "name"
+},
+{
+"id": 1007021,
+"en": "Green Visor",
+"ko": "연두색 캡",
+"by": "name"
+},
+{
+"id": 1007022,
+"en": "Sky Blue Visor",
+"ko": "하늘색 캡",
+"by": "name"
+},
+{
+"id": 1007023,
+"en": "Orange Visor",
+"ko": "주황색 캡",
+"by": "name"
+},
+{
+"id": 1007024,
+"en": "Yellow Rain Cap",
+"ko": "노란색 우비모자",
+"by": "name"
+},
+{
+"id": 1007025,
+"en": "Red Rain Cap",
+"ko": "빨간색 우비모자",
+"by": "name"
+},
+{
+"id": 1007026,
+"en": "Sky Blue Rain Cap",
+"ko": "하늘색 우비모자",
+"by": "name"
+},
+{
+"id": 1007027,
+"en": "Green Rain Cap",
+"ko": "연두색 우비모자",
+"by": "name"
+},
+{
+"id": 1007028,
+"en": "Zorro Hat",
+"ko": "조로모자",
+"by": "name"
+},
+{
+"id": 1007029,
+"en": "Black Slanted Visor",
+"ko": "검정색 삐딱캡",
+"by": "name"
+},
+{
+"id": 1007030,
+"en": "Purple Slanted Visor",
+"ko": "자주색 삐딱캡",
+"by": "name"
+},
+{
+"id": 1007031,
+"en": "Red Upside-Down Visor",
+"ko": "빨간색 디오씨캡",
+"by": "name"
+},
+{
+"id": 1007032,
+"en": "Blue Upside-Down Visor",
+"ko": "파란색 디오씨캡",
+"by": "name"
+},
+{
+"id": 1007033,
+"en": "Tiger Mask",
+"ko": "타이거 마스크",
+"by": "name"
+},
+{
+"id": 1007034,
+"en": "Santa Hat",
+"ko": "산타 모자",
+"by": "name"
+},
+{
+"id": 1007035,
+"en": "Fashionable Hat",
+"ko": "패션모자",
+"by": "name"
+},
+{
+"id": 1007036,
+"en": "Blue Fisherman Hat",
+"ko": "하늘색 벙거지모자",
+"by": "name"
+},
+{
+"id": 1007037,
+"en": "Cabbie",
+"ko": "카스캣",
+"by": "name"
+},
+{
+"id": 1007038,
+"en": "Goggled Red Cap",
+"ko": "고글 레드캡",
+"by": "name"
+},
+{
+"id": 1007039,
+"en": "Goggled Black Cap",
+"ko": "고글 블랙캡",
+"by": "name"
+},
+{
+"id": 1007040,
+"en": "Goggled Blue Cap",
+"ko": "고글 블루캡",
+"by": "name"
+},
+{
+"id": 1007041,
+"en": "Starry Red Beanie",
+"ko": "별무늬 빨간색 털모자",
+"by": "name"
+},
+{
+"id": 1007042,
+"en": "Starry Pink Beanie",
+"ko": "별무늬 분홍색 털모자",
+"by": "name"
+},
+{
+"id": 1007043,
+"en": "Starry Sky Blue Beanie",
+"ko": "별무늬 하늘색 털모자",
+"by": "name"
+},
+{
+"id": 1007044,
+"en": "Sky Blue Goggled Beanie",
+"ko": "하늘색 고글 털모자",
+"by": "name"
+},
+{
+"id": 1007045,
+"en": "Khaki Goggled Beanie",
+"ko": "카키색 고글 털모자",
+"by": "name"
+},
+{
+"id": 1007046,
+"en": "Blue Cap",
+"ko": "청모자",
+"by": "name"
+},
+{
+"id": 1007048,
+"en": "Yellow Trucker Hat",
+"ko": "노란색 두건캡",
+"by": "name"
+},
+{
+"id": 1007049,
+"en": "Blue Trucker Hat",
+"ko": "파란색 두건캡",
+"by": "name"
+},
+{
+"id": 1007050,
+"en": "Red Trucker Hat",
+"ko": "빨간색 두건캡",
+"by": "name"
+},
+{
+"id": 1007051,
+"en": "Green Trucker Hat",
+"ko": "연두색 두건캡",
+"by": "name"
+},
+{
+"id": 1007052,
+"en": "Hardhat",
+"ko": "철모",
+"by": "name"
+},
+{
+"id": 1007053,
+"en": "Bunny Hat",
+"ko": "토끼모자",
+"by": "name"
+},
+{
+"id": 1007054,
+"en": "Ducky Hat",
+"ko": "오리모자",
+"by": "name"
+},
+{
+"id": 1007056,
+"en": "Starred Hunting Hat",
+"ko": "별 사냥캡",
+"by": "name"
+},
+{
+"id": 1007057,
+"en": "Pink Frill Pajama Hat",
+"ko": "핑크프릴 파자마모자",
+"by": "name"
+},
+{
+"id": 1007058,
+"en": "Blue Pajama Hat",
+"ko": "파란색 파자마모자",
+"by": "name"
+},
+{
+"id": 1007059,
+"en": "Red Frill Pajama Hat",
+"ko": "빨간색 파자마모자",
+"by": "name"
+},
+{
+"id": 1007060,
+"en": "Brown Bucket Hat",
+"ko": "브라운 체크캡",
+"by": "name"
+},
+{
+"id": 1007061,
+"en": "Blue Bucket Hat",
+"ko": "블루 체크캡",
+"by": "name"
+},
+{
+"id": 1007062,
+"en": "Cubic Newsie Hat",
+"ko": "큐빅 헌팅캡",
+"by": "name"
+},
+{
+"id": 1007063,
+"en": "Green Picnic Hat",
+"ko": "그린 피크닉캡",
+"by": "name"
+},
+{
+"id": 1007064,
+"en": "Yellow Picnic Hat",
+"ko": "옐로우 피크닉캡",
+"by": "name"
+},
+{
+"id": 1007065,
+"en": "Pink Picnic Hat",
+"ko": "핑크 피크닉캡",
+"by": "name"
+},
+{
+"id": 1007066,
+"en": "Blue Picnic Hat",
+"ko": "블루 피크닉캡",
+"by": "name"
+},
+{
+"id": 1007067,
+"en": "Silver Chain Hat",
+"ko": "실버체인햇",
+"by": "name"
+},
+{
+"id": 1007070,
+"en": "Red Straw Hat",
+"ko": "빨간색 밀짚모자",
+"by": "name"
+},
+{
+"id": 1007071,
+"en": "Blue Straw Hat",
+"ko": "파란색 밀짚모자",
+"by": "name"
+},
+{
+"id": 1007072,
+"en": "Olive Beanie",
+"ko": "카키 비니",
+"by": "name"
+},
+{
+"id": 1007073,
+"en": "White Beanie",
+"ko": "화이트 비니",
+"by": "name"
+},
+{
+"id": 1007074,
+"en": "Woodsman Hat",
+"ko": "우즈먼햇",
+"by": "name"
+},
+{
+"id": 1007075,
+"en": "Red Festive Gumball",
+"ko": "빨간색 손뜨개 모자",
+"by": "name"
+},
+{
+"id": 1007076,
+"en": "White Festive Gumball",
+"ko": "하얀색 손뜨개 모자",
+"by": "name"
+},
+{
+"id": 1007077,
+"en": "Angel Halo",
+"ko": "천사의 헤일로",
+"by": "name"
+},
+{
+"id": 1007078,
+"en": "Reindeer Hat",
+"ko": "루돌프 모자",
+"by": "name"
+},
+{
+"id": 1007079,
+"en": "Hawaiian Flower",
+"ko": "하와이안 꽃한송이",
+"by": "name"
+},
+{
+"id": 1007080,
+"en": "Sunflower Petal",
+"ko": "해바라기 꽃한송이",
+"by": "name"
+},
+{
+"id": 1007081,
+"en": "Octopus Hat",
+"ko": "옥토퍼스 모자",
+"by": "name"
+},
+{
+"id": 1007083,
+"en": "Zombie Mushroom Hat",
+"ko": "좀비버섯 모자",
+"by": "name"
+},
+{
+"id": 1007085,
+"en": "Drake Hat",
+"ko": "드레이크 모자",
+"by": "name"
+},
+{
+"id": 1007086,
+"en": "Biker Bandana",
+"ko": "힙합 두건",
+"by": "name"
+},
+{
+"id": 1007087,
+"en": "Pink Knitted Beanie",
+"ko": "핑크비 니트모자",
+"by": "name"
+},
+{
+"id": 1007088,
+"en": "Blue Knitted Beanie",
+"ko": "블루비 니트모자",
+"by": "name"
+},
+{
+"id": 1007089,
+"en": "Yellow Knitted Beanie",
+"ko": "옐로비 니트모자",
+"by": "name"
+},
+{
+"id": 1007090,
+"en": "Beige Checkered Hat",
+"ko": "베이지체크 모자",
+"by": "name"
+},
+{
+"id": 1007091,
+"en": "Meshcap",
+"ko": "매쉬캡",
+"by": "name"
+},
+{
+"id": 1007092,
+"en": "Korean Flower Petal",
+"ko": "무궁화 꽃 한송이",
+"by": "name"
+},
+{
+"id": 1007093,
+"en": "Blue Jelly Cap",
+"ko": "블루젤리캡",
+"by": "name"
+},
+{
+"id": 1007094,
+"en": "Pink Jelly Cap",
+"ko": "핑크젤리캡",
+"by": "name"
+},
+{
+"id": 1007095,
+"en": "Rainbow Afro Wig",
+"ko": "레인보우 아프로 가발",
+"by": "name"
+},
+{
+"id": 1007096,
+"en": "Patissier Hat",
+"ko": "파티쉐 모자",
+"by": "name"
+},
+{
+"id": 1007097,
+"en": "Transparent Hat",
+"ko": "투명 모자",
+"by": "name"
+},
+{
+"id": 1007098,
+"en": "Kuniragi Hat",
+"ko": "나이스맨 모자",
+"by": "name"
+},
+{
+"id": 1007099,
+"en": "Blue Beanie",
+"ko": "파란색 털모자",
+"by": "name"
+},
+{
+"id": 1007100,
+"en": "Fine Black Hanbok Hat",
+"ko": "흑복건",
+"by": "name"
+},
+{
+"id": 1007101,
+"en": "Fine Blue Hanbok Hat",
+"ko": "청복건",
+"by": "name"
+},
+{
+"id": 1007102,
+"en": "Scream Mask",
+"ko": "귀신 가면",
+"by": "name"
+},
+{
+"id": 1007103,
+"en": "Old School Uniform Hat",
+"ko": "교복모자",
+"by": "name"
+},
+{
+"id": 1007104,
+"en": "Hat of Death",
+"ko": "저승사자 갓",
+"by": "name"
+},
+{
+"id": 1007105,
+"en": "Detective Hat",
+"ko": "중절모",
+"by": "name"
+},
+{
+"id": 1007106,
+"en": "Mesoranger Red Helmet",
+"ko": "메소레인저 레드 헬멧",
+"by": "name"
+},
+{
+"id": 1007107,
+"en": "Mesoranger Blue Helmet",
+"ko": "메소레인저 블루 헬멧",
+"by": "name"
+},
+{
+"id": 1007108,
+"en": "Mesoranger Green Helmet",
+"ko": "메소레인저 그린 헬멧",
+"by": "name"
+},
+{
+"id": 1007109,
+"en": "Mesoranger Black Helmet",
+"ko": "메소레인저 블랙 헬멧",
+"by": "name"
+},
+{
+"id": 1007110,
+"en": "Chief Hat",
+"ko": "인디언 추장모자",
+"by": "name"
+},
+{
+"id": 1007111,
+"en": "Race Ace Cap",
+"ko": "카레이싱캡",
+"by": "name"
+},
+{
+"id": 1007112,
+"en": "Picnic Hat",
+"ko": "피크닉 모자",
+"by": "name"
+},
+{
+"id": 1007113,
+"en": "Orange Beanie",
+"ko": "주황색 털모자",
+"by": "name"
+},
+{
+"id": 1007114,
+"en": "Hanbok Jobawi",
+"ko": "조바위",
+"by": "name"
+},
+{
+"id": 1007115,
+"en": "Witch Hat",
+"ko": "마녀 모자",
+"by": "name"
+},
+{
+"id": 1007116,
+"en": "Beret",
+"ko": "베레모",
+"by": "name"
+},
+{
+"id": 1007117,
+"en": "Mesoranger Pink Helmet",
+"ko": "메소레인저 핑크 헬멧",
+"by": "name"
+},
+{
+"id": 1007119,
+"en": "Mesoranger Black Helmet",
+"ko": "메소레인저 블랙 헬멧",
+"by": "name"
+},
+{
+"id": 1007131,
+"en": "Manji's Bamboo Hat",
+"ko": "만지의 삿갓",
+"by": "name"
+},
+{
+"id": 1007132,
+"en": "Grey Visor Beanie",
+"ko": "모노톤 챙비니",
+"by": "name"
+},
+{
+"id": 1007133,
+"en": "Teddy Bear Headgear",
+"ko": "브라운테니 모자",
+"by": "name"
+},
+{
+"id": 1007134,
+"en": "Reggae Hat",
+"ko": "레게 모자",
+"by": "name"
+},
+{
+"id": 1007135,
+"en": "Mummy Hat",
+"ko": "미이라 모자",
+"by": "name"
+},
+{
+"id": 1007136,
+"en": "Bunny Earmuffs",
+"ko": "토끼 귀마개",
+"by": "name"
+},
+{
+"id": 1007137,
+"en": "Superstar Headphones",
+"ko": "별 헤드폰",
+"by": "name"
+},
+{
+"id": 1007138,
+"en": "Stylish Pink Cotton Cap",
+"ko": "러블리핑크 캡",
+"by": "name"
+},
+{
+"id": 1007139,
+"en": "Sailor Hat",
+"ko": "세일러 모자",
+"by": "name"
+},
+{
+"id": 1007140,
+"en": "Cute Mouse Ears",
+"ko": "깜찍하쥐",
+"by": "name"
+},
+{
+"id": 1007141,
+"en": "Kitty Camping Hat",
+"ko": "고양이 캠핑모자",
+"by": "name"
+},
+{
+"id": 1007142,
+"en": "Bunny Ears",
+"ko": "바니바니",
+"by": "name"
+},
+{
+"id": 1007143,
+"en": "Heart Sunglasses",
+"ko": "하트 선글라스",
+"by": "name"
+},
+{
+"id": 1007144,
+"en": "White Choco Bunny",
+"ko": "화이트초코 바니",
+"by": "name"
+},
+{
+"id": 1007145,
+"en": "Black Cat Beanie",
+"ko": "깜장냥이 비니",
+"by": "name"
+},
+{
+"id": 1007146,
+"en": "Sky Blue Cat Beanie",
+"ko": "하늘냥이 비니",
+"by": "name"
+},
+{
+"id": 1007147,
+"en": "Orange Cat Beanie",
+"ko": "치즈냥이 비니",
+"by": "name"
+},
+{
+"id": 1007148,
+"en": "Men's Ninja Hat",
+"ko": "남자 닌자모자",
+"by": "name"
+},
+{
+"id": 1007149,
+"en": "Samurai Hair-do",
+"ko": "마개(일본 상투)",
+"by": "name"
+},
+{
+"id": 1007150,
+"en": "Yellow Crown",
+"ko": "크라운 옐로우",
+"by": "name"
+},
+{
+"id": 1007151,
+"en": "Green Crown",
+"ko": "크라운 그린",
+"by": "name"
+},
+{
+"id": 1007152,
+"en": "Blue Crown",
+"ko": "크라운 블루",
+"by": "name"
+},
+{
+"id": 1007153,
+"en": "Red Crown",
+"ko": "크라운 레드",
+"by": "name"
+},
+{
+"id": 1007154,
+"en": "Van Hat",
+"ko": "반담 모자",
+"by": "name"
+},
+{
+"id": 1007155,
+"en": "Green Goya Hat",
+"ko": "큐티 그린 헌팅캡",
+"by": "name"
+},
+{
+"id": 1007158,
+"en": "Santa Boy Hat",
+"ko": "산타보이 모자",
+"by": "name"
+},
+{
+"id": 1007160,
+"en": "Sachiel Wig",
+"ko": "샤키엘 가발",
+"by": "name"
+},
+{
+"id": 1007161,
+"en": "Veamoth Wig",
+"ko": "베에모트 가발",
+"by": "name"
+},
+{
+"id": 1007162,
+"en": "Janus Wig",
+"ko": "야누스 가발",
+"by": "name"
+},
+{
+"id": 1007163,
+"en": "White Floral Hat",
+"ko": "웨딩 모자",
+"by": "name"
+},
+{
+"id": 1007164,
+"en": "Napoleon Hat",
+"ko": "나폴레옹 모자",
+"by": "name"
+},
+{
+"id": 1007165,
+"en": "Santa Hat",
+"ko": "산타 모자",
+"by": "name"
+},
+{
+"id": 1007166,
+"en": "Twinkling Boy Hat",
+"ko": "트윙클 Boy 모자",
+"by": "name"
+},
+{
+"id": 1007168,
+"en": "Elven Spirit Band",
+"ko": "엘븐 스피릿 밴드",
+"by": "name"
+},
+{
+"id": 1007169,
+"en": "Mint Snow Cap",
+"ko": "민트 스노우 크리스탈",
+"by": "name"
+},
+{
+"id": 1007170,
+"en": "Evergreen Magistrate Hat",
+"ko": "늘푸른 사또 모자",
+"by": "name"
+},
+{
+"id": 1007171,
+"en": "Dark Force Horns",
+"ko": "다크 포스 혼",
+"by": "name"
+},
+{
+"id": 1007172,
+"en": "Cool Carrot Hat",
+"ko": "포근한 당근 모자",
+"by": "name"
+},
+{
+"id": 1007173,
+"en": "Pink Nurse Hat",
+"ko": "분홍색 간호사 모자",
+"by": "name"
+},
+{
+"id": 1007174,
+"en": "White Nurse Hat",
+"ko": "흰색 간호사 모자",
+"by": "name"
+},
+{
+"id": 1007175,
+"en": "Women's Ninja Hat",
+"ko": "여자 닌자모자",
+"by": "name"
+},
+{
+"id": 1007176,
+"en": "SF Ninja Hat",
+"ko": "SF 닌자모자",
+"by": "name"
+},
+{
+"id": 1007177,
+"en": "Miko Wig",
+"ko": "여성 가발",
+"by": "name"
+},
+{
+"id": 1007178,
+"en": "A Ladylike Hat",
+"ko": "숙녀모자",
+"by": "name"
+},
+{
+"id": 1007180,
+"en": "Teddy Bear Hat",
+"ko": "곰모자",
+"by": "name"
+},
+{
+"id": 1007181,
+"en": "Tiara",
+"ko": "프린세스 크라운",
+"by": "name"
+},
+{
+"id": 1007182,
+"en": "Princess Tiara",
+"ko": "프린세스 티아라",
+"by": "name"
+},
+{
+"id": 1007183,
+"en": "Lady Blue",
+"ko": "레이디 블루",
+"by": "name"
+},
+{
+"id": 1007184,
+"en": "Lady Pink",
+"ko": "레이디 핑크",
+"by": "name"
+},
+{
+"id": 1007185,
+"en": "Lady Yellow",
+"ko": "레이디 옐로",
+"by": "name"
+},
+{
+"id": 1007186,
+"en": "The Gabera Hat",
+"ko": "엘레강스 무도회 모자",
+"by": "name"
+},
+{
+"id": 1007187,
+"en": "Van Hat with Heart",
+"ko": "반담 모자",
+"by": "name"
+},
+{
+"id": 1007188,
+"en": "Diamond Tiara",
+"ko": "다이아몬드 티아라",
+"by": "name"
+},
+{
+"id": 1007189,
+"en": "Ruby Tiara",
+"ko": "루비 티아라",
+"by": "name"
+},
+{
+"id": 1007191,
+"en": "Diao Chan Headpiece",
+"ko": "초선건",
+"by": "name"
+},
+{
+"id": 1007192,
+"en": "White Cat Ears",
+"ko": "화이트 키티걸 머리띠",
+"by": "name"
+},
+{
+"id": 1007193,
+"en": "Black Cat Ears",
+"ko": "블랙 키티걸 머리띠",
+"by": "name"
+},
+{
+"id": 1007194,
+"en": "Maid Hat",
+"ko": "메이드 모자",
+"by": "name"
+},
+{
+"id": 1007195,
+"en": "Santa Girl Hat",
+"ko": "산타걸 모자",
+"by": "name"
+},
+{
+"id": 1007196,
+"en": "Leopard Print Hat",
+"ko": "호피모자",
+"by": "name"
+},
+{
+"id": 1007197,
+"en": "Korean Dress Wig",
+"ko": "한복머리장식 가발",
+"by": "name"
+},
+{
+"id": 1007199,
+"en": "Purple Bride's Veil",
+"ko": "보라색 웨딩 베일",
+"by": "name"
+},
+{
+"id": 1007200,
+"en": "Royal Tiara",
+"ko": "핑크 티아라",
+"by": "name"
+},
+{
+"id": 1007201,
+"en": "Green Bride's Veil",
+"ko": "연두색 웨딩 베일",
+"by": "name"
+},
+{
+"id": 1007202,
+"en": "Sachiel Wig",
+"ko": "샤키엘 가발",
+"by": "name"
+},
+{
+"id": 1007203,
+"en": "Veamoth Wig",
+"ko": "베에모트 가발",
+"by": "name"
+},
+{
+"id": 1007204,
+"en": "Janus Wig",
+"ko": "야누스 가발",
+"by": "name"
+},
+{
+"id": 1007205,
+"en": "Gothic Mini Hat",
+"ko": "고스로리 미니햇",
+"by": "name"
+},
+{
+"id": 1007206,
+"en": "Gothic Headband",
+"ko": "고스로리 웨이트리스캡",
+"by": "name"
+},
+{
+"id": 1007207,
+"en": "Strawberry Milk Frill Bonnet",
+"ko": "딸기우유 프릴 보넷",
+"by": "name"
+},
+{
+"id": 1007208,
+"en": "Elizabeth Hat",
+"ko": "엘리자베스 가발",
+"by": "name"
+},
+{
+"id": 1007209,
+"en": "Dear Christmas",
+"ko": "디어 크리스마스",
+"by": "name"
+},
+{
+"id": 1007210,
+"en": "Twinkling Girl Hat",
+"ko": "트윙클 Girl 모자",
+"by": "name"
+},
+{
+"id": 1007211,
+"en": "Pink Angel Wing Cap",
+"ko": "핑크엔젤 윙 캡",
+"by": "name"
+},
+{
+"id": 1007212,
+"en": "Red Hood Bandana",
+"ko": "빨간모자 두건",
+"by": "name"
+},
+{
+"id": 1007214,
+"en": "Elven Spirit Band",
+"ko": "엘븐 스피릿 밴드",
+"by": "name"
+},
+{
+"id": 1007215,
+"en": "Gold Angora Gatsby",
+"ko": "앙고라 골드 개츠비",
+"by": "name"
+},
+{
+"id": 1007216,
+"en": "Silver Angora Gatsby",
+"ko": "앙고라 실버 개츠비",
+"by": "name"
+},
+{
+"id": 1007218,
+"en": "Cherry Snow Cap",
+"ko": "체리 스노우 크리스탈",
+"by": "name"
+},
+{
+"id": 1007219,
+"en": "Angelic Ribbon",
+"ko": "엔젤릭 리본",
+"by": "name"
+},
+{
+"id": 1007220,
+"en": "Angelic Navy Cap",
+"ko": "엔젤릭 네이비 캡",
+"by": "name"
+},
+{
+"id": 1007221,
+"en": "Pinky Butterfly Hair Pin",
+"ko": "꽃분홍 나비머리핀",
+"by": "name"
+},
+{
+"id": 1007222,
+"en": "Warm Carrot Hat",
+"ko": "따뜻한 당근 모자",
+"by": "name"
+},
+{
+"id": 1007223,
+"en": "Fluffy Cat Hood",
+"ko": "러블리 고양이 후드",
+"by": "name"
+},
+{
+"id": 1007224,
+"en": "Dumpling Head Wig",
+"ko": "만두머리 가발",
+"by": "name"
+},
+{
+"id": 1007225,
+"en": "Construction Hardhat",
+"ko": "안전제일 모자",
+"by": "name"
+},
+{
+"id": 1007226,
+"en": "The Legendary Gold Poop Hat",
+"ko": "전설의 황금응꼬모자",
+"by": "name"
+},
+{
+"id": 1007227,
+"en": "Hajimaki",
+"ko": "누더기 삿갓",
+"by": "name"
+},
+{
+"id": 1007228,
+"en": "Techwin Wig",
+"ko": "테크윈 가발모자",
+"by": "name"
+},
+{
+"id": 1007229,
+"en": "Headphone Bandana",
+"ko": "헤드폰두건",
+"by": "name"
+},
+{
+"id": 1007230,
+"en": "Circus Cowboy Hat",
+"ko": "스타 카우보이모자",
+"by": "name"
+},
+{
+"id": 1007233,
+"en": "Blue Diamondy Bandana",
+"ko": "블루 힙합 두건",
+"by": "name"
+},
+{
+"id": 1007234,
+"en": "Black Top Hat",
+"ko": "젠틀맨 모자",
+"by": "name"
+},
+{
+"id": 1007235,
+"en": "Elf's Ear",
+"ko": "엘프의 귀",
+"by": "name"
+},
+{
+"id": 1007236,
+"en": "Basic Earmuff",
+"ko": "귀마스크",
+"by": "name"
+},
+{
+"id": 1007237,
+"en": "Chef's Hat",
+"ko": "주방장 모자",
+"by": "name"
+},
+{
+"id": 1007240,
+"en": "Brown Headband",
+"ko": "갈색의 화랑 머리띠",
+"by": "name"
+},
+{
+"id": 1007241,
+"en": "Blue B-Ball Headband",
+"ko": "SK 농구단 머리띠",
+"by": "name"
+},
+{
+"id": 1007242,
+"en": "Orange B-Ball Headband",
+"ko": "KTF 농구단 머리띠",
+"by": "name"
+},
+{
+"id": 1007243,
+"en": "Traveler's Hat",
+"ko": "여행 모자",
+"by": "name"
+},
+{
+"id": 1007244,
+"en": "Evil Watermelon Hat",
+"ko": "귀신수박 모자",
+"by": "name"
+},
+{
+"id": 1007245,
+"en": "Palm Tree Hat",
+"ko": "야자수 모자",
+"by": "name"
+},
+{
+"id": 1007246,
+"en": "Zombie Mushroom Hat",
+"ko": "좀비버섯 모자",
+"by": "name"
+},
+{
+"id": 1007247,
+"en": "Grey Headband",
+"ko": "은의 화랑 머리띠",
+"by": "name"
+},
+{
+"id": 1007249,
+"en": "Whale Hat",
+"ko": "고래모자",
+"by": "name"
+},
+{
+"id": 1007250,
+"en": "Fuji Hat",
+"ko": "후지산모자",
+"by": "name"
+},
+{
+"id": 1007251,
+"en": "Crow Hat",
+"ko": "까마귀모자",
+"by": "name"
+},
+{
+"id": 1007252,
+"en": "Lobster Hat",
+"ko": "가재모자",
+"by": "name"
+},
+{
+"id": 1007253,
+"en": "Wind Goblin",
+"ko": "바람 도깨비",
+"by": "name"
+},
+{
+"id": 1007254,
+"en": "Cloud Goblin",
+"ko": "구름 도깨비",
+"by": "name"
+},
+{
+"id": 1007255,
+"en": "Raccoon Hat",
+"ko": "너구리 모자",
+"by": "name"
+},
+{
+"id": 1007256,
+"en": "Triangular Hat",
+"ko": "삼각건",
+"by": "name"
+},
+{
+"id": 1007257,
+"en": "Noble Moca",
+"ko": "클래식 체크 모자",
+"by": "name"
+},
+{
+"id": 1007258,
+"en": "Laurel Crown",
+"ko": "월계관",
+"by": "name"
+},
+{
+"id": 1007259,
+"en": "Starry Olive Beanie",
+"ko": "별무늬 올리브 비니",
+"by": "name"
+},
+{
+"id": 1007260,
+"en": "Party Hat",
+"ko": "파티 모자",
+"by": "name"
+},
+{
+"id": 1007261,
+"en": "Blue Corporal Hat",
+"ko": "파란색 장교모자",
+"by": "name"
+},
+{
+"id": 1007262,
+"en": "Brown Corporal Hat",
+"ko": "갈색 장교모자",
+"by": "name"
+},
+{
+"id": 1007263,
+"en": "Bamboo Hat",
+"ko": "검객 삿갓",
+"by": "name"
+},
+{
+"id": 1007264,
+"en": "Black Cowboy Hat",
+"ko": "검정색 카우보이 모자",
+"by": "name"
+},
+{
+"id": 1007266,
+"en": "Yellow Cowboy Hat",
+"ko": "노란색 카우보이 모자",
+"by": "name"
+},
+{
+"id": 1007267,
+"en": "Red Knitted Hat",
+"ko": "빨간색 니트 모자",
+"by": "name"
+},
+{
+"id": 1007268,
+"en": "Purple Knitted Hat",
+"ko": "보라색 니트 모자",
+"by": "name"
+},
+{
+"id": 1007269,
+"en": "Yellow Knitted Hat",
+"ko": "노랑색 니트 모자",
+"by": "name"
+},
+{
+"id": 1007270,
+"en": "Blue Kitty Beanie",
+"ko": "하늘색 고양이 모자",
+"by": "name"
+},
+{
+"id": 1007271,
+"en": "Yellow Kitty Beanie",
+"ko": "노란색 고양이 모자",
+"by": "name"
+},
+{
+"id": 1007272,
+"en": "Green Knitted Gumball",
+"ko": "노란색 본보리 니트모자",
+"by": "name"
+},
+{
+"id": 1007273,
+"en": "Blue Knitted Gumball",
+"ko": "파란색 본보리 니트모자",
+"by": "name"
+},
+{
+"id": 1007274,
+"en": "Pink Knitted Gumball",
+"ko": "분홍색 본보리 니트모자",
+"by": "name"
+},
+{
+"id": 1007275,
+"en": "Antenna Hairband",
+"ko": "삐삐롱 머리띠",
+"by": "name"
+},
+{
+"id": 1007276,
+"en": "Black-Striped Feathered Bandana",
+"ko": "검은 줄무늬 인디언모자",
+"by": "name"
+},
+{
+"id": 1007277,
+"en": "Red-Dotted Feathered Bandana",
+"ko": "붉은무늬 인디언모자",
+"by": "name"
+},
+{
+"id": 1007278,
+"en": "Feathered Bandana with Hearts",
+"ko": "하트무늬 인디언모자",
+"by": "name"
+},
+{
+"id": 1007279,
+"en": "Cloth Wrapper",
+"ko": "보자기",
+"by": "name"
+},
+{
+"id": 1007280,
+"en": "Red Beret",
+"ko": "빨간색 화가모자",
+"by": "name"
+},
+{
+"id": 1007281,
+"en": "Yellow Beret",
+"ko": "노랑색 화가모자",
+"by": "name"
+},
+{
+"id": 1007282,
+"en": "Pink Beret",
+"ko": "분홍색 화가모자",
+"by": "name"
+},
+{
+"id": 1007283,
+"en": "Casual Cowboy Hat",
+"ko": "우리 스타일 카우 모자",
+"by": "name"
+},
+{
+"id": 1007284,
+"en": "Red Eskimo Hat",
+"ko": "빨강색 에스키모 모자",
+"by": "name"
+},
+{
+"id": 1007285,
+"en": "Brown Eskimo Hat",
+"ko": "갈색 에스키모 모자",
+"by": "name"
+},
+{
+"id": 1007286,
+"en": "Green Eskimo Hat",
+"ko": "청색 에스키모 모자",
+"by": "name"
+},
+{
+"id": 1007287,
+"en": "Devilish Horns",
+"ko": "악마의 머리띠",
+"by": "name"
+},
+{
+"id": 1007288,
+"en": "Tin Bucket",
+"ko": "양동이",
+"by": "name"
+},
+{
+"id": 1007289,
+"en": "Pink Turban",
+"ko": "분홍 터번",
+"by": "name"
+},
+{
+"id": 1007290,
+"en": "Yellow Turban",
+"ko": "노란 터번",
+"by": "name"
+},
+{
+"id": 1007291,
+"en": "Skyblue Turban",
+"ko": "하늘색 터번",
+"by": "name"
+},
+{
+"id": 1007292,
+"en": "Beige Goya Beret",
+"ko": "브라운 스웨이드 헌팅캡",
+"by": "name"
+},
+{
+"id": 1007293,
+"en": "Green Goya Beret",
+"ko": "블루 체크 헌팅캡",
+"by": "name"
+},
+{
+"id": 1007294,
+"en": "Bull's Horn",
+"ko": "신의 뿔",
+"by": "name"
+},
+{
+"id": 1007295,
+"en": "Spring Hat",
+"ko": "스프링 가든 모자",
+"by": "name"
+},
+{
+"id": 1007296,
+"en": "Summer Hat",
+"ko": "서머 블루 모자",
+"by": "name"
+},
+{
+"id": 1007297,
+"en": "Autumn Hat",
+"ko": "가을 벙거지 모자",
+"by": "name"
+},
+{
+"id": 1007298,
+"en": "Guan Yu Headpiece",
+"ko": "관우 모자",
+"by": "name"
+},
+{
+"id": 1007299,
+"en": "Zhu-Ge-Liang Hat",
+"ko": "윤건(제갈량)",
+"by": "name"
+},
+{
+"id": 1007300,
+"en": "Liu Bei Headpiece",
+"ko": "촉황지관(유비)",
+"by": "name"
+},
+{
+"id": 1007301,
+"en": "Cao Cao Headpiece",
+"ko": "위황지관(조조)",
+"by": "name"
+},
+{
+"id": 1007302,
+"en": "Sun Quan Headpiece",
+"ko": "오황지관(손권)",
+"by": "name"
+},
+{
+"id": 1007303,
+"en": "Rolled Towel",
+"ko": "양머리 수건",
+"by": "name"
+},
+{
+"id": 1007304,
+"en": "Winged Cap",
+"ko": "날개 모자",
+"by": "name"
+},
+{
+"id": 1007305,
+"en": "Conch Cap",
+"ko": "소라 모자",
+"by": "name"
+},
+{
+"id": 1007306,
+"en": "Starfish",
+"ko": "불가사리 장식",
+"by": "name"
+},
+{
+"id": 1007307,
+"en": "Horoscope Hat (Aquarius)",
+"ko": "별자리 세트 모자(물병자리)",
+"by": "name"
+},
+{
+"id": 1007308,
+"en": "Horoscope Hat (Pisces)",
+"ko": "별자리 세트 모자(물고기자리)",
+"by": "name"
+},
+{
+"id": 1007309,
+"en": "Horoscope Hat (Aries)",
+"ko": "별자리 세트 모자(양자리)",
+"by": "name"
+},
+{
+"id": 1007310,
+"en": "Horoscope Hat (Taurus)",
+"ko": "별자리 세트 모자(황소자리)",
+"by": "name"
+},
+{
+"id": 1007311,
+"en": "Horoscope Hat (Gemini)",
+"ko": "별자리 세트 모자(쌍둥이자리)",
+"by": "name"
+},
+{
+"id": 1007312,
+"en": "Horoscope Hat (Cancer)",
+"ko": "별자리 세트 모자(게자리)",
+"by": "name"
+},
+{
+"id": 1007313,
+"en": "Horoscope Hat (Leo)",
+"ko": "별자리 세트 모자(사자자리)",
+"by": "name"
+},
+{
+"id": 1007314,
+"en": "Horoscope Hat (Virgo)",
+"ko": "별자리 세트 모자(처녀자리)",
+"by": "name"
+},
+{
+"id": 1007315,
+"en": "Horoscope Hat (Libra)",
+"ko": "별자리 세트 모자(천칭자리)",
+"by": "name"
+},
+{
+"id": 1007316,
+"en": "Horoscope Hat (Scorpius)",
+"ko": "별자리 세트 모자(전갈자리)",
+"by": "name"
+},
+{
+"id": 1007317,
+"en": "Horoscope Hat (Sagittarius)",
+"ko": "별자리 세트 모자(사수자리)",
+"by": "name"
+},
+{
+"id": 1007318,
+"en": "Horoscope Hat (Capricorn)",
+"ko": "별자리 세트 모자(염소자리)",
+"by": "name"
+},
+{
+"id": 1007319,
+"en": "Golden Bulldog Hat",
+"ko": "황금 불독",
+"by": "name"
+},
+{
+"id": 1007323,
+"en": "Rough Hat",
+"ko": "러프햇",
+"by": "name"
+},
+{
+"id": 1007324,
+"en": "Slime Hair Pin",
+"ko": "슬라임 헤어핀",
+"by": "name"
+},
+{
+"id": 1007325,
+"en": "Mushroom Hair Pin",
+"ko": "버섯 헤어핀",
+"by": "name"
+},
+{
+"id": 1007326,
+"en": "Snowman Mask",
+"ko": "눈사람 모자",
+"by": "name"
+},
+{
+"id": 1007327,
+"en": "White Wig Hat",
+"ko": "흰색 가발 모자",
+"by": "name"
+},
+{
+"id": 1007328,
+"en": "Black Snowboard Helmet",
+"ko": "스노우보드 헬멧_블랙",
+"by": "name"
+},
+{
+"id": 1007329,
+"en": "Red Snowboard Helmet",
+"ko": "스노우보드 헬멧_레드",
+"by": "name"
+},
+{
+"id": 1007330,
+"en": "Polar Bear Hat",
+"ko": "곰돌이 모자",
+"by": "name"
+},
+{
+"id": 1007331,
+"en": "Green Visor Beanie",
+"ko": "내추럴 챙비니",
+"by": "name"
+},
+{
+"id": 1007332,
+"en": "Rainbow Visor Beanie",
+"ko": "레인보우 챙비니",
+"by": "name"
+},
+{
+"id": 1007333,
+"en": "Military Fur Hat",
+"ko": "밀리터리 털모자",
+"by": "name"
+},
+{
+"id": 1007336,
+"en": "Musashi Hat",
+"ko": "무사투구",
+"by": "name"
+},
+{
+"id": 1007337,
+"en": "Angora Hat",
+"ko": "앙고라 모자",
+"by": "name"
+},
+{
+"id": 1007338,
+"en": "Black Skull Bandana",
+"ko": "해골 두건",
+"by": "name"
+},
+{
+"id": 1007339,
+"en": "Hunting Cap",
+"ko": "헌팅캡",
+"by": "name"
+},
+{
+"id": 1007340,
+"en": "Bald Wig",
+"ko": "대머리 가발",
+"by": "name"
+},
+{
+"id": 1007341,
+"en": "White Tiger Hat",
+"ko": "백호 모자",
+"by": "name"
+},
+{
+"id": 1007342,
+"en": "Korean Flag Bandana",
+"ko": "태극 두건",
+"by": "name"
+},
+{
+"id": 1007343,
+"en": "Vintage Denim Hat",
+"ko": "빈티지 데님 모자",
+"by": "name"
+},
+{
+"id": 1007344,
+"en": "Vintage Pink Hat",
+"ko": "빈티지 핑크 모자",
+"by": "name"
+},
+{
+"id": 1007345,
+"en": "Old Fisherman Hat",
+"ko": "벙거지 모자",
+"by": "name"
+},
+{
+"id": 1007346,
+"en": "Sergeant Hat",
+"ko": "밀리터리 육각 모자",
+"by": "name"
+},
+{
+"id": 1007348,
+"en": "Soccer Ball Hat",
+"ko": "축구공 모자",
+"by": "name"
+},
+{
+"id": 1007349,
+"en": "Red Spirit Bandana",
+"ko": "붉은 두건",
+"by": "name"
+},
+{
+"id": 1007350,
+"en": "Maple Party Hat",
+"ko": "메이플 기념 모자",
+"by": "name"
+},
+{
+"id": 1007351,
+"en": "White Felt Hat",
+"ko": "하얀 중절모",
+"by": "name"
+},
+{
+"id": 1007353,
+"en": "White Hairband",
+"ko": "흰색 헤어밴드",
+"by": "name"
+},
+{
+"id": 1007354,
+"en": "Pink-Dotted Hairband",
+"ko": "핑크 도트 헤어밴드",
+"by": "name"
+},
+{
+"id": 1007355,
+"en": "Paper Boat Hat",
+"ko": "종이배 모자",
+"by": "name"
+},
+{
+"id": 1007356,
+"en": "Coke Hat",
+"ko": "코-크 모자",
+"by": "name"
+},
+{
+"id": 1007357,
+"en": "Skull Hat",
+"ko": "해골 모자",
+"by": "name"
+},
+{
+"id": 1007358,
+"en": "White Puppy Hat",
+"ko": "백구 모자",
+"by": "name"
+},
+{
+"id": 1007364,
+"en": "White Rabbit Hat",
+"ko": "앨리스 버니 모자",
+"by": "name"
+},
+{
+"id": 1007366,
+"en": "Moon Bunny Headgear",
+"ko": "월묘 모자",
+"by": "name"
+},
+{
+"id": 1007368,
+"en": "Maple-Stein Head",
+"ko": "프랑켄슈타인 모자",
+"by": "name"
+},
+{
+"id": 1007369,
+"en": "Jr. Lioner Hat",
+"ko": "J. 라이오너 모자",
+"by": "name"
+},
+{
+"id": 1007370,
+"en": "Werebeast",
+"ko": "늑대 모자",
+"by": "name"
+},
+{
+"id": 1007371,
+"en": "Nordic Knitted Beanie",
+"ko": "노르딕 뜨개모자",
+"by": "name"
+},
+{
+"id": 1007372,
+"en": "Striped Knitted Beanie",
+"ko": "스트라이프 뜨개모자",
+"by": "name"
+},
+{
+"id": 1007374,
+"en": "Skull Beanie",
+"ko": "해골 비니",
+"by": "name"
+},
+{
+"id": 1007376,
+"en": "Tweed Headband",
+"ko": "트위드 헤어밴드",
+"by": "name"
+},
+{
+"id": 1007377,
+"en": "Candlelight hat",
+"ko": "촛불 모자",
+"by": "name"
+},
+{
+"id": 1007379,
+"en": "Angel Headband",
+"ko": "천사 머리띠",
+"by": "name"
+},
+{
+"id": 1007380,
+"en": "Fallen Angel Headband",
+"ko": "악마 머리띠",
+"by": "name"
+},
+{
+"id": 1007383,
+"en": "Star Baseball Cap",
+"ko": "별 야구 모자",
+"by": "name"
+},
+{
+"id": 1007384,
+"en": "Leatty Hat",
+"ko": "리티 모자",
+"by": "name"
+},
+{
+"id": 1007385,
+"en": "Sun Wu Kong Hat",
+"ko": "손오공 모자",
+"by": "name"
+},
+{
+"id": 1007389,
+"en": "Husky Hat",
+"ko": "허스키 모자",
+"by": "name"
+},
+{
+"id": 1007390,
+"en": "Rabbit Ear",
+"ko": "토끼 귀",
+"by": "name"
+},
+{
+"id": 1007391,
+"en": "Golden Trench Helmet",
+"ko": "황금철모",
+"by": "name"
+},
+{
+"id": 1007393,
+"en": "Zhu's Pig Hat",
+"ko": "저팔계 얼굴",
+"by": "name"
+},
+{
+"id": 1007394,
+"en": "Superstar Cap",
+"ko": "글로잉 스타 캡",
+"by": "name"
+},
+{
+"id": 1007395,
+"en": "Vintage Grey Cap",
+"ko": "빈티지 그레이캡",
+"by": "name"
+},
+{
+"id": 1007398,
+"en": "Orange Cap with Shades",
+"ko": "선글라스 캡",
+"by": "name"
+},
+{
+"id": 1007400,
+"en": "Tomato Hat",
+"ko": "토마토 모자",
+"by": "name"
+},
+{
+"id": 1007401,
+"en": "White Basic Cap",
+"ko": "화이트 베이직캡",
+"by": "name"
+},
+{
+"id": 1007402,
+"en": "Star Hair Pin",
+"ko": "별 머리핀",
+"by": "name"
+},
+{
+"id": 1007408,
+"en": "Centaurus Horns",
+"ko": "켄타우로스 모자",
+"by": "name"
+},
+{
+"id": 1007415,
+"en": "Vintage Khaki Cap",
+"ko": "카키빈티지 로고모자",
+"by": "name"
+},
+{
+"id": 1007422,
+"en": "Red Vintage Bandana",
+"ko": "레드빈티지 두건",
+"by": "name"
+},
+{
+"id": 1007423,
+"en": "Snowy Knitted Hat",
+"ko": "눈꽃 니트모자",
+"by": "name"
+},
+{
+"id": 1007424,
+"en": "Pink Kitty Hat",
+"ko": "분홍색 고양이 모자",
+"by": "name"
+},
+{
+"id": 1007425,
+"en": "Black Bubble Beanie",
+"ko": "검은색 방울비니",
+"by": "name"
+},
+{
+"id": 1007426,
+"en": "Military Beanie",
+"ko": "군인모자",
+"by": "name"
+},
+{
+"id": 1007427,
+"en": "Lovely Maplemas",
+"ko": "러블리 크리스마스",
+"by": "name"
+},
+{
+"id": 1007428,
+"en": "Raccoon Earmuffs",
+"ko": "너구리털 귀마개",
+"by": "name"
+},
+{
+"id": 1007435,
+"en": "Glowy Smile Cap",
+"ko": "글로잉 스마일캡",
+"by": "name"
+},
+{
+"id": 1007436,
+"en": "Glowy Patterned Cap",
+"ko": "글로잉 패턴캡",
+"by": "name"
+},
+{
+"id": 1007439,
+"en": "Apple-Green Hood",
+"ko": "애플그린 후디모자",
+"by": "name"
+},
+{
+"id": 1007442,
+"en": "Hero's Beret",
+"ko": "영웅의 베레모",
+"by": "name"
+},
+{
+"id": 1007443,
+"en": "Hero's Casket",
+"ko": "영웅의 관",
+"by": "name"
+},
+{
+"id": 1007446,
+"en": "Cone Ears",
+"ko": "아루 귀",
+"by": "name"
+},
+{
+"id": 1007447,
+"en": "Tiger Cub Hat",
+"ko": "호돌이 후디모자",
+"by": "name"
+},
+{
+"id": 1007448,
+"en": "Victory Hairpin",
+"ko": "빅토리 머리핀",
+"by": "name"
+},
+{
+"id": 1007449,
+"en": "\"A\" Cap",
+"ko": "애틀란타 캡",
+"by": "name"
+},
+{
+"id": 1007450,
+"en": "Prismatic Sun Cap",
+"ko": "레인보우 썬캡",
+"by": "name"
+},
+{
+"id": 1007451,
+"en": "Cutie Birk Hat",
+"ko": "큐티버크 모자",
+"by": "name"
+},
+{
+"id": 1007452,
+"en": "Mrs. Octopus",
+"ko": "미세스 문",
+"by": "name"
+},
+{
+"id": 1007453,
+"en": "Brown Felt Hat",
+"ko": "브라운 햇",
+"by": "name"
+},
+{
+"id": 1007455,
+"en": "Inferno Horns",
+"ko": "악마의 탄생",
+"by": "name"
+},
+{
+"id": 1007456,
+"en": "Violet Heart Beanie",
+"ko": "하트 바이올렛 비니",
+"by": "name"
+},
+{
+"id": 1007459,
+"en": "Noob Hat",
+"ko": "새싹 수영모자",
+"by": "name"
+},
+{
+"id": 1007465,
+"en": "Pumpkin Hat",
+"ko": "호박 모자",
+"by": "name"
+},
+{
+"id": 1007466,
+"en": "Hatched Bird Cap",
+"ko": "부화한 아기새 모자",
+"by": "name"
+},
+{
+"id": 1007467,
+"en": "Golden Fox Ears",
+"ko": "명랑한 금빛여우",
+"by": "name"
+},
+{
+"id": 1007468,
+"en": "Silver Fox Ears",
+"ko": "도도한 은빛여우",
+"by": "name"
+},
+{
+"id": 1007470,
+"en": "Pink Bunny Cap",
+"ko": "핑크 래빗 캡",
+"by": "name"
+},
+{
+"id": 1007471,
+"en": "Blue Bow Beret",
+"ko": "왈츠리본 베레모",
+"by": "name"
+},
+{
+"id": 1007473,
+"en": "Panda Hat",
+"ko": "팬더 모자",
+"by": "name"
+},
+{
+"id": 1007474,
+"en": "Bear Tassel Hat",
+"ko": "곰돌이 방울 모자",
+"by": "name"
+},
+{
+"id": 1007475,
+"en": "Moon Bunny Hat",
+"ko": "머리위에 월묘",
+"by": "name"
+},
+{
+"id": 1007477,
+"en": "Cow Mask",
+"ko": "큐티카우 햇",
+"by": "name"
+},
+{
+"id": 1007478,
+"en": "Snow Flake Hat",
+"ko": "눈꽃 빛나는 모자",
+"by": "name"
+},
+{
+"id": 1007480,
+"en": "Red Panda Cap",
+"ko": "베이비 레드팬더",
+"by": "name"
+},
+{
+"id": 1007481,
+"en": "Pink Bow",
+"ko": "핑크 드레시 리본",
+"by": "name"
+},
+{
+"id": 1007488,
+"en": "Checkered Fedora",
+"ko": "체크 페도라",
+"by": "name"
+},
+{
+"id": 1007489,
+"en": "Iljimae Mask",
+"ko": "일지매 복면",
+"by": "name"
+},
+{
+"id": 1007490,
+"en": "Miranda Ribbon",
+"ko": "미란다 리본",
+"by": "name"
+},
+{
+"id": 1007491,
+"en": "Pink Mini Hat",
+"ko": "핑크 미니햇",
+"by": "name"
+},
+{
+"id": 1007492,
+"en": "Blue Mini Hat",
+"ko": "블루 미니햇",
+"by": "name"
+},
+{
+"id": 1007493,
+"en": "Navy Hoodie Cap",
+"ko": "블루체크 후디캡",
+"by": "name"
+},
+{
+"id": 1007494,
+"en": "Pink Star Beanie",
+"ko": "핑크 스타 비니",
+"by": "name"
+},
+{
+"id": 1007495,
+"en": "Colorful Striped Beanie",
+"ko": "컬러 스트라이프 비니",
+"by": "name"
+},
+{
+"id": 1007496,
+"en": "6th Anniversary Cone Hat",
+"ko": "6주년 기념모자",
+"by": "name"
+},
+{
+"id": 1007498,
+"en": "Moon Bloom Hair Pin",
+"ko": "달꽃 머리핀",
+"by": "name"
+},
+{
+"id": 1007499,
+"en": "Green Mushroom Hat",
+"ko": "초록버섯의 모자",
+"by": "name"
+},
+{
+"id": 1007500,
+"en": "Honey Bee Hat",
+"ko": "GM소리의 꿀벌모자",
+"by": "name"
+},
+{
+"id": 1007501,
+"en": "Heart Hairband",
+"ko": "하트 머리띠",
+"by": "name"
+},
+{
+"id": 1007502,
+"en": "Fluttering Sunhat",
+"ko": "로맨틱 피에스타",
+"by": "name"
+},
+{
+"id": 1007503,
+"en": "Aran Helmet",
+"ko": "아란의 투구",
+"by": "name"
+},
+{
+"id": 1007504,
+"en": "Brave Musashi Helmet",
+"ko": "용맹한 무사의 투구",
+"by": "name"
+},
+{
+"id": 1007507,
+"en": "Black Crown",
+"ko": "블랙 크라운",
+"by": "name"
+},
+{
+"id": 1007509,
+"en": "Peony Flower Accessory",
+"ko": "작약 꽃장식",
+"by": "name"
+},
+{
+"id": 1007510,
+"en": "Pancake Hat",
+"ko": "팬케이크 모자",
+"by": "name"
+},
+{
+"id": 1007511,
+"en": "Brown Puppy Ears",
+"ko": "오늘은 강아지!",
+"by": "name"
+},
+{
+"id": 1007512,
+"en": "Mysterious Mask",
+"ko": "신비로운 가면탈",
+"by": "name"
+},
+{
+"id": 1007513,
+"en": "Jr. Lucida Hat",
+"ko": "주니어 루이넬 모자",
+"by": "name"
+},
+{
+"id": 1007514,
+"en": "Maid Headband",
+"ko": "블랙리본 레이스 캡",
+"by": "name"
+},
+{
+"id": 1007515,
+"en": "Marbum Headgear",
+"ko": "빠라바라밤",
+"by": "name"
+},
+{
+"id": 1007519,
+"en": "Pharaoh Crown",
+"ko": "파라오 왕관",
+"by": "name"
+},
+{
+"id": 1007520,
+"en": "Maplemas Light Hairband",
+"ko": "크리스마스 라이트",
+"by": "name"
+},
+{
+"id": 1007521,
+"en": "Dancing Blue Butterfly",
+"ko": "춤추는 파랑나비",
+"by": "name"
+},
+{
+"id": 1007522,
+"en": "Red Loose-Fit Beanie",
+"ko": "레드 루즈핏 비니",
+"by": "name"
+},
+{
+"id": 1007525,
+"en": "Devil Horns",
+"ko": "데빌스 혼",
+"by": "name"
+},
+{
+"id": 1007526,
+"en": "Doll Face Hat",
+"ko": "돌피인형 모자",
+"by": "name"
+},
+{
+"id": 1007527,
+"en": "Maplemas Bell",
+"ko": "크리스마스 벨",
+"by": "name"
+},
+{
+"id": 1007531,
+"en": "Giant Bear Cap",
+"ko": "변화무쌍 곰돌이",
+"by": "name"
+},
+{
+"id": 1007533,
+"en": "Tilted Fedora",
+"ko": "삐딱 페도라",
+"by": "name"
+},
+{
+"id": 1007534,
+"en": "Mini Crown",
+"ko": "미니 크라운",
+"by": "name"
+},
+{
+"id": 1007535,
+"en": "Maplemas Hairpin",
+"ko": "크리스마스 헤어핀",
+"by": "name"
+},
+{
+"id": 1007536,
+"en": "Tiger-Print Cap",
+"ko": "레오팟 캡",
+"by": "name"
+},
+{
+"id": 1007537,
+"en": "Pinky Bow",
+"ko": "핑키 리본",
+"by": "name"
+},
+{
+"id": 1007538,
+"en": "Black-Lace Ribbon",
+"ko": "블랙 레이스 리본",
+"by": "name"
+},
+{
+"id": 1007540,
+"en": "Knitted Corsage Hat",
+"ko": "코사지 니트모자",
+"by": "name"
+},
+{
+"id": 1007541,
+"en": "Sparkling Butterfly",
+"ko": "반짝반짝 나비",
+"by": "name"
+},
+{
+"id": 1007545,
+"en": "Sprout Hat",
+"ko": "새싹 이슬",
+"by": "name"
+},
+{
+"id": 1007546,
+"en": "Royal Crown",
+"ko": "임페리얼 크라운",
+"by": "name"
+},
+{
+"id": 1007550,
+"en": "6th Anniversary Top Hat",
+"ko": "7주년 기념 모자",
+"by": "name"
+},
+{
+"id": 1007551,
+"en": "Royal Rainbow Hood",
+"ko": "로얄 레인보우 후드",
+"by": "name"
+},
+{
+"id": 1007553,
+"en": "Yellow Petite Scarf",
+"ko": "옐로우 쁘띠 스카프",
+"by": "name"
+},
+{
+"id": 1007554,
+"en": "Black Petite Scarf",
+"ko": "블랙 쁘띠 스카프",
+"by": "name"
+},
+{
+"id": 1007555,
+"en": "Black Dressy Ribbon",
+"ko": "블랙 드레시 리본",
+"by": "name"
+},
+{
+"id": 1007557,
+"en": "White Bow",
+"ko": "화이트 드레시 리본",
+"by": "name"
+},
+{
+"id": 1007559,
+"en": "Battle Mage Goggles",
+"ko": "배틀메이지 모자",
+"by": "name"
+},
+{
+"id": 1007564,
+"en": "Maid Headband (Blue)",
+"ko": "블루리본 레이스 캡",
+"by": "name"
+},
+{
+"id": 1007566,
+"en": "Rabbit Ear Hood",
+"ko": "롭이어 래빗 후드",
+"by": "name"
+},
+{
+"id": 1007568,
+"en": "Brown Hunting Cap",
+"ko": "브라운체크 헌팅캡",
+"by": "name"
+},
+{
+"id": 1007569,
+"en": "Star Head Wrap",
+"ko": "별무늬 트레이닝 모자",
+"by": "name"
+},
+{
+"id": 1007570,
+"en": "Leather Cap",
+"ko": "무스탕 모자",
+"by": "name"
+},
+{
+"id": 1007573,
+"en": "Rookie Bobble Heart Band",
+"ko": "새내기의 스쿨룩 머리띠",
+"by": "name"
+},
+{
+"id": 1007574,
+"en": "Rudolph Santa Hat",
+"ko": "루돌프산타 모자",
+"by": "name"
+},
+{
+"id": 1007575,
+"en": "Courageous Bunny Hat",
+"ko": "겁없는 토끼모자",
+"by": "name"
+},
+{
+"id": 1007576,
+"en": "Curly Rabbit Poof",
+"ko": "뽀글이 토끼",
+"by": "name"
+},
+{
+"id": 1007578,
+"en": "Earmuffs and Pom Pom Beanie",
+"ko": "귀마개와 니트방울모자",
+"by": "name"
+},
+{
+"id": 1007579,
+"en": "Blue Snowdrop Cunning Hat",
+"ko": "하늘색 귀닫이 눈꽃캡",
+"by": "name"
+},
+{
+"id": 1007580,
+"en": "Pink Snowdrop Cunning Hat",
+"ko": "분홍색 귀닫이 눈꽃캡",
+"by": "name"
+},
+{
+"id": 1007581,
+"en": "Pirate Captain's Hat",
+"ko": "노블레스 캡틴",
+"by": "name"
+},
+{
+"id": 1007582,
+"en": "Flower Heir Cap",
+"ko": "꽃도령 머리띠",
+"by": "name"
+},
+{
+"id": 1007583,
+"en": "Flower Heiress Band",
+"ko": "꽃아씨 머리장식",
+"by": "name"
+},
+{
+"id": 1007584,
+"en": "Knit Flower Hairband",
+"ko": "니트 플라워 머리띠",
+"by": "name"
+},
+{
+"id": 1007585,
+"en": "Pink Polka Dot Bow",
+"ko": "베이비핑크 큐트핀",
+"by": "name"
+},
+{
+"id": 1007587,
+"en": "Lost Baby Chick",
+"ko": "엄마찾는 병아리",
+"by": "name"
+},
+{
+"id": 1007588,
+"en": "Pretty Teddy",
+"ko": "아임 프리티 테디",
+"by": "name"
+},
+{
+"id": 1007589,
+"en": "I'm Honey Rabbit",
+"ko": "아임 허니 래빗",
+"by": "name"
+},
+{
+"id": 1007591,
+"en": "Blue Jeweled Chaplain Hat",
+"ko": "쥬얼블루 채플린모자",
+"by": "name"
+},
+{
+"id": 1007592,
+"en": "Lion Head",
+"ko": "복실 사자 모자",
+"by": "name"
+},
+{
+"id": 1007594,
+"en": "Raspberry Candy Hoodie",
+"ko": "라즈베리 별사탕후디",
+"by": "name"
+},
+{
+"id": 1007595,
+"en": "Blueberry Candy Hoodie",
+"ko": "블루베리 별사탕후디",
+"by": "name"
+},
+{
+"id": 1007598,
+"en": "Topaz Musical Note",
+"ko": "8주년 음표 토파즈",
+"by": "name"
+},
+{
+"id": 1007599,
+"en": "Ruby Musical Note",
+"ko": "8주년 음표 루비",
+"by": "name"
+},
+{
+"id": 1007600,
+"en": "Citrine Musical Note",
+"ko": "8주년 음표 시트린",
+"by": "name"
+},
+{
+"id": 1007601,
+"en": "Amethyst Musical Note",
+"ko": "8주년 음표 자수정",
+"by": "name"
+},
+{
+"id": 1007602,
+"en": "Amber Musical Note",
+"ko": "8주년 음표 레몬",
+"by": "name"
+},
+{
+"id": 1007603,
+"en": "Sapphire Musical Note",
+"ko": "8주년 음표 시엘",
+"by": "name"
+},
+{
+"id": 1007604,
+"en": "Quartz Musical Note",
+"ko": "8주년 음표 퍼플",
+"by": "name"
+},
+{
+"id": 1007605,
+"en": "Emerald Musical Note",
+"ko": "8주년 음표 그린",
+"by": "name"
+},
+{
+"id": 1007606,
+"en": "Rose Tinia Shades",
+"ko": "로즈 티니아 쉐이드",
+"by": "name"
+},
+{
+"id": 1007607,
+"en": "Marine Tinia Shades",
+"ko": "마린 티니아 쉐이드",
+"by": "name"
+},
+{
+"id": 1007608,
+"en": "Button-a-Holic Sugar Cap",
+"ko": "버튼홀릭 슈가 캡",
+"by": "name"
+},
+{
+"id": 1007609,
+"en": "Button-a-holic Toy Cap",
+"ko": "버튼홀릭 토이 캡",
+"by": "name"
+},
+{
+"id": 1007610,
+"en": "Pink Heart Transparent Hat",
+"ko": "핑크하트 투명모자",
+"by": "name"
+},
+{
+"id": 1007612,
+"en": "Blue Heart Transparent Hat",
+"ko": "블루하트 투명모자",
+"by": "name"
+},
+{
+"id": 1007613,
+"en": "Grass Spirit",
+"ko": "풀잎 요정",
+"by": "name"
+},
+{
+"id": 1007614,
+"en": "Mermaid Shell",
+"ko": "머메이드 쉘",
+"by": "name"
+},
+{
+"id": 1007615,
+"en": "Chain Crusher Cap",
+"ko": "체인 크러셔 캡",
+"by": "name"
+},
+{
+"id": 1007616,
+"en": "Tic Toc Red Sun Cap",
+"ko": "틱톡 레드 썬캡",
+"by": "name"
+},
+{
+"id": 1007617,
+"en": "Dear Orange Sun Cap",
+"ko": "디어오렌지 썬캡",
+"by": "name"
+},
+{
+"id": 1007618,
+"en": "Fresh Lemon Sun Cap",
+"ko": "프레쉬 레몬 썬캡",
+"by": "name"
+},
+{
+"id": 1007619,
+"en": "Lime Green Sun Cap",
+"ko": "라임 그린 썬캡",
+"by": "name"
+},
+{
+"id": 1007620,
+"en": "Crystal Blue Sun Cap",
+"ko": "크리스탈 블루 썬캡",
+"by": "name"
+},
+{
+"id": 1007621,
+"en": "Night Navy Sun Cap",
+"ko": "나이트 네이비 썬캡",
+"by": "name"
+},
+{
+"id": 1007622,
+"en": "Sweet Purple Sun Cap",
+"ko": "스위트 퍼플 썬캡",
+"by": "name"
+},
+{
+"id": 1007623,
+"en": "Rosy Pink Twin Ribbons",
+"ko": "로지핑크 트윈리본",
+"by": "name"
+},
+{
+"id": 1007624,
+"en": "Crown of Flowers",
+"ko": "발그레 꽃잎",
+"by": "name"
+},
+{
+"id": 1007625,
+"en": "Memorial Angel",
+"ko": "메모리얼 엔젤",
+"by": "name"
+},
+{
+"id": 1007626,
+"en": "Alchemist Hat",
+"ko": "연금술사의 모자",
+"by": "name"
+},
+{
+"id": 1007629,
+"en": "Orchid's Black Wing Hat",
+"ko": "블랙윙 마스터의 모자",
+"by": "name"
+},
+{
+"id": 1007630,
+"en": "Honeybee Antenna Hairband",
+"ko": "보송 꿀벌 머리띠",
+"by": "name"
+},
+{
+"id": 1007640,
+"en": "Garnet Raven Persona",
+"ko": "가넷 레이븐 페르소나",
+"by": "name"
+},
+{
+"id": 1007642,
+"en": "Milk Chocolate Cone",
+"ko": "밀크 초콜릿 콘",
+"by": "name"
+},
+{
+"id": 1007643,
+"en": "Lania's Floral Crown",
+"ko": "라니아의 화관",
+"by": "name"
+},
+{
+"id": 1007653,
+"en": "Crisp Egg Nigiri",
+"ko": "보송 계란초밥",
+"by": "name"
+},
+{
+"id": 1007654,
+"en": "Fresh Salmon Nigiri",
+"ko": "싱싱 연어초밥",
+"by": "name"
+},
+{
+"id": 1007655,
+"en": "Chewy Octopus Nigiri",
+"ko": "파득 문어초밥",
+"by": "name"
+},
+{
+"id": 1007656,
+"en": "Tangy Fish Egg Nigiri",
+"ko": "탱글 알초밥",
+"by": "name"
+},
+{
+"id": 1007657,
+"en": "Cute Shrimp Nigiri",
+"ko": "꺄오 새우초밥",
+"by": "name"
+},
+{
+"id": 1007658,
+"en": "Alice's Teacup",
+"ko": "앨리스의 티컵",
+"by": "name"
+},
+{
+"id": 1007666,
+"en": "Sunset-colored Straw Hat",
+"ko": "노을빛 밀짚모자",
+"by": "name"
+},
+{
+"id": 1007667,
+"en": "Wire Headband",
+"ko": "큐티 와이어 머리띠",
+"by": "name"
+},
+{
+"id": 1007669,
+"en": "GM Nori's Wing Cap",
+"ko": "GM노리의 윙 캡",
+"by": "name"
+},
+{
+"id": 1007670,
+"en": "Country Rabbit Hat",
+"ko": "야매토끼 모자",
+"by": "name"
+},
+{
+"id": 1007671,
+"en": "Strawberry Macaroon Hairpin",
+"ko": "딸기 마카롱 헤어핀",
+"by": "name"
+},
+{
+"id": 1007672,
+"en": "Macaroon Hairpin",
+"ko": "마카롱 헤어핀",
+"by": "name"
+},
+{
+"id": 1007673,
+"en": "Strawberry Cupcake Hairpin",
+"ko": "딸기 컵케익 헤어핀",
+"by": "name"
+},
+{
+"id": 1007674,
+"en": "Melon Cupcake Hairpin",
+"ko": "멜론 컵케익 헤어핀",
+"by": "name"
+},
+{
+"id": 1007675,
+"en": "Chocolate Cupcake Hairpin",
+"ko": "초코 컵케익 헤어핀",
+"by": "name"
+},
+{
+"id": 1007676,
+"en": "Parfait Cupcake Hairpin",
+"ko": "파르페 컵케익 헤어핀",
+"by": "name"
+},
+{
+"id": 1007677,
+"en": "Aerial Mystic Black Silk Hat",
+"ko": "미스틱 블랙 실크햇",
+"by": "name"
+},
+{
+"id": 1007678,
+"en": "Aerial Mystic Black Silk Ribbon",
+"ko": "미스틱 블랙 리본",
+"by": "name"
+},
+{
+"id": 1007679,
+"en": "Blue Cat Hood",
+"ko": "역습의 고글",
+"by": "name"
+},
+{
+"id": 1007680,
+"en": "Yellow Cat Hood",
+"ko": "역습의 고글",
+"by": "name"
+},
+{
+"id": 1007681,
+"en": "Mint Star Marine Cap",
+"ko": "민트스타 마린캡",
+"by": "name"
+},
+{
+"id": 1007682,
+"en": "Pink Ribbon Marine Cap",
+"ko": "핑크리본 마린캡",
+"by": "name"
+},
+{
+"id": 1007683,
+"en": "Pink Teddy Hat",
+"ko": "핑크테니 모자",
+"by": "name"
+},
+{
+"id": 1007684,
+"en": "Metal Pink Baseball Cap",
+"ko": "메탈핑크 야구 모자",
+"by": "name"
+},
+{
+"id": 1007685,
+"en": "Metal Crown Nuera",
+"ko": "메탈크라운 뉴에라",
+"by": "name"
+},
+{
+"id": 1007687,
+"en": "Aqua Shell",
+"ko": "아쿠아쉘",
+"by": "name"
+},
+{
+"id": 1007688,
+"en": "Cheering Pink",
+"ko": "치어링 핑크",
+"by": "name"
+},
+{
+"id": 1007689,
+"en": "Cheering Blue",
+"ko": "치어링 블루",
+"by": "name"
+},
+{
+"id": 1007690,
+"en": "Cheering Green",
+"ko": "치어링 그린",
+"by": "name"
+},
+{
+"id": 1007691,
+"en": "Cheering Gold",
+"ko": "치어링 골드",
+"by": "name"
+},
+{
+"id": 1007703,
+"en": "Halloween Leopard Ears",
+"ko": "할로윈 레오퍼드 귀",
+"by": "name"
+},
+{
+"id": 1007704,
+"en": "Red Pierre Hat",
+"ko": "빨간색 피에르 모자",
+"by": "name"
+},
+{
+"id": 1007705,
+"en": "Blue Pierre Hat",
+"ko": "파란색 피에르 모자",
+"by": "name"
+},
+{
+"id": 1007706,
+"en": "Dark Devil Hat",
+"ko": "어둠의 소악마 모자",
+"by": "name"
+},
+{
+"id": 1007709,
+"en": "Ribbon Kitty Ears",
+"ko": "리본 고양이 귀",
+"by": "name"
+},
+{
+"id": 1007711,
+"en": "Harp Seal Mask",
+"ko": "하프물범 모자",
+"by": "name"
+},
+{
+"id": 1007712,
+"en": "Zombie Hunter Hat",
+"ko": "좀비 사냥꾼 모자",
+"by": "name"
+},
+{
+"id": 1007715,
+"en": "The Bladed Falcon's Helm",
+"ko": "검호의 투구",
+"by": "name"
+},
+{
+"id": 1007718,
+"en": "Ramling Hair Pin",
+"ko": "아기양 머리핀",
+"by": "name"
+},
+{
+"id": 1007719,
+"en": "Wild Spike Wig",
+"ko": "컬러풀 소라빵 가발",
+"by": "name"
+},
+{
+"id": 1007720,
+"en": "Colorstream Wig",
+"ko": "컬러풀 바람미역 가발",
+"by": "name"
+},
+{
+"id": 1007721,
+"en": "Wacky Olympus Wig",
+"ko": "컬러풀 올림푸스 가발",
+"by": "name"
+},
+{
+"id": 1007722,
+"en": "Goin' Nuclear Wig",
+"ko": "컬러풀 뉴클리어 가발",
+"by": "name"
+},
+{
+"id": 1007723,
+"en": "Succubus Hat",
+"ko": "서큐버스 캡",
+"by": "name"
+},
+{
+"id": 1007730,
+"en": "Iris Psyche",
+"ko": "아이리스 프쉬케",
+"by": "name"
+},
+{
+"id": 1007732,
+"en": "Teddy Ribbon",
+"ko": "곰돌이 리본",
+"by": "name"
+},
+{
+"id": 1007733,
+"en": "Starlight Wings",
+"ko": "별빛나래",
+"by": "name"
+},
+{
+"id": 1007735,
+"en": "Blue Mossy Mom Hat",
+"ko": "블루 머시맘 모자",
+"by": "name"
+},
+{
+"id": 1007736,
+"en": "Jr. Cellion Hat",
+"ko": "주니어 샐리온 모자",
+"by": "name"
+},
+{
+"id": 1007737,
+"en": "Lupin Hat",
+"ko": "루팡 모자",
+"by": "name"
+},
+{
+"id": 1007738,
+"en": "Yeti Hat",
+"ko": "예티 모자",
+"by": "name"
+},
+{
+"id": 1007739,
+"en": "Pepe Hat",
+"ko": "페페 모자",
+"by": "name"
+},
+{
+"id": 1007740,
+"en": "Leaf Diamond",
+"ko": "리프 다이아",
+"by": "name"
+},
+{
+"id": 1007741,
+"en": "Triumphant Ribbon Pig Hat",
+"ko": "승리의 리본돼지 모자",
+"by": "name"
+},
+{
+"id": 1007742,
+"en": "Triumphant Zakum Hat",
+"ko": "승리의 자쿰 모자",
+"by": "name"
+},
+{
+"id": 1007743,
+"en": "Pink Soda Cap",
+"ko": "핑크소다 캡",
+"by": "name"
+},
+{
+"id": 1007744,
+"en": "Petite Diablo",
+"ko": "쁘띠 디아블",
+"by": "name"
+},
+{
+"id": 1007745,
+"en": "Hawaiian Sunhat",
+"ko": "하와이안 페도라",
+"by": "name"
+},
+{
+"id": 1007746,
+"en": "Shadow Hood",
+"ko": "암염의 두건",
+"by": "name"
+},
+{
+"id": 1007747,
+"en": "Anima Ears",
+"ko": "아니마 족의 귀",
+"by": "name"
+},
+{
+"id": 1007749,
+"en": "Romantic Bamboo Hat",
+"ko": "낭만 삿갓",
+"by": "name"
+},
+{
+"id": 1007750,
+"en": "Superstar Crown",
+"ko": "슈퍼스타 크라운",
+"by": "name"
+},
+{
+"id": 1007752,
+"en": "Odette Tiara",
+"ko": "오데트 티아라",
+"by": "name"
+},
+{
+"id": 1007753,
+"en": "Odile Tiara",
+"ko": "오딜 티아라",
+"by": "name"
+},
+{
+"id": 1007755,
+"en": "Head Cooler",
+"ko": "머리는 차갑게!",
+"by": "name"
+},
+{
+"id": 1007757,
+"en": "Mint Mochi Ice",
+"ko": "민트 찹쌀아이스",
+"by": "name"
+},
+{
+"id": 1007758,
+"en": "Pink Mochi Ice",
+"ko": "핑크 찹쌀아이스",
+"by": "name"
+},
+{
+"id": 1007759,
+"en": "Chicken Hataroo",
+"ko": "꼬꼬 인형탈",
+"by": "name"
+},
+{
+"id": 1007760,
+"en": "Puffram Hat",
+"ko": "구름양 인형모자",
+"by": "name"
+},
+{
+"id": 1007761,
+"en": "Powder Fedora",
+"ko": "블루리본 페도라",
+"by": "name"
+},
+{
+"id": 1007762,
+"en": "Grab N' Pull",
+"ko": "감잡고 잘 풀어~! 요정",
+"by": "name"
+},
+{
+"id": 1007763,
+"en": "Snow Bear Beanie",
+"ko": "눈 곰돌이 비니",
+"by": "name"
+},
+{
+"id": 1007767,
+"en": "Puppy Ears",
+"ko": "오늘은 강아지!",
+"by": "name"
+},
+{
+"id": 1007768,
+"en": "Bear Ears",
+"ko": "곰도리 귀",
+"by": "name"
+},
+{
+"id": 1007769,
+"en": "Rudi's Hat",
+"ko": "루디의 모자",
+"by": "name"
+},
+{
+"id": 1017000,
+"en": "Battle Scar",
+"ko": "바람의 흉터",
+"by": "name"
+},
+{
+"id": 1017001,
+"en": "Bindi",
+"ko": "빈디",
+"by": "name"
+},
+{
+"id": 1017002,
+"en": "Leather Mask",
+"ko": "가죽 마스크",
+"by": "name"
+},
+{
+"id": 1017003,
+"en": "Rouge",
+"ko": "연지곤지",
+"by": "name"
+},
+{
+"id": 1017004,
+"en": "Camo Face Paint",
+"ko": "안면위장",
+"by": "name"
+},
+{
+"id": 1017005,
+"en": "Bruise",
+"ko": "멍",
+"by": "name"
+},
+{
+"id": 1017007,
+"en": "Santa Beard",
+"ko": "산타 수염",
+"by": "name"
+},
+{
+"id": 1017008,
+"en": "Censor",
+"ko": "모자이크",
+"by": "name"
+},
+{
+"id": 1017010,
+"en": "White Kabuki Mask",
+"ko": "흰색 경극가면",
+"by": "name"
+},
+{
+"id": 1017011,
+"en": "Red Kabuki Mask",
+"ko": "빨간색 경극가면",
+"by": "name"
+},
+{
+"id": 1017012,
+"en": "Yellow Kabuki Mask",
+"ko": "노란색 경극가면",
+"by": "name"
+},
+{
+"id": 1017013,
+"en": "Gentleman's Mustache",
+"ko": "엘레강스 수염",
+"by": "name"
+},
+{
+"id": 1017014,
+"en": "Fierce Face Paint",
+"ko": "인디언 페인팅",
+"by": "name"
+},
+{
+"id": 1017015,
+"en": "Bandage Strip",
+"ko": "반창고",
+"by": "name"
+},
+{
+"id": 1017016,
+"en": "Transparent Face Accessory",
+"ko": "투명 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017017,
+"en": "Long Brown Beard",
+"ko": "갈색 턱수염",
+"by": "name"
+},
+{
+"id": 1017018,
+"en": "Goatee",
+"ko": "동그란 수염",
+"by": "name"
+},
+{
+"id": 1017019,
+"en": "5 O'Clock Shadow",
+"ko": "면도자국",
+"by": "name"
+},
+{
+"id": 1017021,
+"en": "Mummy Mask",
+"ko": "미이라 마스크",
+"by": "name"
+},
+{
+"id": 1017022,
+"en": "Dollish Pink",
+"ko": "인형핑크",
+"by": "name"
+},
+{
+"id": 1017023,
+"en": "Heartbreaker Lips",
+"ko": "가슴 두근 립",
+"by": "name"
+},
+{
+"id": 1017024,
+"en": "Choco Candy Cookie",
+"ko": "초코볼 쿠키",
+"by": "name"
+},
+{
+"id": 1017027,
+"en": "Ninja Mask for Men",
+"ko": "남자닌자 마스크",
+"by": "name"
+},
+{
+"id": 1017029,
+"en": "General's Mustache (1)",
+"ko": "해신 장보고 수염",
+"by": "name"
+},
+{
+"id": 1017030,
+"en": "General's Mustache (2)",
+"ko": "해신 염장 수염",
+"by": "name"
+},
+{
+"id": 1017031,
+"en": "Yakuza Scar",
+"ko": "야쿠자 흉터",
+"by": "name"
+},
+{
+"id": 1017032,
+"en": "Ninja Mask for Women",
+"ko": "여자닌자 마스크",
+"by": "name"
+},
+{
+"id": 1017033,
+"en": "SF Ninja Mask",
+"ko": "SF닌자 마스크",
+"by": "name"
+},
+{
+"id": 1017035,
+"en": "Freckles",
+"ko": "주근깨",
+"by": "name"
+},
+{
+"id": 1017045,
+"en": "Kiss Mark",
+"ko": "키스 마크",
+"by": "name"
+},
+{
+"id": 1017052,
+"en": "Guan Yu Beard",
+"ko": "관우 수염",
+"by": "name"
+},
+{
+"id": 1017056,
+"en": "Eye Scar",
+"ko": "눈 흉터",
+"by": "name"
+},
+{
+"id": 1017058,
+"en": "White Bread",
+"ko": "식빵",
+"by": "name"
+},
+{
+"id": 1017059,
+"en": "England Face Painting",
+"ko": "유니언 페인팅(영국)",
+"by": "name"
+},
+{
+"id": 1017060,
+"en": "Tri-color Paint (France)",
+"ko": "트리컬러 페인팅 (프랑스)",
+"by": "name"
+},
+{
+"id": 1017061,
+"en": "Brazillian Paint (Brazil)",
+"ko": "브라질리언 페인팅 (브라질)",
+"by": "name"
+},
+{
+"id": 1017062,
+"en": "Bundes Paint (Germany)",
+"ko": "분데스 페인팅 (독일)",
+"by": "name"
+},
+{
+"id": 1017063,
+"en": "Armillary Shield Paint (Portugal)",
+"ko": "포르투기스 페인팅 (포르투갈)",
+"by": "name"
+},
+{
+"id": 1017065,
+"en": "Taegeuk Paint (Korea)",
+"ko": "태극 페인팅 (대한민국)",
+"by": "name"
+},
+{
+"id": 1017066,
+"en": "Heart Face Painting",
+"ko": "하트마크",
+"by": "name"
+},
+{
+"id": 1017071,
+"en": "Fu Manchu",
+"ko": "백작님 수염",
+"by": "name"
+},
+{
+"id": 1017072,
+"en": "Dark Jack's Scar",
+"ko": "커다란 흉터",
+"by": "name"
+},
+{
+"id": 1017074,
+"en": "Maple-Stein Face",
+"ko": "프랑켄슈타인 마스크",
+"by": "name"
+},
+{
+"id": 1017076,
+"en": "Tongue Twister Scroll",
+"ko": "두루마리 문서",
+"by": "name"
+},
+{
+"id": 1017077,
+"en": "Unmanaged Anger",
+"ko": "분노",
+"by": "name"
+},
+{
+"id": 1017078,
+"en": "Purple Rage",
+"ko": "절망",
+"by": "name"
+},
+{
+"id": 1017079,
+"en": "Allergic Reaction",
+"ko": "반달 홍조",
+"by": "name"
+},
+{
+"id": 1017080,
+"en": "Doggy Mouth",
+"ko": "개코",
+"by": "name"
+},
+{
+"id": 1017082,
+"en": "Mild Pink Lipstick",
+"ko": "마일드핑크 립스틱",
+"by": "name"
+},
+{
+"id": 1017083,
+"en": "Kitty Paint",
+"ko": "캣츠 분장",
+"by": "name"
+},
+{
+"id": 1017084,
+"en": "Mocking Laughter",
+"ko": "메롱",
+"by": "name"
+},
+{
+"id": 1017085,
+"en": "Cold Sweat",
+"ko": "식은땀",
+"by": "name"
+},
+{
+"id": 1017086,
+"en": "Fat Lips",
+"ko": "도톰한 입술",
+"by": "name"
+},
+{
+"id": 1017088,
+"en": "Ice Cold Red",
+"ko": "귀까지 빨개",
+"by": "name"
+},
+{
+"id": 1017090,
+"en": "Cherry Bubblegum",
+"ko": "딸기맛 풍선껌",
+"by": "name"
+},
+{
+"id": 1017092,
+"en": "Apple Bubble Gum",
+"ko": "사과맛 풍선껌",
+"by": "name"
+},
+{
+"id": 1017093,
+"en": "Purple Noisemaker",
+"ko": "삑삑이",
+"by": "name"
+},
+{
+"id": 1017097,
+"en": "Super Sucker",
+"ko": "쁘띠베베",
+"by": "name"
+},
+{
+"id": 1017111,
+"en": "Star Face Painting",
+"ko": "스타 페이스 페인팅",
+"by": "name"
+},
+{
+"id": 1017116,
+"en": "Orange Blush",
+"ko": "오렌지 발그레",
+"by": "name"
+},
+{
+"id": 1017118,
+"en": "Shadow Mask",
+"ko": "그림자 각인",
+"by": "name"
+},
+{
+"id": 1017124,
+"en": "Zombie Hunter Mask",
+"ko": "좀비 사냥꾼 마스크",
+"by": "name"
+},
+{
+"id": 1017126,
+"en": "Flushed Cheeks",
+"ko": "발그레 발그레",
+"by": "name"
+},
+{
+"id": 1017127,
+"en": "Playful Band",
+"ko": "장난꾸러기 밴드",
+"by": "name"
+},
+{
+"id": 1017128,
+"en": "Clown",
+"ko": "삐에로",
+"by": "name"
+},
+{
+"id": 1017130,
+"en": "Bloody Tears",
+"ko": "암염의 눈물",
+"by": "name"
+},
+{
+"id": 1017131,
+"en": "Surprised Face Accessory",
+"ko": "ㅎㅂㅎ 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017132,
+"en": "Thick Eyebrows Face Accessory",
+"ko": "ㅎㅅㅎ 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017133,
+"en": "Round Eyes-And-Mouth Face Accessory",
+"ko": "ㅎㅇㅎ 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017134,
+"en": "Bear Nose Face Accessory",
+"ko": "ㅎㅈㅎ 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017135,
+"en": "Straight Face Accessory",
+"ko": "ㅎㅗㅎ 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017136,
+"en": "Cat-Mouth Face Accessory",
+"ko": "눈ㅅ눈 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017137,
+"en": "Animal Face Accessory",
+"ko": "눈ㅈ눈 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017138,
+"en": "Mustache Face Accessory",
+"ko": "눈ㅎ눈 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017139,
+"en": "Gross Face Accessory",
+"ko": "눈ㅠ눈 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017140,
+"en": "Enlightened Face Accessory",
+"ko": "눈_눈 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017141,
+"en": "Palm Print Mask",
+"ko": "손바닥 얼굴장식",
+"by": "name"
+},
+{
+"id": 1017144,
+"en": "Blazing Eyes",
+"ko": "이글이글 눈빛",
+"by": "name"
+},
+{
+"id": 1017145,
+"en": "Frozen Eye",
+"ko": "얼어붙는 눈빛",
+"by": "name"
+},
+{
+"id": 1027000,
+"en": "Orange Shades",
+"ko": "주황색 안경",
+"by": "name"
+},
+{
+"id": 1027001,
+"en": "Blue Shades",
+"ko": "파란색 안경",
+"by": "name"
+},
+{
+"id": 1027002,
+"en": "Yellow Shades",
+"ko": "노란색 안경",
+"by": "name"
+},
+{
+"id": 1027003,
+"en": "Green Shades",
+"ko": "초록색 안경",
+"by": "name"
+},
+{
+"id": 1027005,
+"en": "Red Hard-Rimmed Glasses",
+"ko": "빨간색 뿔테 안경",
+"by": "name"
+},
+{
+"id": 1027006,
+"en": "Blue Hard-Rimmed Glasses",
+"ko": "파란색 뿔테 안경",
+"by": "name"
+},
+{
+"id": 1027008,
+"en": "Orange Hard-Rimmed Glasses",
+"ko": "주황색 뿔테 안경",
+"by": "name"
+},
+{
+"id": 1027009,
+"en": "Dark Shades",
+"ko": "네오 글라스",
+"by": "name"
+},
+{
+"id": 1027010,
+"en": "Blue & Red Eye Guard",
+"ko": "태극 샤프 마스크",
+"by": "name"
+},
+{
+"id": 1027011,
+"en": "Red Eye Guard",
+"ko": "빨간색 샤프 마스크",
+"by": "name"
+},
+{
+"id": 1027012,
+"en": "Blue Eye Guard",
+"ko": "파란색 샤프 마스크",
+"by": "name"
+},
+{
+"id": 1027013,
+"en": "Black Eye Guard",
+"ko": "검은색 샤프 마스크",
+"by": "name"
+},
+{
+"id": 1027014,
+"en": "Brown Aviator Shades",
+"ko": "브라운 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027015,
+"en": "Black Aviator Shades",
+"ko": "블랙 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027016,
+"en": "Blue Aviator Shades",
+"ko": "블루 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027017,
+"en": "Purple Aviator Shades",
+"ko": "퍼플 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027018,
+"en": "Crested Eye Patch",
+"ko": "닌자 안대",
+"by": "name"
+},
+{
+"id": 1027019,
+"en": "Skull Patch",
+"ko": "해골 안대",
+"by": "name"
+},
+{
+"id": 1027020,
+"en": "Red Hearted Eye Patch",
+"ko": "하트무늬 안대",
+"by": "name"
+},
+{
+"id": 1027021,
+"en": "Purple Starred Eye Patch",
+"ko": "별무늬 안대",
+"by": "name"
+},
+{
+"id": 1027022,
+"en": "Medical Eye Patch",
+"ko": "위생 안대",
+"by": "name"
+},
+{
+"id": 1027023,
+"en": "Spinning Groucho",
+"ko": "뱅뱅 주먹코안경",
+"by": "name"
+},
+{
+"id": 1027024,
+"en": "Spinning Piglet",
+"ko": "뱅뱅 돼지코안경",
+"by": "name"
+},
+{
+"id": 1027025,
+"en": "White Toy Shades",
+"ko": "화이트 장난감 선글라스",
+"by": "name"
+},
+{
+"id": 1027026,
+"en": "Yellow Toy Shades",
+"ko": "옐로우 장난감 선글라스",
+"by": "name"
+},
+{
+"id": 1027029,
+"en": "Frameless Glasses",
+"ko": "무테안경",
+"by": "name"
+},
+{
+"id": 1027030,
+"en": "Purple Round Shades",
+"ko": "보라색 땡글이 선글라스",
+"by": "name"
+},
+{
+"id": 1027031,
+"en": "Orange Round Shades",
+"ko": "주황색 땡글이 선글라스",
+"by": "name"
+},
+{
+"id": 1027032,
+"en": "Lead Monocle",
+"ko": "모노클",
+"by": "name"
+},
+{
+"id": 1027033,
+"en": "Cyclist Shades",
+"ko": "패션 선글라스",
+"by": "name"
+},
+{
+"id": 1027035,
+"en": "Aqua Toy Shades",
+"ko": "아쿠아 장난감 선글라스",
+"by": "name"
+},
+{
+"id": 1027036,
+"en": "Pink Toy Shades",
+"ko": "핑크 장난감 선글라스",
+"by": "name"
+},
+{
+"id": 1027037,
+"en": "Blank Eye Patch",
+"ko": "멀뚱 안대",
+"by": "name"
+},
+{
+"id": 1027038,
+"en": "Classic Masquerade Mask",
+"ko": "머스커레이드",
+"by": "name"
+},
+{
+"id": 1027039,
+"en": "Old-School Glasses",
+"ko": "샐러리맨안경",
+"by": "name"
+},
+{
+"id": 1027040,
+"en": "Metal Shades",
+"ko": "레드 메탈 고글",
+"by": "name"
+},
+{
+"id": 1027041,
+"en": "Red Head-Spinning Glasses",
+"ko": "최면술 안경(적)",
+"by": "name"
+},
+{
+"id": 1027042,
+"en": "Blue Head-Spinning Glasses",
+"ko": "최면술 안경(청)",
+"by": "name"
+},
+{
+"id": 1027043,
+"en": "Hot Teacher Glasses",
+"ko": "B사감 안경",
+"by": "name"
+},
+{
+"id": 1027044,
+"en": "Politician Glasses",
+"ko": "홈즈 안경",
+"by": "name"
+},
+{
+"id": 1027045,
+"en": "Bizarre Monocle",
+"ko": "괴인 안경",
+"by": "name"
+},
+{
+"id": 1027046,
+"en": "Scouter",
+"ko": "스카우터",
+"by": "name"
+},
+{
+"id": 1027047,
+"en": "Head Bandage",
+"ko": "붕대",
+"by": "name"
+},
+{
+"id": 1027048,
+"en": "Nerdy Glasses",
+"ko": "모범생 안경",
+"by": "name"
+},
+{
+"id": 1027049,
+"en": "Red Bushido Bandana",
+"ko": "눈가리개",
+"by": "name"
+},
+{
+"id": 1027052,
+"en": "Green-Rimmed Glasses",
+"ko": "초록 뿔테 안경",
+"by": "name"
+},
+{
+"id": 1027053,
+"en": "Vintage Glasses",
+"ko": "빈티지 스타일 안경",
+"by": "name"
+},
+{
+"id": 1027054,
+"en": "Red Half-Rim Glasses",
+"ko": "빨간 반무테 안경",
+"by": "name"
+},
+{
+"id": 1027055,
+"en": "Future Vision Shades",
+"ko": "레이저 안경",
+"by": "name"
+},
+{
+"id": 1027056,
+"en": "Futuristic Shades",
+"ko": "미스틱퍼플 글라스",
+"by": "name"
+},
+{
+"id": 1027057,
+"en": "Round Shield Shades",
+"ko": "스타일리쉬 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027058,
+"en": "Pink Sunglasses",
+"ko": "핑크색 선글라스",
+"by": "name"
+},
+{
+"id": 1027059,
+"en": "Pink Aviator Sunglasses",
+"ko": "밀키레드 글라스",
+"by": "name"
+},
+{
+"id": 1027061,
+"en": "Black Shades",
+"ko": "블랙 썬그라스",
+"by": "name"
+},
+{
+"id": 1027062,
+"en": "Redbeard's Pirate Eye Patch",
+"ko": "레드비즈 해적안대",
+"by": "name"
+},
+{
+"id": 1027063,
+"en": "Black Skull Eye Patch",
+"ko": "블랙해골 해적안대",
+"by": "name"
+},
+{
+"id": 1027064,
+"en": "Flat Mini Glasses",
+"ko": "플랫 미니 글라스",
+"by": "name"
+},
+{
+"id": 1027065,
+"en": "Big Red Glasses",
+"ko": "빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027068,
+"en": "White Shades",
+"ko": "화이트 쉐이드",
+"by": "name"
+},
+{
+"id": 1027069,
+"en": "Orange Shutter Shades",
+"ko": "오렌지 쉐이드",
+"by": "name"
+},
+{
+"id": 1027070,
+"en": "Green Shutter Shades",
+"ko": "그린 쉐이드",
+"by": "name"
+},
+{
+"id": 1027071,
+"en": "Red Shutter Shades",
+"ko": "핑크 쉐이드",
+"by": "name"
+},
+{
+"id": 1027072,
+"en": "Yellow Shutter Shades",
+"ko": "옐로우 쉐이드",
+"by": "name"
+},
+{
+"id": 1027073,
+"en": "Gaga Glasses",
+"ko": "가가 안경",
+"by": "name"
+},
+{
+"id": 1027074,
+"en": "Twinkling Eyes",
+"ko": "캔디 안경",
+"by": "name"
+},
+{
+"id": 1027075,
+"en": "Clear Glasses",
+"ko": "투명 안경",
+"by": "name"
+},
+{
+"id": 1027076,
+"en": "Cracked Glasses",
+"ko": "금이 간 안경",
+"by": "name"
+},
+{
+"id": 1027077,
+"en": "Hitman Sunglasses",
+"ko": "시티 선글라스",
+"by": "name"
+},
+{
+"id": 1027080,
+"en": "Blue Eye Mask",
+"ko": "뭐요! 안대",
+"by": "name"
+},
+{
+"id": 1027083,
+"en": "LED Sunglasses",
+"ko": "LED 선글라스",
+"by": "name"
+},
+{
+"id": 1027084,
+"en": "3D Glasses",
+"ko": "3D 글래스",
+"by": "name"
+},
+{
+"id": 1027085,
+"en": "Yellow Two-Toned Shades",
+"ko": "옐로우 투톤 선글라스",
+"by": "name"
+},
+{
+"id": 1027086,
+"en": "Pink Two-Toned Shades",
+"ko": "핑크 투톤 선글라스",
+"by": "name"
+},
+{
+"id": 1027087,
+"en": "Big White Sunglasses",
+"ko": "화이트 빅 선글라스",
+"by": "name"
+},
+{
+"id": 1027091,
+"en": "Star Sunglasses",
+"ko": "스타 선글라스",
+"by": "name"
+},
+{
+"id": 1027092,
+"en": "Broken Up Today",
+"ko": "오늘 깨어졌어요",
+"by": "name"
+},
+{
+"id": 1027093,
+"en": "Money Lover",
+"ko": "돈이 좋아~!",
+"by": "name"
+},
+{
+"id": 1037000,
+"en": "Transparent Earrings",
+"ko": "투명 귀고리",
+"by": "name"
+},
+{
+"id": 1037003,
+"en": "Slime Earrings",
+"ko": "슬라임 귀고리",
+"by": "name"
+},
+{
+"id": 1037007,
+"en": "Beaded Cross Earrings",
+"ko": "십자 비즈 귀고리",
+"by": "name"
+},
+{
+"id": 1037008,
+"en": "Snow Earrings",
+"ko": "눈꽃 귀고리",
+"by": "name"
+},
+{
+"id": 1037009,
+"en": "Diamond Earrings",
+"ko": "다이아몬드 귀고리",
+"by": "name"
+},
+{
+"id": 1037011,
+"en": "Clover Earrings",
+"ko": "클로버 이어링",
+"by": "name"
+},
+{
+"id": 1037012,
+"en": "Wireless Headset",
+"ko": "블루투스",
+"by": "name"
+},
+{
+"id": 1037013,
+"en": "Altair Earrings",
+"ko": "알테어 이어링",
+"by": "name"
+},
+{
+"id": 1037014,
+"en": "Shiny Altair Earrings",
+"ko": "빛나는 알테어 이어링",
+"by": "name"
+},
+{
+"id": 1037019,
+"en": "Halloweenroid Sensor",
+"ko": "할로윈로이드 센서",
+"by": "name"
+},
+{
+"id": 1045000,
+"en": "Hawaiian Shirt",
+"ko": "하와이안 상의",
+"by": "name"
+},
+{
+"id": 1046000,
+"en": "Hawaiian Shirt",
+"ko": "하와이안 상의",
+"by": "name"
+},
+{
+"id": 1047000,
+"en": "Orange Hooded Vest",
+"ko": "주황색 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047001,
+"en": "Black Hooded Vest",
+"ko": "검정색 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047002,
+"en": "Red Hooded Vest",
+"ko": "빨간색 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047003,
+"en": "Pink Hooded Vest",
+"ko": "분홍색 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047004,
+"en": "Pink Camping Shirt",
+"ko": "분홍색 캠핑복",
+"by": "name"
+},
+{
+"id": 1047005,
+"en": "Green Camping Shirt",
+"ko": "연두색 캠핑복",
+"by": "name"
+},
+{
+"id": 1047006,
+"en": "Blue Camping Shirt",
+"ko": "하늘색 캠핑복",
+"by": "name"
+},
+{
+"id": 1047011,
+"en": "Yellow Snowboard Top",
+"ko": "노란색 스노우보드복",
+"by": "name"
+},
+{
+"id": 1047012,
+"en": "Green Snowboard Top",
+"ko": "카키색 스노우보드복",
+"by": "name"
+},
+{
+"id": 1047013,
+"en": "Yellow Layered Combo",
+"ko": "빨간색 가죽자켓",
+"by": "name"
+},
+{
+"id": 1047014,
+"en": "Blue Layered Combo",
+"ko": "노란색 가죽자켓",
+"by": "name"
+},
+{
+"id": 1047015,
+"en": "Pink Snowboard Top",
+"ko": "분홍색 스노우보드복",
+"by": "name"
+},
+{
+"id": 1047016,
+"en": "Sky Blue Snowboard Top",
+"ko": "하늘색 스노우보드복",
+"by": "name"
+},
+{
+"id": 1047018,
+"en": "M Layered T-Shirt",
+"ko": "M레이어드 티셔츠",
+"by": "name"
+},
+{
+"id": 1047019,
+"en": "Old Military Uniform",
+"ko": "옛날군복",
+"by": "name"
+},
+{
+"id": 1047021,
+"en": "Blue Polka-Dot Pajama Top",
+"ko": "파란색 땡땡이잠옷 상의",
+"by": "name"
+},
+{
+"id": 1047022,
+"en": "Red Polka-Dot Pajama Top",
+"ko": "빨간색 땡땡이잠옷 상의",
+"by": "name"
+},
+{
+"id": 1047023,
+"en": "Prisoner Top",
+"ko": "죄수복 상의",
+"by": "name"
+},
+{
+"id": 1047024,
+"en": "Flowery Dress Shirt",
+"ko": "꽃무늬 남방셔츠",
+"by": "name"
+},
+{
+"id": 1047025,
+"en": "Slime T-Shirt",
+"ko": "슬라임 티셔츠",
+"by": "name"
+},
+{
+"id": 1047026,
+"en": "Orange Mushroom T-Shirt",
+"ko": "주황버섯 티셔츠",
+"by": "name"
+},
+{
+"id": 1047028,
+"en": "Beige Double Coat",
+"ko": "베이직 더플코트",
+"by": "name"
+},
+{
+"id": 1047029,
+"en": "Green Double Coat",
+"ko": "초록색 더플코트",
+"by": "name"
+},
+{
+"id": 1047030,
+"en": "Red Double Coat",
+"ko": "빨간색 더플코트",
+"by": "name"
+},
+{
+"id": 1047031,
+"en": "Christmas Padded Jacket",
+"ko": "빨간색 패딩 점퍼",
+"by": "name"
+},
+{
+"id": 1047032,
+"en": "Snowman Padded Jacket",
+"ko": "하얀색 패딩 점퍼",
+"by": "name"
+},
+{
+"id": 1047033,
+"en": "Red Sweater",
+"ko": "빨간색 스웨터",
+"by": "name"
+},
+{
+"id": 1047034,
+"en": "Sky Blue Allstar",
+"ko": "하늘색 별무늬 레이어드티",
+"by": "name"
+},
+{
+"id": 1047035,
+"en": "Pink Allstar",
+"ko": "분홍색 별무늬 레이어드티",
+"by": "name"
+},
+{
+"id": 1047036,
+"en": "Black Allstar",
+"ko": "검은색 별무늬 레이어드티",
+"by": "name"
+},
+{
+"id": 1047037,
+"en": "White Hooded Vest",
+"ko": "민소매후드티",
+"by": "name"
+},
+{
+"id": 1047038,
+"en": "Green Striped Rugby Tee",
+"ko": "그린 스트라이프티",
+"by": "name"
+},
+{
+"id": 1047039,
+"en": "Pink Striped Rugby Tee",
+"ko": "핑크 스트라이프티",
+"by": "name"
+},
+{
+"id": 1047040,
+"en": "Bowling Shirt",
+"ko": "나그랑 줄지티",
+"by": "name"
+},
+{
+"id": 1047041,
+"en": "White Casual Suit",
+"ko": "화이트 캐쥬얼슈트",
+"by": "name"
+},
+{
+"id": 1047042,
+"en": "Black Blazer",
+"ko": "검은 정장",
+"by": "name"
+},
+{
+"id": 1047043,
+"en": "Orange Baseball Jacket",
+"ko": "주황색 야구점퍼",
+"by": "name"
+},
+{
+"id": 1047044,
+"en": "Old School Blazer",
+"ko": "복고교복 상의",
+"by": "name"
+},
+{
+"id": 1047045,
+"en": "Red Rider",
+"ko": "레드 라이더",
+"by": "name"
+},
+{
+"id": 1047046,
+"en": "Shine Rider",
+"ko": "샤인 라이더",
+"by": "name"
+},
+{
+"id": 1047047,
+"en": "Dark Rider",
+"ko": "다크 라이더",
+"by": "name"
+},
+{
+"id": 1047048,
+"en": "Blue Striped Trainer",
+"ko": "백수 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047049,
+"en": "Green Striped Trainer",
+"ko": "새마을 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047050,
+"en": "Orange Striped Trainer",
+"ko": "관급 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047051,
+"en": "Green Disco Shirt",
+"ko": "와싱톤 상의",
+"by": "name"
+},
+{
+"id": 1047052,
+"en": "Orange Disco Shirt",
+"ko": "엘레이 상의",
+"by": "name"
+},
+{
+"id": 1047053,
+"en": "Original Disco Shirt",
+"ko": "교련 상의",
+"by": "name"
+},
+{
+"id": 1047054,
+"en": "Wild Top",
+"ko": "와일드 상의",
+"by": "name"
+},
+{
+"id": 1047055,
+"en": "Brown Wild Top",
+"ko": "와일드 와일드 상의",
+"by": "name"
+},
+{
+"id": 1047056,
+"en": "Red Wild Top",
+"ko": "블러디 와일드 상의",
+"by": "name"
+},
+{
+"id": 1047057,
+"en": "Pre-School Uniform Top",
+"ko": "유치원 옷 상의",
+"by": "name"
+},
+{
+"id": 1047058,
+"en": "Skull T-Shirt",
+"ko": "해골 티셔츠",
+"by": "name"
+},
+{
+"id": 1047060,
+"en": "Ragged Top",
+"ko": "누더기 상의",
+"by": "name"
+},
+{
+"id": 1047061,
+"en": "Crusader T-Shirt",
+"ko": "레드 크로스 티셔츠",
+"by": "name"
+},
+{
+"id": 1047062,
+"en": "Military Cargo Jacket",
+"ko": "밀리카고 자켓",
+"by": "name"
+},
+{
+"id": 1047065,
+"en": "Red Casual Suit",
+"ko": "레드 캐쥬얼슈트",
+"by": "name"
+},
+{
+"id": 1047066,
+"en": "Green Tie Casual Suit",
+"ko": "그린타이 캐쥬얼슈트",
+"by": "name"
+},
+{
+"id": 1047067,
+"en": "Pink Tie Casual Suit",
+"ko": "핑크타이 캐쥬얼슈트",
+"by": "name"
+},
+{
+"id": 1047069,
+"en": "Blue Frill Blouse",
+"ko": "파란 프릴 블라우스",
+"by": "name"
+},
+{
+"id": 1047070,
+"en": "Blue Sailor Shirt",
+"ko": "파란 세일러 셔츠",
+"by": "name"
+},
+{
+"id": 1047071,
+"en": "Pink Mimi Blouse",
+"ko": "핑크색 미미 블라우스",
+"by": "name"
+},
+{
+"id": 1047072,
+"en": "Red Sailor Shirt",
+"ko": "빨간 세일러 셔츠",
+"by": "name"
+},
+{
+"id": 1047073,
+"en": "Pre-School Uniform Top",
+"ko": "유치원 옷 상의",
+"by": "name"
+},
+{
+"id": 1047074,
+"en": "Pink Top",
+"ko": "핑크탑",
+"by": "name"
+},
+{
+"id": 1047075,
+"en": "Old School Uniform Top",
+"ko": "복고교복 상의",
+"by": "name"
+},
+{
+"id": 1047076,
+"en": "Red Trainer Jacket",
+"ko": "빨간색 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047077,
+"en": "Sky Blue Trainer Jacket",
+"ko": "하늘색 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047078,
+"en": "Pink Trainer Jacket",
+"ko": "분홍색 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047079,
+"en": "Black Trainer Jacket",
+"ko": "검은색 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047080,
+"en": "Pink Frill Pajama Top",
+"ko": "핑크프릴 파자마 상의",
+"by": "name"
+},
+{
+"id": 1047082,
+"en": "Rainbow Knit",
+"ko": "레인보우 니트",
+"by": "name"
+},
+{
+"id": 1047083,
+"en": "Heart Sleeveless",
+"ko": "하트 슬리브리스",
+"by": "name"
+},
+{
+"id": 1047084,
+"en": "Cross Sleeveless",
+"ko": "크로스 슬리브리스",
+"by": "name"
+},
+{
+"id": 1047085,
+"en": "Yellow Frill Camisole",
+"ko": "옐로우 프릴 슬리브리스",
+"by": "name"
+},
+{
+"id": 1047086,
+"en": "Blue Frill Camisole",
+"ko": "블루 프릴 슬리브리스",
+"by": "name"
+},
+{
+"id": 1047087,
+"en": "Pink Ribboned Janie",
+"ko": "핑크 프릴 반소매",
+"by": "name"
+},
+{
+"id": 1047088,
+"en": "White Collared Shirt",
+"ko": "화이트 피케T",
+"by": "name"
+},
+{
+"id": 1047089,
+"en": "Pink Down Parka",
+"ko": "핑크 다운파카",
+"by": "name"
+},
+{
+"id": 1047090,
+"en": "Orange Hooded Shirt",
+"ko": "오렌지 후드티",
+"by": "name"
+},
+{
+"id": 1047091,
+"en": "Cherry Layered T",
+"ko": "레이어드 체리티",
+"by": "name"
+},
+{
+"id": 1047092,
+"en": "Black Cardigan Set",
+"ko": "블랙 가디건 세트",
+"by": "name"
+},
+{
+"id": 1047093,
+"en": "Tourist T",
+"ko": "포토그래퍼 터틀넥",
+"by": "name"
+},
+{
+"id": 1047094,
+"en": "Pelvis Hoodie",
+"ko": "하트포켓 화이트패딩",
+"by": "name"
+},
+{
+"id": 1047095,
+"en": "Red Hooded Coat",
+"ko": "히피스타일 와인점퍼",
+"by": "name"
+},
+{
+"id": 1047096,
+"en": "Superstar Hoodie",
+"ko": "빅스타 후드티",
+"by": "name"
+},
+{
+"id": 1047097,
+"en": "Black \"Hit Me\" Shirt",
+"ko": "블랙 나염 과녁티",
+"by": "name"
+},
+{
+"id": 1047098,
+"en": "Loose Fit Sweater",
+"ko": "루즈핏 니트",
+"by": "name"
+},
+{
+"id": 1047099,
+"en": "Pink Bunny Sweater",
+"ko": "핑크바니 스웨터",
+"by": "name"
+},
+{
+"id": 1047100,
+"en": "Red Check Rider",
+"ko": "레드체크 라이더",
+"by": "name"
+},
+{
+"id": 1047104,
+"en": "Prep School Uniform",
+"ko": "엘리트 학생복 상의",
+"by": "name"
+},
+{
+"id": 1047105,
+"en": "Long Blue Shirt",
+"ko": "롱 셔츠",
+"by": "name"
+},
+{
+"id": 1047106,
+"en": "Orange Puffy Jacket",
+"ko": "트레이닝웨어",
+"by": "name"
+},
+{
+"id": 1047107,
+"en": "Muscle Man T",
+"ko": "근육맨",
+"by": "name"
+},
+{
+"id": 1047108,
+"en": "Tania Tailored Jacket",
+"ko": "타니아 테일러 자켓",
+"by": "name"
+},
+{
+"id": 1047109,
+"en": "Mercury Leather Jacket",
+"ko": "머큐리 가죽 자켓",
+"by": "name"
+},
+{
+"id": 1047111,
+"en": "Bulletproof Vest",
+"ko": "아이돌스타 베스트",
+"by": "name"
+},
+{
+"id": 1047112,
+"en": "Cowboy Shirt",
+"ko": "카우보이 셔츠",
+"by": "name"
+},
+{
+"id": 1047113,
+"en": "Sky Blue Mimi Blouse",
+"ko": "하늘색 미미 블라우스",
+"by": "name"
+},
+{
+"id": 1047114,
+"en": "Yellow Mimi Blouse",
+"ko": "노란색 미미 블라우스",
+"by": "name"
+},
+{
+"id": 1047115,
+"en": "SF Ninja Top",
+"ko": "SF 망토 티셔츠",
+"by": "name"
+},
+{
+"id": 1047116,
+"en": "Pink Frill Camisole",
+"ko": "프린즈 캐미솔",
+"by": "name"
+},
+{
+"id": 1047117,
+"en": "Grey Cardigan",
+"ko": "앙고라 가디건",
+"by": "name"
+},
+{
+"id": 1047118,
+"en": "Angora Mustang",
+"ko": "앙고라 무스탕",
+"by": "name"
+},
+{
+"id": 1047119,
+"en": "Tube-Top Jacket",
+"ko": "튜브탑 자켓",
+"by": "name"
+},
+{
+"id": 1047120,
+"en": "Pink Vest Blouse",
+"ko": "핑크 베스트 블라우스",
+"by": "name"
+},
+{
+"id": 1047121,
+"en": "Pink-Dotted Top",
+"ko": "핑크 도트 탑",
+"by": "name"
+},
+{
+"id": 1047122,
+"en": "Tania Bolero",
+"ko": "타니아 볼레로 자켓",
+"by": "name"
+},
+{
+"id": 1047123,
+"en": "Mercury Leather Jacket",
+"ko": "머큐리 가죽 자켓",
+"by": "name"
+},
+{
+"id": 1047125,
+"en": "Ribbon Frilled top",
+"ko": "아이돌스타 리본탑",
+"by": "name"
+},
+{
+"id": 1047126,
+"en": "Cowgirl Shirt",
+"ko": "카우걸 셔츠",
+"by": "name"
+},
+{
+"id": 1047127,
+"en": "Starry Layered Combo",
+"ko": "별 티셔츠",
+"by": "name"
+},
+{
+"id": 1047128,
+"en": "Blue B-Ball Jersey",
+"ko": "SK 농구복 상의",
+"by": "name"
+},
+{
+"id": 1047129,
+"en": "Orange B-Ball Jersey",
+"ko": "KTF 농구복 상의",
+"by": "name"
+},
+{
+"id": 1047130,
+"en": "Octopus T-Shirt",
+"ko": "옥토퍼스 티셔츠",
+"by": "name"
+},
+{
+"id": 1047131,
+"en": "Star-Patterned Yellow Shirt",
+"ko": "빈티지 옐로우 남방",
+"by": "name"
+},
+{
+"id": 1047132,
+"en": "Purple Star Shirt",
+"ko": "빈티지 퍼플 남방",
+"by": "name"
+},
+{
+"id": 1047133,
+"en": "Short Denim Jacket",
+"ko": "네이비 테일러 자켓",
+"by": "name"
+},
+{
+"id": 1047134,
+"en": "Baseball Jumper",
+"ko": "야구점퍼",
+"by": "name"
+},
+{
+"id": 1047135,
+"en": "Bomber Jacket",
+"ko": "봄버 점퍼",
+"by": "name"
+},
+{
+"id": 1047136,
+"en": "Blue Down Parka",
+"ko": "블루 다운파카",
+"by": "name"
+},
+{
+"id": 1047137,
+"en": "Blue Wool Jacket",
+"ko": "파란 모직자켓",
+"by": "name"
+},
+{
+"id": 1047138,
+"en": "Pink Wool Jacket",
+"ko": "분홍 모직자켓",
+"by": "name"
+},
+{
+"id": 1047139,
+"en": "Beat Shirt",
+"ko": "비트셔츠",
+"by": "name"
+},
+{
+"id": 1047140,
+"en": "Red Half",
+"ko": "반전_빨강",
+"by": "name"
+},
+{
+"id": 1047141,
+"en": "Preppy Red and White",
+"ko": "숄트레이너",
+"by": "name"
+},
+{
+"id": 1047142,
+"en": "Pola Sweater",
+"ko": "폴라스웨터",
+"by": "name"
+},
+{
+"id": 1047143,
+"en": "Ball Zone Jumper",
+"ko": "불존점퍼",
+"by": "name"
+},
+{
+"id": 1047144,
+"en": "Stitched Leather Jacket",
+"ko": "스티치 가죽자켓",
+"by": "name"
+},
+{
+"id": 1047145,
+"en": "Red Turtleneck Sweater",
+"ko": "빨간 터틀넥 스웨터",
+"by": "name"
+},
+{
+"id": 1047148,
+"en": "Orange Hooded Zip-Up",
+"ko": "땡땡이 후드짚업",
+"by": "name"
+},
+{
+"id": 1047149,
+"en": "Drill Muffler",
+"ko": "드릴 머플러",
+"by": "name"
+},
+{
+"id": 1047150,
+"en": "Pink Big-Belt Shirt",
+"ko": "빅벨트 셔츠-분홍",
+"by": "name"
+},
+{
+"id": 1047151,
+"en": "Sky Blue Big-Belt Shirt",
+"ko": "빅벨트 셔츠-하늘",
+"by": "name"
+},
+{
+"id": 1047152,
+"en": "Pastel Layered Hooded Shirt",
+"ko": "파스텔 레이어드 후드티",
+"by": "name"
+},
+{
+"id": 1047153,
+"en": "Red Layered Hooded Shirt",
+"ko": "빨간 레이어드 후드티",
+"by": "name"
+},
+{
+"id": 1047154,
+"en": "Navy Blue Dress Shirt",
+"ko": "네이비 반팔 재킷",
+"by": "name"
+},
+{
+"id": 1047155,
+"en": "White Longsleeve With Star",
+"ko": "별은 내 가슴에",
+"by": "name"
+},
+{
+"id": 1047156,
+"en": "Pink Pluto T",
+"ko": "외계인 레글런티",
+"by": "name"
+},
+{
+"id": 1047157,
+"en": "Dotted Disco Shirt",
+"ko": "레트로 도트 셔츠",
+"by": "name"
+},
+{
+"id": 1047158,
+"en": "Rainbow T",
+"ko": "화이트 스트라이프 나시",
+"by": "name"
+},
+{
+"id": 1047159,
+"en": "White & Blue Sailor Top",
+"ko": "네이비 블루 나시",
+"by": "name"
+},
+{
+"id": 1047160,
+"en": "Red Hot Racer T",
+"ko": "심플 레드&화이트티",
+"by": "name"
+},
+{
+"id": 1047161,
+"en": "Rainbow Hooded Pancho",
+"ko": "큐티 후드 판쵸",
+"by": "name"
+},
+{
+"id": 1047162,
+"en": "Army General Hoodie",
+"ko": "밀리터리룩 후드조끼",
+"by": "name"
+},
+{
+"id": 1047163,
+"en": "Canary Heart T",
+"ko": "큐티 하트티",
+"by": "name"
+},
+{
+"id": 1047164,
+"en": "Skull Shirt",
+"ko": "그래피티 해골티",
+"by": "name"
+},
+{
+"id": 1047165,
+"en": "Black Skull Hooded Vest",
+"ko": "블랙 해골 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047166,
+"en": "Blue Skull Hooded Vest",
+"ko": "블루 해골 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047167,
+"en": "Red Skull Hooded Vest",
+"ko": "레드 해골 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047168,
+"en": "Pink Skull Hooded Vest",
+"ko": "핑크 해골 후드 조끼",
+"by": "name"
+},
+{
+"id": 1047169,
+"en": "Pointed Double Coat",
+"ko": "포인트 더블 코트",
+"by": "name"
+},
+{
+"id": 1047170,
+"en": "Orange Snowflake Sweater",
+"ko": "스노우플레이크 스웨터",
+"by": "name"
+},
+{
+"id": 1047171,
+"en": "Vintage Hooded Shirt",
+"ko": "빈티지 후드자켓",
+"by": "name"
+},
+{
+"id": 1047172,
+"en": "M Shirt",
+"ko": "로고 티셔츠",
+"by": "name"
+},
+{
+"id": 1047173,
+"en": "Print Layered Hoody",
+"ko": "프린트 레이어드 후드티",
+"by": "name"
+},
+{
+"id": 1047174,
+"en": "Camo Hooded Jacket",
+"ko": "카모 후드 재킷",
+"by": "name"
+},
+{
+"id": 1047175,
+"en": "Striped Hooded Shirt",
+"ko": "블루 스트라이프 후드티",
+"by": "name"
+},
+{
+"id": 1047176,
+"en": "Checkered Casual Suit",
+"ko": "캐쥬얼 체크 슈트",
+"by": "name"
+},
+{
+"id": 1047177,
+"en": "Blanc Rose Top",
+"ko": "레드 타이 셔츠",
+"by": "name"
+},
+{
+"id": 1047178,
+"en": "Aqua Road Shirt",
+"ko": "쿨 스트라이프티",
+"by": "name"
+},
+{
+"id": 1047179,
+"en": "White Outlaw Shirt",
+"ko": "화이트 머플러티",
+"by": "name"
+},
+{
+"id": 1047180,
+"en": "Lime Green Sleeveless",
+"ko": "베이직 그린티",
+"by": "name"
+},
+{
+"id": 1047181,
+"en": "Crown Hooded T",
+"ko": "크라운 후드티",
+"by": "name"
+},
+{
+"id": 1047182,
+"en": "Rainbow-Striped Hoodie",
+"ko": "삼색 스트라이프 후드티",
+"by": "name"
+},
+{
+"id": 1047183,
+"en": "Pink Flower T-shirt",
+"ko": "샤랄라 꽃티",
+"by": "name"
+},
+{
+"id": 1047184,
+"en": "Purple Tank",
+"ko": "스팽글 나시",
+"by": "name"
+},
+{
+"id": 1047185,
+"en": "Yellow & Red-Striped Jacket",
+"ko": "레드라인 블랙점퍼",
+"by": "name"
+},
+{
+"id": 1047186,
+"en": "Orange Pea Coat",
+"ko": "레드패턴 후들카라",
+"by": "name"
+},
+{
+"id": 1047187,
+"en": "Green Baseball Jacket",
+"ko": "투톤 야구점퍼",
+"by": "name"
+},
+{
+"id": 1047188,
+"en": "Red Checkered Shirt",
+"ko": "레드루비 체크셔츠",
+"by": "name"
+},
+{
+"id": 1047189,
+"en": "Vintage Muffler Jacket",
+"ko": "빈티지 머플러 자켓",
+"by": "name"
+},
+{
+"id": 1047190,
+"en": "Celeste Blue Double Coat",
+"ko": "셀레스트블루 더블코트",
+"by": "name"
+},
+{
+"id": 1047191,
+"en": "Opera Pink Double Coat",
+"ko": "오페라핑크 더블코트",
+"by": "name"
+},
+{
+"id": 1047192,
+"en": "Bowtie Jacket",
+"ko": "보우타이 셔츠",
+"by": "name"
+},
+{
+"id": 1047193,
+"en": "Yellow Longsleeve with Bunny Bag",
+"ko": "토끼가방 메고",
+"by": "name"
+},
+{
+"id": 1047194,
+"en": "Red and Black Blazer",
+"ko": "체리 트레이닝 점퍼",
+"by": "name"
+},
+{
+"id": 1047195,
+"en": "Green Suspenders",
+"ko": "화이트루즈 멜빵",
+"by": "name"
+},
+{
+"id": 1047196,
+"en": "Apple-Green Sweater",
+"ko": "애플그린 후디",
+"by": "name"
+},
+{
+"id": 1047197,
+"en": "\"Black Tie Affair\" Dress Shirt",
+"ko": "블랙 댄디 셔츠",
+"by": "name"
+},
+{
+"id": 1047198,
+"en": "Gold Chainz",
+"ko": "럭셔리 골드체인 티셔츠",
+"by": "name"
+},
+{
+"id": 1047199,
+"en": "Preppy Black Vest",
+"ko": "댄디 캐쥬얼 조끼",
+"by": "name"
+},
+{
+"id": 1047200,
+"en": "Aqua Green Star",
+"ko": "에메랄드 그린 별티",
+"by": "name"
+},
+{
+"id": 1047201,
+"en": "Striped Hoodie Shirt",
+"ko": "베이직하우스 스트라이프 반팔티",
+"by": "name"
+},
+{
+"id": 1047202,
+"en": "Yellow Shirt with Pads",
+"ko": "아루 반팔티",
+"by": "name"
+},
+{
+"id": 1047203,
+"en": "Dark Master Sergeant for Transformation",
+"ko": "변신용 다크 마스터 서전트",
+"by": "name"
+},
+{
+"id": 1047204,
+"en": "Red Legolesse for Transformation",
+"ko": "변신용 레드 레골리스",
+"by": "name"
+},
+{
+"id": 1047205,
+"en": "Dark Tech Top",
+"ko": "변신용 흑야",
+"by": "name"
+},
+{
+"id": 1047206,
+"en": "The White Tee",
+"ko": "바캉스 화이트 나시",
+"by": "name"
+},
+{
+"id": 1047207,
+"en": "Slick Agent Top",
+"ko": "선글라스 셔츠",
+"by": "name"
+},
+{
+"id": 1047208,
+"en": "Rainbow Top",
+"ko": "레인보우 탑",
+"by": "name"
+},
+{
+"id": 1047209,
+"en": "Disco Tank Top",
+"ko": "블루윙 머플러 티",
+"by": "name"
+},
+{
+"id": 1047210,
+"en": "Checkered Resort Shirt",
+"ko": "바캉스 체크남방",
+"by": "name"
+},
+{
+"id": 1047211,
+"en": "Layered Duckie T",
+"ko": "큐티 오리티",
+"by": "name"
+},
+{
+"id": 1047212,
+"en": "Preppy Knit Vest",
+"ko": "스마트 니트조끼",
+"by": "name"
+},
+{
+"id": 1047213,
+"en": "80's Knit Pullover",
+"ko": "빈티지 니트 풀오버",
+"by": "name"
+},
+{
+"id": 1047214,
+"en": "Brown Argyle Sweater",
+"ko": "레몬브라운 니트셔츠",
+"by": "name"
+},
+{
+"id": 1047215,
+"en": "Rainbow Knitted Top",
+"ko": "멀티컬러니트",
+"by": "name"
+},
+{
+"id": 1047216,
+"en": "Red Plaid Duffle Coat",
+"ko": "레드체크더플코트",
+"by": "name"
+},
+{
+"id": 1047217,
+"en": "Bohemian Hooded Jacket",
+"ko": "보헤미안 후드점퍼",
+"by": "name"
+},
+{
+"id": 1047218,
+"en": "Sky Rider Jacket",
+"ko": "스카이 라이더 자켓",
+"by": "name"
+},
+{
+"id": 1047219,
+"en": "Galaxy T-Shirt",
+"ko": "은하수 반팔티",
+"by": "name"
+},
+{
+"id": 1047220,
+"en": "Lovely Pink Heart T-Shirt",
+"ko": "러블리 핑크하트티",
+"by": "name"
+},
+{
+"id": 1047221,
+"en": "Monotone Jacket",
+"ko": "모노톤 점퍼",
+"by": "name"
+},
+{
+"id": 1047222,
+"en": "Navy Hoodie",
+"ko": "블루체크 후디",
+"by": "name"
+},
+{
+"id": 1047223,
+"en": "Yellow Spring Jacket",
+"ko": "봄의 질투",
+"by": "name"
+},
+{
+"id": 1047225,
+"en": "Pink Heart T-Shirt & Muffler",
+"ko": "아로하 핑크 하트티",
+"by": "name"
+},
+{
+"id": 1047226,
+"en": "Green Tie & Shirt",
+"ko": "그린 타이 셔츠",
+"by": "name"
+},
+{
+"id": 1047227,
+"en": "Pink Bowtie & White Vest",
+"ko": "핑크 보우타이 하프셔츠",
+"by": "name"
+},
+{
+"id": 1047229,
+"en": "Lightning T-Shirt",
+"ko": "번쩍번개티",
+"by": "name"
+},
+{
+"id": 1047230,
+"en": "Rainbow Tie-Dye Shirt",
+"ko": "레인보우 타겟티",
+"by": "name"
+},
+{
+"id": 1047231,
+"en": "Super Summer Shirt",
+"ko": "쿨썸머셔츠",
+"by": "name"
+},
+{
+"id": 1047232,
+"en": "Preppy Blue Shirt",
+"ko": "럭셔리 큐트셔츠",
+"by": "name"
+},
+{
+"id": 1047233,
+"en": "Green Polo",
+"ko": "그린 스마트티",
+"by": "name"
+},
+{
+"id": 1047234,
+"en": "Camping Shirt",
+"ko": "캠핑셔츠",
+"by": "name"
+},
+{
+"id": 1047236,
+"en": "Vintage Hoodie Jacket",
+"ko": "빈티지 후디자켓",
+"by": "name"
+},
+{
+"id": 1047237,
+"en": "Puppy Tee",
+"ko": "퍼피 레글런티",
+"by": "name"
+},
+{
+"id": 1047238,
+"en": "Napoleon Jacket",
+"ko": "나폴레옹 자켓",
+"by": "name"
+},
+{
+"id": 1047240,
+"en": "Pink Argyle Plaid",
+"ko": "핑크 아가일체크",
+"by": "name"
+},
+{
+"id": 1047241,
+"en": "Tiger-Print Scarf & Top",
+"ko": "레오팟 머플러 탑",
+"by": "name"
+},
+{
+"id": 1047242,
+"en": "JM's Street Gear",
+"ko": "뒷골목 제이엠",
+"by": "name"
+},
+{
+"id": 1047245,
+"en": "Puffy Raglan Tee",
+"ko": "애플레글런T",
+"by": "name"
+},
+{
+"id": 1047247,
+"en": "Dual-Color Heart Tee",
+"ko": "듀얼 러브티",
+"by": "name"
+},
+{
+"id": 1047248,
+"en": "Padded Vest",
+"ko": "블루 베스트 코디",
+"by": "name"
+},
+{
+"id": 1047249,
+"en": "Rainbow Tee",
+"ko": "무지개 티셔츠",
+"by": "name"
+},
+{
+"id": 1047250,
+"en": "Pink Smiley Tee",
+"ko": "핑크 스마일 티셔츠",
+"by": "name"
+},
+{
+"id": 1047251,
+"en": "Blue Smiley Tee",
+"ko": "블루 스마일 티셔츠",
+"by": "name"
+},
+{
+"id": 1047252,
+"en": "Penguin Tee",
+"ko": "펭귄 티셔츠",
+"by": "name"
+},
+{
+"id": 1047253,
+"en": "Orange Scarf Tee",
+"ko": "오렌지 머플러티",
+"by": "name"
+},
+{
+"id": 1047254,
+"en": "Hamburger Tee",
+"ko": "햄버거 프린트T",
+"by": "name"
+},
+{
+"id": 1047255,
+"en": "Black Rider Jacket",
+"ko": "블랙 라이더 자켓",
+"by": "name"
+},
+{
+"id": 1047256,
+"en": "Star Trainer Jacket",
+"ko": "별무늬 트레이닝 상의",
+"by": "name"
+},
+{
+"id": 1047258,
+"en": "Mustang Vest Green Tee",
+"ko": "무스탕 조끼 그린T",
+"by": "name"
+},
+{
+"id": 1047259,
+"en": "Mustang Vest Pink Tee",
+"ko": "무스탕 조끼 핑크T",
+"by": "name"
+},
+{
+"id": 1047260,
+"en": "Blue Spring Jacket",
+"ko": "파란색 노르딕 베스트",
+"by": "name"
+},
+{
+"id": 1047261,
+"en": "Pink Spring Jacket",
+"ko": "분홍색 노르딕 베스트",
+"by": "name"
+},
+{
+"id": 1047262,
+"en": "Spring Sweater Set",
+"ko": "밀키 레인보우",
+"by": "name"
+},
+{
+"id": 1047263,
+"en": "Jester Sweater",
+"ko": "아메리칸 드림",
+"by": "name"
+},
+{
+"id": 1047264,
+"en": "Red Viva Baseball",
+"ko": "비바 베이스볼 레드",
+"by": "name"
+},
+{
+"id": 1047265,
+"en": "Black Viva Baseball",
+"ko": "비바 베이스볼 블랙",
+"by": "name"
+},
+{
+"id": 1047266,
+"en": "Raspberry Candy T-Shirt",
+"ko": "라즈베리 별사탕T",
+"by": "name"
+},
+{
+"id": 1047267,
+"en": "Blue Stars T-Shirt",
+"ko": "블루베리 별사탕T",
+"by": "name"
+},
+{
+"id": 1047269,
+"en": "Lemon Freshness",
+"ko": "레몬봉봉",
+"by": "name"
+},
+{
+"id": 1047270,
+"en": "Cutie Raincoat",
+"ko": "빗방울 쏟아지면",
+"by": "name"
+},
+{
+"id": 1047272,
+"en": "Rabbit Top",
+"ko": "앨리스 토끼 상의",
+"by": "name"
+},
+{
+"id": 1047273,
+"en": "Green Apple Sweater",
+"ko": "애플그린 스웨터",
+"by": "name"
+},
+{
+"id": 1047274,
+"en": "Gold Tailor Vest",
+"ko": "골든 테일러 베스트",
+"by": "name"
+},
+{
+"id": 1047275,
+"en": "Colorful T-Shirt",
+"ko": "노을다솜 반팔티",
+"by": "name"
+},
+{
+"id": 1047276,
+"en": "Flying Violet",
+"ko": "플라잉 바이올렛",
+"by": "name"
+},
+{
+"id": 1047277,
+"en": "Summer Picnic",
+"ko": "썸머 피크닉",
+"by": "name"
+},
+{
+"id": 1047280,
+"en": "Strawberry Shirt",
+"ko": "딸기셔츠",
+"by": "name"
+},
+{
+"id": 1047281,
+"en": "Exciting Hoodie",
+"ko": "두근두근 후디",
+"by": "name"
+},
+{
+"id": 1047282,
+"en": "Ribbon Days",
+"ko": "리본 데이즈",
+"by": "name"
+},
+{
+"id": 1047283,
+"en": "Meow T-shirt",
+"ko": "냐옹냐옹 티셔츠",
+"by": "name"
+},
+{
+"id": 1047284,
+"en": "Frog Raindrop",
+"ko": "개구리 빗방울",
+"by": "name"
+},
+{
+"id": 1047286,
+"en": "Hun T-Shirt",
+"ko": "훈 티셔츠",
+"by": "name"
+},
+{
+"id": 1047287,
+"en": "Min T-Shirt",
+"ko": "민 티셔츠",
+"by": "name"
+},
+{
+"id": 1047288,
+"en": "Jeong T-Shirt",
+"ko": "정 티셔츠",
+"by": "name"
+},
+{
+"id": 1047289,
+"en": "Eum T-Shirt",
+"ko": "음 티셔츠",
+"by": "name"
+},
+{
+"id": 1047290,
+"en": "Pastel Dot Tee",
+"ko": "파스텔 도트티",
+"by": "name"
+},
+{
+"id": 1055000,
+"en": "Red Swimming Trunk",
+"ko": "빨간색 수영복",
+"by": "name"
+},
+{
+"id": 1055001,
+"en": "Blue Swimming Trunk",
+"ko": "파란색 수영복",
+"by": "name"
+},
+{
+"id": 1055002,
+"en": "Boxing Trunks",
+"ko": "복싱 트렁크",
+"by": "name"
+},
+{
+"id": 1056000,
+"en": "White Swimming Suit",
+"ko": "흰색 수영복",
+"by": "name"
+},
+{
+"id": 1056001,
+"en": "Red Swimming Suit",
+"ko": "빨간색 수영복",
+"by": "name"
+},
+{
+"id": 1056002,
+"en": "Blue Swimming Suit",
+"ko": "파란색 수영복",
+"by": "name"
+},
+{
+"id": 1056003,
+"en": "Pink Strapless Bikini",
+"ko": "핑크 큐티 비키니",
+"by": "name"
+},
+{
+"id": 1056004,
+"en": "Blue Strapless Bikini",
+"ko": "블루 큐티 비키니",
+"by": "name"
+},
+{
+"id": 1057000,
+"en": "Recycled Box",
+"ko": "재생지 박스",
+"by": "name"
+},
+{
+"id": 1057002,
+"en": "Cardboard Box",
+"ko": "골판지 박스",
+"by": "name"
+},
+{
+"id": 1057003,
+"en": "Blue Chinese Undead Costume",
+"ko": "파란색 강시옷",
+"by": "name"
+},
+{
+"id": 1057004,
+"en": "Maroon Chinese Undead Costume",
+"ko": "자주색 강시옷",
+"by": "name"
+},
+{
+"id": 1057005,
+"en": "Yellow Raincoat",
+"ko": "노란색 우비",
+"by": "name"
+},
+{
+"id": 1057006,
+"en": "Sky Blue Raincoat",
+"ko": "하늘색 우비",
+"by": "name"
+},
+{
+"id": 1057007,
+"en": "Red Raincoat",
+"ko": "빨간색 우비",
+"by": "name"
+},
+{
+"id": 1057008,
+"en": "Green Raincoat",
+"ko": "연두색 우비",
+"by": "name"
+},
+{
+"id": 1057009,
+"en": "Orange Overall",
+"ko": "오렌지 오버롤",
+"by": "name"
+},
+{
+"id": 1057010,
+"en": "Pink Overall",
+"ko": "핑크 오버롤",
+"by": "name"
+},
+{
+"id": 1057011,
+"en": "Blue Overall",
+"ko": "블루 오버롤",
+"by": "name"
+},
+{
+"id": 1057012,
+"en": "Green Overall",
+"ko": "그린 오버롤",
+"by": "name"
+},
+{
+"id": 1057013,
+"en": "Graduation Gown",
+"ko": "졸업가운",
+"by": "name"
+},
+{
+"id": 1057014,
+"en": "Ducky Costume",
+"ko": "오리 인형옷",
+"by": "name"
+},
+{
+"id": 1057015,
+"en": "Orange Life Jacket",
+"ko": "주황색 구명조끼",
+"by": "name"
+},
+{
+"id": 1057016,
+"en": "Green Life Jacket",
+"ko": "초록색 구명조끼",
+"by": "name"
+},
+{
+"id": 1057017,
+"en": "Blue Life Jacket",
+"ko": "파란색 구명조끼",
+"by": "name"
+},
+{
+"id": 1057018,
+"en": "Denim Overall",
+"ko": "청 멜빵바지",
+"by": "name"
+},
+{
+"id": 1057019,
+"en": "Premium Trenchcoat",
+"ko": "바바리 정장",
+"by": "name"
+},
+{
+"id": 1057020,
+"en": "Toga",
+"ko": "천사의 옷",
+"by": "name"
+},
+{
+"id": 1057021,
+"en": "Reindeer Suit",
+"ko": "루돌프 인형옷",
+"by": "name"
+},
+{
+"id": 1057023,
+"en": "Blue Officer Uniform",
+"ko": "푸른 패션제복",
+"by": "name"
+},
+{
+"id": 1057024,
+"en": "Grey Skull Overall",
+"ko": "회색 뼈다귀 옷",
+"by": "name"
+},
+{
+"id": 1057025,
+"en": "Red Skull Overall",
+"ko": "빨간색 뼈다귀 옷",
+"by": "name"
+},
+{
+"id": 1057026,
+"en": "Green Skull Overall",
+"ko": "초록색 뼈다귀 옷",
+"by": "name"
+},
+{
+"id": 1057027,
+"en": "Blue Skull Overall",
+"ko": "파란색 뼈다귀 옷",
+"by": "name"
+},
+{
+"id": 1057028,
+"en": "Orange Skull Overall",
+"ko": "주황색 뼈다귀 옷",
+"by": "name"
+},
+{
+"id": 1057029,
+"en": "Yellow Tights",
+"ko": "전설의 타이즈",
+"by": "name"
+},
+{
+"id": 1057030,
+"en": "Silver Officer Uniform",
+"ko": "은빛 패션제복",
+"by": "name"
+},
+{
+"id": 1057031,
+"en": "Black Officer Uniform",
+"ko": "검은 패션제복",
+"by": "name"
+},
+{
+"id": 1057032,
+"en": "Red Officer Uniform",
+"ko": "붉은 패션제복",
+"by": "name"
+},
+{
+"id": 1057033,
+"en": "Fine Brown Hanbok",
+"ko": "갈색 한복",
+"by": "name"
+},
+{
+"id": 1057034,
+"en": "Fine Black Hanbok",
+"ko": "검은색 한복",
+"by": "name"
+},
+{
+"id": 1057035,
+"en": "Fine Blue Hanbok",
+"ko": "파란색 한복",
+"by": "name"
+},
+{
+"id": 1057036,
+"en": "Dark Suit",
+"ko": "다크 슈트",
+"by": "name"
+},
+{
+"id": 1057038,
+"en": "Blue Celebration Hanbok",
+"ko": "파란색 설날한복",
+"by": "name"
+},
+{
+"id": 1057039,
+"en": "Green Celebration Hanbok",
+"ko": "초록색 설날한복",
+"by": "name"
+},
+{
+"id": 1057040,
+"en": "Black Coat of Death",
+"ko": "저승사자 한복",
+"by": "name"
+},
+{
+"id": 1057041,
+"en": "Red M-Forcer",
+"ko": "메소레인저 레드",
+"by": "name"
+},
+{
+"id": 1057042,
+"en": "Blue M-Forcer",
+"ko": "메소레인저 블루",
+"by": "name"
+},
+{
+"id": 1057043,
+"en": "Green M-Forcer",
+"ko": "메소레인저 그린",
+"by": "name"
+},
+{
+"id": 1057044,
+"en": "Black M-Forcer",
+"ko": "메소레인저 블랙",
+"by": "name"
+},
+{
+"id": 1057045,
+"en": "Green Picnicwear",
+"ko": "연두색 나들이옷",
+"by": "name"
+},
+{
+"id": 1057046,
+"en": "Sky Blue Picnicwear",
+"ko": "하늘색 나들이옷",
+"by": "name"
+},
+{
+"id": 1057047,
+"en": "Wedding Tuxedo",
+"ko": "웨딩 연미복",
+"by": "name"
+},
+{
+"id": 1057048,
+"en": "Race Ace Suit",
+"ko": "카레이싱복",
+"by": "name"
+},
+{
+"id": 1057049,
+"en": "Cat Suit",
+"ko": "고양이 옷",
+"by": "name"
+},
+{
+"id": 1057052,
+"en": "Dark Enamel Suit",
+"ko": "다크 에나멜 슈트",
+"by": "name"
+},
+{
+"id": 1057053,
+"en": "Witch Clothes",
+"ko": "마녀 옷",
+"by": "name"
+},
+{
+"id": 1057054,
+"en": "Mrs. Claus Costume",
+"ko": "산타옷",
+"by": "name"
+},
+{
+"id": 1057055,
+"en": "Blue Celebration Hanbok Dress",
+"ko": "파란색 설날한복",
+"by": "name"
+},
+{
+"id": 1057056,
+"en": "Pink Celebration Hanbok Dress",
+"ko": "분홍색 설날한복",
+"by": "name"
+},
+{
+"id": 1057057,
+"en": "Bunny Costume",
+"ko": "토끼 인형옷",
+"by": "name"
+},
+{
+"id": 1057058,
+"en": "Ghost Suit",
+"ko": "소복",
+"by": "name"
+},
+{
+"id": 1057059,
+"en": "Ragged Hanbok",
+"ko": "누더기 한복",
+"by": "name"
+},
+{
+"id": 1057060,
+"en": "Pink M-Forcer",
+"ko": "메소레인저 핑크",
+"by": "name"
+},
+{
+"id": 1057061,
+"en": "Yellow M-Forcer",
+"ko": "메소레인저 옐로우",
+"by": "name"
+},
+{
+"id": 1057062,
+"en": "Black M-Forcer",
+"ko": "메소레인저 블랙",
+"by": "name"
+},
+{
+"id": 1057064,
+"en": "Yellow Picnic Dress",
+"ko": "노란색 나들이 원피스",
+"by": "name"
+},
+{
+"id": 1057065,
+"en": "Purple Frill One Piece",
+"ko": "퍼플 프릴 원피스",
+"by": "name"
+},
+{
+"id": 1057066,
+"en": "Blue Frill One Piece",
+"ko": "블루 프릴 원피스",
+"by": "name"
+},
+{
+"id": 1057067,
+"en": "Boxing Gear",
+"ko": "복싱 트렁크",
+"by": "name"
+},
+{
+"id": 1057068,
+"en": "Wedding Dress",
+"ko": "웨딩 드레스",
+"by": "name"
+},
+{
+"id": 1057069,
+"en": "Race Queen Uniform",
+"ko": "레이싱걸 유니폼",
+"by": "name"
+},
+{
+"id": 1057070,
+"en": "Flight Attendant Uniform",
+"ko": "스튜어디스 유니폼",
+"by": "name"
+},
+{
+"id": 1057071,
+"en": "Tropical Dress",
+"ko": "트로피컬 드레스",
+"by": "name"
+},
+{
+"id": 1057072,
+"en": "Violet Strapless Dress",
+"ko": "바이올렛 튜닉",
+"by": "name"
+},
+{
+"id": 1057088,
+"en": "Brown Casual Look",
+"ko": "브라운 캐쥬얼룩",
+"by": "name"
+},
+{
+"id": 1057089,
+"en": "Blue Kitty Hood",
+"ko": "냐옹이 롱후디",
+"by": "name"
+},
+{
+"id": 1057091,
+"en": "Sailor Outfit",
+"ko": "세일러복",
+"by": "name"
+},
+{
+"id": 1057092,
+"en": "Splash Choco Boy",
+"ko": "퐁당 초코보이",
+"by": "name"
+},
+{
+"id": 1057093,
+"en": "White Ribboned Sailor Dress",
+"ko": "하얀리본 세일러복",
+"by": "name"
+},
+{
+"id": 1057094,
+"en": "Black Fur Wrap Coat",
+"ko": "블랙 알파카 롱코트",
+"by": "name"
+},
+{
+"id": 1057095,
+"en": "Kitty Hoodie",
+"ko": "냐옹이 롱후디",
+"by": "name"
+},
+{
+"id": 1057097,
+"en": "Purple Dorothy Dress",
+"ko": "퍼플 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057098,
+"en": "Splash Choco Girl",
+"ko": "퐁당 초코걸",
+"by": "name"
+},
+{
+"id": 1057099,
+"en": "Teddy Bear Costume",
+"ko": "브라운테니 옷",
+"by": "name"
+},
+{
+"id": 1057100,
+"en": "Mummy Suit",
+"ko": "미이라 옷",
+"by": "name"
+},
+{
+"id": 1057101,
+"en": "Pink Pop Suit",
+"ko": "핑크팡팡 슈트",
+"by": "name"
+},
+{
+"id": 1057102,
+"en": "Men's Ninja Overall",
+"ko": "어둠의 그림자복",
+"by": "name"
+},
+{
+"id": 1057103,
+"en": "Western Cowboy",
+"ko": "우리 스타일 카우보이",
+"by": "name"
+},
+{
+"id": 1057106,
+"en": "Santa Boy Overall",
+"ko": "산타보이 옷",
+"by": "name"
+},
+{
+"id": 1057108,
+"en": "Royal Hanbok",
+"ko": "궁중 개량한복",
+"by": "name"
+},
+{
+"id": 1057110,
+"en": "Imperial Uniform",
+"ko": "황실제복",
+"by": "name"
+},
+{
+"id": 1057111,
+"en": "Go! Korea!",
+"ko": "대한민국",
+"by": "name"
+},
+{
+"id": 1057112,
+"en": "Beau Tuxedo",
+"ko": "하얀색 턱시도",
+"by": "name"
+},
+{
+"id": 1057113,
+"en": "Black Fur Overcoat",
+"ko": "블랙 알파카 맨즈코트",
+"by": "name"
+},
+{
+"id": 1057114,
+"en": "White Fur Overcoat",
+"ko": "화이트 알파카 맨즈코트",
+"by": "name"
+},
+{
+"id": 1057115,
+"en": "School Uniform with Hoody Jumper",
+"ko": "후드티 코디 교복",
+"by": "name"
+},
+{
+"id": 1057116,
+"en": "Boys Uniform",
+"ko": "심플 라인 교복",
+"by": "name"
+},
+{
+"id": 1057117,
+"en": "Hooded Korean Traditional Costume",
+"ko": "후드 퓨전 한복",
+"by": "name"
+},
+{
+"id": 1057118,
+"en": "Princess Korean Traditional Costume",
+"ko": "프린세스 퓨전 한복",
+"by": "name"
+},
+{
+"id": 1057119,
+"en": "Pretzel Uniform",
+"ko": "프레첼 교복",
+"by": "name"
+},
+{
+"id": 1057120,
+"en": "Exotic Festival Outfit",
+"ko": "이국적인 축제의상",
+"by": "name"
+},
+{
+"id": 1057121,
+"en": "Seraphim Suit",
+"ko": "세라핌 슈트",
+"by": "name"
+},
+{
+"id": 1057122,
+"en": "Blue Towel",
+"ko": "블루타월",
+"by": "name"
+},
+{
+"id": 1057123,
+"en": "Bunny Boy",
+"ko": "바니보이",
+"by": "name"
+},
+{
+"id": 1057125,
+"en": "Napoleon Uniform",
+"ko": "나폴레옹 제복",
+"by": "name"
+},
+{
+"id": 1057126,
+"en": "Maple Boy School Uniform",
+"ko": "메이플보이 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057128,
+"en": "Blue Snow Flower Wear",
+"ko": "블루 눈꽃폴리웨어",
+"by": "name"
+},
+{
+"id": 1057129,
+"en": "Flower Heir Hanbok",
+"ko": "꽃도령 한복",
+"by": "name"
+},
+{
+"id": 1057130,
+"en": "Military Pop Star",
+"ko": "밀리터리 TOP 스타",
+"by": "name"
+},
+{
+"id": 1057131,
+"en": "Red Overall Pants",
+"ko": "레드 오버롤 팬츠",
+"by": "name"
+},
+{
+"id": 1057132,
+"en": "Schoolboy Formals",
+"ko": "허니보이 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057133,
+"en": "Moonlight Serenade Get-Up",
+"ko": "달빛 세레나데",
+"by": "name"
+},
+{
+"id": 1057134,
+"en": "Light Cotton Candy Overalls",
+"ko": "하늘하늘 솜사탕",
+"by": "name"
+},
+{
+"id": 1057135,
+"en": "Maple Doctor's Scrubs (M)",
+"ko": "Dr. 메이플 보이",
+"by": "name"
+},
+{
+"id": 1057137,
+"en": "Elven Spirit Coat",
+"ko": "엘븐 스피릿 코트",
+"by": "name"
+},
+{
+"id": 1057138,
+"en": "Imperial Garnet Suit",
+"ko": "임페리얼 가넷 슈트",
+"by": "name"
+},
+{
+"id": 1057139,
+"en": "Mint Snow Outfit",
+"ko": "민트 스노우 케이프",
+"by": "name"
+},
+{
+"id": 1057140,
+"en": "Chamomile Tea Time",
+"ko": "캐모마일 티타임",
+"by": "name"
+},
+{
+"id": 1057141,
+"en": "Magic Star Suit",
+"ko": "매직스타 슈트",
+"by": "name"
+},
+{
+"id": 1057142,
+"en": "Prince Charming",
+"ko": "프린스 챠밍",
+"by": "name"
+},
+{
+"id": 1057144,
+"en": "Opening Star",
+"ko": "오프닝 스타",
+"by": "name"
+},
+{
+"id": 1057145,
+"en": "Saint Luminous",
+"ko": "세인트 루미너스",
+"by": "name"
+},
+{
+"id": 1057146,
+"en": "Evergreen Magistrate Outfit",
+"ko": "늘푸른 사또복장",
+"by": "name"
+},
+{
+"id": 1057147,
+"en": "Halloween Leopard Costume",
+"ko": "할로윈 레오퍼드 슈트",
+"by": "name"
+},
+{
+"id": 1057148,
+"en": "Golden Bell Outfit",
+"ko": "금령도령",
+"by": "name"
+},
+{
+"id": 1057149,
+"en": "Thermidor",
+"ko": "테르미도르",
+"by": "name"
+},
+{
+"id": 1057150,
+"en": "Tinky Baseball",
+"ko": "팅키 베이스볼",
+"by": "name"
+},
+{
+"id": 1057151,
+"en": "Beach Bum Outfit",
+"ko": "해변의 쿨가이",
+"by": "name"
+},
+{
+"id": 1057152,
+"en": "Superstar Suit",
+"ko": "슈퍼스타 슈트",
+"by": "name"
+},
+{
+"id": 1057154,
+"en": "Baby Doll Puka",
+"ko": "베이비돌 푸카",
+"by": "name"
+},
+{
+"id": 1057155,
+"en": "Fresh Ice",
+"ko": "프레쉬 아이스",
+"by": "name"
+},
+{
+"id": 1057156,
+"en": "Blue Checkered Vacation",
+"ko": "블루체크 바캉스",
+"by": "name"
+},
+{
+"id": 1057157,
+"en": "Powder Butler's Digs (M)",
+"ko": "버틀러의 품격",
+"by": "name"
+},
+{
+"id": 1057158,
+"en": "Ribbon Boy School Look",
+"ko": "리본보이 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057159,
+"en": "Bloody Leo",
+"ko": "블러디 레오",
+"by": "name"
+},
+{
+"id": 1057160,
+"en": "Pink Nurse Uniform",
+"ko": "분홍색 간호사복",
+"by": "name"
+},
+{
+"id": 1057161,
+"en": "White Nurse Uniform",
+"ko": "흰색 간호사복",
+"by": "name"
+},
+{
+"id": 1057162,
+"en": "Women's Ninja Uniform",
+"ko": "여자 닌자복",
+"by": "name"
+},
+{
+"id": 1057164,
+"en": "White Kimono",
+"ko": "기모노(백)",
+"by": "name"
+},
+{
+"id": 1057165,
+"en": "Red Kimono",
+"ko": "기모노(빨강)",
+"by": "name"
+},
+{
+"id": 1057166,
+"en": "Yellow Kimono",
+"ko": "기모노(노랑)",
+"by": "name"
+},
+{
+"id": 1057168,
+"en": "Prep Uniform",
+"ko": "엘리트 학생복",
+"by": "name"
+},
+{
+"id": 1057169,
+"en": "Western Cowgirl",
+"ko": "우리 스타일 카우걸",
+"by": "name"
+},
+{
+"id": 1057171,
+"en": "Diao Chan Dress",
+"ko": "초선의",
+"by": "name"
+},
+{
+"id": 1057172,
+"en": "White Cat Costume",
+"ko": "화이트 키티걸",
+"by": "name"
+},
+{
+"id": 1057173,
+"en": "Purple Ring One Piece",
+"ko": "오리엔탈 퍼플 원피스",
+"by": "name"
+},
+{
+"id": 1057174,
+"en": "Black Cat Costume",
+"ko": "블랙 키티걸",
+"by": "name"
+},
+{
+"id": 1057175,
+"en": "Red Chinese Dress",
+"ko": "차이나 드레스",
+"by": "name"
+},
+{
+"id": 1057176,
+"en": "Maid Uniform",
+"ko": "메이드복",
+"by": "name"
+},
+{
+"id": 1057179,
+"en": "Santa Girl Overall",
+"ko": "산타걸 원피스",
+"by": "name"
+},
+{
+"id": 1057180,
+"en": "White Coat",
+"ko": "화이트 코트",
+"by": "name"
+},
+{
+"id": 1057181,
+"en": "Rough Coat",
+"ko": "러프 코트",
+"by": "name"
+},
+{
+"id": 1057182,
+"en": "Leopard Print Coat",
+"ko": "호피무늬 코트",
+"by": "name"
+},
+{
+"id": 1057183,
+"en": "Ruffled Coat",
+"ko": "리본 코트",
+"by": "name"
+},
+{
+"id": 1057184,
+"en": "Royal Palace Hanbok",
+"ko": "궁중 개량한복",
+"by": "name"
+},
+{
+"id": 1057185,
+"en": "Rabbit Fur Dress",
+"ko": "토끼털 원피스",
+"by": "name"
+},
+{
+"id": 1057187,
+"en": "Female Shaman Costume",
+"ko": "무녀복",
+"by": "name"
+},
+{
+"id": 1057188,
+"en": "Vibrant Yellow Dress",
+"ko": "스프링 원피스",
+"by": "name"
+},
+{
+"id": 1057189,
+"en": "Race Queen Tank Top & Skirt",
+"ko": "태극기 탱크탑&스커트",
+"by": "name"
+},
+{
+"id": 1057190,
+"en": "Elegant Blue One Piece",
+"ko": "블루 엘레강스 원피스",
+"by": "name"
+},
+{
+"id": 1057191,
+"en": "Street Cred Ensemble",
+"ko": "클럽 펑키 걸",
+"by": "name"
+},
+{
+"id": 1057193,
+"en": "Princess Isis",
+"ko": "하얀색 웨딩 드레스",
+"by": "name"
+},
+{
+"id": 1057194,
+"en": "Queen Mary",
+"ko": "핑크색 웨딩 드레스",
+"by": "name"
+},
+{
+"id": 1057195,
+"en": "White Fur Wrap Coat",
+"ko": "화이트 알파카 롱코트",
+"by": "name"
+},
+{
+"id": 1057196,
+"en": "School Uniform with Hoody Jumper",
+"ko": "후드티 코디 교복",
+"by": "name"
+},
+{
+"id": 1057197,
+"en": "Girls Uniform",
+"ko": "심플 라인 교복",
+"by": "name"
+},
+{
+"id": 1057198,
+"en": "Pink-Striped Dress",
+"ko": "핑크 미니드레스",
+"by": "name"
+},
+{
+"id": 1057199,
+"en": "Cute Sailor Dress",
+"ko": "큐티 세일러복",
+"by": "name"
+},
+{
+"id": 1057200,
+"en": "Gothic Overall",
+"ko": "고스로리 드레스",
+"by": "name"
+},
+{
+"id": 1057201,
+"en": "Dressu Korean Traditional Costume",
+"ko": "드레스 퓨전 한복",
+"by": "name"
+},
+{
+"id": 1057202,
+"en": "Black Rockabilly Dress",
+"ko": "블랙 탑드레스",
+"by": "name"
+},
+{
+"id": 1057203,
+"en": "Strawberry Milk Dress",
+"ko": "딸기우유 퍼 원피스",
+"by": "name"
+},
+{
+"id": 1057204,
+"en": "Pretzel Uniform",
+"ko": "프레첼 교복",
+"by": "name"
+},
+{
+"id": 1057205,
+"en": "Pretty Girl",
+"ko": "프리티걸",
+"by": "name"
+},
+{
+"id": 1057206,
+"en": "Sailor Outfit",
+"ko": "세일러복",
+"by": "name"
+},
+{
+"id": 1057207,
+"en": "Exotic Festival Outfit",
+"ko": "이국적인 축제의상",
+"by": "name"
+},
+{
+"id": 1057208,
+"en": "Night Fever Ensemble",
+"ko": "토요일 밤에",
+"by": "name"
+},
+{
+"id": 1057210,
+"en": "Blue Daisy Dress",
+"ko": "블루 데이지",
+"by": "name"
+},
+{
+"id": 1057211,
+"en": "Yellow Anticipation",
+"ko": "노란 설레임",
+"by": "name"
+},
+{
+"id": 1057212,
+"en": "Seraphim Suit",
+"ko": "세라핌 슈트",
+"by": "name"
+},
+{
+"id": 1057213,
+"en": "Blue-Striped Dress",
+"ko": "블루 마린걸",
+"by": "name"
+},
+{
+"id": 1057214,
+"en": "Orange Towel",
+"ko": "오렌지 타월",
+"by": "name"
+},
+{
+"id": 1057215,
+"en": "Bunny Girl",
+"ko": "바니걸",
+"by": "name"
+},
+{
+"id": 1057218,
+"en": "Elizabeth Dress",
+"ko": "엘리자베스 드레스",
+"by": "name"
+},
+{
+"id": 1057219,
+"en": "Maple Girl School Uniform",
+"ko": "메이플걸 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057220,
+"en": "Rainbow Mini Dress",
+"ko": "무지개 미니 원피스",
+"by": "name"
+},
+{
+"id": 1057222,
+"en": "Pink Snow Flower Wear",
+"ko": "핑크 눈꽃폴리웨어",
+"by": "name"
+},
+{
+"id": 1057223,
+"en": "Flower Heiress Hanbok",
+"ko": "꽃아씨 한복",
+"by": "name"
+},
+{
+"id": 1057225,
+"en": "Pink Shock Pop Star",
+"ko": "핑키쇼킹 HOT 스타",
+"by": "name"
+},
+{
+"id": 1057226,
+"en": "Lady Gold",
+"ko": "레이디 골드",
+"by": "name"
+},
+{
+"id": 1057227,
+"en": "Orange Checked Squares",
+"ko": "오렌지 체킹스퀘어",
+"by": "name"
+},
+{
+"id": 1057228,
+"en": "Pink Angel Uniform",
+"ko": "핑크엔젤 유니폼",
+"by": "name"
+},
+{
+"id": 1057229,
+"en": "Little Red Riding Dress",
+"ko": "빨간모자 미니드레스",
+"by": "name"
+},
+{
+"id": 1057230,
+"en": "Schoolgirl Formals",
+"ko": "허니걸 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057231,
+"en": "Golden Moonlight Dress",
+"ko": "달빛 그리움",
+"by": "name"
+},
+{
+"id": 1057232,
+"en": "Light Chiffon Dress",
+"ko": "하늘하늘 보송이",
+"by": "name"
+},
+{
+"id": 1057233,
+"en": "Marchen Fantasy",
+"ko": "메르헨 판타지",
+"by": "name"
+},
+{
+"id": 1057234,
+"en": "Maple Doctor's Scrubs (F)",
+"ko": "Dr. 메이플 걸",
+"by": "name"
+},
+{
+"id": 1057235,
+"en": "Silver Angora Fur Dress",
+"ko": "럭셔리 앙고라 실버",
+"by": "name"
+},
+{
+"id": 1057236,
+"en": "Gold Angora Fur Dress",
+"ko": "럭셔리 앙고라 골드",
+"by": "name"
+},
+{
+"id": 1057238,
+"en": "Elven Spirit Coat",
+"ko": "엘븐 스피릿 코트",
+"by": "name"
+},
+{
+"id": 1057239,
+"en": "Imperial Garnet Suit",
+"ko": "임페리얼 가넷 슈트",
+"by": "name"
+},
+{
+"id": 1057240,
+"en": "Cygnus Dress",
+"ko": "시그너스 드레스",
+"by": "name"
+},
+{
+"id": 1057241,
+"en": "Cherry Snow Outfit",
+"ko": "체리 스노우 케이프",
+"by": "name"
+},
+{
+"id": 1057242,
+"en": "Rosemary Tea Dress",
+"ko": "로즈마리 티타임",
+"by": "name"
+},
+{
+"id": 1057243,
+"en": "Magic Star Dress",
+"ko": "매직스타 원피스",
+"by": "name"
+},
+{
+"id": 1057244,
+"en": "Princess Charming",
+"ko": "프린세스 챠밍",
+"by": "name"
+},
+{
+"id": 1057246,
+"en": "Opening Angel",
+"ko": "오프닝 엔젤",
+"by": "name"
+},
+{
+"id": 1057249,
+"en": "Cynical Dress",
+"ko": "시니컬 드레스",
+"by": "name"
+},
+{
+"id": 1057250,
+"en": "Saint Luminous",
+"ko": "세인트 루미너스",
+"by": "name"
+},
+{
+"id": 1057251,
+"en": "Pink Fluffy Hanbok",
+"ko": "꽃분홍 아씨한복",
+"by": "name"
+},
+{
+"id": 1057252,
+"en": "Halloween Leopard Dress",
+"ko": "할로윈 레오퍼드 드레스",
+"by": "name"
+},
+{
+"id": 1057253,
+"en": "Fluffy Cat Outfit",
+"ko": "러블리 고양이 의상",
+"by": "name"
+},
+{
+"id": 1057254,
+"en": "Succubus Dress",
+"ko": "서큐버스 원피스",
+"by": "name"
+},
+{
+"id": 1057255,
+"en": "Golden Bell Dress",
+"ko": "금령아씨",
+"by": "name"
+},
+{
+"id": 1057256,
+"en": "Thermidor",
+"ko": "테르미도르",
+"by": "name"
+},
+{
+"id": 1057257,
+"en": "Pinky Baseball",
+"ko": "핑키 베이스볼",
+"by": "name"
+},
+{
+"id": 1057258,
+"en": "Beach Babe Outfit",
+"ko": "해변의 여인",
+"by": "name"
+},
+{
+"id": 1057259,
+"en": "Superstar Dress",
+"ko": "슈퍼스타 원피스",
+"by": "name"
+},
+{
+"id": 1057261,
+"en": "Baby Doll Linka",
+"ko": "베이비돌 링카",
+"by": "name"
+},
+{
+"id": 1057262,
+"en": "Fresh Ice",
+"ko": "프레쉬 아이스",
+"by": "name"
+},
+{
+"id": 1057263,
+"en": "Fresh Checkered Vacation",
+"ko": "핑크체크 바캉스",
+"by": "name"
+},
+{
+"id": 1057264,
+"en": "Powder Maid's Getup (F)",
+"ko": "메이드의 긍지",
+"by": "name"
+},
+{
+"id": 1057265,
+"en": "Passionate Qi Pao",
+"ko": "정열적인 치파오",
+"by": "name"
+},
+{
+"id": 1057266,
+"en": "Ribbon Girl School Look",
+"ko": "리본걸 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057267,
+"en": "Bloody Jeanne",
+"ko": "블러디 잔느",
+"by": "name"
+},
+{
+"id": 1057268,
+"en": "Odette Tutu",
+"ko": "오데트 튀튀",
+"by": "name"
+},
+{
+"id": 1057269,
+"en": "Odile Tutu",
+"ko": "오딜 튀튀",
+"by": "name"
+},
+{
+"id": 1057270,
+"en": "Halloweenroid Dress",
+"ko": "할로윈로이드 드레스",
+"by": "name"
+},
+{
+"id": 1057271,
+"en": "Blue Shinsengumi Uniform",
+"ko": "신선조(청)",
+"by": "name"
+},
+{
+"id": 1057272,
+"en": "Brown Shinsengumi Uniform",
+"ko": "신선조(갈색)",
+"by": "name"
+},
+{
+"id": 1057273,
+"en": "White Body Tights",
+"ko": "전신타이즈(백)",
+"by": "name"
+},
+{
+"id": 1057274,
+"en": "Black Body Tights",
+"ko": "전신타이즈(흑)",
+"by": "name"
+},
+{
+"id": 1057275,
+"en": "White Holed Tights",
+"ko": "구멍타이즈(백)",
+"by": "name"
+},
+{
+"id": 1057276,
+"en": "Black Holed Tights",
+"ko": "구멍타이즈(흑)",
+"by": "name"
+},
+{
+"id": 1057277,
+"en": "Big Kimono",
+"ko": "대관 기모노",
+"by": "name"
+},
+{
+"id": 1057278,
+"en": "Grey Full Coat",
+"ko": "전신옷(백)",
+"by": "name"
+},
+{
+"id": 1057279,
+"en": "Red Full Coat",
+"ko": "전신옷(홍)",
+"by": "name"
+},
+{
+"id": 1057280,
+"en": "Forest Samurai Outfit",
+"ko": "전신옷(녹)",
+"by": "name"
+},
+{
+"id": 1057281,
+"en": "Red Bruma",
+"ko": "큐티 체육복(적)",
+"by": "name"
+},
+{
+"id": 1057282,
+"en": "Green Bruma",
+"ko": "큐티 체육복(녹)",
+"by": "name"
+},
+{
+"id": 1057283,
+"en": "Blue Bruma",
+"ko": "큐티 체육복(청)",
+"by": "name"
+},
+{
+"id": 1057284,
+"en": "Guan Yu Armor",
+"ko": "관우 갑옷",
+"by": "name"
+},
+{
+"id": 1057285,
+"en": "Zhu-Ge-Liang Gown",
+"ko": "학창의(제갈량)",
+"by": "name"
+},
+{
+"id": 1057286,
+"en": "Blue Robot Pilotgear",
+"ko": "스페이스 블루 제복",
+"by": "name"
+},
+{
+"id": 1057287,
+"en": "Liu Bei Robe",
+"ko": "촉황지복(유비)",
+"by": "name"
+},
+{
+"id": 1057288,
+"en": "Cao Cao Robe",
+"ko": "위황지복(조조)",
+"by": "name"
+},
+{
+"id": 1057289,
+"en": "Sun Quan Robe",
+"ko": "오황지복(손권)",
+"by": "name"
+},
+{
+"id": 1057290,
+"en": "Pink Robot Pilotgear",
+"ko": "스페이스 핑크 제복",
+"by": "name"
+},
+{
+"id": 1057291,
+"en": "Hip Hop Sweats",
+"ko": "스포트라이트 힙합 블랙",
+"by": "name"
+},
+{
+"id": 1057292,
+"en": "Scuba Diving Suit",
+"ko": "스쿠버다이빙 슈트",
+"by": "name"
+},
+{
+"id": 1057293,
+"en": "Mink Coat",
+"ko": "밍크 코트",
+"by": "name"
+},
+{
+"id": 1057294,
+"en": "Snowman Costume",
+"ko": "눈사람 옷",
+"by": "name"
+},
+{
+"id": 1057295,
+"en": "Black Snowboard Overall",
+"ko": "스노우보드복_블랙",
+"by": "name"
+},
+{
+"id": 1057296,
+"en": "Brown Snowboard Overall",
+"ko": "스노우보드복_브라운",
+"by": "name"
+},
+{
+"id": 1057297,
+"en": "Yang In",
+"ko": "검은 검도복",
+"by": "name"
+},
+{
+"id": 1057298,
+"en": "Red Hip Hop",
+"ko": "스포트라이트 힙합 레드",
+"by": "name"
+},
+{
+"id": 1057299,
+"en": "Blue Hip Hop",
+"ko": "스포트라이트 힙합 블루",
+"by": "name"
+},
+{
+"id": 1057300,
+"en": "Musashi Costume",
+"ko": "무사복",
+"by": "name"
+},
+{
+"id": 1057302,
+"en": "Enamer",
+"ko": "블랙 레더 슈트",
+"by": "name"
+},
+{
+"id": 1057303,
+"en": "Soccer Uniform",
+"ko": "축구 유니폼",
+"by": "name"
+},
+{
+"id": 1057304,
+"en": "Soccer Uniform (No.7)",
+"ko": "화이트 축구복",
+"by": "name"
+},
+{
+"id": 1057305,
+"en": "Soccer Uniform (No.10)",
+"ko": "그린 축구복",
+"by": "name"
+},
+{
+"id": 1057306,
+"en": "Soccer Uniform (No.14)",
+"ko": "블루 축구복",
+"by": "name"
+},
+{
+"id": 1057314,
+"en": "Skull Suit",
+"ko": "해골 옷",
+"by": "name"
+},
+{
+"id": 1057316,
+"en": "Nero Bell Outfit",
+"ko": "네로 방울옷",
+"by": "name"
+},
+{
+"id": 1057317,
+"en": "Moon Bunny Costume",
+"ko": "월묘 옷",
+"by": "name"
+},
+{
+"id": 1057318,
+"en": "Soap Bubble Bonanza",
+"ko": "비누 버블",
+"by": "name"
+},
+{
+"id": 1057321,
+"en": "Sun Wukong Robe",
+"ko": "손오공 로브",
+"by": "name"
+},
+{
+"id": 1057322,
+"en": "Golden Armor",
+"ko": "황금갑옷",
+"by": "name"
+},
+{
+"id": 1057325,
+"en": "Dark Blue Robes",
+"ko": "무법의",
+"by": "name"
+},
+{
+"id": 1057327,
+"en": "Rompers",
+"ko": "롬퍼스",
+"by": "name"
+},
+{
+"id": 1057328,
+"en": "Sachiel Armor",
+"ko": "샤키엘의 갑옷",
+"by": "name"
+},
+{
+"id": 1057329,
+"en": "Veamoth Armor",
+"ko": "베에모트의 갑옷",
+"by": "name"
+},
+{
+"id": 1057330,
+"en": "Janus Armor",
+"ko": "야누스의 갑옷",
+"by": "name"
+},
+{
+"id": 1057331,
+"en": "Zhu's Pork Belly",
+"ko": "저팔계 옷",
+"by": "name"
+},
+{
+"id": 1057333,
+"en": "Tomato Suit",
+"ko": "토마토 옷",
+"by": "name"
+},
+{
+"id": 1057334,
+"en": "Shorts with Suspenders",
+"ko": "큐티 멜빵 반바지",
+"by": "name"
+},
+{
+"id": 1057335,
+"en": "Sky Blue Padded Coat",
+"ko": "하늘색 패딩코트",
+"by": "name"
+},
+{
+"id": 1057336,
+"en": "Luxurious Padded Coat",
+"ko": "그레이 댄디코트",
+"by": "name"
+},
+{
+"id": 1057337,
+"en": "Christmas Party Suit",
+"ko": "크리스마스 파티복",
+"by": "name"
+},
+{
+"id": 1057338,
+"en": "Bosshunter Armor",
+"ko": "영웅의 로브",
+"by": "name"
+},
+{
+"id": 1057339,
+"en": "Bosshunter Gi",
+"ko": "변신용 그린 스타라이트",
+"by": "name"
+},
+{
+"id": 1057340,
+"en": "Red Viska for Transformation",
+"ko": "변신용 레드 비스카",
+"by": "name"
+},
+{
+"id": 1057341,
+"en": "Tiger Cub Costume",
+"ko": "호돌이 인형옷",
+"by": "name"
+},
+{
+"id": 1057342,
+"en": "Cutie Birk Outfit",
+"ko": "큐티버크 옷",
+"by": "name"
+},
+{
+"id": 1057345,
+"en": "Baby Chick Apron",
+"ko": "병아리 앞치마",
+"by": "name"
+},
+{
+"id": 1057346,
+"en": "Pumpkin Suit",
+"ko": "호박 옷",
+"by": "name"
+},
+{
+"id": 1057348,
+"en": "Coastal Winter Wear",
+"ko": "럭셔리 카멜 반코트",
+"by": "name"
+},
+{
+"id": 1057349,
+"en": "Fashionable Checkerwear",
+"ko": "스타일리쉬 체크 앤 체인",
+"by": "name"
+},
+{
+"id": 1057350,
+"en": "Snowflake Knit",
+"ko": "눈꽃 니트",
+"by": "name"
+},
+{
+"id": 1057351,
+"en": "Cow Costume",
+"ko": "큐티카우 슈트",
+"by": "name"
+},
+{
+"id": 1057352,
+"en": "Denim Overalls",
+"ko": "청롤업 멜빵바지",
+"by": "name"
+},
+{
+"id": 1057353,
+"en": "Galactic Hero Suit",
+"ko": "플루토 히어로 슈트",
+"by": "name"
+},
+{
+"id": 1057354,
+"en": "Stealth Suit",
+"ko": "일지매 암행복",
+"by": "name"
+},
+{
+"id": 1057356,
+"en": "Honeybee Costume",
+"ko": "꿀벌옷",
+"by": "name"
+},
+{
+"id": 1057357,
+"en": "Ugabuga",
+"ko": "우가우가",
+"by": "name"
+},
+{
+"id": 1057360,
+"en": "Brave Soldier Armor",
+"ko": "용맹한 병사의 갑옷",
+"by": "name"
+},
+{
+"id": 1057361,
+"en": "Pink Bean Suit",
+"ko": "핑크빈 슈트",
+"by": "name"
+},
+{
+"id": 1057363,
+"en": "Shiny Sailor Uniform",
+"ko": "세일러 샤인",
+"by": "name"
+},
+{
+"id": 1057364,
+"en": "One Summer Night ",
+"ko": "별난 여름날",
+"by": "name"
+},
+{
+"id": 1057365,
+"en": "Royal Navy Uniform",
+"ko": "로얄 네이비 제복",
+"by": "name"
+},
+{
+"id": 1057371,
+"en": "Strawberry Baby",
+"ko": "스트로베리 베이비",
+"by": "name"
+},
+{
+"id": 1057372,
+"en": "Layered Long Skull Tee",
+"ko": "레이어드 롱 스컬티",
+"by": "name"
+},
+{
+"id": 1057373,
+"en": "Little Prince",
+"ko": "어린왕자",
+"by": "name"
+},
+{
+"id": 1057375,
+"en": "Petite School Shawl",
+"ko": "쁘띠숄 스쿨룩",
+"by": "name"
+},
+{
+"id": 1057376,
+"en": "Green Leaf Overall",
+"ko": "잎사귀 가운",
+"by": "name"
+},
+{
+"id": 1057378,
+"en": "Dual Blade Suit",
+"ko": "듀얼블레이드 슈트",
+"by": "name"
+},
+{
+"id": 1057379,
+"en": "Green Overall Shorts",
+"ko": "그린 오버롤 쇼츠",
+"by": "name"
+},
+{
+"id": 1057381,
+"en": "Royal Rainbow Zip-Up Jacket",
+"ko": "로얄 레인보우 짚업자켓",
+"by": "name"
+},
+{
+"id": 1057386,
+"en": "Hooded Track Suit",
+"ko": "후드 점퍼 슈트",
+"by": "name"
+},
+{
+"id": 1057393,
+"en": "Trench Coat",
+"ko": "브라운 체크 트렌치 코트",
+"by": "name"
+},
+{
+"id": 1057397,
+"en": "Christmas Casual Outfit",
+"ko": "크리스마스 캐쥬얼",
+"by": "name"
+},
+{
+"id": 1057398,
+"en": "Commander Captain",
+"ko": "커맨더 캡틴",
+"by": "name"
+},
+{
+"id": 1057400,
+"en": "Rising Star Baggy Digs",
+"ko": "라이징스타 딥블루 배기진",
+"by": "name"
+},
+{
+"id": 1057407,
+"en": "Toy Prince",
+"ko": "장난감성의 왕자님",
+"by": "name"
+},
+{
+"id": 1057409,
+"en": "Honeybee Suit",
+"ko": "별빛 꿀벌옷",
+"by": "name"
+},
+{
+"id": 1057412,
+"en": "Fancy Noblesse Robe",
+"ko": "노블레스 화려한 로브",
+"by": "name"
+},
+{
+"id": 1057414,
+"en": "Ganache Chocolate Suit",
+"ko": "가나슈 초콜릿 슈트",
+"by": "name"
+},
+{
+"id": 1057422,
+"en": "The Bladed Falcon's Armor",
+"ko": "검호의 갑옷",
+"by": "name"
+},
+{
+"id": 1057423,
+"en": "Marine Stripe",
+"ko": "마린 스트라이프",
+"by": "name"
+},
+{
+"id": 1057425,
+"en": "Gray Bell Robe",
+"ko": "노블레스 화려한 로브",
+"by": "name"
+},
+{
+"id": 1057426,
+"en": "Dark Devil Outfit",
+"ko": "어둠의 소악마 전신옷",
+"by": "name"
+},
+{
+"id": 1057431,
+"en": "Lucia Outfit",
+"ko": "큐티 고양이 의상",
+"by": "name"
+},
+{
+"id": 1057432,
+"en": "Harp Seal Doll Outfit",
+"ko": "하프물범 인형옷",
+"by": "name"
+},
+{
+"id": 1057435,
+"en": "Ramling PJs",
+"ko": "아기양 포근잠옷",
+"by": "name"
+},
+{
+"id": 1057436,
+"en": "Splash Wave Outfit",
+"ko": "퐁당 웨이브",
+"by": "name"
+},
+{
+"id": 1057439,
+"en": "Chicken Coataroo",
+"ko": "꼬꼬 인형옷",
+"by": "name"
+},
+{
+"id": 1057440,
+"en": "Puffram Onesie",
+"ko": "구름양 인형옷",
+"by": "name"
+},
+{
+"id": 1057442,
+"en": "Rudi's Outfit",
+"ko": "루디의 옷",
+"by": "name"
+},
+{
+"id": 1067000,
+"en": "Red Hip-Hop Pants",
+"ko": "빨간 힙합 바지",
+"by": "name"
+},
+{
+"id": 1067001,
+"en": "Lined Hip-Hop Pants",
+"ko": "라인 힙합 바지",
+"by": "name"
+},
+{
+"id": 1067002,
+"en": "Pink Camping Shorts",
+"ko": "분홍색 캠핑 바지",
+"by": "name"
+},
+{
+"id": 1067003,
+"en": "Green Camping Shorts",
+"ko": "연두색 캠핑 바지",
+"by": "name"
+},
+{
+"id": 1067004,
+"en": "Blue Camping Shorts",
+"ko": "하늘색 캠핑 바지",
+"by": "name"
+},
+{
+"id": 1067009,
+"en": "Ripped Jeans",
+"ko": "찢어진 청바지",
+"by": "name"
+},
+{
+"id": 1067010,
+"en": "Yellow Snowboard Pants",
+"ko": "노란색 스노우보드복 바지",
+"by": "name"
+},
+{
+"id": 1067011,
+"en": "Green Snowboard Pants",
+"ko": "카키색 스노우보드복 바지",
+"by": "name"
+},
+{
+"id": 1067013,
+"en": "Pink Snowboard Pants",
+"ko": "분홍색 스노우보드복 바지",
+"by": "name"
+},
+{
+"id": 1067014,
+"en": "Sky Blue Snowboard Pants",
+"ko": "하늘색 스노우보드복 바지",
+"by": "name"
+},
+{
+"id": 1067015,
+"en": "Jean Shorts",
+"ko": "청반바지",
+"by": "name"
+},
+{
+"id": 1067016,
+"en": "Old Army Pants",
+"ko": "옛날군복 바지",
+"by": "name"
+},
+{
+"id": 1067017,
+"en": "Camouflaged Army Pants",
+"ko": "위장군복 바지",
+"by": "name"
+},
+{
+"id": 1067018,
+"en": "Blue Polka-Dot Pajama Pants",
+"ko": "파란색 땡땡이잠옷 하의",
+"by": "name"
+},
+{
+"id": 1067019,
+"en": "Red Polka-Dot Pajama Pants",
+"ko": "빨간색 땡땡이잠옷 하의",
+"by": "name"
+},
+{
+"id": 1067020,
+"en": "Prisoner Pants",
+"ko": "죄수복 하의",
+"by": "name"
+},
+{
+"id": 1067021,
+"en": "Picnic Jean Shorts",
+"ko": "피크닉 청반바지",
+"by": "name"
+},
+{
+"id": 1067022,
+"en": "Checkered Shorts",
+"ko": "체크무늬 반바지",
+"by": "name"
+},
+{
+"id": 1067023,
+"en": "Cargo Pants",
+"ko": "카고 팬츠",
+"by": "name"
+},
+{
+"id": 1067024,
+"en": "Red Checkered Pants",
+"ko": "레드 체크 바지",
+"by": "name"
+},
+{
+"id": 1067025,
+"en": "White Checkered Pants",
+"ko": "화이트 체크 바지",
+"by": "name"
+},
+{
+"id": 1067026,
+"en": "Hip Hop Jeans",
+"ko": "코듀로이 힙합진",
+"by": "name"
+},
+{
+"id": 1067028,
+"en": "Washed Denim Cargos",
+"ko": "워싱데님 카고 바지",
+"by": "name"
+},
+{
+"id": 1067029,
+"en": "Denim Cargos",
+"ko": "데님 카고 바지",
+"by": "name"
+},
+{
+"id": 1067030,
+"en": "Black Suit Pants",
+"ko": "검은 정장 바지",
+"by": "name"
+},
+{
+"id": 1067031,
+"en": "Military Shorts",
+"ko": "밀리터리 숏팬츠",
+"by": "name"
+},
+{
+"id": 1067032,
+"en": "Blue Rider Pants",
+"ko": "블루 라이더 바지",
+"by": "name"
+},
+{
+"id": 1067033,
+"en": "Shine Rider Pants",
+"ko": "샤인라이더 하의",
+"by": "name"
+},
+{
+"id": 1067034,
+"en": "Dark Rider Pants",
+"ko": "다크 라이더 바지",
+"by": "name"
+},
+{
+"id": 1067035,
+"en": "Blue Trainer Pants",
+"ko": "백수 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067036,
+"en": "Green Trainer Pants",
+"ko": "새마을 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067037,
+"en": "Orange Trainer Pants",
+"ko": "관급 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067038,
+"en": "Original Disco Pants",
+"ko": "교련 바지",
+"by": "name"
+},
+{
+"id": 1067039,
+"en": "Green Disco Pants",
+"ko": "엘레이 바지",
+"by": "name"
+},
+{
+"id": 1067040,
+"en": "Blue Disco Pants",
+"ko": "와싱톤 바지",
+"by": "name"
+},
+{
+"id": 1067041,
+"en": "Wild Pants",
+"ko": "와일드 바지",
+"by": "name"
+},
+{
+"id": 1067042,
+"en": "Brown Wild Pants",
+"ko": "와일드 와일드 바지",
+"by": "name"
+},
+{
+"id": 1067043,
+"en": "Red Wild Pants",
+"ko": "블러디 와일드 바지",
+"by": "name"
+},
+{
+"id": 1067045,
+"en": "Old School Uniform Pants",
+"ko": "복고교복 바지",
+"by": "name"
+},
+{
+"id": 1067046,
+"en": "Hawaiian Skirt",
+"ko": "하와이안 하의",
+"by": "name"
+},
+{
+"id": 1067047,
+"en": "Torn-Up Jeans",
+"ko": "누더기 바지",
+"by": "name"
+},
+{
+"id": 1067048,
+"en": "Blue Leggings",
+"ko": "블루 레깅스",
+"by": "name"
+},
+{
+"id": 1067049,
+"en": "Washed Jeans",
+"ko": "워터 워싱진",
+"by": "name"
+},
+{
+"id": 1067050,
+"en": "Military Cargo Shorts",
+"ko": "밀리터리 카고 반바지",
+"by": "name"
+},
+{
+"id": 1067051,
+"en": "Tropical Shorts",
+"ko": "트로피컬 반바지",
+"by": "name"
+},
+{
+"id": 1067052,
+"en": "Blue Bell Dress",
+"ko": "파란 벨 드레스",
+"by": "name"
+},
+{
+"id": 1067053,
+"en": "Blue Sailor Skirt",
+"ko": "파란 세일러 치마",
+"by": "name"
+},
+{
+"id": 1067056,
+"en": "Red Sailor Skirt",
+"ko": "빨간 세일러 치마",
+"by": "name"
+},
+{
+"id": 1067058,
+"en": "Yellow Mimi Skirt",
+"ko": "노란색 미미 스커트",
+"by": "name"
+},
+{
+"id": 1067059,
+"en": "Pre-School Uniform Skirt",
+"ko": "유치원 옷 치마",
+"by": "name"
+},
+{
+"id": 1067060,
+"en": "Red Trainer Pants",
+"ko": "빨간색 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067061,
+"en": "Sky Blue Trainer Pants",
+"ko": "하늘색 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067062,
+"en": "Pink Trainer Pants",
+"ko": "분홍색 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067063,
+"en": "Black Trainer Pants",
+"ko": "검은색 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067064,
+"en": "Blue Skirt",
+"ko": "청치마",
+"by": "name"
+},
+{
+"id": 1067065,
+"en": "Old School Uniform Skirt",
+"ko": "복고교복 치마",
+"by": "name"
+},
+{
+"id": 1067066,
+"en": "Red Training Shorts",
+"ko": "빨간색 트레이닝 반바지",
+"by": "name"
+},
+{
+"id": 1067067,
+"en": "Sky Blue Training Shorts",
+"ko": "하늘색 트레이닝 반바지",
+"by": "name"
+},
+{
+"id": 1067068,
+"en": "Pink Training Shorts",
+"ko": "분홍색 트레이닝 반바지",
+"by": "name"
+},
+{
+"id": 1067069,
+"en": "Black Training Shorts",
+"ko": "검은색 트레이닝 반바지",
+"by": "name"
+},
+{
+"id": 1067071,
+"en": "Hawaiian Skirt",
+"ko": "하와이안 하의",
+"by": "name"
+},
+{
+"id": 1067072,
+"en": "Red Leggings",
+"ko": "레드 레깅스",
+"by": "name"
+},
+{
+"id": 1067073,
+"en": "Plitz Skirt",
+"ko": "플리츠 스커트",
+"by": "name"
+},
+{
+"id": 1067074,
+"en": "Blue Diamond Bootcuts",
+"ko": "블루 다이아몬드 나팔진",
+"by": "name"
+},
+{
+"id": 1067075,
+"en": "Pink Diamond Bootcuts",
+"ko": "핑크 다이아몬드 나팔진",
+"by": "name"
+},
+{
+"id": 1067076,
+"en": "Butterfly Skirt",
+"ko": "옐로우 버터플라이 스커트",
+"by": "name"
+},
+{
+"id": 1067077,
+"en": "Blue Skinny Jeans",
+"ko": "블루 스키니진",
+"by": "name"
+},
+{
+"id": 1067078,
+"en": "Amorian Pink Skirt",
+"ko": "큐티 앞치마",
+"by": "name"
+},
+{
+"id": 1067079,
+"en": "Bunny-Padded Snowboard Pants",
+"ko": "무릎토순이 바지",
+"by": "name"
+},
+{
+"id": 1067080,
+"en": "Stocking Shorts",
+"ko": "스타킹 반바지",
+"by": "name"
+},
+{
+"id": 1067081,
+"en": "Hearts Tights",
+"ko": "핑핑하트 스키니",
+"by": "name"
+},
+{
+"id": 1067082,
+"en": "Violet Dot Jeans",
+"ko": "바이올렛 도트진",
+"by": "name"
+},
+{
+"id": 1067083,
+"en": "Prep School Uniform Pants",
+"ko": "엘리트 학생복 하의",
+"by": "name"
+},
+{
+"id": 1067084,
+"en": "Orange Puffy Pants",
+"ko": "트레이닝웨어",
+"by": "name"
+},
+{
+"id": 1067085,
+"en": "Tania Tartan Pants",
+"ko": "타니아 타탄 바지",
+"by": "name"
+},
+{
+"id": 1067086,
+"en": "Mercury Washed Jeans",
+"ko": "머큐리 워싱진",
+"by": "name"
+},
+{
+"id": 1067087,
+"en": "Black Wakeboard Pants",
+"ko": "아이돌스타 체인팬츠",
+"by": "name"
+},
+{
+"id": 1067088,
+"en": "Cowboy Pants",
+"ko": "카우보이 바지",
+"by": "name"
+},
+{
+"id": 1067089,
+"en": "Golf Shorts",
+"ko": "골프 반바지",
+"by": "name"
+},
+{
+"id": 1067090,
+"en": "SF Ninja Pants",
+"ko": "SF 닌자복 바지",
+"by": "name"
+},
+{
+"id": 1067091,
+"en": "Green Long Skirt",
+"ko": "그린 플리츠 스커트",
+"by": "name"
+},
+{
+"id": 1067092,
+"en": "Denim Wrinkled Skirt",
+"ko": "청 주름 치마",
+"by": "name"
+},
+{
+"id": 1067093,
+"en": "Blue Slit Skirt",
+"ko": "랩 스커트",
+"by": "name"
+},
+{
+"id": 1067094,
+"en": "Skirt with Tights",
+"ko": "레깅스 레이어드 스커트",
+"by": "name"
+},
+{
+"id": 1067095,
+"en": "Orange Long Skirt",
+"ko": "옐로우 롱 플레어 스커트",
+"by": "name"
+},
+{
+"id": 1067096,
+"en": "Pink Layered Skirt",
+"ko": "분홍 레이어드 치마",
+"by": "name"
+},
+{
+"id": 1067097,
+"en": "Long Khaki Skirt",
+"ko": "엘레강스 스커트",
+"by": "name"
+},
+{
+"id": 1067098,
+"en": "Dark Denim Skirt",
+"ko": "톱니컷미니스커트",
+"by": "name"
+},
+{
+"id": 1067099,
+"en": "Pink Heart Hot Pants",
+"ko": "하트 무늬 핫팬츠",
+"by": "name"
+},
+{
+"id": 1067100,
+"en": "Denim Skirt & Striped Sox",
+"ko": "니삭스 데님 스커트",
+"by": "name"
+},
+{
+"id": 1067101,
+"en": "Tania Tartan Skirt",
+"ko": "타니아 타탄 스커트",
+"by": "name"
+},
+{
+"id": 1067102,
+"en": "Mercury Jean Skirt",
+"ko": "머큐리 타탄 스커트",
+"by": "name"
+},
+{
+"id": 1067103,
+"en": "Pink Frill Swim Skirt",
+"ko": "아이돌스타 미니스커트",
+"by": "name"
+},
+{
+"id": 1067104,
+"en": "Bright Frilly Shorts",
+"ko": "바캉스 캉캉 팬츠",
+"by": "name"
+},
+{
+"id": 1067105,
+"en": "Cowgirl Pants",
+"ko": "카우걸 바지",
+"by": "name"
+},
+{
+"id": 1067106,
+"en": "Golf Skirt",
+"ko": "골프 스커트",
+"by": "name"
+},
+{
+"id": 1067107,
+"en": "Baggy Jeans",
+"ko": "별모래 힙합청바지",
+"by": "name"
+},
+{
+"id": 1067108,
+"en": "Blue B-Ball Shorts",
+"ko": "SK 농구복 하의",
+"by": "name"
+},
+{
+"id": 1067109,
+"en": "Orange B-Ball Shorts",
+"ko": "KTF 농구복 하의",
+"by": "name"
+},
+{
+"id": 1067110,
+"en": "Jeans with Chain",
+"ko": "체인 팬츠",
+"by": "name"
+},
+{
+"id": 1067111,
+"en": "Black Leather Pants",
+"ko": "블랙 스타리움",
+"by": "name"
+},
+{
+"id": 1067112,
+"en": "Red Starrium",
+"ko": "레드 스타리움",
+"by": "name"
+},
+{
+"id": 1067113,
+"en": "Vintage Pocket Pants",
+"ko": "빈티지 포켓 바지",
+"by": "name"
+},
+{
+"id": 1067114,
+"en": "Brisk",
+"ko": "브리스크",
+"by": "name"
+},
+{
+"id": 1067115,
+"en": "Brown Checkered Pants",
+"ko": "갈색 체크 바지",
+"by": "name"
+},
+{
+"id": 1067118,
+"en": "All-Star Blue Jeans",
+"ko": "올스타 블루진",
+"by": "name"
+},
+{
+"id": 1067119,
+"en": "White Faded Jeans",
+"ko": "화이트 워싱진",
+"by": "name"
+},
+{
+"id": 1067120,
+"en": "Pink-Lined Shorts",
+"ko": "분홍색 라인 반바지",
+"by": "name"
+},
+{
+"id": 1067121,
+"en": "Busy Bee Shorts",
+"ko": "펌킨 반바지",
+"by": "name"
+},
+{
+"id": 1067122,
+"en": "Jailbird Shorts",
+"ko": "네이비 블루 반바지",
+"by": "name"
+},
+{
+"id": 1067123,
+"en": "Military Cargo Pants",
+"ko": "밀리터리 카고 바지",
+"by": "name"
+},
+{
+"id": 1067124,
+"en": "Scottish Pants",
+"ko": "스코티시 바지",
+"by": "name"
+},
+{
+"id": 1067125,
+"en": "Inferno Jeans",
+"ko": "불꽃 바지",
+"by": "name"
+},
+{
+"id": 1067126,
+"en": "Vintage Black Jeans",
+"ko": "빈티지 블랙진",
+"by": "name"
+},
+{
+"id": 1067127,
+"en": "Olive Skinny Jeans",
+"ko": "올리브 스키니진",
+"by": "name"
+},
+{
+"id": 1067128,
+"en": "Red Wine Skinny Jeans",
+"ko": "레드와인 스키니진",
+"by": "name"
+},
+{
+"id": 1067129,
+"en": "Dark Rocker Jeans",
+"ko": "캣워싱 블루진",
+"by": "name"
+},
+{
+"id": 1067130,
+"en": "Checks Point Pants",
+"ko": "체크 포인트 바지",
+"by": "name"
+},
+{
+"id": 1067131,
+"en": "White-Striped Trainer Shorts",
+"ko": "쿨 스트라이프 바지",
+"by": "name"
+},
+{
+"id": 1067132,
+"en": "Vintage Sky Blue Jeans",
+"ko": "스카이블루 빈티지진",
+"by": "name"
+},
+{
+"id": 1067133,
+"en": "Summer Capris",
+"ko": "썸머쿨 청반바지",
+"by": "name"
+},
+{
+"id": 1067134,
+"en": "Rainbow Shorts",
+"ko": "무지개 통바지",
+"by": "name"
+},
+{
+"id": 1067135,
+"en": "Brown Chained Pants",
+"ko": "갈색 체인 바지",
+"by": "name"
+},
+{
+"id": 1067136,
+"en": "Painted Blue Jeans",
+"ko": "페인팅 블루진",
+"by": "name"
+},
+{
+"id": 1067137,
+"en": "Low-Rise Ripped Jeans",
+"ko": "비대칭 비조장식 바지",
+"by": "name"
+},
+{
+"id": 1067138,
+"en": "Relaxed Fit Jeans",
+"ko": "밴드 청바지",
+"by": "name"
+},
+{
+"id": 1067139,
+"en": "Olive Pumpkin Pants",
+"ko": "올리브 펌킨팬츠",
+"by": "name"
+},
+{
+"id": 1067140,
+"en": "Brown Pumpkin Pants",
+"ko": "브라운 펌킨팬츠",
+"by": "name"
+},
+{
+"id": 1067141,
+"en": "Vintage Black Pants",
+"ko": "찢어진 블랙진",
+"by": "name"
+},
+{
+"id": 1067142,
+"en": "Light Blue Ripped Jeans",
+"ko": "찢어진 라이트블루진",
+"by": "name"
+},
+{
+"id": 1067143,
+"en": "Brown Bubble Jeans",
+"ko": "방울장식 팬츠",
+"by": "name"
+},
+{
+"id": 1067144,
+"en": "Red and Black Warm-ups",
+"ko": "체리 트레이닝 바지",
+"by": "name"
+},
+{
+"id": 1067145,
+"en": "Brown Pocket Shorts",
+"ko": "아이보리포켓 반바지",
+"by": "name"
+},
+{
+"id": 1067146,
+"en": "Jewel Chain Jeans",
+"ko": "체인 배기팬츠",
+"by": "name"
+},
+{
+"id": 1067147,
+"en": "\"Black Tie Affair\" Dress Pants",
+"ko": "실버라인 정장 바지",
+"by": "name"
+},
+{
+"id": 1067148,
+"en": "Dark Master Sergeant Skirt for Transformation",
+"ko": "변신용 다크 마스터 서전트 치마",
+"by": "name"
+},
+{
+"id": 1067149,
+"en": "Red Legolia Pants for Transformation",
+"ko": "변신용 레드 레골리스 바지",
+"by": "name"
+},
+{
+"id": 1067150,
+"en": "Dark Night Pants for Transformation",
+"ko": "변신용 흑야 바지",
+"by": "name"
+},
+{
+"id": 1067151,
+"en": "Pink Heart Boxers",
+"ko": "핑크 하와이안 팬츠",
+"by": "name"
+},
+{
+"id": 1067152,
+"en": "Black Checkered Shorts",
+"ko": "그레이 체크 팬츠",
+"by": "name"
+},
+{
+"id": 1067153,
+"en": "Pink 80s Slacks",
+"ko": "오블리크 스트라이프 팬츠",
+"by": "name"
+},
+{
+"id": 1067154,
+"en": "Moss Green Pants",
+"ko": "그래스 그린 팬츠",
+"by": "name"
+},
+{
+"id": 1067155,
+"en": "Ruby-Buckled Shorts",
+"ko": "루비버클 숏팬츠",
+"by": "name"
+},
+{
+"id": 1067156,
+"en": "Milan Jeans",
+"ko": "밀라노청바지",
+"by": "name"
+},
+{
+"id": 1067157,
+"en": "Practical Linen Trousers",
+"ko": "온앤온 베이지 팬츠",
+"by": "name"
+},
+{
+"id": 1067158,
+"en": "Ella Blue Denim",
+"ko": "옐로패치 데님",
+"by": "name"
+},
+{
+"id": 1067159,
+"en": "Aqua Jeans",
+"ko": "아쿠아진",
+"by": "name"
+},
+{
+"id": 1067160,
+"en": "Rolled-Up Baggy Jeans",
+"ko": "힙합코디진",
+"by": "name"
+},
+{
+"id": 1067161,
+"en": "Rolled-Up Skinny Jeans",
+"ko": "롤업 스키니",
+"by": "name"
+},
+{
+"id": 1067162,
+"en": "Twinkle Star Blue Jeans",
+"ko": "트윙클 스타 블루진",
+"by": "name"
+},
+{
+"id": 1067163,
+"en": "Baggy Glow-in-the-Dark Pants",
+"ko": "배기 야광 팬츠",
+"by": "name"
+},
+{
+"id": 1067164,
+"en": "Dark Purple Jeans",
+"ko": "다크 퍼플진",
+"by": "name"
+},
+{
+"id": 1067165,
+"en": "Plaid Roll-Up Jeans",
+"ko": "체크 롤업 미니진",
+"by": "name"
+},
+{
+"id": 1067166,
+"en": "Bone Buckled Slacks",
+"ko": "본버클 슬랙",
+"by": "name"
+},
+{
+"id": 1067167,
+"en": "Bunny Frill Pants",
+"ko": "토끼무늬 프릴바지",
+"by": "name"
+},
+{
+"id": 1067168,
+"en": "Shooting Star Jeans",
+"ko": "샤이니 스타진",
+"by": "name"
+},
+{
+"id": 1067169,
+"en": "Vintage Jeans",
+"ko": "빈티지진",
+"by": "name"
+},
+{
+"id": 1067170,
+"en": "Neon Skinny Jeans",
+"ko": "단무Gee 팬츠",
+"by": "name"
+},
+{
+"id": 1067171,
+"en": "Baby Pink Pants",
+"ko": "베이비 핑크 팬츠",
+"by": "name"
+},
+{
+"id": 1067172,
+"en": "Blue Ribbon Shorts",
+"ko": "블루 리본 팬츠",
+"by": "name"
+},
+{
+"id": 1067173,
+"en": "Underpants",
+"ko": "속옷바지",
+"by": "name"
+},
+{
+"id": 1067174,
+"en": "Patched Denim Jeans",
+"ko": "패치데님 바지",
+"by": "name"
+},
+{
+"id": 1067175,
+"en": "Crayon Shorts",
+"ko": "크레용 바지",
+"by": "name"
+},
+{
+"id": 1067176,
+"en": "Pink Heart Shorts",
+"ko": "핑크하트 팬츠",
+"by": "name"
+},
+{
+"id": 1067177,
+"en": "Star Beach Shorts",
+"ko": "스타비치팬츠",
+"by": "name"
+},
+{
+"id": 1067179,
+"en": "Technicolour Funky Pants",
+"ko": "캔디 펑키팬츠",
+"by": "name"
+},
+{
+"id": 1067180,
+"en": "Tiger-Print Leggings",
+"ko": "레오팟 레깅스",
+"by": "name"
+},
+{
+"id": 1067181,
+"en": "Plaid-Cuffed Jeans",
+"ko": "체크디테일 롤업진",
+"by": "name"
+},
+{
+"id": 1067182,
+"en": "High-Rider",
+"ko": "고공행진",
+"by": "name"
+},
+{
+"id": 1067183,
+"en": "Saruel Pants",
+"ko": "사루엘팬츠",
+"by": "name"
+},
+{
+"id": 1067184,
+"en": "Pink Sprite Pants",
+"ko": "핑크 스트라이프 팬츠",
+"by": "name"
+},
+{
+"id": 1067185,
+"en": "Red Spotted Shorts",
+"ko": "도트 레드 데님 팬츠",
+"by": "name"
+},
+{
+"id": 1067186,
+"en": "Blue Spotted Shorts",
+"ko": "도트 블루 데님 팬츠",
+"by": "name"
+},
+{
+"id": 1067188,
+"en": "Star Trainer Pants",
+"ko": "별무늬 트레이닝 하의",
+"by": "name"
+},
+{
+"id": 1067189,
+"en": "Super Pop Shorts",
+"ko": "슈퍼팝 반바지",
+"by": "name"
+},
+{
+"id": 1067190,
+"en": "Shiny Gold Pants",
+"ko": "골드샤이니 팬츠",
+"by": "name"
+},
+{
+"id": 1067191,
+"en": "Layered Denim Pants",
+"ko": "레이어드 데님 팬츠",
+"by": "name"
+},
+{
+"id": 1067193,
+"en": "Mint Sherbet Pants",
+"ko": "민트 밀크샤벳 팬츠",
+"by": "name"
+},
+{
+"id": 1067194,
+"en": "Deep Blue Sea Knee Socks",
+"ko": "니삭스 블루오션",
+"by": "name"
+},
+{
+"id": 1067195,
+"en": "Funky Xylophone Leggings",
+"ko": "펑키 실로폰 레깅스",
+"by": "name"
+},
+{
+"id": 1067196,
+"en": "Sky Rainbow Shorts [temp]",
+"ko": "스카이 봉봉",
+"by": "name"
+},
+{
+"id": 1067197,
+"en": "Rabbit Bottom",
+"ko": "앨리스 토끼 하의",
+"by": "name"
+},
+{
+"id": 1067198,
+"en": "Neon Pink Pants",
+"ko": "네온핑크 팬츠",
+"by": "name"
+},
+{
+"id": 1067199,
+"en": "Vacation Denim Pants",
+"ko": "바캉스 데님팬츠",
+"by": "name"
+},
+{
+"id": 1067200,
+"en": "Oceanic Sandblasted Jeans",
+"ko": "오션블루 워싱진",
+"by": "name"
+},
+{
+"id": 1067201,
+"en": "Mosaic Purple",
+"ko": "모자이크 퍼플",
+"by": "name"
+},
+{
+"id": 1067202,
+"en": "Chocolate Strawberry Shorts",
+"ko": "딸기 쇼콜라 팬츠",
+"by": "name"
+},
+{
+"id": 1067204,
+"en": "Checkered Tights",
+"ko": "바비체크 스키니",
+"by": "name"
+},
+{
+"id": 1067205,
+"en": "Pink Skinny Jeans",
+"ko": "두근두근 스키니",
+"by": "name"
+},
+{
+"id": 1067206,
+"en": "Little Bunny Pants",
+"ko": "리틀바니 팬츠",
+"by": "name"
+},
+{
+"id": 1067207,
+"en": "Sapphire Jeans",
+"ko": "사파이어진",
+"by": "name"
+},
+{
+"id": 1067208,
+"en": "Hot Pink Overalls",
+"ko": "핫핑크 멜빵바지",
+"by": "name"
+},
+{
+"id": 1077000,
+"en": "Black Dress Shoes",
+"ko": "검은색 정장 구두",
+"by": "name"
+},
+{
+"id": 1077001,
+"en": "Red Air H's",
+"ko": "빨간색 나이스 에어 농구화",
+"by": "name"
+},
+{
+"id": 1077002,
+"en": "Blue Air H's",
+"ko": "파란색 나이스 에어 농구화",
+"by": "name"
+},
+{
+"id": 1077003,
+"en": "Black Air H's",
+"ko": "검은색 나이스 에어 농구화",
+"by": "name"
+},
+{
+"id": 1077004,
+"en": "Camping Boots",
+"ko": "캠핑 웰트화",
+"by": "name"
+},
+{
+"id": 1077005,
+"en": "Yellow Flippers",
+"ko": "노란색 오리발",
+"by": "name"
+},
+{
+"id": 1077006,
+"en": "Blue Flippers",
+"ko": "파란색 오리발",
+"by": "name"
+},
+{
+"id": 1077007,
+"en": "Yellow Rain Boots",
+"ko": "노란색 장화",
+"by": "name"
+},
+{
+"id": 1077008,
+"en": "Sky Blue Rain Boots",
+"ko": "하늘색 장화",
+"by": "name"
+},
+{
+"id": 1077009,
+"en": "Red Rain Boots",
+"ko": "빨간색 장화",
+"by": "name"
+},
+{
+"id": 1077010,
+"en": "Green Rain Boots",
+"ko": "연두색 장화",
+"by": "name"
+},
+{
+"id": 1077011,
+"en": "Blue Baseball Cleats",
+"ko": "파란색 야구화",
+"by": "name"
+},
+{
+"id": 1077012,
+"en": "Red Baseball Cleats",
+"ko": "빨간색 야구화",
+"by": "name"
+},
+{
+"id": 1077013,
+"en": "Black Baseball Cleats",
+"ko": "검은색 야구화",
+"by": "name"
+},
+{
+"id": 1077014,
+"en": "Black Leather Boots",
+"ko": "검은 가죽부츠",
+"by": "name"
+},
+{
+"id": 1077015,
+"en": "Military Boots",
+"ko": "군화",
+"by": "name"
+},
+{
+"id": 1077016,
+"en": "Flipper Boots",
+"ko": "오리발 부츠",
+"by": "name"
+},
+{
+"id": 1077017,
+"en": "Gold Kitty Slippers",
+"ko": "냐옹 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077018,
+"en": "Blue Marble Slippers",
+"ko": "파란색 땡땡이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077019,
+"en": "Red Marble Slippers",
+"ko": "빨간색 땡땡이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077020,
+"en": "Bunny Slippers",
+"ko": "토끼 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077021,
+"en": "Beige Galoshes",
+"ko": "폭신 털부츠",
+"by": "name"
+},
+{
+"id": 1077022,
+"en": "Sky Blue Galoshes",
+"ko": "하늘색 폭신 털부츠",
+"by": "name"
+},
+{
+"id": 1077023,
+"en": "Pink Galoshes",
+"ko": "분홍색 폭신 털부츠",
+"by": "name"
+},
+{
+"id": 1077024,
+"en": "Black Boxing Shoes",
+"ko": "블랙 복싱슈즈",
+"by": "name"
+},
+{
+"id": 1077025,
+"en": "Blue Boxing Shoes",
+"ko": "블루 복싱슈즈",
+"by": "name"
+},
+{
+"id": 1077026,
+"en": "Red Boxing Shoes",
+"ko": "레드 복싱슈즈",
+"by": "name"
+},
+{
+"id": 1077027,
+"en": "Bear Shoes",
+"ko": "곰발바닥 신발",
+"by": "name"
+},
+{
+"id": 1077028,
+"en": "Bubbling Slippers",
+"ko": "버블링 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077029,
+"en": "Slime Slippers",
+"ko": "슬라임 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077030,
+"en": "Big Rabbit Feet",
+"ko": "왕 토끼발",
+"by": "name"
+},
+{
+"id": 1077031,
+"en": "Transparent Shoes",
+"ko": "투명 신발",
+"by": "name"
+},
+{
+"id": 1077032,
+"en": "Blue Gomushin",
+"ko": "꽃 고무신",
+"by": "name"
+},
+{
+"id": 1077033,
+"en": "Black Santa Boots",
+"ko": "산타부츠",
+"by": "name"
+},
+{
+"id": 1077034,
+"en": "Black Shoes of Death",
+"ko": "저승사자 신발",
+"by": "name"
+},
+{
+"id": 1077035,
+"en": "Blue Loose Sox",
+"ko": "파란색 루즈삭스",
+"by": "name"
+},
+{
+"id": 1077036,
+"en": "Red Loose Sox",
+"ko": "빨간색 루즈삭스",
+"by": "name"
+},
+{
+"id": 1077037,
+"en": "Blue Gomushin",
+"ko": "꽃 고무신",
+"by": "name"
+},
+{
+"id": 1077038,
+"en": "Red Santa Boots",
+"ko": "산타 부츠",
+"by": "name"
+},
+{
+"id": 1077039,
+"en": "Bunny Boots",
+"ko": "토끼 장화",
+"by": "name"
+},
+{
+"id": 1077040,
+"en": "Race Queen Boots",
+"ko": "레이싱걸 부츠",
+"by": "name"
+},
+{
+"id": 1077053,
+"en": "Teddy Bear Shoes",
+"ko": "브라운테니 부츠",
+"by": "name"
+},
+{
+"id": 1077054,
+"en": "Black Classic Sneakers",
+"ko": "체크 스니커",
+"by": "name"
+},
+{
+"id": 1077055,
+"en": "Velcro High Tops",
+"ko": "벨크로 비비드 하이슈즈",
+"by": "name"
+},
+{
+"id": 1077056,
+"en": "Black Enamel Shoes",
+"ko": "검정 애나멜 구두",
+"by": "name"
+},
+{
+"id": 1077057,
+"en": "Yellow Rainbow Sneaks",
+"ko": "노란 무지개 슈즈",
+"by": "name"
+},
+{
+"id": 1077058,
+"en": "Mix-n-Match Sneakers",
+"ko": "짝짝이 스니커즈",
+"by": "name"
+},
+{
+"id": 1077059,
+"en": "Pink Elephant Slippers",
+"ko": "핑크 엘리펀트 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077060,
+"en": "Cacao Bear Shoes",
+"ko": "카카오베어 슈즈",
+"by": "name"
+},
+{
+"id": 1077061,
+"en": "Kimono Shoes",
+"ko": "나막신",
+"by": "name"
+},
+{
+"id": 1077062,
+"en": "Western Walkers",
+"ko": "우리 스타일 워커",
+"by": "name"
+},
+{
+"id": 1077063,
+"en": "Santa Boy Boots",
+"ko": "산타보이 부츠",
+"by": "name"
+},
+{
+"id": 1077064,
+"en": "Royal Costume Shoes",
+"ko": "궁중 신발",
+"by": "name"
+},
+{
+"id": 1077066,
+"en": "Paris Wingtips",
+"ko": "웨딩 구두",
+"by": "name"
+},
+{
+"id": 1077068,
+"en": "Dandy Silver Sneaks",
+"ko": "아이돌스타 스니커즈",
+"by": "name"
+},
+{
+"id": 1077070,
+"en": "Twinkling Boy Glow Shoes",
+"ko": "트윙클Boy 야광슈즈",
+"by": "name"
+},
+{
+"id": 1077071,
+"en": "Garnet-Studded Boots",
+"ko": "가넷 세공 부츠",
+"by": "name"
+},
+{
+"id": 1077072,
+"en": "Evergreen Magistrate Pretty Shoes",
+"ko": "늘푸른 사또꽃신",
+"by": "name"
+},
+{
+"id": 1077073,
+"en": "Shadow Sandals",
+"ko": "암염의 샌들",
+"by": "name"
+},
+{
+"id": 1077074,
+"en": "Pink Nurse Shoes",
+"ko": "분홍색 간호사 신발",
+"by": "name"
+},
+{
+"id": 1077075,
+"en": "White Nurse Shoes",
+"ko": "흰색 간호사 신발",
+"by": "name"
+},
+{
+"id": 1077076,
+"en": "SF Ninja Shoes",
+"ko": "SF 닌자신발",
+"by": "name"
+},
+{
+"id": 1077077,
+"en": "Western Walkers",
+"ko": "우리 스타일 워커",
+"by": "name"
+},
+{
+"id": 1077079,
+"en": "Diao Chan Shoes",
+"ko": "초선 신발",
+"by": "name"
+},
+{
+"id": 1077080,
+"en": "White Cat Shoes",
+"ko": "화이트 키티걸 슈즈",
+"by": "name"
+},
+{
+"id": 1077082,
+"en": "Maid Shoes",
+"ko": "메이드 신발",
+"by": "name"
+},
+{
+"id": 1077083,
+"en": "Santa Girl Boots",
+"ko": "산타걸 부츠",
+"by": "name"
+},
+{
+"id": 1077084,
+"en": "Leopard Print Shoes",
+"ko": "호피무늬 부츠",
+"by": "name"
+},
+{
+"id": 1077085,
+"en": "Brown Leather Boots",
+"ko": "갈색 가죽 부츠",
+"by": "name"
+},
+{
+"id": 1077086,
+"en": "Gothic Boots",
+"ko": "고스로리 구두",
+"by": "name"
+},
+{
+"id": 1077087,
+"en": "White High Top",
+"ko": "아이돌스타 슈즈",
+"by": "name"
+},
+{
+"id": 1077088,
+"en": "Twinkling Girl Glow Shoes",
+"ko": "트윙클Girl 야광슈즈",
+"by": "name"
+},
+{
+"id": 1077089,
+"en": "Pink Angel Wing Shoes",
+"ko": "핑크엔젤 윙 슈즈",
+"by": "name"
+},
+{
+"id": 1077090,
+"en": "Red Ribbon Shoes",
+"ko": "빨간모자 리본슈즈",
+"by": "name"
+},
+{
+"id": 1077091,
+"en": "Garnet-Studded Boots",
+"ko": "가넷 세공 부츠",
+"by": "name"
+},
+{
+"id": 1077093,
+"en": "Pinky Pretty Gomushin",
+"ko": "꽃분홍 아씨꽃신",
+"by": "name"
+},
+{
+"id": 1077094,
+"en": "Shadow Garter",
+"ko": "암염의 가터",
+"by": "name"
+},
+{
+"id": 1077095,
+"en": "Ninja Shoes",
+"ko": "닌자신발",
+"by": "name"
+},
+{
+"id": 1077096,
+"en": "Green Ting Slippers",
+"ko": "초록색 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077097,
+"en": "Blue B-ball Sneakers",
+"ko": "SK 농구화",
+"by": "name"
+},
+{
+"id": 1077098,
+"en": "Orange B-ball Sneakers",
+"ko": "KTF 농구화",
+"by": "name"
+},
+{
+"id": 1077099,
+"en": "Ragged Gomushin",
+"ko": "너덜너덜한 고무신",
+"by": "name"
+},
+{
+"id": 1077100,
+"en": "Brown Dress Shoes",
+"ko": "갈색 구두",
+"by": "name"
+},
+{
+"id": 1077101,
+"en": "Red Leather Boots",
+"ko": "빨간색 가죽 부츠",
+"by": "name"
+},
+{
+"id": 1077102,
+"en": "M-Forcer Boots",
+"ko": "메소레인저 부츠",
+"by": "name"
+},
+{
+"id": 1077103,
+"en": "Guan Yu Shoes",
+"ko": "관우 신발",
+"by": "name"
+},
+{
+"id": 1077104,
+"en": "Zhu-Ge-Liang Shoes",
+"ko": "제갈량 신발",
+"by": "name"
+},
+{
+"id": 1077105,
+"en": "Liu Bei Shoes",
+"ko": "촉황지신(유비)",
+"by": "name"
+},
+{
+"id": 1077106,
+"en": "Cao Cao Shoes",
+"ko": "위황지신(조조)",
+"by": "name"
+},
+{
+"id": 1077107,
+"en": "Sun Quan Shoes",
+"ko": "오황지신(손권)",
+"by": "name"
+},
+{
+"id": 1077108,
+"en": "Red Enamel Shoes",
+"ko": "빨강 애나멜 구두",
+"by": "name"
+},
+{
+"id": 1077109,
+"en": "Blue Enamel Shoes",
+"ko": "파란 애나멜 구두",
+"by": "name"
+},
+{
+"id": 1077110,
+"en": "Pink Sneakers",
+"ko": "핑크 스니커즈",
+"by": "name"
+},
+{
+"id": 1077111,
+"en": "Hunting Boots",
+"ko": "클래식 워커 부츠",
+"by": "name"
+},
+{
+"id": 1077112,
+"en": "Horoscope Shoes",
+"ko": "별자리 세트 신발",
+"by": "name"
+},
+{
+"id": 1077113,
+"en": "Pro-Cat Sticker",
+"ko": "프로캣 스니커",
+"by": "name"
+},
+{
+"id": 1077114,
+"en": "Snowboard Boots",
+"ko": "스노우보드 부츠",
+"by": "name"
+},
+{
+"id": 1077117,
+"en": "Puppy Slippers",
+"ko": "강아지 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077118,
+"en": "Gray Kitty Slippers",
+"ko": "고양이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077119,
+"en": "Chick Slippers",
+"ko": "병아리 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077120,
+"en": "Penguin Slippers",
+"ko": "펭귄 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077121,
+"en": "Blue Soccer Cleats",
+"ko": "파란색 축구화",
+"by": "name"
+},
+{
+"id": 1077122,
+"en": "Black Soccer Cleats",
+"ko": "검정색 축구화",
+"by": "name"
+},
+{
+"id": 1077123,
+"en": "Red Soccer Cleats",
+"ko": "빨강색 축구화",
+"by": "name"
+},
+{
+"id": 1077124,
+"en": "Moon Bunny Paws",
+"ko": "월묘 신발",
+"by": "name"
+},
+{
+"id": 1077125,
+"en": "Booster Shoes",
+"ko": "부스터 슈즈",
+"by": "name"
+},
+{
+"id": 1077127,
+"en": "Rudolph Slippers",
+"ko": "루돌프 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077128,
+"en": "Super Booster Shoes",
+"ko": "슈퍼 부스터 운동화",
+"by": "name"
+},
+{
+"id": 1077129,
+"en": "Golden Shoes",
+"ko": "황금화",
+"by": "name"
+},
+{
+"id": 1077130,
+"en": "Sachiel Shoes",
+"ko": "샤키엘의 신발",
+"by": "name"
+},
+{
+"id": 1077131,
+"en": "Veamoth Shoes",
+"ko": "베에모트의 신발",
+"by": "name"
+},
+{
+"id": 1077132,
+"en": "Janus Shoes",
+"ko": "야누스의 신발",
+"by": "name"
+},
+{
+"id": 1077133,
+"en": "Zhu's Pig Shoes",
+"ko": "저팔계 신발",
+"by": "name"
+},
+{
+"id": 1077134,
+"en": "Rollerskates",
+"ko": "롤러스케이트",
+"by": "name"
+},
+{
+"id": 1077135,
+"en": "Starry Slippers",
+"ko": "별 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077136,
+"en": "Piggy Slippers",
+"ko": "꿀꿀이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077137,
+"en": "Red Slime Slippers",
+"ko": "슬라임 슬리퍼(빨강)",
+"by": "name"
+},
+{
+"id": 1077138,
+"en": "Yellow Slime Slippers",
+"ko": "슬라임 슬리퍼(노랑)",
+"by": "name"
+},
+{
+"id": 1077139,
+"en": "Tania En Fuego",
+"ko": "타니아 파이로 슈즈",
+"by": "name"
+},
+{
+"id": 1077140,
+"en": "Mercury Lightning",
+"ko": "머큐리 아이스 슈즈",
+"by": "name"
+},
+{
+"id": 1077141,
+"en": "Flipped Blue High Top",
+"ko": "커버 양말 신발",
+"by": "name"
+},
+{
+"id": 1077142,
+"en": "Green Classic Sneakers",
+"ko": "그린 체크 스니커",
+"by": "name"
+},
+{
+"id": 1077143,
+"en": "Red Checkered Sneakers",
+"ko": "레드 체크 스니커",
+"by": "name"
+},
+{
+"id": 1077144,
+"en": "Natural Galoshes",
+"ko": "내츄럴 폭신 털부츠",
+"by": "name"
+},
+{
+"id": 1077145,
+"en": "Soccer Cleats",
+"ko": "어디가쓰 축구화",
+"by": "name"
+},
+{
+"id": 1077146,
+"en": "Fluffy Slippers",
+"ko": "뽀송이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077147,
+"en": "Orange Sneakz",
+"ko": "오렌지 체크캔버스",
+"by": "name"
+},
+{
+"id": 1077148,
+"en": "Olive Green Kicks",
+"ko": "탑 슬림 스니커즈",
+"by": "name"
+},
+{
+"id": 1077150,
+"en": "Green Sneakz",
+"ko": "그린 체크캔버스",
+"by": "name"
+},
+{
+"id": 1077151,
+"en": "Black High Tops",
+"ko": "변신용 다크 티거",
+"by": "name"
+},
+{
+"id": 1077156,
+"en": "Cutie Birk Shoes",
+"ko": "큐티버크 슈즈",
+"by": "name"
+},
+{
+"id": 1077157,
+"en": "Gaga Shoes",
+"ko": "가가 신발",
+"by": "name"
+},
+{
+"id": 1077158,
+"en": "Custom Blue High Tops",
+"ko": "블루리폼스니커즈",
+"by": "name"
+},
+{
+"id": 1077159,
+"en": "Purple Rainbow Sneaks",
+"ko": "진보라 무지개 슈즈",
+"by": "name"
+},
+{
+"id": 1077161,
+"en": "White & Blue Sandals",
+"ko": "한정판 비치샌들",
+"by": "name"
+},
+{
+"id": 1077163,
+"en": "Brave Soldier Shoes ",
+"ko": "용맹한 병사의 신발",
+"by": "name"
+},
+{
+"id": 1077164,
+"en": "Bling Bling Shoes",
+"ko": "블링블링 슈즈",
+"by": "name"
+},
+{
+"id": 1077167,
+"en": "Pink Polka-Dotted Boots",
+"ko": "핑크장화",
+"by": "name"
+},
+{
+"id": 1077169,
+"en": "Ninja Shoes",
+"ko": "닌자신발",
+"by": "name"
+},
+{
+"id": 1077171,
+"en": "Kawaii Kitty Shoes",
+"ko": "아기고양이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077174,
+"en": "Freud's Shoes",
+"ko": "프리드의 신발",
+"by": "name"
+},
+{
+"id": 1077175,
+"en": "Shiny Anklet",
+"ko": "컬러선샤인 앵클릿",
+"by": "name"
+},
+{
+"id": 1077176,
+"en": "Passionate Flats",
+"ko": "정열적인 당화",
+"by": "name"
+},
+{
+"id": 1077178,
+"en": "Green Leaf Shoes",
+"ko": "잎사귀 샌들",
+"by": "name"
+},
+{
+"id": 1077179,
+"en": "Strawberry Shoes",
+"ko": "스트로베리 슈즈",
+"by": "name"
+},
+{
+"id": 1077184,
+"en": "Rainbow Boots",
+"ko": "로얄 레인보우 부츠",
+"by": "name"
+},
+{
+"id": 1077186,
+"en": "Blue Slip-Ons",
+"ko": "뮬 스니커",
+"by": "name"
+},
+{
+"id": 1077195,
+"en": "Brown Ankle Boots",
+"ko": "브라운체크 앵클 부츠",
+"by": "name"
+},
+{
+"id": 1077196,
+"en": "Panda Slippers",
+"ko": "판다 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077197,
+"en": "White Boots",
+"ko": "화이트 워커",
+"by": "name"
+},
+{
+"id": 1077198,
+"en": "Black Kitty Slippers",
+"ko": "검은 고양이 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077201,
+"en": "Pink Winged Shoes",
+"ko": "스위트 핑크 엔젤윙",
+"by": "name"
+},
+{
+"id": 1077202,
+"en": "Furry Lion Slippers",
+"ko": "복실 사자 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077208,
+"en": "Western Cowboy Boots",
+"ko": "웨스턴 부츠",
+"by": "name"
+},
+{
+"id": 1077210,
+"en": "Dark Force Boots ",
+"ko": "다크 포스 부츠",
+"by": "name"
+},
+{
+"id": 1077211,
+"en": "Elven Spirit Boots ",
+"ko": "엘븐 스피릿 부츠",
+"by": "name"
+},
+{
+"id": 1077213,
+"en": "Ebony Pimpernel Boots",
+"ko": "냥냥 집사님 구두",
+"by": "name"
+},
+{
+"id": 1077223,
+"en": "Cat Lolita Shoes",
+"ko": "네로 발바닥",
+"by": "name"
+},
+{
+"id": 1077224,
+"en": "Exotic Festival Shoes",
+"ko": "이국적인 축제신발",
+"by": "name"
+},
+{
+"id": 1077227,
+"en": "Halloween Leopard Shoes",
+"ko": "할로윈 레오퍼드 슈즈",
+"by": "name"
+},
+{
+"id": 1077228,
+"en": "Dark Devil Shoes",
+"ko": "어둠의 소악마 신발",
+"by": "name"
+},
+{
+"id": 1077234,
+"en": "Ramling Slippers",
+"ko": "아기양 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077235,
+"en": "Succubus Shoes",
+"ko": "서큐버스 슈즈",
+"by": "name"
+},
+{
+"id": 1077236,
+"en": "Featherly Angel Shoes",
+"ko": "Blavy 엔젤슈즈",
+"by": "name"
+},
+{
+"id": 1077237,
+"en": "Golden Bell Shoes",
+"ko": "금령꽃신",
+"by": "name"
+},
+{
+"id": 1077238,
+"en": "Flame Boots",
+"ko": "플레임 부츠",
+"by": "name"
+},
+{
+"id": 1077239,
+"en": "Baseball Shoes",
+"ko": "베이스볼 슈즈",
+"by": "name"
+},
+{
+"id": 1077240,
+"en": "Bubble Flip Flops",
+"ko": "버블버블 플랍",
+"by": "name"
+},
+{
+"id": 1077242,
+"en": "Odette Ballet Slippers",
+"ko": "오데트 토슈즈",
+"by": "name"
+},
+{
+"id": 1077243,
+"en": "Odile Ballet Slippers",
+"ko": "오딜 토슈즈",
+"by": "name"
+},
+{
+"id": 1077244,
+"en": "Cobalt Zero Shoes",
+"ko": "코발트 제로 슈즈",
+"by": "name"
+},
+{
+"id": 1077245,
+"en": "Star Winkle",
+"ko": "스타 윙클",
+"by": "name"
+},
+{
+"id": 1077246,
+"en": "Heart Pudding Slippers",
+"ko": "하트푸딩 슬리퍼",
+"by": "name"
+},
+{
+"id": 1077247,
+"en": "Puffram Shoes",
+"ko": "구름양 인형신발",
+"by": "name"
+},
+{
+"id": 1077248,
+"en": "Powder Flats",
+"ko": "제복 구두",
+"by": "name"
+},
+{
+"id": 1077249,
+"en": "Halloweenroid Boots",
+"ko": "할로윈로이드 구두",
+"by": "name"
+},
+{
+"id": 1087000,
+"en": "Red Boxing Gloves",
+"ko": "빨간색 권투 글러브",
+"by": "name"
+},
+{
+"id": 1087001,
+"en": "Blue Boxing Gloves",
+"ko": "파란색 권투 글러브",
+"by": "name"
+},
+{
+"id": 1087002,
+"en": "Brown Baseball Glove",
+"ko": "갈색 야구장갑",
+"by": "name"
+},
+{
+"id": 1087003,
+"en": "Blue Baseball Glove",
+"ko": "파란색 야구장갑",
+"by": "name"
+},
+{
+"id": 1087004,
+"en": "Hero's Gloves",
+"ko": "영웅의 장갑",
+"by": "name"
+},
+{
+"id": 1087005,
+"en": "Brown Bandage",
+"ko": "갈색 붕대",
+"by": "name"
+},
+{
+"id": 1087006,
+"en": "Black Bandage",
+"ko": "검은색 붕대",
+"by": "name"
+},
+{
+"id": 1087007,
+"en": "Santa Gloves",
+"ko": "산타 장갑",
+"by": "name"
+},
+{
+"id": 1087009,
+"en": "M-Forcer Gloves",
+"ko": "메소레인저 장갑",
+"by": "name"
+},
+{
+"id": 1087010,
+"en": "Transparent Gloves",
+"ko": "투명 장갑",
+"by": "name"
+},
+{
+"id": 1087011,
+"en": "Wedding Gloves",
+"ko": "웨딩 장갑",
+"by": "name"
+},
+{
+"id": 1087018,
+"en": "White Bandage",
+"ko": "흰색 붕대",
+"by": "name"
+},
+{
+"id": 1087019,
+"en": "Teddy Bear Gloves",
+"ko": "브라운테니 장갑",
+"by": "name"
+},
+{
+"id": 1087020,
+"en": "Blue Watch",
+"ko": "블루 전자시계",
+"by": "name"
+},
+{
+"id": 1087021,
+"en": "Chocolate Ribbon",
+"ko": "초콜릿 리본 장식",
+"by": "name"
+},
+{
+"id": 1087022,
+"en": "White Ninja Gloves",
+"ko": "스피드 글러브",
+"by": "name"
+},
+{
+"id": 1087025,
+"en": "Blue Ninja Gloves",
+"ko": "어둠의 그림자 장갑",
+"by": "name"
+},
+{
+"id": 1087026,
+"en": "White Cat Gloves",
+"ko": "화이트 키티걸 장갑",
+"by": "name"
+},
+{
+"id": 1087027,
+"en": "Black Cat Gloves",
+"ko": "블랙 키티걸 장갑",
+"by": "name"
+},
+{
+"id": 1087028,
+"en": "Elizabeth Gloves",
+"ko": "엘리자베스 장갑",
+"by": "name"
+},
+{
+"id": 1087029,
+"en": "Elizabeth Gloves",
+"ko": "엘리자베스 장갑",
+"by": "name"
+},
+{
+"id": 1087036,
+"en": "Skull Gloves",
+"ko": "해골 장갑",
+"by": "name"
+},
+{
+"id": 1087037,
+"en": "Star Gloves",
+"ko": "스타 타투 글로브",
+"by": "name"
+},
+{
+"id": 1087038,
+"en": "Love Gloves",
+"ko": "하트 타투 글로브",
+"by": "name"
+},
+{
+"id": 1087039,
+"en": "Nero Gloves",
+"ko": "네로 장갑",
+"by": "name"
+},
+{
+"id": 1087040,
+"en": "Moon Bunny Gloves",
+"ko": "월묘 장갑",
+"by": "name"
+},
+{
+"id": 1087041,
+"en": "Rose Crystal Watch",
+"ko": "핑크 전자시계",
+"by": "name"
+},
+{
+"id": 1087043,
+"en": "Snowflake Gloves",
+"ko": "노르딕 뜨개장갑",
+"by": "name"
+},
+{
+"id": 1087044,
+"en": "Lightning Gloves",
+"ko": "라이트닝 타투 글로브",
+"by": "name"
+},
+{
+"id": 1087045,
+"en": "Tania Gloves",
+"ko": "타니아 파이로 장갑",
+"by": "name"
+},
+{
+"id": 1087046,
+"en": "Mercury Gloves",
+"ko": "머큐리 아이스 장갑",
+"by": "name"
+},
+{
+"id": 1087047,
+"en": "Skull Tattoo",
+"ko": "투명 해골 장갑",
+"by": "name"
+},
+{
+"id": 1087048,
+"en": "Luxury Wristwatch",
+"ko": "명품 클래식 시계",
+"by": "name"
+},
+{
+"id": 1087049,
+"en": "Moomoo Gloves",
+"ko": "화이트 큐티카우 글러브",
+"by": "name"
+},
+{
+"id": 1087050,
+"en": "Cutie Birk Gloves",
+"ko": "큐티버크 장갑",
+"by": "name"
+},
+{
+"id": 1087051,
+"en": "Neon Amulet",
+"ko": "네온사인 아믈릿",
+"by": "name"
+},
+{
+"id": 1087055,
+"en": "Bunny Gloves",
+"ko": "바니장갑",
+"by": "name"
+},
+{
+"id": 1087061,
+"en": "Winter 2011 Moon Bunny Gloves",
+"ko": "2010 겨울 이벤트 월묘 장갑",
+"by": "name"
+},
+{
+"id": 1087062,
+"en": "Rainbow Bracelet",
+"ko": "레인보우 뱅글",
+"by": "name"
+},
+{
+"id": 1087063,
+"en": "Dark Force Gloves ",
+"ko": "다크 포스 글러브",
+"by": "name"
+},
+{
+"id": 1087068,
+"en": "Harp Seal Doll Gloves",
+"ko": "하프물범 인형장갑",
+"by": "name"
+},
+{
+"id": 1087070,
+"en": "Dark Devil Gloves",
+"ko": "어둠의 소악마 장갑",
+"by": "name"
+},
+{
+"id": 1087071,
+"en": "Dark Force Gloves",
+"ko": "다크 포스 글러브",
+"by": "name"
+},
+{
+"id": 1087072,
+"en": "Featherly Angel Gloves",
+"ko": "Blavy 엔젤뱅글",
+"by": "name"
+},
+{
+"id": 1087073,
+"en": "Xenon Neo-Tech Gloves",
+"ko": "제논틱 네오 글러브",
+"by": "name"
+},
+{
+"id": 1087074,
+"en": "Golf Gloves",
+"ko": "골프 장갑",
+"by": "name"
+},
+{
+"id": 1087075,
+"en": "Ramling Fur Glove",
+"ko": "아기양 털장갑",
+"by": "name"
+},
+{
+"id": 1087076,
+"en": "Succubus Gloves",
+"ko": "서큐버스 글러브",
+"by": "name"
+},
+{
+"id": 1087079,
+"en": "Golf Gloves",
+"ko": "골프 장갑",
+"by": "name"
+},
+{
+"id": 1087082,
+"en": "Chicken Glovaroo",
+"ko": "꼬꼬 인형장갑",
+"by": "name"
+},
+{
+"id": 1087083,
+"en": "Puffram Gloves",
+"ko": "구름양 인형장갑",
+"by": "name"
+},
+{
+"id": 1087084,
+"en": "Fairy Spark",
+"ko": "페어리 스파크",
+"by": "name"
+},
+{
+"id": 1087085,
+"en": "Dark Devil Gloves",
+"ko": "어둠의 소악마 장갑",
+"by": "name"
+},
+{
+"id": 1087088,
+"en": "Mr. K's Cat Gloves",
+"ko": "K군의 고양이 장갑",
+"by": "name"
+},
+{
+"id": 1097000,
+"en": "Transparent Shield",
+"ko": "투명 방패",
+"by": "name"
+},
+{
+"id": 1107000,
+"en": "Red G-Wing Jetpack",
+"ko": "빨간색 Z 부스터",
+"by": "name"
+},
+{
+"id": 1107001,
+"en": "Blue G-Wing Jetpack",
+"ko": "파란색 Z 부스터",
+"by": "name"
+},
+{
+"id": 1107002,
+"en": "Blue Nymph Wing",
+"ko": "님프의 블루윙",
+"by": "name"
+},
+{
+"id": 1107003,
+"en": "Green Nymph Wing",
+"ko": "님프의 그린윙",
+"by": "name"
+},
+{
+"id": 1107004,
+"en": "Yellow Nymph Wing",
+"ko": "님프의 옐로윙",
+"by": "name"
+},
+{
+"id": 1107005,
+"en": "Pink Nymph Wing",
+"ko": "님프의 핑크윙",
+"by": "name"
+},
+{
+"id": 1107006,
+"en": "Gargoyle Wings",
+"ko": "악마 루시퍼의 날개",
+"by": "name"
+},
+{
+"id": 1107007,
+"en": "Michael Wings",
+"ko": "천사 미카엘의 날개",
+"by": "name"
+},
+{
+"id": 1107008,
+"en": "Transparent Cape",
+"ko": "투명 망토",
+"by": "name"
+},
+{
+"id": 1107011,
+"en": "Baby Angel Wings",
+"ko": "아기천사 날개",
+"by": "name"
+},
+{
+"id": 1107012,
+"en": "Devil Wings",
+"ko": "꼬마악마 날개",
+"by": "name"
+},
+{
+"id": 1107013,
+"en": "Cuddle Bear",
+"ko": "곰인형",
+"by": "name"
+},
+{
+"id": 1107014,
+"en": "Heart Balloon",
+"ko": "하트 풍선",
+"by": "name"
+},
+{
+"id": 1107015,
+"en": "Orange Mushroom Balloon",
+"ko": "주황버섯 풍선",
+"by": "name"
+},
+{
+"id": 1107016,
+"en": "My Buddy Rex",
+"ko": "아기강아지 쏭이",
+"by": "name"
+},
+{
+"id": 1107017,
+"en": "Red Hood Cape",
+"ko": "빨간색 보자기",
+"by": "name"
+},
+{
+"id": 1107018,
+"en": "Red Landcell Pack",
+"ko": "복고풍 레드 백팩",
+"by": "name"
+},
+{
+"id": 1107019,
+"en": "Black Landcell Pack",
+"ko": "복고풍 블랙 백팩",
+"by": "name"
+},
+{
+"id": 1107020,
+"en": "Blue Landcell Pack",
+"ko": "복고풍 블루 백팩",
+"by": "name"
+},
+{
+"id": 1107031,
+"en": "Martial Cape",
+"ko": "오성홍기 망토",
+"by": "name"
+},
+{
+"id": 1107032,
+"en": "Fallen Angel Wings",
+"ko": "검은 천사날개",
+"by": "name"
+},
+{
+"id": 1107033,
+"en": "Christmas Cape",
+"ko": "크리스마스 망토",
+"by": "name"
+},
+{
+"id": 1107034,
+"en": "Dracula Cloak",
+"ko": "암흑의 망토",
+"by": "name"
+},
+{
+"id": 1107035,
+"en": "Tiger Tail",
+"ko": "호랑이 꼬리",
+"by": "name"
+},
+{
+"id": 1107036,
+"en": "Harpie Cape",
+"ko": "드라큐라의 날개",
+"by": "name"
+},
+{
+"id": 1107037,
+"en": "Pink Wings",
+"ko": "핑크 날개",
+"by": "name"
+},
+{
+"id": 1107038,
+"en": "Blue Book Bag",
+"ko": "파란 책가방",
+"by": "name"
+},
+{
+"id": 1107039,
+"en": "Yellow-Green Backpack",
+"ko": "옐로그린 포켓백팩",
+"by": "name"
+},
+{
+"id": 1107040,
+"en": "Hot Pink Backpack",
+"ko": "핫핑크 포켓백팩",
+"by": "name"
+},
+{
+"id": 1107041,
+"en": "Dragonfly Wings",
+"ko": "빛나는 나비날개",
+"by": "name"
+},
+{
+"id": 1107042,
+"en": "Bat's Bane",
+"ko": "박쥐 날개",
+"by": "name"
+},
+{
+"id": 1107043,
+"en": "Newspaper Cape",
+"ko": "신문지",
+"by": "name"
+},
+{
+"id": 1107044,
+"en": "Cotton Blanket",
+"ko": "솜이불",
+"by": "name"
+},
+{
+"id": 1107045,
+"en": "Summer Kite",
+"ko": "가오리 연",
+"by": "name"
+},
+{
+"id": 1107048,
+"en": "Sun Wu Kong Tail",
+"ko": "손오공 꼬리",
+"by": "name"
+},
+{
+"id": 1107049,
+"en": "Veamoth Wings",
+"ko": "베에모트의 날개",
+"by": "name"
+},
+{
+"id": 1107050,
+"en": "Sachiel Wings",
+"ko": "샤키엘의 날개",
+"by": "name"
+},
+{
+"id": 1107051,
+"en": "Janus Wings",
+"ko": "야누스의 날개",
+"by": "name"
+},
+{
+"id": 1107053,
+"en": "Rocket Booster",
+"ko": "로켓부스터",
+"by": "name"
+},
+{
+"id": 1107054,
+"en": "Fallen Angel Tail",
+"ko": "악마 꼬리",
+"by": "name"
+},
+{
+"id": 1107055,
+"en": "Chipmunk Tail",
+"ko": "다람쥐 꼬리",
+"by": "name"
+},
+{
+"id": 1107056,
+"en": "Elephant Balloon",
+"ko": "코끼리 풍선",
+"by": "name"
+},
+{
+"id": 1107057,
+"en": "Bunny Doll",
+"ko": "토끼 인형",
+"by": "name"
+},
+{
+"id": 1107059,
+"en": "Pink Wing Bag",
+"ko": "핑크색 날개 가방",
+"by": "name"
+},
+{
+"id": 1107060,
+"en": "Pepe Balloon",
+"ko": "페페 풍선",
+"by": "name"
+},
+{
+"id": 1107061,
+"en": "The Flaming Cape",
+"ko": "화염 망토",
+"by": "name"
+},
+{
+"id": 1107063,
+"en": "Tania Cloak",
+"ko": "타니아 클록",
+"by": "name"
+},
+{
+"id": 1107064,
+"en": "Mercury Cloak",
+"ko": "머큐리 클록",
+"by": "name"
+},
+{
+"id": 1107066,
+"en": "Lost Kitty",
+"ko": "길잃은 아기고양이",
+"by": "name"
+},
+{
+"id": 1107067,
+"en": "Pirate Emblem Flag",
+"ko": "해적깃발 망토",
+"by": "name"
+},
+{
+"id": 1107068,
+"en": "Sunfire Wings",
+"ko": "붉은색 빛나는 나비날개",
+"by": "name"
+},
+{
+"id": 1107069,
+"en": "Zakum Arms",
+"ko": "자쿰의 팔",
+"by": "name"
+},
+{
+"id": 1107072,
+"en": "Puppet Strings",
+"ko": "꼭두각시 망토",
+"by": "name"
+},
+{
+"id": 1107073,
+"en": "Peacock Feather Cape",
+"ko": "공작깃털 망토",
+"by": "name"
+},
+{
+"id": 1107074,
+"en": "White Monkey Balloon",
+"ko": "헬로 몽키",
+"by": "name"
+},
+{
+"id": 1107075,
+"en": "Baby Lupin Cape",
+"ko": "베이비루팡 망토",
+"by": "name"
+},
+{
+"id": 1107076,
+"en": "Maple MSX Guitar",
+"ko": "언더그라운드 일렉기타",
+"by": "name"
+},
+{
+"id": 1107077,
+"en": "Blue Wing Bag",
+"ko": "파란색 날개 가방",
+"by": "name"
+},
+{
+"id": 1112100,
+"en": "White Label Ring",
+"ko": "하얀 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112101,
+"en": "Blue Label Ring",
+"ko": "파란 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112102,
+"en": "Blue Label Ring 2",
+"ko": "파란 명찰 반지2",
+"by": "id"
+},
+{
+"id": 1112105,
+"en": "Skull Label Ring",
+"ko": "해골 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112106,
+"en": "Butterfly Label Ring",
+"ko": "나비 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112107,
+"en": "Scoreboard Label Ring",
+"ko": "전광판 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112112,
+"en": "Beach Label Ring",
+"ko": "비치 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112113,
+"en": "Chocolate Label Ring",
+"ko": "초코 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112114,
+"en": "Pink Candy Label Ring",
+"ko": "핑크캔디 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112116,
+"en": "White Cloud Label Ring",
+"ko": "하얀구름 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112117,
+"en": "Rainbow Label Ring",
+"ko": "무지개 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112118,
+"en": "Cat-ger Label Ring",
+"ko": "호양이 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112121,
+"en": "Gingerman Label Ring",
+"ko": "진저맨 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112122,
+"en": "Deluxe Rainbow Label Ring",
+"ko": "무지개 구름 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112123,
+"en": "Red Pencil Label Ring",
+"ko": "빨강 색연필 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112124,
+"en": "Blue Pencil Label Ring",
+"ko": "파랑 색연필 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112125,
+"en": "Green Pencil Label Ring",
+"ko": "초록 색연필 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112126,
+"en": "Brown Teddy Label Ring",
+"ko": "브라운테니 명찰 반지",
+"by": "id"
+},
+{
+"id": 1112132,
+"en": "Red Rose Label Ring",
+"ko": "붉은 장미 명찰반지",
+"by": "name"
+},
+{
+"id": 1112133,
+"en": "Mummy Label Ring",
+"ko": "미라 명찰반지",
+"by": "name"
+},
+{
+"id": 1112134,
+"en": "Luxury Pearl Label Ring",
+"ko": "럭셔리 진주 명찰반지",
+"by": "name"
+},
+{
+"id": 1112135,
+"en": "Romantic Lace Label Ring",
+"ko": "로맨틱 레이스 명찰반지",
+"by": "name"
+},
+{
+"id": 1112136,
+"en": "Green Apple Label Ring",
+"ko": "청사과 명찰반지",
+"by": "name"
+},
+{
+"id": 1112137,
+"en": "Mister Mustache Label Ring",
+"ko": "미스터 수염 명찰반지",
+"by": "name"
+},
+{
+"id": 1112139,
+"en": "Angel Label Ring",
+"ko": "천사 명찰반지",
+"by": "name"
+},
+{
+"id": 1112140,
+"en": "Strawberry Cake Label Ring",
+"ko": "딸기 케이크 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112143,
+"en": "Moon Bunny Label Ring",
+"ko": "세뱃돈 디펜스 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112144,
+"en": "Frog Label Ring",
+"ko": "개구리 명찰반지",
+"by": "name"
+},
+{
+"id": 1112145,
+"en": "Oink Label Ring",
+"ko": "꿀꿀 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112148,
+"en": "Watermelon Label Ring",
+"ko": "수박 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112149,
+"en": "Quack Quack Label Ring",
+"ko": "꽥꽥 오리 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112152,
+"en": "Green Forest Label Ring",
+"ko": "그린포레스트 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112153,
+"en": "Baby Label Ring",
+"ko": "아기 명찰반지",
+"by": "name"
+},
+{
+"id": 1112154,
+"en": "Star Label Ring",
+"ko": "스타 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112157,
+"en": "Bunny Label Ring",
+"ko": "토끼 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112158,
+"en": "G Clef Label Ring",
+"ko": "높은음자리표 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112160,
+"en": "Snow Day Dream Label Ring",
+"ko": "꿈속의 설경 명찰반지",
+"by": "name"
+},
+{
+"id": 1112164,
+"en": "Meadow Sheep Label Ring",
+"ko": "초원이양 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112167,
+"en": "Honey Bee Label Ring",
+"ko": "꿀벌 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112168,
+"en": "Pineapple Label Ring",
+"ko": "파인애플 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112180,
+"en": "Christmas Label Ring",
+"ko": "크리스마스 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112181,
+"en": "Mighty Banana Label Ring",
+"ko": "몽키 바나나 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112222,
+"en": "White Label Ring",
+"ko": "하얀 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112223,
+"en": "Ink-and-Wash Painting Name Tag Ring",
+"ko": "수묵화 명찰 반지",
+"by": "name"
+},
+{
+"id": 1112227,
+"en": "Ink-and-Wash Thought Bubble Ring",
+"ko": "수묵화 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112228,
+"en": "Kitty Word Bubble Ring",
+"ko": "호양이 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112232,
+"en": "Pink Candy Quote Ring",
+"ko": "핑크 캔디 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112233,
+"en": "White Cloud Quote Ring",
+"ko": "하얀구름 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112238,
+"en": "Gingerman Quote Ring",
+"ko": "진저맨 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112239,
+"en": "Deluxe Rainbow Quote Ring",
+"ko": "무지개 구름 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112240,
+"en": "Red Notebook Quote Ring",
+"ko": "빨강 노트 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112241,
+"en": "Blue Notebook Quote Ring",
+"ko": "파랑 노트 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112242,
+"en": "Green Notebook Quote Ring",
+"ko": "초록 노트 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112243,
+"en": "Brown Teddy Quote Ring",
+"ko": "브라운테니 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112246,
+"en": "Red Rose Chat Ring",
+"ko": "붉은장미 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112247,
+"en": "Mummy Word Bubble Ring",
+"ko": "미라 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112248,
+"en": "Luxury Pearl Word Bubble Ring",
+"ko": "럭셔리 진주 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112249,
+"en": "Romantic Lace Word Bubble Ring",
+"ko": "로맨틱 레이스 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112250,
+"en": "Green Apple Word Bubble Ring",
+"ko": "청사과 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112251,
+"en": "Mister Mustache Word Bubble Ring",
+"ko": "미스터 수염 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112254,
+"en": "Angel Word Bubble Ring",
+"ko": "천사 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112255,
+"en": "Strawberry Cake Word Bubble Ring",
+"ko": "딸기 케이크 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112258,
+"en": "Moon Bunny Word Bubble Ring",
+"ko": "세뱃돈 디펜스 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112259,
+"en": "Frog Word Bubble Ring",
+"ko": "개구리 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112260,
+"en": "Oink Word Bubble Ring",
+"ko": "꿀꿀 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112263,
+"en": "Watermelon Chat Bubble Ring",
+"ko": "수박 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112264,
+"en": "Quack Quack Word Bubble Ring",
+"ko": "꽥꽥 오리 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112268,
+"en": "Green Forest Chat Ring",
+"ko": "그린포레스트 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112270,
+"en": "Star Word Bubble Ring",
+"ko": "스타 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112273,
+"en": "Bunny Word Bubble Ring",
+"ko": "토끼 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112274,
+"en": "G Clef Word Bubble Ring",
+"ko": "높은음자리표 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112276,
+"en": "Snow Day Dream Word Bubble Ring",
+"ko": "꿈속의 설경 말풍선반지",
+"by": "name"
+},
+{
+"id": 1112281,
+"en": "Baby Word Bubble Ring",
+"ko": "아기 말풍선반지",
+"by": "name"
+},
+{
+"id": 1112282,
+"en": "Meadow Sheep Chat Bubble Ring",
+"ko": "초원이양 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112284,
+"en": "Honey Bee Chat Ring",
+"ko": "꿀벌 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112285,
+"en": "Pineapple Chat Ring",
+"ko": "파인애플 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112297,
+"en": "Christmas Chat Ring",
+"ko": "크리스마스 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1112298,
+"en": "Mighty Banana Chat Ring",
+"ko": "몽키 바나나 말풍선 반지",
+"by": "name"
+},
+{
+"id": 1702000,
+"en": "Dual Plasma Blade",
+"ko": "광선단검",
+"by": "id"
+},
+{
+"id": 1702001,
+"en": "Bouquet",
+"ko": "꽃다발",
+"by": "id"
+},
+{
+"id": 1702002,
+"en": "Wooden Slingshot",
+"ko": "나무 새총",
+"by": "id"
+},
+{
+"id": 1702003,
+"en": "Plastic Slingshot",
+"ko": "플라스틱 새총",
+"by": "id"
+},
+{
+"id": 1702004,
+"en": "Angel Wand",
+"ko": "천사 요술봉",
+"by": "id"
+},
+{
+"id": 1702005,
+"en": "Yellow Candy Cane",
+"ko": "노란색 지팡이 막대사탕",
+"by": "id"
+},
+{
+"id": 1702006,
+"en": "Red Candy Cane",
+"ko": "빨간색 지팡이 막대사탕",
+"by": "id"
+},
+{
+"id": 1702007,
+"en": "Green Candy Cane",
+"ko": "초록색 지팡이 막대사탕",
+"by": "id"
+},
+{
+"id": 1702008,
+"en": "Santa Sack",
+"ko": "선물 보따리",
+"by": "id"
+},
+{
+"id": 1702009,
+"en": "Tiger Paw",
+"ko": "호랑이발 장갑",
+"by": "id"
+},
+{
+"id": 1702010,
+"en": "Orange Toy Hammer",
+"ko": "주황색 뿅망치",
+"by": "id"
+},
+{
+"id": 1702011,
+"en": "Pink Toy Hammer",
+"ko": "분홍색 뿅망치",
+"by": "id"
+},
+{
+"id": 1702012,
+"en": "Yellow Spatula",
+"ko": "조리용 뒤집개",
+"by": "id"
+},
+{
+"id": 1702013,
+"en": "Teddy Bear",
+"ko": "작은 곰인형",
+"by": "id"
+},
+{
+"id": 1702014,
+"en": "Toy Rifle",
+"ko": "장난감 총",
+"by": "id"
+},
+{
+"id": 1702015,
+"en": "Bug Net",
+"ko": "잠자리채",
+"by": "id"
+},
+{
+"id": 1702016,
+"en": "Picnic Basket",
+"ko": "피크닉 바구니",
+"by": "id"
+},
+{
+"id": 1702017,
+"en": "Pink Rabbit Puppet",
+"ko": "핑크래빗",
+"by": "id"
+},
+{
+"id": 1702018,
+"en": "Vanilla Ice Cream",
+"ko": "바닐라 아이스크림",
+"by": "id"
+},
+{
+"id": 1702019,
+"en": "Pillow",
+"ko": "푹신한 베개",
+"by": "id"
+},
+{
+"id": 1702020,
+"en": "Lollipop",
+"ko": "달콤한 막대사탕",
+"by": "id"
+},
+{
+"id": 1702021,
+"en": "Cupid's Bow",
+"ko": "큐피드 보우",
+"by": "name"
+},
+{
+"id": 1702022,
+"en": "Cherub's Bow",
+"ko": "엔젤 보우",
+"by": "name"
+},
+{
+"id": 1702023,
+"en": "Cupid's Crossbow",
+"ko": "큐피드 크로스보우",
+"by": "name"
+},
+{
+"id": 1702024,
+"en": "Blazing Sword",
+"ko": "광선검",
+"by": "name"
+},
+{
+"id": 1702025,
+"en": "Donut",
+"ko": "도너츠",
+"by": "name"
+},
+{
+"id": 1702026,
+"en": "White Rabbit's Foot",
+"ko": "흰토끼발 아대",
+"by": "name"
+},
+{
+"id": 1702036,
+"en": "Witch's Broomstick",
+"ko": "마녀의 빗자루",
+"by": "id"
+},
+{
+"id": 1702044,
+"en": "Brown Electric Guitar",
+"ko": "갈색 일렉 기타",
+"by": "name"
+},
+{
+"id": 1702046,
+"en": "Starlight Heart Scepter",
+"ko": "별빛 하트 요술봉",
+"by": "name"
+},
+{
+"id": 1702047,
+"en": "Detective Glass",
+"ko": "명탐정의 돋보기",
+"by": "name"
+},
+{
+"id": 1702048,
+"en": "Soft Chocolate Fondue Scepter",
+"ko": "사르르 초코퐁듀 스틱",
+"by": "name"
+},
+{
+"id": 1702052,
+"en": "Elizabeth Fan",
+"ko": "엘리자베스 부채",
+"by": "name"
+},
+{
+"id": 1702053,
+"en": "Snowman Claw",
+"ko": "눈사람 아대",
+"by": "name"
+},
+{
+"id": 1702054,
+"en": "Cellphone",
+"ko": "핸드폰",
+"by": "name"
+},
+{
+"id": 1702059,
+"en": "Ancient Korean Bow",
+"ko": "고구려 활",
+"by": "name"
+},
+{
+"id": 1702061,
+"en": "Blue Guitar",
+"ko": "푸른색 통기타",
+"by": "name"
+},
+{
+"id": 1702062,
+"en": "Big Hand",
+"ko": "왕손바닥 장갑",
+"by": "name"
+},
+{
+"id": 1702063,
+"en": "Cactus",
+"ko": "선인장",
+"by": "name"
+},
+{
+"id": 1702064,
+"en": "Shiner",
+"ko": "샤이닝 보우",
+"by": "name"
+},
+{
+"id": 1702065,
+"en": "Red Fist of Fury",
+"ko": "투지의 불꽃",
+"by": "name"
+},
+{
+"id": 1702066,
+"en": "Blue Fist of Fury",
+"ko": "신성한 불꽃",
+"by": "name"
+},
+{
+"id": 1702067,
+"en": "Scissor Stick",
+"ko": "가위 막대기",
+"by": "name"
+},
+{
+"id": 1702068,
+"en": "Rock Stick",
+"ko": "바위 막대기",
+"by": "name"
+},
+{
+"id": 1702069,
+"en": "Paper Stick",
+"ko": "보 막대기",
+"by": "name"
+},
+{
+"id": 1702070,
+"en": "Canvas Tote Bag",
+"ko": "캔버스 토드백",
+"by": "name"
+},
+{
+"id": 1702071,
+"en": "England Cheer Towel",
+"ko": "응원수건1",
+"by": "name"
+},
+{
+"id": 1702072,
+"en": "France Cheer Towel",
+"ko": "응원수건2",
+"by": "name"
+},
+{
+"id": 1702073,
+"en": "Brazil Cheer Towel",
+"ko": "응원수건3",
+"by": "name"
+},
+{
+"id": 1702074,
+"en": "Sporty Band",
+"ko": "스포츠 밴드",
+"by": "name"
+},
+{
+"id": 1702076,
+"en": "Laser Sword",
+"ko": "광선 대검",
+"by": "name"
+},
+{
+"id": 1702077,
+"en": "Blue Shiner Crossbow",
+"ko": "블루 샤이닝 크로스보우",
+"by": "name"
+},
+{
+"id": 1702078,
+"en": "Pink Shiner Crossbow",
+"ko": "핑크 샤이닝 크로스보우",
+"by": "name"
+},
+{
+"id": 1702082,
+"en": "Fairy Fan",
+"ko": "선녀 부채",
+"by": "name"
+},
+{
+"id": 1702083,
+"en": "Blue Blazing Sword",
+"ko": "광선검 블루",
+"by": "name"
+},
+{
+"id": 1702084,
+"en": "Green Blazing Sword",
+"ko": "광선검 그린",
+"by": "name"
+},
+{
+"id": 1702085,
+"en": "Purple Blazing Sword",
+"ko": "광선검 퍼플",
+"by": "name"
+},
+{
+"id": 1702086,
+"en": "Harp",
+"ko": "하프",
+"by": "name"
+},
+{
+"id": 1702087,
+"en": "Foam Hand",
+"ko": "손가락 장갑",
+"by": "name"
+},
+{
+"id": 1702088,
+"en": "Toy Pinwheel",
+"ko": "바람개비",
+"by": "name"
+},
+{
+"id": 1702089,
+"en": "Frog Claw",
+"ko": "개구리 아대",
+"by": "name"
+},
+{
+"id": 1702090,
+"en": "Chicken Smackaroo",
+"ko": "꼬꼬닭",
+"by": "name"
+},
+{
+"id": 1702091,
+"en": "Red Pencil",
+"ko": "빨간색 연필",
+"by": "name"
+},
+{
+"id": 1702092,
+"en": "Super Scrubber",
+"ko": "등밀이 솔",
+"by": "name"
+},
+{
+"id": 1702094,
+"en": "Feather Scimitar",
+"ko": "깃털봉",
+"by": "name"
+},
+{
+"id": 1702095,
+"en": "Tennis Racquet",
+"ko": "테니스라켓",
+"by": "name"
+},
+{
+"id": 1702096,
+"en": "Glowing Pumpkin Basket",
+"ko": "호박 지팡이",
+"by": "name"
+},
+{
+"id": 1702097,
+"en": "Okie Donkie",
+"ko": "동키동키",
+"by": "name"
+},
+{
+"id": 1702100,
+"en": "Pizza Pan",
+"ko": "피자프라이팬",
+"by": "name"
+},
+{
+"id": 1702102,
+"en": "Violin",
+"ko": "바이올린",
+"by": "name"
+},
+{
+"id": 1702103,
+"en": "Transparent Claw",
+"ko": "투명 아대",
+"by": "name"
+},
+{
+"id": 1702104,
+"en": "Christmas Bell",
+"ko": "크리스마스 벨",
+"by": "name"
+},
+{
+"id": 1702106,
+"en": "Stellar Staff",
+"ko": "스타세이버",
+"by": "name"
+},
+{
+"id": 1702107,
+"en": "Pink Ribbon Umbrella",
+"ko": "핑크 리본 양산",
+"by": "name"
+},
+{
+"id": 1702110,
+"en": "Melting Chocolate",
+"ko": "초콜릿 단지",
+"by": "name"
+},
+{
+"id": 1702112,
+"en": "Giant Lollipop",
+"ko": "거대한 롤리팝",
+"by": "name"
+},
+{
+"id": 1702113,
+"en": "Celestial Wand",
+"ko": "여의봉",
+"by": "name"
+},
+{
+"id": 1702115,
+"en": "Red Rose",
+"ko": "레드 로즈",
+"by": "id"
+},
+{
+"id": 1702116,
+"en": "Janus Sword",
+"ko": "야누스의 검",
+"by": "name"
+},
+{
+"id": 1702117,
+"en": "Sachiel Sword",
+"ko": "샤키엘의 검",
+"by": "name"
+},
+{
+"id": 1702118,
+"en": "Veamoth Sword",
+"ko": "베에모트의 검",
+"by": "name"
+},
+{
+"id": 1702119,
+"en": "White Seal Pillow",
+"ko": "물개쿠션(흰색)",
+"by": "name"
+},
+{
+"id": 1702120,
+"en": "Dragon's Fury",
+"ko": "대석장",
+"by": "name"
+},
+{
+"id": 1702121,
+"en": "Zhu's Pork Pole",
+"ko": "저팔계 무기",
+"by": "name"
+},
+{
+"id": 1702122,
+"en": "My Friend Kitty",
+"ko": "내 친구 야옹이",
+"by": "name"
+},
+{
+"id": 1702123,
+"en": "Heart Cane",
+"ko": "하트 지팡이",
+"by": "name"
+},
+{
+"id": 1702125,
+"en": "Water Gun",
+"ko": "물총",
+"by": "name"
+},
+{
+"id": 1702129,
+"en": "Pepe Beak",
+"ko": "페페의 부리",
+"by": "name"
+},
+{
+"id": 1702131,
+"en": "Smackdown Fist ",
+"ko": "강철주먹 아대",
+"by": "name"
+},
+{
+"id": 1702132,
+"en": "Serpent Staff ",
+"ko": "코브라 스태프",
+"by": "name"
+},
+{
+"id": 1702134,
+"en": "Ice Flower",
+"ko": "얼음 눈꽃반지",
+"by": "name"
+},
+{
+"id": 1702138,
+"en": "My Friend Puppy",
+"ko": "내 친구 바둑이",
+"by": "name"
+},
+{
+"id": 1702139,
+"en": "Pink Angel Stick",
+"ko": "샬랄라 요술봉",
+"by": "name"
+},
+{
+"id": 1702141,
+"en": "Broken Sword",
+"ko": "부러진 검",
+"by": "name"
+},
+{
+"id": 1702142,
+"en": "Bionic Claw",
+"ko": "괴물손 아대",
+"by": "name"
+},
+{
+"id": 1702143,
+"en": "Skull Staff",
+"ko": "해골 지팡이",
+"by": "name"
+},
+{
+"id": 1702144,
+"en": "Skull Axe",
+"ko": "해골 도끼",
+"by": "name"
+},
+{
+"id": 1702146,
+"en": "Tania Sword",
+"ko": "타니아 소드",
+"by": "name"
+},
+{
+"id": 1702147,
+"en": "Mercury Sword",
+"ko": "머큐리 소드",
+"by": "name"
+},
+{
+"id": 1702148,
+"en": "Royal Oaken Staff",
+"ko": "사신의 검",
+"by": "name"
+},
+{
+"id": 1702151,
+"en": "Plasma Saber",
+"ko": "플라즈마 세이버",
+"by": "name"
+},
+{
+"id": 1702155,
+"en": "The Jackal",
+"ko": "자칼",
+"by": "name"
+},
+{
+"id": 1702156,
+"en": "Blackbeard's Knuckle",
+"ko": "비즈 너클",
+"by": "name"
+},
+{
+"id": 1702157,
+"en": "Tiger Paw Knuckle",
+"ko": "호랑이발톱 너클",
+"by": "name"
+},
+{
+"id": 1702159,
+"en": "Koala Doll",
+"ko": "코알라 인형",
+"by": "name"
+},
+{
+"id": 1702162,
+"en": "My Friend JY",
+"ko": "내 친구 JY",
+"by": "name"
+},
+{
+"id": 1702163,
+"en": "Holiday Candy Cane",
+"ko": "크리스마스 트리지팡이",
+"by": "name"
+},
+{
+"id": 1702164,
+"en": "Glow Fingers",
+"ko": "반짝손가락",
+"by": "name"
+},
+{
+"id": 1702165,
+"en": "Holiday Tree Ring",
+"ko": "크리스마스 트리반지",
+"by": "name"
+},
+{
+"id": 1702166,
+"en": "My Friend SH",
+"ko": "내 친구 SH",
+"by": "name"
+},
+{
+"id": 1702167,
+"en": "Electric Knuckle",
+"ko": "전기 너클",
+"by": "name"
+},
+{
+"id": 1702170,
+"en": "Hessonite Saber",
+"ko": "헤소나이트 세이버",
+"by": "name"
+},
+{
+"id": 1702171,
+"en": "Butterfly Staff",
+"ko": "꽃보다 나비",
+"by": "name"
+},
+{
+"id": 1702173,
+"en": "Power Pesticide",
+"ko": "강력살충제",
+"by": "name"
+},
+{
+"id": 1702174,
+"en": "Cloud 9 Pillow",
+"ko": "하늘색 구름베개",
+"by": "name"
+},
+{
+"id": 1702175,
+"en": "Dark Seraphim",
+"ko": "다크 세라핌",
+"by": "name"
+},
+{
+"id": 1702176,
+"en": "Picky Ducky",
+"ko": "까칠한 오리씨",
+"by": "name"
+},
+{
+"id": 1702177,
+"en": "Giant Pop with a Swirl",
+"ko": "아이돌스타 롤리팝",
+"by": "name"
+},
+{
+"id": 1702182,
+"en": "Pink Seraphim",
+"ko": "핑크 세라핌",
+"by": "name"
+},
+{
+"id": 1702184,
+"en": "Transparent Knuckle",
+"ko": "투명 너클",
+"by": "name"
+},
+{
+"id": 1702185,
+"en": "Rainbow Sabre",
+"ko": "레인보우 세이버",
+"by": "name"
+},
+{
+"id": 1702187,
+"en": "Maple Girl Wand",
+"ko": "메이플걸 완드",
+"by": "name"
+},
+{
+"id": 1702191,
+"en": "Baby Ellie",
+"ko": "아기코끼리 잠보",
+"by": "name"
+},
+{
+"id": 1702192,
+"en": "Halloween Teddy",
+"ko": "할로윈 테디",
+"by": "name"
+},
+{
+"id": 1702194,
+"en": "Musical Violin",
+"ko": "노래하는 바이올린",
+"by": "name"
+},
+{
+"id": 1702198,
+"en": "Blizzard Stick",
+"ko": "블리자드 스틱",
+"by": "name"
+},
+{
+"id": 1702199,
+"en": "Galactic Legend",
+"ko": "플루토 레전드 홀",
+"by": "name"
+},
+{
+"id": 1702202,
+"en": "Ducky Tube",
+"ko": "더키 튜브",
+"by": "name"
+},
+{
+"id": 1702206,
+"en": "Sparkler",
+"ko": "반짝반짝해",
+"by": "name"
+},
+{
+"id": 1702211,
+"en": "Rainbow Brush",
+"ko": "레인보우 브러쉬",
+"by": "name"
+},
+{
+"id": 1702214,
+"en": "Soft Plush Dolphin",
+"ko": "돌고래 인형",
+"by": "name"
+},
+{
+"id": 1702216,
+"en": "Rudolph",
+"ko": "루돌프",
+"by": "name"
+},
+{
+"id": 1702221,
+"en": "Bunny Umbrella",
+"ko": "바니 우산",
+"by": "name"
+},
+{
+"id": 1702227,
+"en": "Rainbow Umbrella",
+"ko": "로얄 레인보우 우산",
+"by": "name"
+},
+{
+"id": 1702229,
+"en": "Test Pen",
+"ko": "컴퓨터용 수성 싸인펜",
+"by": "name"
+},
+{
+"id": 1702235,
+"en": "Royal Marine Flag",
+"ko": "로얄 마린 깃발",
+"by": "name"
+},
+{
+"id": 1702237,
+"en": "Suitcase",
+"ko": "가을 여행자 가방",
+"by": "name"
+},
+{
+"id": 1702240,
+"en": "Chocolate Dipped Stick",
+"ko": "러블리 초코스틱",
+"by": "name"
+},
+{
+"id": 1702244,
+"en": "Funny Punch Yo-yo",
+"ko": "퍼니펀치 요요",
+"by": "name"
+},
+{
+"id": 1702245,
+"en": "Carrot",
+"ko": "홍당무",
+"by": "name"
+},
+{
+"id": 1702246,
+"en": "Burning Breeze Fan",
+"ko": "꽃바람 파초선",
+"by": "name"
+},
+{
+"id": 1702247,
+"en": "Spring Blossoms",
+"ko": "꽃비 내리는 봄날",
+"by": "name"
+},
+{
+"id": 1702248,
+"en": "Rainbow Sparkle",
+"ko": "레인보우 스파클",
+"by": "name"
+},
+{
+"id": 1702249,
+"en": "Orange Seraphim",
+"ko": "오렌지 세라핌",
+"by": "name"
+},
+{
+"id": 1702250,
+"en": "Heaven's Seraphim",
+"ko": "헤븐즈 세라핌",
+"by": "name"
+},
+{
+"id": 1702251,
+"en": "Stellar Seraphim",
+"ko": "스텔라 세라핌",
+"by": "name"
+},
+{
+"id": 1702252,
+"en": "Dynamic Seraphim",
+"ko": "다이나믹 세라핌",
+"by": "name"
+},
+{
+"id": 1702253,
+"en": "Bloody Ruby Sabre",
+"ko": "블러디루비 세이버",
+"by": "name"
+},
+{
+"id": 1702254,
+"en": "Twilight Sabre",
+"ko": "트와일라잇 세이버",
+"by": "name"
+},
+{
+"id": 1702255,
+"en": "Evergreen Sabre",
+"ko": "애플그린 세이버",
+"by": "name"
+},
+{
+"id": 1702256,
+"en": "Dark Magenta Sabre",
+"ko": "다크마그네타 세이버",
+"by": "name"
+},
+{
+"id": 1702257,
+"en": "Solid Black Sabre",
+"ko": "솔리드블랙 세이버",
+"by": "name"
+},
+{
+"id": 1702258,
+"en": "Ombra & Luce Sabre",
+"ko": "옴브라 루체 세이버",
+"by": "name"
+},
+{
+"id": 1702260,
+"en": "Pink Angel Syringe",
+"ko": "핑크엔젤 주사기",
+"by": "name"
+},
+{
+"id": 1702261,
+"en": "Strawberry Delight",
+"ko": "딸기가 좋아",
+"by": "name"
+},
+{
+"id": 1702262,
+"en": "Milky Way",
+"ko": "은하수 별무리",
+"by": "name"
+},
+{
+"id": 1702264,
+"en": "Crystal Fantasia Wand",
+"ko": "크리스탈 판타지아",
+"by": "name"
+},
+{
+"id": 1702266,
+"en": "Lord Tempest",
+"ko": "로드 템페스트",
+"by": "name"
+},
+{
+"id": 1702267,
+"en": "Lightning Soul",
+"ko": "라이트닝 소울",
+"by": "name"
+},
+{
+"id": 1702272,
+"en": "Fortune Flash",
+"ko": "포츈 플래쉬",
+"by": "name"
+},
+{
+"id": 1702273,
+"en": "Snowflake Rod",
+"ko": "스노우 플레이크",
+"by": "name"
+},
+{
+"id": 1702274,
+"en": "Chocolatier Stick",
+"ko": "쇼콜라티에 스틱",
+"by": "name"
+},
+{
+"id": 1702276,
+"en": "Magic Herb Teaspoon",
+"ko": "매직허브 티스푼",
+"by": "name"
+},
+{
+"id": 1702277,
+"en": "Starfall Magic Square",
+"ko": "스타폴 매직스퀘어",
+"by": "name"
+},
+{
+"id": 1702279,
+"en": "Hunter Hawk",
+"ko": "헌터 호크",
+"by": "name"
+},
+{
+"id": 1702280,
+"en": "Crystalline Sheen",
+"ko": "크리스탈 샤인",
+"by": "name"
+},
+{
+"id": 1702281,
+"en": "Dragon Familiar",
+"ko": "드래곤 슬레이브",
+"by": "name"
+},
+{
+"id": 1702282,
+"en": "Shark-sicle",
+"ko": "냉동 상어",
+"by": "name"
+},
+{
+"id": 1702283,
+"en": "Rose Butterwand",
+"ko": "로즈 수피아",
+"by": "name"
+},
+{
+"id": 1702284,
+"en": "Iris Butterwand",
+"ko": "아이리스 수피아",
+"by": "name"
+},
+{
+"id": 1702288,
+"en": "Atlantis",
+"ko": "아틀란티스",
+"by": "name"
+},
+{
+"id": 1702292,
+"en": "Persimmon Branch",
+"ko": "한가위 감나무가지",
+"by": "name"
+},
+{
+"id": 1702293,
+"en": "Halloween Leopard Umbrella",
+"ko": "할로윈 레오퍼드 우산",
+"by": "name"
+},
+{
+"id": 1702294,
+"en": "Dark Devil Weapon",
+"ko": "어둠의 소악마 무기",
+"by": "name"
+},
+{
+"id": 1702296,
+"en": "Golden Holy Cup",
+"ko": "금빛 성배",
+"by": "name"
+},
+{
+"id": 1702297,
+"en": "Baller Cane",
+"ko": "백만장자 스틱",
+"by": "name"
+},
+{
+"id": 1702298,
+"en": "Twinkle Sparkle",
+"ko": "아롱아롱 미리내",
+"by": "name"
+},
+{
+"id": 1702299,
+"en": "Fairy Lamp",
+"ko": "램프의 요정",
+"by": "name"
+},
+{
+"id": 1702300,
+"en": "Neo Light Sword",
+"ko": "네오 라이트 세이버",
+"by": "name"
+},
+{
+"id": 1702301,
+"en": "Stylish Iron",
+"ko": "스타일리쉬 아이언",
+"by": "name"
+},
+{
+"id": 1702302,
+"en": "Dreamy Candy Pillow",
+"ko": "꿈꾸는 사탕 베개",
+"by": "name"
+},
+{
+"id": 1702303,
+"en": "Lord of the Carrots",
+"ko": "당근의 제왕",
+"by": "name"
+},
+{
+"id": 1702305,
+"en": "Goblin Fire",
+"ko": "도깨비불",
+"by": "name"
+},
+{
+"id": 1702307,
+"en": "GM Nori's Syringe",
+"ko": "GM노리의 주사기",
+"by": "name"
+},
+{
+"id": 1702310,
+"en": "Sea Otter Slammer",
+"ko": "해달과 함께",
+"by": "name"
+},
+{
+"id": 1702311,
+"en": "Superstar Microphone",
+"ko": "슈퍼스타 마이크",
+"by": "name"
+},
+{
+"id": 1702312,
+"en": "Seal Wave Snuggler",
+"ko": "파도 물개 쿠션",
+"by": "name"
+},
+{
+"id": 1702314,
+"en": "Fantastic Ice Pop",
+"ko": "아이스바 맛나",
+"by": "name"
+},
+{
+"id": 1702315,
+"en": "Fireworks Fan",
+"ko": "불꽃놀이 부채",
+"by": "name"
+},
+{
+"id": 1702316,
+"en": "Chicky-Chicky Boom",
+"ko": "효심 깊은 병아리",
+"by": "name"
+},
+{
+"id": 1702317,
+"en": "Sparkling Buddy",
+"ko": "반짝반짝 친구들",
+"by": "name"
+},
+{
+"id": 1702318,
+"en": "Mint Chocolatier Stick",
+"ko": "민트 쇼콜라티에 스틱",
+"by": "name"
+},
+{
+"id": 1702319,
+"en": "Cotton Candy Cloud",
+"ko": "구름 솜사탕",
+"by": "name"
+},
+{
+"id": 1702320,
+"en": "Arachne",
+"ko": "아라크네",
+"by": "name"
+},
+{
+"id": 1702321,
+"en": "Free Spirit",
+"ko": "자유로운 영혼",
+"by": "name"
+},
+{
+"id": 1702322,
+"en": "Dark Devil Weapon",
+"ko": "어둠의 소악마 무기",
+"by": "name"
+},
+{
+"id": 1702323,
+"en": "Shadow Executor",
+"ko": "암염의 집행자",
+"by": "name"
+},
+{
+"id": 1702324,
+"en": "Sweet Snake",
+"ko": "달콤살벌 스네이크",
+"by": "name"
+},
+{
+"id": 1702325,
+"en": "Evil Skull",
+"ko": "이블 스컬",
+"by": "name"
+},
+{
+"id": 1702326,
+"en": "Cat Soul",
+"ko": "어딜 덤비냥",
+"by": "name"
+},
+{
+"id": 1802000,
+"en": "Red Ribbon",
+"ko": "빨간색 리본",
+"by": "id"
+},
+{
+"id": 1802001,
+"en": "Yellow Hat",
+"ko": "노란색 모자",
+"by": "id"
+},
+{
+"id": 1802002,
+"en": "Red Hat",
+"ko": "빨간색 모자",
+"by": "id"
+},
+{
+"id": 1802003,
+"en": "Black Hat",
+"ko": "검은색 모자",
+"by": "id"
+},
+{
+"id": 1802004,
+"en": "Pink Laced Cap",
+"ko": "분홍색 레이스캡",
+"by": "id"
+},
+{
+"id": 1802005,
+"en": "Sky Blue Laced Cap",
+"ko": "하늘색 레이스캡",
+"by": "id"
+},
+{
+"id": 1802006,
+"en": "Blue Top Hat",
+"ko": "파란색 신사모자",
+"by": "id"
+},
+{
+"id": 1802007,
+"en": "Red Top Hat",
+"ko": "빨간색 신사모자",
+"by": "id"
+},
+{
+"id": 1802008,
+"en": "Rudolph's Hat",
+"ko": "루돌프 모자",
+"by": "id"
+},
+{
+"id": 1802009,
+"en": "Tree Hat",
+"ko": "트리 모자",
+"by": "id"
+},
+{
+"id": 2020023,
+"en": "Cake",
+"ko": "케이크",
+"by": "name"
+},
+{
+"id": 2190002,
+"en": "Lie Detector Test",
+"ko": "거짓말 탐지기",
+"by": "name"
+},
+{
+"id": 3015002,
+"en": "Red Round Chair",
+"ko": "사랑의 의자",
+"by": "name"
+},
+{
+"id": 3015011,
+"en": "Palm Tree Beach Chair",
+"ko": "야자수 비치체어",
+"by": "name"
+},
+{
+"id": 3015017,
+"en": "Wooden Tub",
+"ko": "나무 욕조",
+"by": "name"
+},
+{
+"id": 3015019,
+"en": "Soul Teddy Chair",
+"ko": "소울테니 의자",
+"by": "name"
+},
+{
+"id": 3015027,
+"en": "Igloo",
+"ko": "이글루",
+"by": "name"
+},
+{
+"id": 3015030,
+"en": "Teddy Bear Bed",
+"ko": "곰돌이 침대",
+"by": "name"
+},
+{
+"id": 3015031,
+"en": "Mochi Ice Cream Chair",
+"ko": "찰떡 아이스",
+"by": "name"
+},
+{
+"id": 3015033,
+"en": "Bloody Rose",
+"ko": "블러디 로즈",
+"by": "name"
+},
+{
+"id": 3015038,
+"en": "Music Box",
+"ko": "음악상자",
+"by": "name"
+},
+{
+"id": 3015040,
+"en": "Chewing Panda Chair",
+"ko": "냠냠팬더 의자",
+"by": "name"
+},
+{
+"id": 3015041,
+"en": "Fuzzy Kitty Chair",
+"ko": "부비 고양이 의자",
+"by": "name"
+},
+{
+"id": 3015053,
+"en": "Furnace Chair",
+"ko": "난로 의자",
+"by": "name"
+},
+{
+"id": 3015054,
+"en": "Polar Bear Chair",
+"ko": "북극곰 의자",
+"by": "name"
+},
+{
+"id": 3990020,
+"en": "Red \" + \"",
+"ko": "빨간색 더하기 장식",
+"by": "id"
+},
+{
+"id": 3990021,
+"en": "Red \" - \"",
+"ko": "빨간색 빼기 장식",
+"by": "id"
+},
+{
+"id": 3991000,
+"en": "Red \"A\"",
+"ko": "빨간색 알파벳 A",
+"by": "id"
+},
+{
+"id": 3991001,
+"en": "Red \"C\"",
+"ko": "빨간색 알파벳 C",
+"by": "name"
+},
+{
+"id": 3991002,
+"en": "Red \"E\"",
+"ko": "빨간색 알파벳 E",
+"by": "name"
+},
+{
+"id": 3991003,
+"en": "Red \"H\"",
+"ko": "빨간색 알파벳 H",
+"by": "name"
+},
+{
+"id": 3991004,
+"en": "Red \"I\"",
+"ko": "빨간색 알파벳 I",
+"by": "name"
+},
+{
+"id": 3991005,
+"en": "Red \"M\"",
+"ko": "빨간색 알파벳 M",
+"by": "name"
+},
+{
+"id": 3991006,
+"en": "Red \"P\"",
+"ko": "빨간색 알파벳 P",
+"by": "name"
+},
+{
+"id": 3991007,
+"en": "Red \"R\"",
+"ko": "빨간색 알파벳 R",
+"by": "name"
+},
+{
+"id": 3991008,
+"en": "Red \"S\"",
+"ko": "빨간색 알파벳 S",
+"by": "name"
+},
+{
+"id": 3991009,
+"en": "Red \"T\"",
+"ko": "빨간색 알파벳 T",
+"by": "name"
+},
+{
+"id": 3991010,
+"en": "Red \"X\"",
+"ko": "빨간색 알파벳 X",
+"by": "name"
+},
+{
+"id": 3991011,
+"en": "Red \"Y\"",
+"ko": "빨간색 알파벳 Y",
+"by": "name"
+},
+{
+"id": 4000156,
+"en": "Rib",
+"ko": "갈비뼈",
+"by": "name"
+},
+{
+"id": 5000000,
+"en": "Brown Kitty",
+"ko": "갈색고양이",
+"by": "id"
+},
+{
+"id": 5000001,
+"en": "Brown Puppy",
+"ko": "갈색강아지",
+"by": "id"
+},
+{
+"id": 5000002,
+"en": "Pink Bunny",
+"ko": "분홍색토끼",
+"by": "id"
+},
+{
+"id": 5000003,
+"en": "Mini Kargo",
+"ko": "미니카고",
+"by": "id"
+},
+{
+"id": 5000004,
+"en": "Black Kitty",
+"ko": "검은색고양이",
+"by": "id"
+},
+{
+"id": 5000005,
+"en": "White Bunny",
+"ko": "흰색토끼",
+"by": "id"
+},
+{
+"id": 5000006,
+"en": "Husky",
+"ko": "허스키",
+"by": "id"
+},
+{
+"id": 5000007,
+"en": "Black Pig",
+"ko": "검은색돼지",
+"by": "id"
+},
+{
+"id": 5000008,
+"en": "Panda",
+"ko": "팬더",
+"by": "id"
+},
+{
+"id": 5000009,
+"en": "Dino Boy",
+"ko": "디노 보이",
+"by": "id"
+},
+{
+"id": 5000010,
+"en": "Dino Girl",
+"ko": "디노 걸",
+"by": "id"
+},
+{
+"id": 5000012,
+"en": "Monkey",
+"ko": "원숭이",
+"by": "name"
+},
+{
+"id": 5000013,
+"en": "White Tiger",
+"ko": "아기백호",
+"by": "name"
+},
+{
+"id": 5000014,
+"en": "Elephant",
+"ko": "코끼리",
+"by": "name"
+},
+{
+"id": 5000015,
+"en": "Dasher",
+"ko": "루돌프",
+"by": "id"
+},
+{
+"id": 5000016,
+"en": "Robot",
+"ko": "로봇",
+"by": "name"
+},
+{
+"id": 5000017,
+"en": "Mini Yeti",
+"ko": "미니예티",
+"by": "name"
+},
+{
+"id": 5000018,
+"en": "Turkey",
+"ko": "칠면조",
+"by": "name"
+},
+{
+"id": 5000019,
+"en": "Penguin",
+"ko": "펭귄",
+"by": "name"
+},
+{
+"id": 5000020,
+"en": "Black Bunny",
+"ko": "검은색 토끼",
+"by": "name"
+},
+{
+"id": 5000021,
+"en": "Husky",
+"ko": "허스키",
+"by": "name"
+},
+{
+"id": 5000023,
+"en": "Jr. Reaper",
+"ko": "주니어 리퍼",
+"by": "name"
+},
+{
+"id": 5000026,
+"en": "Skunk",
+"ko": "스컹크",
+"by": "name"
+},
+{
+"id": 5000027,
+"en": "Kino",
+"ko": "키노",
+"by": "name"
+},
+{
+"id": 5000031,
+"en": "White Duck",
+"ko": "스쿠버 더키",
+"by": "name"
+},
+{
+"id": 5000032,
+"en": "Golden Pig",
+"ko": "황금돼지",
+"by": "name"
+},
+{
+"id": 5000033,
+"en": "Snail",
+"ko": "달팽이",
+"by": "name"
+},
+{
+"id": 5000054,
+"en": "Snail",
+"ko": "달팽이",
+"by": "id"
+},
+{
+"id": 5010000,
+"en": "Smiley Sun",
+"ko": "방긋방긋 해님",
+"by": "id"
+},
+{
+"id": 5010001,
+"en": "Moon & the Stars",
+"ko": "초롱초롱 달님별님",
+"by": "id"
+},
+{
+"id": 5010002,
+"en": "Colorful Rainbow",
+"ko": "일곱색깔 무지개",
+"by": "id"
+},
+{
+"id": 5010003,
+"en": "Little Devil",
+"ko": "꼬마악마 릴리",
+"by": "id"
+},
+{
+"id": 5010004,
+"en": "Underwater",
+"ko": "잠수 중",
+"by": "id"
+},
+{
+"id": 5010005,
+"en": "Shadow Style",
+"ko": "잔상효과",
+"by": "name"
+},
+{
+"id": 5030000,
+"en": "Mushroom House Elf",
+"ko": "머쉬룸하우스 엘프상인 : 7일권",
+"by": "id"
+},
+{
+"id": 5050100,
+"en": "AP Reset Scroll",
+"ko": "AP 초기화 주문서",
+"by": "id"
+},
+{
+"id": 5051001,
+"en": "SP Reset Scroll",
+"ko": "SP 초기화 주문서",
+"by": "id"
+},
+{
+"id": 5070000,
+"en": "Megaphone",
+"ko": "확성기",
+"by": "name"
+},
+{
+"id": 5070001,
+"en": "Super Megaphone",
+"ko": "고성능 확성기",
+"by": "name"
+},
+{
+"id": 5070006,
+"en": "Item Megaphone",
+"ko": "아이템 확성기",
+"by": "name"
+},
+{
+"id": 5070010,
+"en": "Megaphone",
+"ko": "확성기",
+"by": "name"
+},
+{
+"id": 5070011,
+"en": "Super Megaphone",
+"ko": "고성능 확성기",
+"by": "name"
+},
+{
+"id": 5070020,
+"en": "Megaphone",
+"ko": "확성기",
+"by": "name"
+},
+{
+"id": 5070026,
+"en": "Item Megaphone",
+"ko": "아이템 확성기",
+"by": "name"
+},
+{
+"id": 5070030,
+"en": "Megaphone",
+"ko": "확성기",
+"by": "name"
+},
+{
+"id": 5120000,
+"en": "Snowy Snow",
+"ko": "눈 내리기",
+"by": "id"
+},
+{
+"id": 5120001,
+"en": "Sprinkled Flowers",
+"ko": "꽃 뿌리기",
+"by": "id"
+},
+{
+"id": 5120002,
+"en": "Soap Bubbles",
+"ko": "비눗방울 뿌리기",
+"by": "id"
+},
+{
+"id": 5120003,
+"en": "Snowflakes",
+"ko": "눈 결정 뿌리기",
+"by": "id"
+},
+{
+"id": 5120004,
+"en": "Sprinkled Presents",
+"ko": "선물 뿌리기",
+"by": "id"
+},
+{
+"id": 5120005,
+"en": "Sprinkled Chocolate",
+"ko": "초콜릿 뿌리기",
+"by": "id"
+},
+{
+"id": 5120006,
+"en": "Sprinkled Flower Petals",
+"ko": "꽃가루 뿌리기",
+"by": "id"
+},
+{
+"id": 5120007,
+"en": "Sprinkled Candy",
+"ko": "사탕 뿌리기",
+"by": "id"
+},
+{
+"id": 5120008,
+"en": "Sprinkled Maple Leaves",
+"ko": "단풍잎 뿌리기",
+"by": "id"
+},
+{
+"id": 5120009,
+"en": "Fireworks",
+"ko": "폭죽 터뜨리기",
+"by": "id"
+},
+{
+"id": 5130000,
+"en": "Safety Charm",
+"ko": "호신부적",
+"by": "id"
+},
+{
+"id": 5140000,
+"en": "Regular Store Permit",
+"ko": "일반 상점오픈 허가증",
+"by": "id"
+},
+{
+"id": 5140001,
+"en": "Summer Store Permit",
+"ko": "하늘색 나무집 상점오픈 허가증",
+"by": "id"
+},
+{
+"id": 5151201,
+"en": "Mystery Mix Dye Coupon",
+"ko": "알쏭달쏭 믹스염색 쿠폰",
+"by": "name"
+},
+{
+"id": 5152301,
+"en": "Mystery Colorblend Eye Color Coupon",
+"ko": "알쏭달쏭 믹스 컬러렌즈 쿠폰",
+"by": "id"
+},
+{
+"id": 5160000,
+"en": "Queasy",
+"ko": "울렁울렁",
+"by": "id"
+},
+{
+"id": 5160001,
+"en": "Panicky",
+"ko": "허걱허걱",
+"by": "id"
+},
+{
+"id": 5160002,
+"en": "Sweetness",
+"ko": "꺄오",
+"by": "id"
+},
+{
+"id": 5160003,
+"en": "Smoochies",
+"ko": "뽀뽀",
+"by": "id"
+},
+{
+"id": 5160004,
+"en": "Wink",
+"ko": "윙크",
+"by": "id"
+},
+{
+"id": 5160005,
+"en": "Ouch",
+"ko": "눈물찍",
+"by": "id"
+},
+{
+"id": 5160006,
+"en": "Sparkling Eyes",
+"ko": "초롱초롱",
+"by": "id"
+},
+{
+"id": 5160007,
+"en": "Flaming",
+"ko": "활활",
+"by": "id"
+},
+{
+"id": 5160008,
+"en": "Ray",
+"ko": "반짝반짝",
+"by": "id"
+},
+{
+"id": 5160009,
+"en": "Goo Goo",
+"ko": "뿅",
+"by": "id"
+},
+{
+"id": 5160010,
+"en": "Whoa Whoa",
+"ko": "후하후하",
+"by": "id"
+},
+{
+"id": 5160011,
+"en": "Constant Sigh",
+"ko": "흐음",
+"by": "id"
+},
+{
+"id": 5160012,
+"en": "Drool",
+"ko": "꾸벅꾸벅",
+"by": "id"
+},
+{
+"id": 5160013,
+"en": "Dragon Breath",
+"ko": "앗뜨거",
+"by": "id"
+},
+{
+"id": 5160014,
+"en": "Bleh",
+"ko": "메롱",
+"by": "id"
+},
+{
+"id": 5170000,
+"en": "Pet Name Tag",
+"ko": "펫작명하기",
+"by": "id"
+},
+{
+"id": 5180000,
+"en": "Water of Life",
+"ko": "생명의 물",
+"by": "id"
+},
+{
+"id": 5190000,
+"en": "Auto HP Potion Skill",
+"ko": "HP 물약충전 스킬",
+"by": "name"
+},
+{
+"id": 5190001,
+"en": "Auto MP Potion Skill",
+"ko": "MP 물약충전 스킬",
+"by": "name"
+},
+{
+"id": 5190002,
+"en": "Auto Move Skill",
+"ko": "자동 줍기 스킬",
+"by": "name"
+},
+{
+"id": 5190003,
+"en": "Expanded Auto Move Skill",
+"ko": "이동반경 확대 스킬",
+"by": "name"
+},
+{
+"id": 5782000,
+"en": "Premium Coloring Prism",
+"ko": "컬러링 프리즘",
+"by": "id"
+}
+]
+}

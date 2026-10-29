@@ -64,6 +64,29 @@ def mcw_pairs() -> list[tuple[str, str]]:
         return []
 
 
+def kms_names_path() -> Path:
+    root = Path(getattr(sys, '_MEIPASS', Path(__file__).resolve().parents[1]))
+    return root / 'resources' / 'item-info' / 'kms-names.json'
+
+
+def kms_pairs() -> list[tuple[str, str]]:
+    """(English, Korean) names of Classic World items that the Classic World
+    data leaves without Korean, from the Korean client (KMS) for the same item
+    (scripts/fetch_kms_names.py). Public game data: no meowdb needed."""
+    try:
+        obj = json.loads(kms_names_path().read_text(encoding='utf-8'))
+        rows = obj.get('items', []) if isinstance(obj, dict) else []
+    except (OSError, ValueError):
+        return []
+    out = []
+    for row in rows[:20000]:
+        en = str(row.get('en') or '').strip()
+        ko = str(row.get('ko') or '').strip()
+        if re.search(r'[A-Za-z]', en) and re.search('[가-힣]', ko) and len(en) <= 150 and len(ko) <= 150:
+            out.append((en, ko))
+    return out
+
+
 def meowdb_pairs() -> list[tuple[str, str]]:
     """(English, Korean) item names collected by scripts/fetch_meowdb_items.py."""
     try:
@@ -153,6 +176,20 @@ class ClassicItemIndex:
                 if not old or not old[1]:
                     self.by_en[en.casefold()]=(en,ko)
                     self.mcw_count += 1
+        # R20: Korean-client (KMS) names for Classic World items that have no
+        # Korean in the Classic World data: megaphones, pets, cash items...
+        # The same names meowdb's table carried, from game data alone, so the
+        # public build has them too. Same length rule as the meowdb names.
+        self.kms_count=0
+        for en,ko in kms_pairs():
+            if re.sub(r'[^a-z0-9]+',' ',en.lower()).strip() in curated:
+                continue
+            for variant in {en, en.replace('-', ' ')}:
+                if len(variant) >= 5 and (len(variant.split())>1 or len(variant)>=8):
+                    old=self.by_en.get(variant.casefold())
+                    if not old or not old[1]:
+                        self.by_en[variant.casefold()]=(variant,ko)
+                        self.kms_count += 1
         # Public Classic World wiki names complement the legacy v83 index.
         # The publisher's export is English-first. Do not claim Korean names.
         from .open_classic_data import item_name_rows

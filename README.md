@@ -48,11 +48,11 @@ Windows 10/11 x64에서:
 
 ### 저장소에 없는 파일
 
-다음은 일부러 저장소에서 뺐습니다. 없어도 빌드는 되며, 해당 데이터가 필요한 테스트 58개는 자동으로 건너뜁니다
+다음은 일부러 저장소에서 뺐습니다. 없어도 빌드는 되며, 해당 데이터가 필요한 테스트 59개는 자동으로 건너뜁니다
 (`scripts/run_tests.py`, 목록은 `tests/private_data_tests.txt`).
 
 - `tests/fixtures/` — 실제 게임 화면 캡처(다른 플레이어 닉네임이 보임)
-- `resources/meowdb/` — meowdb.com 아이템 한글명(재배포에 운영자 허가 필요). 없어도 아이템 한글명은 게임 자체 데이터로 나옵니다.
+- `resources/meowdb/` — meowdb.com 아이템 한글명(재배포에 운영자 허가 필요). 없어도 같은 아이템 한글명이 게임 자체 데이터로 나옵니다: 클래식 월드 데이터(`resources/item-info/item-info.sqlite3`)와, 거기에 한글명이 없는 확성기·펫·캐시 아이템 등은 한국 클라이언트 데이터(`resources/item-info/kms-names.json`, `scripts/fetch_kms_names.py`).
 - `resources/models/*.argosmodel` — 빌드 때 자동으로 내려받음(파일당 100MB 초과)
 
 ## 데이터 · 저작권
