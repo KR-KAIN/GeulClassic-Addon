@@ -59,7 +59,7 @@ shots['chat'] = chat
 price = PriceLogWindow(Log()); price.resize(860, 330); price.show(); shots['price'] = price
 comp = M.CompactComposer(); comp.fit_bottom_hud(390, 126); comp.show()
 from kain_maple_translator.translation import Translator
-_src = '60% 주문서 200만 메소에 팝니다'
+_src = '노가다 목장갑 8공 3작 900만에 팝니다'
 comp.input.setText(_src); comp.result.setText(Translator(body_only=True).translate(_src, 'ko-en'))
 shots['composer'] = comp
 try:

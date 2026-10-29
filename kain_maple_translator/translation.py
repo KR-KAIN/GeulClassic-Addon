@@ -660,6 +660,13 @@ class Translator:
             reliable_scroll = scroll_trade(text)
             if reliable_scroll:
                 return with_items(reliable_scroll)
+        if direction == 'ko-en':
+            # R19: Korean trade / party posts as Maple chat English
+            # ('노가다 목장갑 8공 3작 900만에 팝니다' -> 'S> Work Gloves 8 att 3 slots 9m')
+            from .ko_trade import korean_post
+            post = korean_post(text, lambda value: generic(value, direction))
+            if post:
+                return post
         exact = rule_translate(text, direction)
         if exact:
             return with_items(polish_scroll_result(polish_meso_units(exact))) if direction == 'en-ko' else exact
@@ -724,6 +731,12 @@ class Translator:
             prepared = expand_for_mt(expanded, direction)
             result = generic(prepared, direction)
         result = normalize_mt_result(result, direction)
+        if direction == 'ko-en':
+            # R19: 'About Us' / 'LOGIN JOIN' / '{{if price_varies}}' for short
+            # Korean the model does not know: never hand that to the game chat
+            from .natural_chat import junk_english
+            if junk_english(result):
+                return text
         if direction == 'en-ko':
             result = koreanize_names(result)
         result = polish_translation(text, result, direction)

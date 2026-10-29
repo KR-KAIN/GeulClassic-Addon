@@ -34,7 +34,8 @@ class GlossaryTests(unittest.TestCase):
                 self.assertEqual(Translator().translate(text, 'en-ko'), expected)
 
     def test_reverse(self):
-        self.assertEqual(Translator().translate('커닝 파퀘 3명 모집해요', 'ko-en'), 'R> kPQ need 3')
+        # R19: the Korean post parser writes the usual chat spelling 'KPQ'
+        self.assertEqual(Translator().translate('커닝 파퀘 3명 모집해요', 'ko-en'), 'R> KPQ need 3')
         self.assertEqual(Translator().translate('60% 주문서 200만 메소에 팝니다', 'ko-en'), 'S> 60% scroll 2m')
 
     def test_money(self):
