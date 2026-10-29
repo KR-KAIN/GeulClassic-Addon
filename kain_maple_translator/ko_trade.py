@@ -56,6 +56,12 @@ _NAMES = {
     '인기도': 'fame', '슬롯': 'slots', '주문서': 'scrolls', '혼줌': 'chaos scroll',
     '흑수정': 'Black Crystal', '흑수정 원석': 'Black Crystal Ore', '미스릴 원석': 'Mithril Ore',
     '오팔 원석': 'Opal Ore', '레드 크로스링': 'Red Cross Earrings',
+    # often traded cash / event items without a Korean name in the game data
+    '이블 스컬': 'Evil Skull', '어딜 덤비냥': 'Cat Soul', '하얀 명찰 반지': 'White Label Ring',
+    '마녀 모자': 'Witch Hat', '마녀 빗자루': "Witch's Broomstick", '데빌스 혼': 'Devil Horns',
+    '꼬마악마 날개': 'Devil Wings', '귀신 가면': 'Scream Mask', '미이라 마스크': 'Mummy Mask',
+    '해골 비니': 'Skull Beanie', '무테 안경': 'Frameless Glasses', '수묵화 말풍선 반지': 'Ink-and-Wash Thought Bubble Ring',
+    '할로윈 상자': 'Halloween Mystery Fashion Crate', '코끼리 슬리퍼': 'Elephant Slippers',
 }
 _JOBS = {'전사': 'warrior', '법사': 'mage', '마법사': 'mage', '궁수': 'archer', '도적': 'thief',
          '해적': 'pirate', '클레릭': 'cleric', '프리스트': 'priest', '비숍': 'bishop', '헌터': 'hunter',
