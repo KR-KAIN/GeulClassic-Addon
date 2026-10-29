@@ -957,14 +957,25 @@ class CompactSettings(Glass):
         return max(22, round(self.STRIP_PX * CU.SCALE[1] / (1080 / 768)))
 
     def mousePressEvent(self, event):
-        # R18: the title band's X quits, like the old × button did
+        # R18: the title band's X quits, like the old × button did.
+        # R20: the _ next to it folds the panel to its title and status line.
         if getattr(self,'_hud_compact',False) and event.button()==Qt.MouseButton.LeftButton:
-            x,y,w,h=CU.panel_close_rect(self.width(),self.height())
             pos=event.position().toPoint()
+            x,y,w,h=CU.panel_close_rect(self.width(),self.height())
             if x-3<=pos.x()<=x+w+3 and y-3<=pos.y()<=y+h+3:
                 self.quit.emit()
                 return
+            x,y,w,h=CU.panel_min_rect(self.width(),self.height())
+            if x-2<=pos.x()<=x+w+1 and y-3<=pos.y()<=y+h+3:
+                self.set_minimized(not self._minimized)
+                self.minimize_toggled.emit(self._minimized)
+                return
         super().mousePressEvent(event)
+
+    def set_minimized(self, value: bool):
+        self._minimized=bool(value)
+        self._hud_compact=None      # fit_bottom_hud lays the panel out again
+        self.setToolTip('펼치기: 제목줄의 □' if self._minimized else '')
 
     def paintEvent(self, event):
         if getattr(self,'_hud_compact',False):
@@ -972,7 +983,8 @@ class CompactSettings(Glass):
             from PySide6.QtGui import QPainter
             p=QPainter(self)
             p.drawPixmap(0,0,CU.panel_pixmap(self.width(),self.height(),self.PANEL_TITLE,
-                                              self.PANEL_SUB,self.strip_px()-4))
+                                              self.PANEL_SUB,self.strip_px()-4,
+                                              minimize='restore' if self._minimized else 'min'))
             p.end()
             return
         _paint_hud(self)
@@ -998,11 +1010,15 @@ class CompactSettings(Glass):
     hunt_show = Signal()
     price_show = Signal()
     quit = Signal()
+    composer_toggle = Signal()        # R20: open/close the KO > EN panel
+    minimize_toggled = Signal(bool)   # R20: the title band's _ button
 
     def __init__(self):
         super().__init__()
         self.setFixedSize(360, 126)
         self._hud_compact=False
+        self._minimized=False
+        self._fit_minimized=False
         lay = QVBoxLayout(self.card)
         lay.setContentsMargins(8, 6, 8, 6)
         lay.setSpacing(3)
@@ -1037,6 +1053,7 @@ class CompactSettings(Glass):
         btn.setProperty('classic','pink')
         btn.clicked.connect(self.choose)
         b.addWidget(btn)
+        self.region_btn=btn
         self.mode=CU.ClassicCombo()
         self.mode.setMaxVisibleItems(8)
         self.mode.setToolTip('클릭해서 번역창 배치 방식을 선택하세요.')
@@ -1063,11 +1080,13 @@ class CompactSettings(Glass):
         self.edit.setCheckable(True)
         self.edit.toggled.connect(self.edit_changed)
         c.addWidget(self.edit,1)
-        self.tester=CU.ClassicButton('오프라인 번역 시험')
+        # R20: the green 번역 button opens/closes the right KO > EN panel.
+        # The offline translation test it used to run is in ≡ settings.
+        self.tester=CU.ClassicButton('한→영 번역기')
         self.tester.setProperty('classic','lime')
         tester=self.tester
-        tester.setToolTip('포함된 EN↔KO 모델을 실제 실행해 검증합니다. 인터넷 불필요')
-        tester.clicked.connect(self.test_translation)
+        tester.setToolTip('오른쪽 한→영 번역기 열기 · 닫기')
+        tester.clicked.connect(self.composer_toggle)
         c.addWidget(tester)
         self.ocr_button=CU.ClassicButton('OCR 진단')
         self.ocr_button.setProperty('classic','pink')
@@ -1107,21 +1126,47 @@ class CompactSettings(Glass):
         self.scroll_button.setText('휠 ON' if enabled else '휠 OFF')
         self.scroll_mode_changed.emit(enabled)
 
+    def _body_widgets(self):
+        """Every control between the title band and the status strip."""
+        return (self.toggle_btn,self.prefs_btn,self.region_btn,self.mode,self.scroll_button,
+                self.edit,self.tester,self.ocr_button,self.display_button,self.obs_button,
+                self.hunt_button,self.price_button)
+
     def fit_bottom_hud(self, width: int, height: int):
         """Compact all control actions to Maple's bottom control-bar height."""
         height=max(95,int(height))
         width=max(155,int(width))
         compact=height<=210
         if compact: height=min(height,hud_panel_cap())
-        if (self.width(),self.height(),self._hud_compact)==(width,height,compact):
+        minimized=compact and self._minimized
+        if (self.width(),self.height(),self._hud_compact,self._fit_minimized)==(width,height,compact,minimized):
             return
         self._hud_compact=compact
+        self._fit_minimized=minimized
         self.set_theme_variant(getattr(self,'_requested_theme_variant',self.theme_variant))
         # Fixed button widths were set for the 1920x1080 UI scale.
         k=CU.SCALE[0]/(1920/1366)
         self.prefs_btn.setFixedWidth(max(22,round(29*k)))
         self.close_btn.setFixedWidth(max(20,round(25*k)))
         self.scroll_button.setFixedWidth(max(46,round(62*k)))
+        # R20: folded by the title band's _ - only the title band and the
+        # status strip stay (the frame's 30 top rows + the strip, no body).
+        for widget in self._body_widgets():
+            widget.setVisible(not minimized)
+        if minimized:
+            self.brand.hide();self.description.hide();self.close_btn.hide()
+            strip=self.strip_px()
+            height=round((30+CU.panel_strip_rows(strip-4))*CU.SCALE[1])
+            self.card.layout().setContentsMargins(5,max(0,height-strip),5,0)
+            self.card.layout().setSpacing(0)
+            self.status.setObjectName('strip')
+            self.status.strip_px=strip-4
+            self.status.setVisible(True)
+            self.status.setMinimumHeight(strip)
+            self.status.setMaximumHeight(strip)
+            self.card.setStyleSheet(strip_stylesheet('left'))
+            self.setFixedSize(width,height)
+            return
         self.brand.setVisible(not compact)
         self.description.setVisible(not compact)
         self.close_btn.setVisible(not compact)
@@ -1137,7 +1182,7 @@ class CompactSettings(Glass):
             self.status.strip_px=None
         self.card.layout().setSpacing(1 if compact else 6)
         self.edit.setText('이동' if compact else '위치·크기 이동')
-        self.tester.setText('번역' if compact else '오프라인 번역 시험')
+        self.tester.setText('번역' if compact else '한→영 번역기')
         self.ocr_button.setText('OCR' if compact else 'OCR 진단')
         self.display_button.setText('표시' if compact else '표시 시험')
         self.hunt_button.setText('경험치 측정기')
@@ -1155,7 +1200,7 @@ class CompactSettings(Glass):
                 btn.setStyleSheet('font-size:10px;padding:0px;border-radius:0px;')
         else:
             self.edit.setText('이동' if compact else '위치·크기 이동')
-            self.tester.setText('번역' if compact else '오프라인 번역 시험')
+            self.tester.setText('번역' if compact else '한→영 번역기')
             self.ocr_button.setText('OCR' if compact else 'OCR 진단')
             self.display_button.setText('표시' if compact else '표시 시험')
             self.obs_button.setText('OBS' if compact else 'OBS 주소 복사')
@@ -1194,6 +1239,15 @@ class FontSignals(QObject):
     done = Signal(str,str,str)
 
 
+class UpdateSignals(QObject):
+    """R20.2: update check/download threads -> UI thread."""
+    found = Signal(object, bool)        # Release or None, asked by the user
+    failed = Signal(str, bool)
+    progress = Signal(int, int)
+    downloaded = Signal(str)
+    download_failed = Signal(str)
+
+
 class CompactComposer(Glass):
     # Title band like the game's CHARACTER STAT window: the title and the
     # state in the game's own pixel font (the Korean wording is the tooltip).
@@ -1203,8 +1257,19 @@ class CompactComposer(Glass):
         from PySide6.QtGui import QPainter
         state=next((v for k,v in self.STATE_WORDS.items() if k in self.status.text()),'READY')
         p=QPainter(self)
-        p.drawPixmap(0,0,CU.titled_pixmap(self.width(),self.height(),'KO > EN',state))
+        p.drawPixmap(0,0,CU.titled_pixmap(self.width(),self.height(),'KO > EN',state,close=True))
         p.end()
+
+    def mousePressEvent(self, event):
+        # R20: the title band's X closes this panel (the left panel's green
+        # 번역 button opens it again)
+        if event.button()==Qt.MouseButton.LeftButton:
+            x,y,w,h=CU.panel_close_rect(self.width(),self.height())
+            pos=event.position().toPoint()
+            if x-3<=pos.x()<=x+w+3 and y-3<=pos.y()<=y+h+3:
+                self.closed.emit()
+                return
+        super().mousePressEvent(event)
 
     def set_theme_variant(self, variant: str):
         # v0.4.41: edge-to-edge Maple HUD needs square BUTTONS and INPUTS,
@@ -1215,6 +1280,7 @@ class CompactComposer(Glass):
 
 
     translate_clicked=Signal(str)
+    closed=Signal()
     def __init__(self):
         super().__init__()
         self.setFixedSize(326,150)
@@ -1306,6 +1372,8 @@ class SettingsDialog(QDialog):
     history_requested = Signal()
     price_log_requested = Signal()
     help_requested = Signal()
+    test_translation_requested = Signal()
+    update_check_requested = Signal()
     def __init__(self, cfg: dict, parent=None):
         super().__init__(parent)
         self.setWindowTitle('글클메 애드온 · 설정')
@@ -1393,9 +1461,24 @@ class SettingsDialog(QDialog):
         help_button.setObjectName('primary')   # lime, like ADD
         help_button.clicked.connect(self.help_requested.emit)
         lay.addWidget(help_button)
+        # R20.2: automatic updates from the GitHub releases page
+        from .updater import APP_VERSION
+        lay.addWidget(self._section('UPDATE  /  업데이트'))
+        self.update_check=QCheckBox(f'시작할 때 새 버전 확인 · 지금 버전 {APP_VERSION}')
+        self.update_check.setChecked(bool(cfg.get('update_check',True)))
+        self.update_check.setToolTip('GitHub 릴리스만 확인합니다. 새 버전이 있으면 설치할지 물어봅니다.')
+        lay.addWidget(self.update_check)
+        update_button=QPushButton('지금 업데이트 확인')
+        update_button.clicked.connect(self.update_check_requested.emit)
+        lay.addWidget(update_button)
         lay.addWidget(self._section('TRANSLATION  /  번역 엔진'))
         lay.addWidget(QLabel('Argos Translate · 로컬 오프라인 AI (API 키/글자 수 제한 없음)'))
         lay.addWidget(QLabel('EN↔KO 모델 2개는 Windows 빌드에 포함됩니다.'))
+        # R20: moved here from the control panel (its button opens KO > EN now)
+        test_button=QPushButton('오프라인 번역 시험')
+        test_button.setToolTip('포함된 EN↔KO 모델을 실제 실행해 검증합니다. 인터넷 불필요')
+        test_button.clicked.connect(self.test_translation_requested.emit)
+        lay.addWidget(test_button)
         history_button=QPushButton('번역 내역 보기 · 검색 / 전체 지우기')
         history_button.clicked.connect(self.history_requested.emit)
         lay.addWidget(history_button)
@@ -1803,6 +1886,11 @@ class Controller(QObject):
         self.left.price_show.connect(self.toggle_price_log)
         self.left.quit.connect(self.quit)
         self.right.translate_clicked.connect(self.translate_to_english)
+        # R20: open/close the KO > EN panel, fold the control panel
+        self.left.composer_toggle.connect(self.toggle_composer)
+        self.right.closed.connect(lambda: self.set_composer_visible(False))
+        self.left.minimize_toggled.connect(self.set_left_minimized)
+        self.left.set_minimized(bool(self.cfg.get('left_panel_minimized',False)))
         self.left.mode.blockSignals(True)
         self.left.mode.setCurrentIndex(max(0,self.left.mode.findData(self.cfg['floating_mode'])))
         self.left.mode.blockSignals(False)
@@ -1818,12 +1906,25 @@ class Controller(QObject):
         self.chat.set_mode(self.cfg['floating_mode'])
         self.chat.hide()
         self.left.show()
-        self.right.show()
+        if self.cfg.get('composer_visible',True):
+            self.right.show()
         if not self.cfg.get('help_seen_r19'):
             # the features & usage poster once, on the first start of this version
             self.cfg['help_seen_r19']=True
             save_config(self.cfg)
             QTimer.singleShot(1500,self.show_help)
+        # R20.2: look for a newer release on GitHub a few seconds after start
+        self._update_signals=UpdateSignals()
+        self._update_signals.found.connect(self._update_found)
+        self._update_signals.failed.connect(self._update_check_failed)
+        self._update_signals.progress.connect(self._update_progress)
+        self._update_signals.downloaded.connect(self._update_downloaded)
+        self._update_signals.download_failed.connect(self._update_download_failed)
+        self._update_busy=False
+        self._update_pct=-1
+        self._update_window=None
+        if self.cfg.get('update_check',True):
+            QTimer.singleShot(6000,lambda: self.check_for_update(False))
         self.layout_timer=QTimer(self)
         self.layout_timer.setInterval(200)
         self.layout_timer.timeout.connect(self.relayout)
@@ -2165,6 +2266,135 @@ class Controller(QObject):
         finally:
             self._placing=False
 
+    # ------------------------------------------------------ R20.2 updates
+    def check_for_update(self, manual: bool = False):
+        """Ask GitHub for a newer release in the background."""
+        if self._update_busy:
+            return
+        self._update_busy=True
+        if manual:
+            self.left.set_status('새 버전 확인 중…')
+        signals=self._update_signals
+        def task():
+            from . import updater
+            try:
+                signals.found.emit(updater.check(), manual)
+            except Exception as exc:     # offline, GitHub busy: ask next time
+                signals.failed.emit(str(exc)[:160], manual)
+        threading.Thread(target=task, name='update-check', daemon=True).start()
+
+    def _show_update_window(self, release, message: str = ''):
+        """The game-style UPDATE window: what changes + 지금 업데이트 / 나중에."""
+        from . import updater
+        from .classic_windows import UpdateWindow
+        old=getattr(self,'_update_window',None)
+        if old is not None:
+            try:
+                old.close()
+            except RuntimeError:
+                pass
+        can_install=updater.installed_dir() is not None
+        win=UpdateWindow(release, updater.APP_VERSION, can_install, message)
+        if release is not None:
+            if can_install:
+                win.update_now.connect(lambda: self._start_update_download(release))
+            else:
+                # a build folder / source run: the setup would not update this copy
+                win.update_now.connect(lambda: (QDesktopServices.openUrl(QUrl(release.page)), win.close()))
+        def forget(*_args, closed=win):
+            if self._update_window is closed:
+                self._update_window=None
+        win.destroyed.connect(forget)
+        win.show()
+        win.raise_()
+        win.activateWindow()
+        self._update_window=win
+
+    def _update_window_say(self, text: str, failed: bool = False):
+        win=getattr(self,'_update_window',None)
+        if win is None or getattr(win,'release',None) is None:
+            return
+        try:
+            win.failed(text) if failed else win.set_progress(text)
+        except RuntimeError:     # closed meanwhile
+            self._update_window=None
+
+    def _update_check_failed(self, detail: str, manual: bool):
+        self._update_busy=False
+        LOG.info('update check failed: %s', detail)
+        if manual:
+            self._show_update_window(None,'새 버전을 확인하지 못했습니다. 인터넷 연결을 확인해 주세요.')
+
+    def _update_found(self, release, manual: bool):
+        self._update_busy=False
+        if release is None:
+            if manual:
+                self._show_update_window(None)
+            return
+        self._show_update_window(release)
+
+    def _start_update_download(self, release):
+        from . import updater
+        self._update_busy=True
+        self._update_pct=-1
+        self.left.set_status(f'업데이트 받는 중 · {release.version}')
+        signals=self._update_signals
+        def task():
+            try:
+                path=updater.download(release, progress=lambda done,total: signals.progress.emit(done,total))
+                signals.downloaded.emit(str(path))
+            except Exception as exc:
+                signals.download_failed.emit(str(exc)[:200])
+        threading.Thread(target=task, name='update-download', daemon=True).start()
+
+    def _update_progress(self, done: int, total: int):
+        pct=int(done*100/total) if total>0 else -1
+        if pct!=self._update_pct:
+            self._update_pct=pct
+            text=(f'업데이트 받는 중 {pct}%' if pct>=0 else f'업데이트 받는 중 {done//1048576}MB')
+            self.left.set_status(text)
+            self._update_window_say(text)
+
+    def _update_downloaded(self, path: str):
+        from . import updater
+        self.left.set_status('업데이트 설치 중 · 잠시 후 다시 켜집니다')
+        self._update_window_say('설치 중입니다. 잠시 후 프로그램이 다시 켜집니다.')
+        try:
+            updater.launch_installer(Path(path))
+        except Exception as exc:
+            self._update_busy=False
+            self._update_window_say('설치 파일을 실행하지 못했습니다: '+str(exc)[:120], failed=True)
+            return
+        QTimer.singleShot(600,self.quit)   # the setup replaces our files once we are gone
+
+    def _update_download_failed(self, detail: str):
+        self._update_busy=False
+        self.left.set_status('업데이트 받기 실패')
+        self._update_window_say('업데이트를 받지 못했습니다: '+detail[:140], failed=True)
+
+    def set_composer_visible(self, visible: bool):
+        """R20: the KO > EN panel's X closes it; the green 번역 button
+        on the control panel opens it again. Remembered across starts."""
+        self.cfg['composer_visible']=bool(visible)
+        self.save()
+        if visible:
+            self.right.show()
+            self.right.raise_()
+            self.relayout()
+            self.left.set_status('한→영 번역기 열림')
+        else:
+            self.right.hide()
+            self.left.set_status('한→영 번역기 닫힘 · [번역] 버튼으로 다시 열기')
+
+    def toggle_composer(self):
+        self.set_composer_visible(not self.right.isVisible())
+
+    def set_left_minimized(self, minimized: bool):
+        """R20: the control panel's _ folds it to its title and status line."""
+        self.cfg['left_panel_minimized']=bool(minimized)
+        self.save()
+        self.relayout()
+
     def _refit_for_ui_scale(self):
         """The game's UI scale changed: lay the game-style panels out again."""
         CU.close_pixmap.cache_clear()
@@ -2413,7 +2643,8 @@ class Controller(QObject):
             if self.worker and self.worker.isRunning():
                 self.worker.update_settings(self.cfg)
         self.left.show()
-        self.right.show()
+        if self.cfg.get('composer_visible',True):
+            self.right.show()
         if self.worker and self.worker.isRunning():
             self.worker.update_settings(self.cfg)
         self.relayout()
@@ -2563,6 +2794,8 @@ class Controller(QObject):
         dlg.history_requested.connect(self.show_history)
         dlg.price_log_requested.connect(self.show_price_log)
         dlg.help_requested.connect(self.show_help)
+        dlg.test_translation_requested.connect(self.test_translation)
+        dlg.update_check_requested.connect(lambda: self.check_for_update(True))
         dlg.accepted.connect(lambda: self.save_settings_dialog(dlg))
         dlg.finished.connect(lambda _result: self.settings_closed(dlg))
         dlg.show()
@@ -2688,6 +2921,7 @@ class Controller(QObject):
         self.cfg['game_resolution']=dlg.resolution.currentData()
         self.cfg['capture_backend']=dlg.capture_backend.currentData()
         self.cfg['auto_chat_region']=dlg.auto_chat.isChecked()
+        self.cfg['update_check']=dlg.update_check.isChecked()
         self.cfg['chat_geometry']['dock_match_height']=dlg.match_height.isChecked()
         self.cfg['chat_geometry']['hud_match_height']=dlg.hud_height.isChecked()
         self.cfg['hud_panels_match']=dlg.hud_panels.isChecked()

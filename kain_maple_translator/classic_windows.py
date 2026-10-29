@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import time
 
-from PySide6.QtCore import Qt, QTimer, QRect
+from PySide6.QtCore import Qt, QTimer, QRect, Signal
 from PySide6.QtGui import QPainter, QFont, QColor
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QLabel, QTableWidget,
                                QTableWidgetItem, QHeaderView, QAbstractItemView, QLineEdit,
@@ -272,6 +272,75 @@ class HelpWindow(ClassicWindow):
         close.clicked.connect(self.close)
         row.addWidget(close)
         self.body.addLayout(row)
+
+
+# --------------------------------------------------------------- update
+NOTES_QSS = f"""
+QTextBrowser{{background:#ffffff;color:{T.TEXT};border:1px solid {T.FRAME};
+  font-family:'Dotum','Gulim','Malgun Gothic';font-size:12px;padding:6px;}}
+QLabel#updateLine{{color:{T.TEXT};font-size:12px;background:transparent;}}
+QLabel#updateState{{color:{T.PINK_DARK};font-weight:bold;font-size:12px;background:transparent;}}
+"""
+
+
+class UpdateWindow(ClassicWindow):
+    """UPDATE (R20.2): what the new version changes, then 지금 업데이트 (green,
+    left) or 나중에 (orange, right), like the game's KEY CONFIG bottom row.
+    release None: just the result of a check (up to date / could not check)."""
+    update_now = Signal()
+
+    def __init__(self, release, current: str, can_install: bool = True, message: str = ''):
+        super().__init__('UPDATE', None, (560, 480) if release else (420, 190))
+        from PySide6.QtWidgets import QTextBrowser
+        self.setStyleSheet(self.styleSheet() + NOTES_QSS)
+        self.release = release
+        if release is None:
+            self.body.addWidget(self.section(f'UPDATE  /  지금 버전 {current}'))
+            line = QLabel(message or '지금 최신 버전입니다.')
+            line.setObjectName('updateLine')
+            line.setWordWrap(True)
+            self.body.addWidget(line, 1)
+            row = QHBoxLayout()
+            row.addStretch(1)
+            close = self.button('닫기', 'cancel')
+            close.clicked.connect(self.close)
+            row.addWidget(close)
+            self.body.addLayout(row)
+            return
+        self.body.addWidget(self.section(f'UPDATE  /  새 버전 {release.version} · 지금 {current}'))
+        line = QLabel('업데이트하면 아래 내용이 바뀝니다. 지금 할지, 나중에 할지 골라 주세요.'
+                      if can_install else
+                      '설치판이 아니라 자동 설치는 할 수 없습니다. 받는 페이지에서 새 설치 파일을 받아 주세요.')
+        line.setObjectName('updateLine')
+        line.setWordWrap(True)
+        self.body.addWidget(line)
+        self.notes = QTextBrowser()
+        self.notes.setOpenExternalLinks(True)
+        self.notes.setMarkdown(release.notes or release.name)
+        self.body.addWidget(self.notes, 1)
+        self.state = QLabel('')
+        self.state.setObjectName('updateState')
+        self.body.addWidget(self.state)
+        row = QHBoxLayout()
+        self.now = self.button('지금 업데이트' if can_install else '받는 페이지 열기', 'lime')
+        self.now.clicked.connect(self._now)
+        row.addWidget(self.now)
+        row.addStretch(1)
+        self.later = self.button('나중에', 'cancel')
+        self.later.clicked.connect(self.close)
+        row.addWidget(self.later)
+        self.body.addLayout(row)
+
+    def _now(self):
+        self.now.setEnabled(False)
+        self.update_now.emit()
+
+    def set_progress(self, text: str):
+        self.state.setText(text)
+
+    def failed(self, text: str):
+        self.state.setText(text)
+        self.now.setEnabled(True)
 
 
 # --------------------------------------------------------------- alerts

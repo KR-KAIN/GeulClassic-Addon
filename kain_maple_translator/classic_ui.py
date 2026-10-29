@@ -439,6 +439,10 @@ class Canvas:
         """The game's blue X (Basic.img/BtClose), 12x12."""
         self.blit(piece(f'button/close_{state}'), x, y)
 
+    def min_button(self, x, y, state='normal', restore=False):
+        """The same blue button with _ (or a window box to restore)."""
+        self.blit(min_sprite(state, restore), x, y)
+
     def big_text(self, x, y, h, text, bgr=(0, 0, 0), px=16, bold=True) -> int:
         """Larger value text, vertically centred on its ink inside a row of height h."""
         if not text:
@@ -712,8 +716,37 @@ def panel_close_rect(w: int, h: int) -> tuple[int, int, int, int]:
     return (round(x * SCALE[0]), round(y * SCALE[1]), round(s * SCALE[0]), round(s * SCALE[1]))
 
 
+def panel_min_rect(w: int, h: int) -> tuple[int, int, int, int]:
+    """Screen rect of the title band's _ button, just left of the X."""
+    nw, nh = native_size(w, h)
+    x, y, s = nw - 32, 5, 12
+    return (round(x * SCALE[0]), round(y * SCALE[1]), round(s * SCALE[0]), round(s * SCALE[1]))
+
+
+@lru_cache(maxsize=16)
+def min_sprite(state: str = 'normal', restore: bool = False) -> np.ndarray:
+    """A title-band button like the game's blue X (BtClose), drawn from the
+    X sprite itself: its shading with the X taken out and a light _ (or, to
+    restore, a small window box) in the same colours."""
+    src = piece(f'button/close_{state}')
+    light, shade = src[3, 3].copy(), src[3, 2].copy()   # the X's ink and its outline
+    img = src.copy()
+    for y in range(2, 10):
+        img[y, 2:10] = img[y, 1]           # each row's own shade, no X
+    if restore:
+        img[3:5, 3:9] = light              # title bar of the box
+        img[5:9, 3] = light
+        img[5:9, 8] = light
+        img[8, 3:9] = light
+        img[9, 4:10] = shade
+    else:
+        img[7:9, 3:9] = light              # _
+        img[9, 4:10] = shade
+    return img
+
+
 def panel_pixmap(w: int, h: int, title: str, sub: str = '', strip_px: int = 0,
-                 close: bool = True) -> QPixmap:
+                 close: bool = True, minimize: str = '') -> QPixmap:
     """The control panel as a game window, like the EXP meter (R18): white
     title band (Gulim title, since the pixel font has no Hangul), light
     body and a steel-blue bottom strip ``strip_px`` screen pixels tall."""
@@ -736,6 +769,9 @@ def panel_pixmap(w: int, h: int, title: str, sub: str = '', strip_px: int = 0,
     if close:
         # the game's blue X (Basic.img/BtClose), like the EXP meter's title band
         c.close_button(nw - 18, 5)
+    if minimize:
+        # 'min' shrinks the panel to its title and status; 'restore' opens it
+        c.min_button(nw - 32, 5, restore=(minimize == 'restore'))
     return c.pixmap((w, h))
 
 
@@ -767,16 +803,19 @@ class TrackedLabel(QLabel):
             parent.update()
 
 
-def titled_pixmap(w: int, h: int, title: str, state: str = '') -> QPixmap:
+def titled_pixmap(w: int, h: int, title: str, state: str = '', close: bool = False) -> QPixmap:
     """A panel with the stat window's white title band (title + state in the
-    game's pixel font) over the light body."""
+    game's pixel font) over the light body; close adds the game's blue X
+    where panel_close_rect says, with the state moved left of it."""
     nw, nh = native_size(w, h)
     c = Canvas(nw, nh)
     c.frame(strip=False)
     c.title(7, 9, title)
+    if close:
+        c.close_button(nw - 18, 5)
     if state:
         width = sum((_title_glyph(ch).shape[1] + 1) if ch != ' ' else 3 for ch in state.upper()) - 1
-        c.title(nw - 8 - width, 9, state, (70, 70, 170))
+        c.title(nw - 8 - width - (16 if close else 0), 9, state, (70, 70, 170))
     return c.pixmap((w, h))
 
 

@@ -19,6 +19,10 @@ DEFAULTS = {
     "chat_region_game": None,
     # the how-to poster opens by itself only on the first start
     "help_seen_r19": False,
+    # R20: KO > EN panel shown (its X / the green 번역 button), control panel folded (_)
+    "composer_visible": True, "left_panel_minimized": False,
+    # R20.2: look for a newer release on GitHub at start
+    "update_check": True,
     "engine": "argos", "libre_url": "", "libre_key": "",
     "ocr_scale": 1.8, "show_original": False, "capture_interval": 0.08, "capture_backend": "wgc", "auto_chat_region": True, "source_chat_colors": True,
     "game_priority": False, "glyph_debug_enabled": False, "glyph_dictionary_enabled": False,

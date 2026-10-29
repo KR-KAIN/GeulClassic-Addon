@@ -5,7 +5,7 @@
 ; kept on uninstall.
 
 #ifndef AppVersion
-  #define AppVersion "0.4.54-R20"
+  #define AppVersion "0.4.54-R20.2"
 #endif
 #define AppName "글클메 애드온"
 #define AppExe "글클메 애드온.exe"
@@ -57,3 +57,12 @@ Name: "{autodesktop}\{#AppName}"; Filename: "{app}\{#AppExe}"; Tasks: desktopico
 
 [Run]
 Filename: "{app}\{#AppExe}"; Description: "지금 {#AppName} 실행"; Flags: nowait postinstall skipifsilent
+; R20.2: the app's own updater runs this setup with /SILENT /AUTOUPDATE=1;
+; start the app again once the new files are in place
+Filename: "{app}\{#AppExe}"; Flags: nowait; Check: IsAutoUpdate
+
+[Code]
+function IsAutoUpdate: Boolean;
+begin
+  Result := ExpandConstant('{param:AUTOUPDATE|0}') = '1';
+end;
