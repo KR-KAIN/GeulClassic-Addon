@@ -1,0 +1,1 @@
+R5 adds OFF-by-default original pre-OCR row PNG diagnostic capture and column-projection previews; existing OCR unchanged.

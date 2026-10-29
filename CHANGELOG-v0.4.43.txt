@@ -1,0 +1,7 @@
+글클메 애드온 v0.4.43 빌드 재생 테스트 수정
+- v0.4.42 Windows 빌드 오류: user-native-palette-rows.png 실인식 [Denim Winkled Skirt]
+  → 테스트의 기대 문구 [Denim Wrinkled Skirt]와 불일치하여 중단
+- 실제 관측된 오류를 정확히 한정해 괄호 안의 [Denim Winkled Skirt]만 보정
+- 잘못 읽힌 영어 아이템명을 무제한 유사어 치환하지 않음 (원문·가격·숫자 유지)
+- OCR 추론 검사를 생략하지 않으며, 기존 v0.4.42 기능/이동형 사냥 통계 유지
+- Windows 실제 빌드 및 게임 런타임은 이 환경에서 검증할 수 없음

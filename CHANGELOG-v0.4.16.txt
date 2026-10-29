@@ -1,0 +1,11 @@
+KAIN GeulClassic Translation Addon v0.4.16
+
+BUILD ENTRYPOINT HOTFIX (v0.4.15 preserved)
+- Changed BUILD-WINDOWS.bat to run under cmd.exe /D /K in the same console.
+- Added always-on startup logging BUILD-STARTUP-LOG.txt.
+- Added OPEN-BUILD-CONSOLE.bat diagnostic fallback.
+- Added clear failure messages if scripts are missing or PowerShell unavailable.
+- The app code from v0.4.15 is unchanged (red megaphone and licensed open-data integration included).
+- Windows runtime build still requires a real Windows PC, Python setup, and dependencies.
+
+BUILD: Extract the entire ZIP; double-click BUILD-WINDOWS.bat. Keep logs if failed.

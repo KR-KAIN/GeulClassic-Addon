@@ -1,0 +1,694 @@
+{
+  "source": "https://github.com/ohmi69/osms_datamine_dashboard",
+  "source_version": "Public Release",
+  "source_commit": "7b4745b4beb3301871450020b1c817460481f11e",
+  "scope": "All 59 ordinary HP/MP recovery and buff consumables in the current Global Classic data, including potion-like food used in quickslots; no equipment, scrolls or crafting kits.",
+  "icons": [
+    {
+      "item_id": "2000000",
+      "name_en": "Red Potion",
+      "file": "2000000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000000.png",
+      "sha256": "af6b57914593f783f797c097666c7a4acf8393c060d4f82153e0010c3084e368",
+      "size_bytes": 983,
+      "spec": {
+        "hp": 100
+      }
+    },
+    {
+      "item_id": "2000001",
+      "name_en": "Orange Potion",
+      "file": "2000001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000001.png",
+      "sha256": "fcb16290c85c6660c695520d5d3eef1d24fe3c441d15a3f122624dbb6d3d1fec",
+      "size_bytes": 994,
+      "spec": {
+        "hp": 250
+      }
+    },
+    {
+      "item_id": "2000002",
+      "name_en": "White Potion",
+      "file": "2000002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000002.png",
+      "sha256": "542c3fe472e8d5e77fa98cffffb64ef539e5afee37d36a684fc542fc26be63e2",
+      "size_bytes": 938,
+      "spec": {
+        "hp": 500
+      }
+    },
+    {
+      "item_id": "2000003",
+      "name_en": "Blue Potion",
+      "file": "2000003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000003.png",
+      "sha256": "45dd0ea0f4a5b7201a522f8d08f7b4f37b0dbdd143c1a8ed01b489141feeb058",
+      "size_bytes": 950,
+      "spec": {
+        "mp": 200
+      }
+    },
+    {
+      "item_id": "2000004",
+      "name_en": "Elixir",
+      "file": "2000004.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000004.png",
+      "sha256": "0575581b322015a5d8afce81aac9b059e098d9a2f558f1e0def54a85c02c044e",
+      "size_bytes": 1321,
+      "spec": {
+        "hpR": 35,
+        "mpR": 35
+      }
+    },
+    {
+      "item_id": "2000005",
+      "name_en": "Power Elixir",
+      "file": "2000005.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000005.png",
+      "sha256": "646adaafa1ac2faa724380ba534d2ad7c88c24a98c4fa7262362b5d01d36ee7a",
+      "size_bytes": 1335,
+      "spec": {
+        "hpR": 100,
+        "mpR": 100
+      }
+    },
+    {
+      "item_id": "2000006",
+      "name_en": "Mana Elixir",
+      "file": "2000006.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000006.png",
+      "sha256": "d78e14509d55caa2ab619e909de535bf4061eaac7351ade36fe8c0018e09194d",
+      "size_bytes": 1320,
+      "spec": {
+        "mpR": 50
+      }
+    },
+    {
+      "item_id": "2000007",
+      "name_en": "Red Potion",
+      "file": "2000007.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000007.png",
+      "sha256": "af6b57914593f783f797c097666c7a4acf8393c060d4f82153e0010c3084e368",
+      "size_bytes": 983,
+      "spec": {
+        "hp": 100
+      }
+    },
+    {
+      "item_id": "2000008",
+      "name_en": "Blue Potion",
+      "file": "2000008.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02000008.png",
+      "sha256": "45dd0ea0f4a5b7201a522f8d08f7b4f37b0dbdd143c1a8ed01b489141feeb058",
+      "size_bytes": 950,
+      "spec": {
+        "mp": 200
+      }
+    },
+    {
+      "item_id": "2002000",
+      "name_en": "Warrior Potion",
+      "file": "2002000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002000.png",
+      "sha256": "a63ded7d6ec0f31e051012b650f0a1bd200ba13e98075287e67396a5cf68193b",
+      "size_bytes": 817,
+      "spec": {
+        "pad": 10,
+        "time": 600000
+      }
+    },
+    {
+      "item_id": "2002001",
+      "name_en": "Magic Potion",
+      "file": "2002001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002001.png",
+      "sha256": "6974bdb63577c71e0debe32fa466ec92e62f73c79d3750965fa77f95477c0f2a",
+      "size_bytes": 809,
+      "spec": {
+        "mad": 10,
+        "time": 600000
+      }
+    },
+    {
+      "item_id": "2002002",
+      "name_en": "Sniper Potion",
+      "file": "2002002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002002.png",
+      "sha256": "4c4eb36c34a9df24c16b0f75ad64e3be65f86328d9fedd4a4974e0933e1cb018",
+      "size_bytes": 794,
+      "spec": {
+        "acc": 5,
+        "time": 600000
+      }
+    },
+    {
+      "item_id": "2002003",
+      "name_en": "Dexterity Potion",
+      "file": "2002003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002003.png",
+      "sha256": "2dcf678e022f841cf56f5396dd62ead64c02d4be8506b5a404c817361eef1b80",
+      "size_bytes": 771,
+      "spec": {
+        "eva": 5,
+        "time": 600000
+      }
+    },
+    {
+      "item_id": "2002004",
+      "name_en": "Speed Potion",
+      "file": "2002004.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002004.png",
+      "sha256": "908cee000384c6923f6fabe3e82e925df9378862f9a2741535709cdd43e3ef9c",
+      "size_bytes": 792,
+      "spec": {
+        "speed": 8,
+        "time": 600000
+      }
+    },
+    {
+      "item_id": "2002011",
+      "name_en": "Supreme Sniper Potion",
+      "file": "2002011.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002011.png",
+      "sha256": "a64eec82e9d9403a2cf6f3e5f0a47da63de471876dfaeaca3e77b44141924e2c",
+      "size_bytes": 1025,
+      "spec": {
+        "acc": 7,
+        "time": 900000
+      }
+    },
+    {
+      "item_id": "2002012",
+      "name_en": "Supreme Dexterity Potion",
+      "file": "2002012.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002012.png",
+      "sha256": "0d4ad58d8d5cf7f0c92a0a74fc156508a7a83963fee6a8602c4450bdffdcd63f",
+      "size_bytes": 984,
+      "spec": {
+        "eva": 7,
+        "time": 900000
+      }
+    },
+    {
+      "item_id": "2002013",
+      "name_en": "Sharpness Potion",
+      "file": "2002013.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002013.png",
+      "sha256": "a4e91e128f52df5bd1fc399eae9de918b361ec1b6d0a2ae9156b481f4af8cdf7",
+      "size_bytes": 1044,
+      "spec": {
+        "time": 900000
+      }
+    },
+    {
+      "item_id": "2002014",
+      "name_en": "Destructive Potion",
+      "file": "2002014.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02002014.png",
+      "sha256": "b6204de2f717fd4e638b69130d93499ec72b73a0ef2ae74c70c4a9d27bdb413b",
+      "size_bytes": 1028,
+      "spec": {
+        "time": 900000
+      }
+    },
+    {
+      "item_id": "2010000",
+      "name_en": "Roger's Apple",
+      "file": "2010000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010000.png",
+      "sha256": "9c4c0730eef9977cda2aee498ff95b0a965c2cb748d4b4c8d7c090c9dfd330a8",
+      "size_bytes": 998,
+      "spec": {
+        "hp": 30
+      }
+    },
+    {
+      "item_id": "2010001",
+      "name_en": "Apple",
+      "file": "2010001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010001.png",
+      "sha256": "9c4c0730eef9977cda2aee498ff95b0a965c2cb748d4b4c8d7c090c9dfd330a8",
+      "size_bytes": 998,
+      "spec": {
+        "hp": 40
+      }
+    },
+    {
+      "item_id": "2010002",
+      "name_en": "Egg",
+      "file": "2010002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010002.png",
+      "sha256": "fd662746b1ba8180c69b00ac02bb07a9b289bf492364a49a1284dfba3f153660",
+      "size_bytes": 727,
+      "spec": {
+        "hp": 60
+      }
+    },
+    {
+      "item_id": "2010003",
+      "name_en": "Meat",
+      "file": "2010003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010003.png",
+      "sha256": "622b8610d957a496c27be24edbb78916510b5ba10e925a4ac11aa8d14206acc5",
+      "size_bytes": 1194,
+      "spec": {
+        "hp": 160
+      }
+    },
+    {
+      "item_id": "2010004",
+      "name_en": "Orange",
+      "file": "2010004.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010004.png",
+      "sha256": "d2ca90c8d7b4c18d6a9242d5f2010a764b6be3950683379dbc2ac6f37a212267",
+      "size_bytes": 785,
+      "spec": {
+        "mp": 50
+      }
+    },
+    {
+      "item_id": "2010005",
+      "name_en": "Lemon",
+      "file": "2010005.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010005.png",
+      "sha256": "5e9acdca1b326a6a421294fe48ba374cb0f1bcb20d81f131127b8058dd81f1a3",
+      "size_bytes": 575,
+      "spec": {
+        "mp": 150
+      }
+    },
+    {
+      "item_id": "2010006",
+      "name_en": "Watermelon",
+      "file": "2010006.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010006.png",
+      "sha256": "004f23615e8d429d87e5e9e5dfc6fcfc84255bf05ce4892d1e79626bd4f72906",
+      "size_bytes": 917,
+      "spec": {
+        "hp": 800,
+        "mp": 800
+      }
+    },
+    {
+      "item_id": "2010007",
+      "name_en": "Green Apple",
+      "file": "2010007.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010007.png",
+      "sha256": "8a81612d0dd6aa4f0ac065d305f4ce24b541e90d62b158dbc349568de7544786",
+      "size_bytes": 977,
+      "spec": {
+        "mp": 30
+      }
+    },
+    {
+      "item_id": "2010008",
+      "name_en": "Lemon",
+      "file": "2010008.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02010008.png",
+      "sha256": "5e9acdca1b326a6a421294fe48ba374cb0f1bcb20d81f131127b8058dd81f1a3",
+      "size_bytes": 575,
+      "spec": {
+        "mp": 150
+      }
+    },
+    {
+      "item_id": "2012000",
+      "name_en": "Drake's Blood",
+      "file": "2012000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02012000.png",
+      "sha256": "9e2d7f152df7c65b2c93b6c04eff424bd079153999792497f20e22937d91920e",
+      "size_bytes": 1326,
+      "spec": {
+        "pad": 12,
+        "time": 300000
+      }
+    },
+    {
+      "item_id": "2012001",
+      "name_en": "Fairy's Honey",
+      "file": "2012001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02012001.png",
+      "sha256": "503bc2d59baad3fbfb22a0f6a4b84a20f844282a1bd5cf82bb724b5a1a5e296e",
+      "size_bytes": 1660,
+      "spec": {
+        "eva": 10,
+        "time": 300000
+      }
+    },
+    {
+      "item_id": "2012002",
+      "name_en": "Sap of Ancient Tree",
+      "file": "2012002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02012002.png",
+      "sha256": "b4f88d478f2cd387b2743641cbfb54cdec18b7576a5c75ca2c204752645b128c",
+      "size_bytes": 1174,
+      "spec": {
+        "mad": 12,
+        "time": 300000
+      }
+    },
+    {
+      "item_id": "2012003",
+      "name_en": "Drake's Meat",
+      "file": "2012003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02012003.png",
+      "sha256": "9f46e0931448a1bb2569db2de3d6fa0f98d55462be2d66aaaace235cf79627ec",
+      "size_bytes": 1253,
+      "spec": {
+        "pdd": 10,
+        "time": 300000
+      }
+    },
+    {
+      "item_id": "2020000",
+      "name_en": "Salad",
+      "file": "2020000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020000.png",
+      "sha256": "04ce81ea0174b2339950875441c6d449c09b9b680365ba5a35ec8298f98eb424",
+      "size_bytes": 1068,
+      "spec": {
+        "mp": 200
+      }
+    },
+    {
+      "item_id": "2020001",
+      "name_en": "Fried Chicken",
+      "file": "2020001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020001.png",
+      "sha256": "ff9422c331424b2b386ad30ebe9691c5477bc4bd2fee4a5694868df648c92966",
+      "size_bytes": 788,
+      "spec": {
+        "hp": 120
+      }
+    },
+    {
+      "item_id": "2020002",
+      "name_en": "Cake",
+      "file": "2020002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020002.png",
+      "sha256": "6e311012cfa4feede056721fd502c1cd1e498ad669a8b7f959ce0458ce3a4546",
+      "size_bytes": 767,
+      "spec": {
+        "hp": 100,
+        "mp": 100
+      }
+    },
+    {
+      "item_id": "2020003",
+      "name_en": "Pizza",
+      "file": "2020003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020003.png",
+      "sha256": "34799e21017478474bc200bdcd61a5938cdf38a879ca67cb3df8ff14e223b033",
+      "size_bytes": 876,
+      "spec": {
+        "hp": 360
+      }
+    },
+    {
+      "item_id": "2020004",
+      "name_en": "Hamburger",
+      "file": "2020004.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020004.png",
+      "sha256": "2e421bf677d75b3a7033b224f685fa889b1b279440494de27cd8178fb40de174",
+      "size_bytes": 1024,
+      "spec": {
+        "hp": 500
+      }
+    },
+    {
+      "item_id": "2020005",
+      "name_en": "Hot Dog",
+      "file": "2020005.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020005.png",
+      "sha256": "39bad3d84dfa70db56b8e4750158c4e5e8eed38fab552360d984b6b52b0a43c1",
+      "size_bytes": 693,
+      "spec": {
+        "hp": 300
+      }
+    },
+    {
+      "item_id": "2020006",
+      "name_en": "Hot Dog Supreme",
+      "file": "2020006.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020006.png",
+      "sha256": "055fa6525712438fc77d31a8de884d887e0be2da841c883fd3b470fc32b89007",
+      "size_bytes": 898,
+      "spec": {
+        "hp": 600
+      }
+    },
+    {
+      "item_id": "2020007",
+      "name_en": "Dried Squid",
+      "file": "2020007.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020007.png",
+      "sha256": "bbc4d3aa7d81d8eb44d4b141e04b4241c1ebe6359442fb4c2be8e1abb6f5ea31",
+      "size_bytes": 1256,
+      "spec": {
+        "hp": 300
+      }
+    },
+    {
+      "item_id": "2020008",
+      "name_en": "Fat Sausage",
+      "file": "2020008.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020008.png",
+      "sha256": "030625c6dca1a6013c9954f2ca134b576e37f2daf34bd69a151f0ebb5ea215d4",
+      "size_bytes": 696,
+      "spec": {
+        "hp": 800
+      }
+    },
+    {
+      "item_id": "2020009",
+      "name_en": "Orange Juice",
+      "file": "2020009.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020009.png",
+      "sha256": "58b0afdb183fb3a2e19a699c28a0833232b56f5ca809a514b972a18d71095e55",
+      "size_bytes": 1162,
+      "spec": {
+        "mp": 450
+      }
+    },
+    {
+      "item_id": "2020010",
+      "name_en": "Grape Juice",
+      "file": "2020010.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020010.png",
+      "sha256": "fcdfffa0f009e7644f885db0d7e794b8e60abdb496dc569b044696303fea695e",
+      "size_bytes": 1224,
+      "spec": {
+        "mp": 900
+      }
+    },
+    {
+      "item_id": "2020011",
+      "name_en": "W Ramen",
+      "file": "2020011.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020011.png",
+      "sha256": "cdd0cff7c4054cd21d766aa4296688ba189f65e2f064321f2c0255590da70038",
+      "size_bytes": 1850,
+      "spec": {
+        "hpR": 40,
+        "mpR": 40
+      }
+    },
+    {
+      "item_id": "2020012",
+      "name_en": "Ice Cream Pop",
+      "file": "2020012.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020012.png",
+      "sha256": "38b8afd80c85e55bffb9cfa5c3706d85a7d52b959744fd240cb4b190593b149b",
+      "size_bytes": 1019,
+      "spec": {
+        "hp": 1500
+      }
+    },
+    {
+      "item_id": "2020013",
+      "name_en": "Red Bean Sundae",
+      "file": "2020013.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020013.png",
+      "sha256": "78102dd7c51beb42844cc526ea590b5e8b7776b4ccec2f2033962543e688ca60",
+      "size_bytes": 1206,
+      "spec": {
+        "mp": 1500
+      }
+    },
+    {
+      "item_id": "2020014",
+      "name_en": "Melting Cheese",
+      "file": "2020014.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020014.png",
+      "sha256": "074cfac3f1ae8307eb6ff4ca8a12915257f3d9e87815c1f85b7c63839ed0e0fb",
+      "size_bytes": 793,
+      "spec": {
+        "hp": 2000
+      }
+    },
+    {
+      "item_id": "2020015",
+      "name_en": "Reindeer Milk",
+      "file": "2020015.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020015.png",
+      "sha256": "c76ac86c77a32f8278ccfd2007d219bf3d9a39e8541dfc0e32551c56424102ba",
+      "size_bytes": 974,
+      "spec": {
+        "hp": 2500
+      }
+    },
+    {
+      "item_id": "2020016",
+      "name_en": "Sunrise Dew",
+      "file": "2020016.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020016.png",
+      "sha256": "dfa1ee661d849bbb3292c288fb4ddccd2f9e868f30d06bd1f22bc548a686695c",
+      "size_bytes": 1384,
+      "spec": {
+        "mp": 2000
+      }
+    },
+    {
+      "item_id": "2020017",
+      "name_en": "Sunset Dew",
+      "file": "2020017.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020017.png",
+      "sha256": "582a8995c6cf3ce0554603aa43eeb5d2d2864c13ed930dab0886eafc83f71fee",
+      "size_bytes": 1718,
+      "spec": {
+        "mp": 2500
+      }
+    },
+    {
+      "item_id": "2020018",
+      "name_en": "Mrs. Ming Ming's Stew",
+      "file": "2020018.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020018.png",
+      "sha256": "4bfb66bdf58e2830037019b82d358721385d8bad0138acd9e7aa878cbbca7e3a",
+      "size_bytes": 1542,
+      "spec": {
+        "hp": 300,
+        "mp": 300
+      }
+    },
+    {
+      "item_id": "2020019",
+      "name_en": "Andre's Seafood Soup",
+      "file": "2020019.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020019.png",
+      "sha256": "5242f1b32dd0584734b851fa71454c1dc77788a1a9b9163011884def6c5cc70a",
+      "size_bytes": 1544,
+      "spec": {
+        "hp": 300,
+        "mp": 300
+      }
+    },
+    {
+      "item_id": "2020020",
+      "name_en": "Red Malady's Candy",
+      "file": "2020020.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020020.png",
+      "sha256": "effbd30331c3cd9e6c11325f6ba78cfade9a090108cba97203b6385c327a7e65",
+      "size_bytes": 1609,
+      "spec": {
+        "hp": 600
+      }
+    },
+    {
+      "item_id": "2020021",
+      "name_en": "Blue Malady's Candy",
+      "file": "2020021.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020021.png",
+      "sha256": "9ef37212796a036d50e3dde5625127d2352a26d0a5479d1826059daa532ce88f",
+      "size_bytes": 1595,
+      "spec": {
+        "mp": 450
+      }
+    },
+    {
+      "item_id": "2020022",
+      "name_en": "Green Malady's Candy",
+      "file": "2020022.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020022.png",
+      "sha256": "d0ba65cc744c7343cb3b5962a9173ba19abef77fdfe859622b2671cc26fb6d74",
+      "size_bytes": 1654,
+      "spec": {
+        "hp": 300,
+        "mp": 300
+      }
+    },
+    {
+      "item_id": "2020023",
+      "name_en": "Cake",
+      "file": "2020023.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02020023.png",
+      "sha256": "6e311012cfa4feede056721fd502c1cd1e498ad669a8b7f959ce0458ce3a4546",
+      "size_bytes": 767,
+      "spec": {
+        "hp": 100,
+        "mp": 100
+      }
+    },
+    {
+      "item_id": "2022000",
+      "name_en": "Pure Water",
+      "file": "2022000.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02022000.png",
+      "sha256": "207b3decfb39b291c2db108ebb0df4d66da0dbe0fe455979141b073edecd5457",
+      "size_bytes": 1044,
+      "spec": {
+        "mp": 800
+      }
+    },
+    {
+      "item_id": "2022001",
+      "name_en": "Red Bean Porridge",
+      "file": "2022001.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02022001.png",
+      "sha256": "e9387655627f74c0f1bc89b6d97b1e077defc9cab3617d010996672f1a24bbcf",
+      "size_bytes": 709,
+      "spec": {
+        "time": 300000,
+        "thaw": 10
+      }
+    },
+    {
+      "item_id": "2022002",
+      "name_en": "Cider",
+      "file": "2022002.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02022002.png",
+      "sha256": "3dfcfdcf4e742baa11d6d72deae825946b027db45f6b4989e7e91321fe3d3369",
+      "size_bytes": 962,
+      "spec": {
+        "acc": -5,
+        "pad": 15,
+        "time": 300000
+      }
+    },
+    {
+      "item_id": "2022003",
+      "name_en": "Unagi",
+      "file": "2022003.png",
+      "source_url": "https://raw.githubusercontent.com/ohmi69/osms_datamine_dashboard/7b4745b4beb3301871450020b1c817460481f11e/data/current/images/items/02022003.png",
+      "sha256": "3f8555e5c856435587957d0aa986dbb6c50bff064fe100b1e1d5e621fd2c9dad",
+      "size_bytes": 1012,
+      "spec": {
+        "hp": 1000
+      }
+    }
+  ],
+  "note": "Game art belongs to NEXON. Public current client reference; not an official guarantee of all live/hidden/event items.",
+  "coverage": {
+    "named_potions_and_elixirs": 18,
+    "ordinary_recovery_and_buff_consumables": 59,
+    "total_items": 59,
+    "all_named_potions_in_source_included": true
+  },
+  "reference_images": {
+    "captured-red.png": "2000000",
+    "captured-blue.png": "2000003",
+    "captured-lemon-small.png": "2010005",
+    "captured-magic.png": "2002002"
+  },
+  "reference_notes_v054": "Removed the empty End key reference mislabeled as lemon. Magic Potion reference from the pink tubular 2002002 artwork in the user quickslot fixture. References are for recognition only; displayed PNGs remain the canonical catalog assets."
+}

@@ -1,0 +1,9 @@
+v0.4.54-R3-PROFILE / STAGE INSTRUMENTATION ONLY
+- Added cap/pre/ocr/post/queue_wait per-frame runtime trace (JSONL).
+- Added capture frame queued_at timestamp for queue_wait measurement.
+- Added OCR model input dimensions for English, Korean, item and detector paths.
+- Added translation queue wait stage statistics (excluding translation inference).
+- Added privacy-friendly bounded async trace writer with 8 MB rotation.
+- Added EXPORT-OCR-PROFILE.bat and JSONL summary helper.
+- No changes intended to OCR outputs, translation or hunt tracker behavior.
+- Related regression suite: 66 passed (local Linux tests); Windows EXE remains unverified here.

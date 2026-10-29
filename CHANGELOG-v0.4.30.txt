@@ -1,0 +1,10 @@
+v0.4.30 — source patch on top of v0.4.29-INDEPENDENT
+1. Prefer text+nickname for scroll tracker; preserve per-occurrence identity when repeated rows appear
+2. Ignore [Korean item labels] when calculating likely_english/should_translate_body
+3. Add guarded Korean suffix recovery without overwriting known linked names
+4. Separate multiple bracketed item prices and clean polite trade fillers
+5. Mark uncertain CJK/empty linked item labels; retain raw original for diagnostics
+6. Avoid false normal-chat megaphone colors when no banner or channel badge is detected
+7. Additional OCR-to-display counters in inspection diagnostics
+Regression: 10 new tests pass; original 429 pass, one onnxruntime-only test cannot run in this Linux environment
+Not an already-built Windows EXE; Windows live game behavior not verified.

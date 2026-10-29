@@ -1,0 +1,882 @@
+--- a/kain_maple_translator/chat_render.py
++++ b/kain_maple_translator/chat_render.py
+@@ -13,3 +13,12 @@
+     width=max(8,min(40,int(width)))
+     return _CONTINUOUS_TOKEN.sub(lambda m:'\u200b'.join(
+         m.group(0)[i:i+width] for i in range(0,len(m.group(0)),width)), str(text))
++
++
++def colored_item_html(text, color=''):
++    """Safe per-link colour, without changing stored message text."""
++    import html
++    chunks=re.split(r'(\[[^\[\]\n]+\])',soft_break_long_tokens(text))
++    valid=bool(re.fullmatch(r'#[0-9a-fA-F]{6}',str(color)))
++    return ''.join((f'<span style="color:{color};">'+html.escape(chunk)+'</span>')
++                   if i%2 and valid else html.escape(chunk) for i,chunk in enumerate(chunks))
+--- a/kain_maple_translator/chat_shorthand.py
++++ b/kain_maple_translator/chat_shorthand.py
+@@ -11,6 +11,9 @@
+           'dit': '시프', 'warrior': '전사', 'mage': '마법사', 'archer': '궁수'}
+ _EXACT = {
+     'obo': '가격 협의 가능',
++    'pmo':'가격 제안은 귓말로 주세요', 'pm me':'귓말 주세요',
++    'tysm':'정말 고마워', 'ty':'고마워', 'np':'괜찮아',
++    'lmk':'알려줘', 'dm me':'개인 메시지 주세요', 'sry':'미안해', 'mb':'내 실수야',
+     'tyvm': '정말 고마워', 'thx a lot': '정말 고마워', 'tysm bro': '정말 고마워',
+     'ty bro': '고마워', 'thx bro': '고마워', 'np bro': '괜찮아',
+     'idk tbh': '솔직히 잘 모르겠어', 'tbh idk': '솔직히 잘 모르겠어',
+@@ -70,12 +73,18 @@
+     'omw': 'on my way', 'nvm': 'never mind', 'plz': 'please', 'pls': 'please',
+     'ppl': 'people', 'any1': 'anyone', 'some1': 'someone', 'every1': 'everyone',
+     'cuz': 'because', 'bcuz': 'because', 'wanna': 'want to', 'gonna': 'going to',
++    'lmk':'let me know', 'sry':'sorry', 'ty':'thank you',
+     'gotta': 'have to', 'kinda': 'kind of', 'thx': 'thanks', 'tysm': 'thank you so much',
+ }
+ _TOKENS = re.compile(r"\b(?:"+'|'.join(sorted(_EXPAND, key=len, reverse=True))+r")\b", re.I)
+ 
+ 
+ def expand_shorthand(text: str) -> str:
++    if re.search(r'https?\s*:|www\.|discord\.gg',text,re.I):
++        return text
++    if '[' in text:
++        parts=re.split(r'(\[[^\]]*\])',text)
++        return ''.join(part if i%2 else expand_shorthand(part) for i,part in enumerate(parts))
+     if _GUARD.search(text):
+         return text
+     value = _TOKENS.sub(lambda m: _EXPAND[m.group().casefold()], text)
+--- a/kain_maple_translator/core.py
++++ b/kain_maple_translator/core.py
+@@ -101,6 +101,9 @@
+         return True
+     offer=_BRACKETED_ITEM_OFFER.fullmatch(text.strip())
+     if offer and _OFFER_REQUEST.fullmatch(offer.group(2)):
++        return True
++    outside=re.sub(r'\[[^\]]*\]','',text).strip()
++    if re.search(r'(?i)\b(?:selling|buying|wts|wtb|pmo|obo|pls|plz|ty|thx)\b',outside):
+         return True
+     return likely_english(text, confidence)
+ 
+@@ -247,6 +250,9 @@
+                 if 0<=gap<=11 and start_x>=prev_x-15 and start_x<=prev_x+max(60,int(prev_w*.6)):
+                     if len(prev['body'])+len(joined)<240:
+                         prev['body'] += ' '+joined
++                        if prev.get('visual_key') and all(getattr(item,'ink_key','') for item in row):
++                            prev['visual_key']+='/'+'/'.join(item.ink_key for item in row)
++                        else:prev['visual_key']=''
+                         prev['rect']=(prev_x,prev_y,max(prev_w,max(item.rect[0]+item.rect[2] for item in row)-prev_x),
+                                       max(item.rect[1]+item.rect[3] for item in row)-prev_y)
+                         prev['confidence']=min(prev['confidence'],*(float(item.confidence) for item in row))
+@@ -259,7 +265,9 @@
+         result.append({'nickname': name, 'body': body, 'rect': (x,y,r-x,b-y),
+                        'source_band_tone': background_at((x,y,r-x,b-y)) if background_at else None,
+                        'announcement_hint': any(getattr(item,'channel_hint',False) for item in row) or bool(re.match(r'^[\w.\-]{2,24}\s*[\[(]?\s*CH\s*[O0-9]{1,3}\b', joined, re.I)),
+-                       'confidence': min(float(item.confidence) for item in row)})
++                       'confidence': min(float(item.confidence) for item in row),
++                       'source_meta':getattr(row[0],'source_meta',{}),
++                       'visual_key':'/'.join(getattr(item,'ink_key','') for item in row) if all(getattr(item,'ink_key','') for item in row) else ''})
+     return result
+ 
+ 
+@@ -289,7 +297,7 @@
+         return ca == cb
+ 
+     def new(self, rows: list[dict]) -> list[dict]:
+-        current = [normalized(row['nickname'] + ':' + row['body']) for row in rows]
++        current = [('ink:'+row['visual_key']) if row.get('visual_key') else normalized(row['nickname'] + ':' + row['body']) for row in rows]
+         if not current or (len(current) == len(self.previous) and all(self._same(a, b) for a, b in zip(current, self.previous))):
+             return []
+         # A momentarily incomplete OCR frame must not erase prior context:
+--- a/kain_maple_translator/fast_vision.py
++++ b/kain_maple_translator/fast_vision.py
+@@ -6,7 +6,7 @@
+ from __future__ import annotations
+ 
+ from collections import OrderedDict
+-from dataclasses import dataclass
++from dataclasses import dataclass, replace
+ import hashlib
+ import re
+ import time
+@@ -20,6 +20,7 @@
+ from .timings import LatencyBook
+ from .megaphone import detect_band
+ from .ink_background import row_background, neutral_ink
++from .linked_ocr import LinkedItemOCR, link_regions, character_centres
+ from .ocr_validation import needs_critical_retry,prefer_critical_read,same_numeric_fields,loses_known_terms
+ 
+ 
+@@ -147,9 +148,12 @@
+             cv2.copyMakeBorder(original,2,2,2,2,cv2.BORDER_CONSTANT,value=color))
+ 
+ 
+-def _stable_piece(original):
+-    # Estimate a prefix's own background, independently of changing body ink.
+-    return _trim_piece(neutral_ink(original),original)
++def _stable_piece(original, with_offset=False):
++    neutral=neutral_ink(original)
++    _,xs=np.where(neutral[:,:,0]<235)
++    offset=int(xs.min())-2 if xs.size else 0
++    pair=_trim_piece(neutral,original)
++    return (pair,offset) if with_offset else pair
+ 
+ 
+ class IncrementalChatOCR:
+@@ -166,6 +170,17 @@
+         self.height_hint = None
+         self.stage = {}
+         self._char_confidences=[]
++        self._recognition_infos=[]
++        self._candidate_regions=[]
++        self._candidate_ends=[]
++        self.linked_items=LinkedItemOCR(getattr(recognizer,'korean_link_ocr',getattr(recognizer,'korean_ocr',None)))
++        self.row_meta={}
++        self.piece_links={}
++        self.piece_ends={}
++        self._last_frame=None
++        self._last_output=[]
++        self._last_origin=(0,0)
++        self._last_at=-100.
+         self.totals = {'rows':0,'recognition_inputs':0,'retry_rows':0,'korean_rows':0,'frames':0,'recoveries':0}
+         self.split_keys = set()
+ 
+@@ -176,10 +191,13 @@
+         # resizing on labelled crops; the primary model always expects H=48.
+         images = [cv2.resize(im,(max(1,round(im.shape[1]*48/im.shape[0])),48),
+                             interpolation=cv2.INTER_CUBIC) for im in images]
+-        result = self.recognizer.ocr.recognize_txt(images)
++        recognize=getattr(self.recognizer,'recognize_lines',self.recognizer.ocr.recognize_txt)
++        result=recognize(images)
++        self._last_recognition_batches=int(getattr(result,'batches',1))
+         texts = list(getattr(result, 'txts', None) or [])
+         scores = list(getattr(result, 'scores', None) or [])
+         words=list(getattr(result,'word_results',None) or [])
++        self._recognition_infos=[words[i] if i<len(words) else None for i in range(len(texts))]
+         self._char_confidences=[]
+         for i,text in enumerate(texts):
+             raw=str(text)
+@@ -195,8 +213,9 @@
+         started = self.clock()
+         primary = self._recognize([_padded(t[0], True) for t in tasks])
+         primary_chars=list(self._char_confidences)
++        primary_infos=list(self._recognition_infos)
+         self.stage['primary_ms'] += (self.clock()-started)*1000
+-        self.stage['recognition_batches'] += 1
++        self.stage['recognition_batches'] += getattr(self,'_last_recognition_batches',1)
+         if len(primary) != len(tasks):
+             raise RuntimeError('OCR recognition result count mismatch')
+         critical={i for i,(text,score) in enumerate(primary) if needs_critical_retry(text,primary_chars[i])}
+@@ -206,8 +225,9 @@
+             started = self.clock()
+             alt = self._recognize([_padded(tasks[i][1],False) for i in retry])
+             alt_chars=list(self._char_confidences)
++            alt_infos=list(self._recognition_infos)
+             self.stage['retry_ms'] += (self.clock()-started)*1000
+-            self.stage['recognition_batches'] += 1
++            self.stage['recognition_batches'] += getattr(self,'_last_recognition_batches',1)
+             self.stage['retry_rows'] += len(retry)
+             for n,(i,other) in enumerate(zip(retry,alt)):
+                 text,score=primary[i]
+@@ -221,8 +241,9 @@
+                 better=prefer_critical_read(primary[i],other,primary_chars[i],alt_chars[n]) if i in critical else False
+                 if better or other[1]>score+.025 or (parse_chat_line(other[0]) and not parse_chat_line(text) and other[1]>=score-.03):
+                     primary[i]=other
++                    primary_infos[i]=alt_infos[n]
+         korean=getattr(self.recognizer,'korean_ocr',None)
+-        mixed=[i for i,(text,score) in enumerate(primary) if score<.83 or re.search(r'[\u3400-\u9fff가-힣]',text)]
++        mixed=[i for i,(text,score) in enumerate(primary) if (score<.83 or re.search(r'[\u3400-\u9fff가-힣]',text)) and not link_regions(text,primary_infos[i],tasks[i][0])]
+         if korean is not None and mixed:
+             started=self.clock()
+             alt=korean.recognize_txt([_padded(tasks[i][1],False) for i in mixed])
+@@ -235,6 +256,17 @@
+                 cjk=bool(re.search(r'[\u3400-\u9fff]',base))
+                 if same and re.search('[가-힣]',text) and float(score)>=.80 and (float(score)>confidence+.025 or (cjk and float(score)>=confidence-.02)):
+                     primary[i]=(str(text).strip(),float(score))
++        self._candidate_regions=[link_regions(text,info,tasks[i][0]) for i,((text,_),info) in enumerate(zip(primary,primary_infos))]
++        self._candidate_ends=[]
++        for (text,_),info,(neutral,_) in zip(primary,primary_infos,tasks):
++            centres=character_centres(text,info,neutral.shape[1]+10)
++            last=next((c for c in reversed(centres) if c is not None),None) if centres else None
++            self._candidate_ends.append(min(neutral.shape[1],round(last-5+neutral.shape[0]*.25)) if last else None)
++        started=self.clock()
++        primary=self.linked_items.correct(primary,tasks,primary_infos)
++        self.stage['item_ocr_ms']+=(self.clock()-started)*1000
++        for key,value in self.linked_items.stats.items():self.stage[key]+=value
++        self.stage['recognition_batches']+=self.linked_items.stats.get('item_ocr_batches',0)
+         return primary
+ 
+     def _read_rows(self, rows):
+@@ -251,11 +283,11 @@
+             if split is None:
+                 key=('full',row.key)
+                 tasks.setdefault(key,(row.neutral,row.original))
+-                plans.append((row,None,key,False))
++                plans.append((row,None,key,False,0,0,0,0))
+                 continue
+             end,start,quality=split
+-            head=_stable_piece(row.original[:,:end])
+-            body=_stable_piece(row.original[:,start:])
++            head,head_offset=_stable_piece(row.original[:,:end],with_offset=True)
++            body,body_offset=_stable_piece(row.original[:,start:],with_offset=True)
+             keys=[]
+             for role,pair in (('head',head),('body',body)):
+                 im=pair[0]
+@@ -266,15 +298,20 @@
+                     tasks.setdefault(key,pair)
+                 elif role=='head':
+                     self.stage['prefix_cache_hits']+=1
+-            plans.append((row,keys[0],keys[1],via_badge))
++            plans.append((row,keys[0],keys[1],via_badge,end,start,body_offset,head_offset))
+         values={}
+         if tasks:
+             read=self._candidates(list(tasks.values()))
+-            for key,value in zip(tasks,read):
++            for key,value,regions,span_end in zip(tasks,read,self._candidate_regions,self._candidate_ends):
+                 values[key]=value
++                self.piece_links[key]=regions
++                self.piece_ends[key]=span_end
+                 if key[0]!='full':self.piece_cache[key]=(*value,now)
+         result=[];recover=[]
+-        for index,(row,headkey,bodykey,via_badge) in enumerate(plans):
++        for index,(row,headkey,bodykey,via_badge,end,start,body_offset,head_offset) in enumerate(plans):
++            if headkey and self.piece_ends.get(headkey):end=min(end,self.piece_ends[headkey]+head_offset)
++            self.row_meta[row.key]={"name_end":end,"body_start":start,
++                "item_ranges":[(x0+start+body_offset,x1+start+body_offset) for _,_,x0,x1 in self.piece_links.get(bodykey,[])]}
+             if headkey is None:
+                 result.append(values[bodykey]);continue
+             head=values.get(headkey,self.piece_cache.get(headkey,('',0)))
+@@ -292,14 +329,27 @@
+         if recover:
+             full=self._candidates([(rows[i].neutral,rows[i].original) for i in recover])
+             for i,value in zip(recover,full):result[i]=value
+-        while len(self.piece_cache)>2048:self.piece_cache.popitem(last=False)
++        while len(self.piece_cache)>2048:
++            expired,_=self.piece_cache.popitem(last=False)
++            self.piece_links.pop(expired,None)
++            self.piece_ends.pop(expired,None)
+         return result
+ 
+     def detect(self, bgr: np.ndarray, left: int, top: int, scale=1.8) -> list[Line]:
+         start = self.clock()
+         self.stage = {key:0 for key in ('primary_ms','retry_ms','korean_ms','badge_ms','recognition_batches','recognition_inputs',
+                       'retry_rows','korean_rows','badge_split_rows','delimiter_split_rows','prefix_cache_hits',
+-                      'critical_retry_rows','numeric_retry_disagreements','term_retry_rejections')}
++                      'critical_retry_rows','numeric_retry_disagreements','term_retry_rejections',
++                      'item_ocr_ms','item_ocr_inputs','item_ocr_cache_hits','item_ocr_confirmed','item_ocr_unresolved','item_ocr_batches','item_english_skips')}
++        frame_key=hashlib.blake2b(bgr.tobytes()+str(bgr.shape).encode(),digest_size=16).digest()
++        if frame_key==self._last_frame and (self.clock()-self._last_at<.45 or
++                (self._last_output and all(line.confidence>=.88 for line in self._last_output))):
++            dx,dy=left-self._last_origin[0],top-self._last_origin[1]
++            self.stats.update(self.stage)
++            self.stats.update(cache_hits=self.stats.get('ink_rows',0),new_rows=0,
++                              detector_recoveries=0,recognition_errors=0,unchanged_frame=1,
++                              ocr_ms=round((self.clock()-start)*1000,2))
++            return [replace(line,rect=(line.rect[0]+dx,line.rect[1]+dy,*line.rect[2:])) for line in self._last_output]
+         seg_start=self.clock()
+         segments, uncertain = ink_rows(bgr,self.height_hint)
+         segmentation_ms=(self.clock()-seg_start)*1000
+@@ -342,12 +392,16 @@
+         while len(self.cache) > 512:
+             oldkey,_=self.cache.popitem(last=False)
+             self.split_keys.discard(oldkey)
++            self.row_meta.pop(oldkey,None)
++            self.piece_links.pop(('full',oldkey),None)
++            self.piece_ends.pop(('full',oldkey),None)
+         output = []
+         for row in segments:
+             text, score = values.get(row.key, ('', 0.0))
+             if text and score >= .43:
+                 x, y, w, h = row.rect
+-                output.append(Line(text, score, (left+x, top+y, w, h), channel_hint=row.key in self.split_keys))
++                output.append(Line(text, score, (left+x, top+y, w, h), channel_hint=row.key in self.split_keys,
++                                   ink_key=row.key.hex(),source_meta=self.row_meta.get(row.key,{})))
+         parsed = merge_chat_ocr(output)
+         from .system_notices import merge_red_notices
+         notices = merge_red_notices(output, bgr, left, top)
+@@ -399,4 +453,8 @@
+                       'ink_rows': len(segments), 'cache_hits': hits,
+                       'new_rows': len(rows), 'recognition_batches': rec_calls,
+                       'detector_recoveries': recovery, 'recognition_errors': errors}
++        self._last_frame=frame_key
++        self._last_output=output
++        self._last_origin=(left,top)
++        self._last_at=self.clock()
+         return output
+--- a/kain_maple_translator/link_integrity.py
++++ b/kain_maple_translator/link_integrity.py
+@@ -0,0 +1,26 @@
++"""Preserve complete item labels across every translation route."""
++from collections import Counter
++import re
++LINK=re.compile(r'\[[^\[\]\r\n]+\]')
++
++
++def preserve_link_labels(source,result):
++    from .trade_stats import _link_terms
++    expected=[_link_terms(m.group()) for m in LINK.finditer(source)]
++    if not expected:return result
++    actual=list(LINK.finditer(result))
++    if [m.group() for m in actual]==expected:return result
++    if len(actual)==len(expected):
++        for match,label in reversed(list(zip(actual,expected))):result=result[:match.start()]+label+result[match.end():]
++        return result
++    remaining=Counter(expected)
++    for match in actual:
++        if remaining[match.group()]:remaining[match.group()]-=1
++        else:return source
++    missing=[]
++    for label in expected:
++        if remaining[label]:
++            remaining[label]-=1;bare=label[1:-1]
++            if bare and bare in result:result=result.replace(bare,label,1)
++            else:missing.append(label)
++    return (' · '.join(missing)+' · ' if missing else '')+result
+--- a/kain_maple_translator/linked_ocr.py
++++ b/kain_maple_translator/linked_ocr.py
+@@ -0,0 +1,161 @@
++"""Item-only Korean recognition from existing CTC positions and source pixels."""
++from collections import OrderedDict
++import hashlib
++import re
++import cv2
++import numpy as np
++
++LINK=re.compile(r'\[[^\[\]\n]{0,100}\]')
++HANGUL=re.compile('[가-힣]')
++
++
++def character_centres(text,info,width):
++    words=getattr(info,'words',None) or []
++    cols=getattr(info,'word_cols',None) or []
++    total=float(getattr(info,'line_txt_len',0) or 0)
++    chars=[c for w in words for c in w];columns=[c for w in cols for c in w]
++    if total<=0 or ''.join(chars)!=''.join(text.split()) or len(chars)!=len(columns):return None
++    it=iter(columns)
++    return [None if c.isspace() else (next(it)+.5)*width/total for c in text]
++
++
++def pixel_brackets(neutral):
++    binary=(neutral[:,:,0]<150).astype(np.uint8)
++    _,labels,stats,_=cv2.connectedComponentsWithStats(binary,8)
++    out=[]
++    for n,(x,y,w,h,area) in enumerate(stats[1:],1):
++        if not(h>=6 and 2<=w<=max(3,h*.48) and area>=h+2):continue
++        shape=labels[y:y+h,x:x+w]==n
++        columns=shape.sum(axis=0);stem=int(columns.argmax())
++        if columns[stem]<h*.75:continue
++        top=shape[:max(1,round(h*.15))].any(axis=0)
++        bottom=shape[-max(1,round(h*.15)):].any(axis=0)
++        if min(top.sum(),bottom.sum())<w*.7:continue
++        middle=shape[max(1,h//3):max(2,h*2//3)]
++        if stem<=max(0,w//4) and middle[:,-1].mean()<.3:kind='['
++        elif stem>=w-1-max(0,w//4) and middle[:,0].mean()<.3:kind=']'
++        else:continue
++        out.append((kind,int(x),int(y),int(w),int(h)))
++    return out
++
++
++def link_regions(text,info,image):
++    centres=character_centres(text,info,image.shape[1]+10)
++    if centres is None:return []
++    regions=[];brackets=pixel_brackets(image) if '[' in text else []
++    for match in LINK.finditer(text):
++        a,b=match.span();l,r=centres[a]-5,centres[b-1]-5
++        before=next((c-5 for c in reversed(centres[:a]) if c is not None),-image.shape[0])
++        after=next((c-5 for c in centres[b:] if c is not None),image.shape[1]+image.shape[0])
++        x0=max(0,int(max((before+l)/2,l-image.shape[0]*.38)))
++        x1=min(image.shape[1],int(min((r+after)/2,r+image.shape[0]*.38))+1)
++        if x1-x0>=8:regions.append((a,b,x0,x1))
++    # A missing closing bracket may be recovered only with both bracket
++    # shapes in the pixels and a separately recognized trade suffix.
++    for opening in re.finditer(r'\[',text):
++        a=opening.start()
++        if any(lo<=a<hi for lo,hi,_,_ in regions):continue
++        suffix=re.search(r'(?i)(?:[SBT]\s*>|WT[SB]\b|SELLING\b|BUYING\b|PMO\b|PM\b)',text[a+1:])
++        if suffix is None or centres[a] is None:continue
++        b=a+1+suffix.start()
++        if '[' in text[a+1:b] or centres[b] is None:continue
++        left_hint=centres[a]-5;right_limit=centres[b]-5
++        opens=[box for box in brackets if box[0]=='[' and abs(box[1]-left_hint)<image.shape[0]*.7]
++        if not opens:continue
++        left=min(opens,key=lambda box:abs(box[1]-left_hint))
++        closes=[box for box in brackets if box[0]==']' and left[1]+left[3]+5<box[1]<right_limit and
++                abs(box[2]-left[2])<=3 and .7<=box[4]/left[4]<=1.4]
++        if not closes:continue
++        right=max(closes,key=lambda box:box[1])
++        regions.append((a,b,max(0,left[1]-2),min(image.shape[1],right[1]+right[3]+2)))
++    return regions
++
++
++def confident_english_link(text,a,b,info,image):
++    if not re.fullmatch(r"\[[A-Za-z][A-Za-z '\-]{3,98}\]",text[a:b]):return False
++    confs=list(getattr(info,'confs',[]) or [])
++    if len(confs)!=len(text):return False
++    letters=[confs[i] for i in range(a,b) if text[i].isalpha()]
++    if not letters or min(letters)<.90 or float(np.mean(letters))<.98:return False
++    centres=character_centres(text,info,image.shape[1]+10)
++    if centres is None:return False
++    positions=[c for c in centres[a:b] if c is not None]
++    # A high score cannot excuse a large CTC gap hiding omitted Hangul.
++    return max(np.diff(positions),default=0)<=max(8,image.shape[0]*.9)
++
++
++def _label(text):
++    value=str(text).strip();complete=list(LINK.finditer(value))
++    # Source brackets delimit the label. Neighbouring S>/price glyphs may
++    # enter the crop but never belong to its one complete [item] result.
++    if len(complete)==1:return complete[0].group()[1:-1].strip()
++    return value.strip('[]［］ ').strip()
++
++
++def _native(image):
++    color=tuple(int(v) for v in np.median(image,axis=(0,1)))
++    return cv2.copyMakeBorder(image,2,2,4,4,cv2.BORDER_CONSTANT,value=color)
++
++
++def _good(text,score):
++    label=_label(text)
++    return (len(HANGUL.findall(label))>=2 and score>=.87 and len(label)<=100 and
++            not re.search(r'[\u3400-\u9fff\[\]\r\n]',label))
++
++
++class LinkedItemOCR:
++    def __init__(self,engine,capacity=512):
++        self.engine=engine;self.capacity=capacity;self.cache=OrderedDict();self.stats={}
++
++    def correct(self,reads,tasks,infos):
++        self.stats=dict(item_ocr_inputs=0,item_ocr_cache_hits=0,item_ocr_confirmed=0,
++                        item_ocr_unresolved=0,item_ocr_batches=0,item_english_skips=0)
++        if self.engine is None:return reads
++        jobs=OrderedDict();plans=[];suspected=set()
++        for i,((text,score),(neutral,original),info) in enumerate(zip(reads,tasks,infos)):
++            for a,b,x0,x1 in link_regions(text,info,neutral):
++                if confident_english_link(text,a,b,info,neutral):
++                    self.stats['item_english_skips']+=1;continue
++                crop=neutral[:,x0:x1]
++                key=hashlib.blake2b(crop.tobytes()+str(crop.shape).encode(),digest_size=16).digest()
++                plans.append((i,a,b,key))
++                if key in self.cache:
++                    self.cache.move_to_end(key);self.stats['item_ocr_cache_hits']+=1
++                else:jobs.setdefault(key,(crop,original[:,x0:x1]))
++        pending=list(jobs)
++        if pending:
++            first=self.engine.recognize_txt([jobs[k][1] for k in pending])
++            self.stats['item_ocr_inputs']+=len(pending);self.stats['item_ocr_batches']+=1
++            candidates=[]
++            for key,text,score in zip(pending,first.txts or [],first.scores or []):
++                if HANGUL.search(str(text)):suspected.add(key)
++                if _good(text,float(score)):candidates.append((key,str(text),float(score)))
++                elif float(score)>=.90 and not HANGUL.search(str(text)):self.cache[key]=None
++                else:self.stats['item_ocr_unresolved']+=1
++            if candidates:
++                second=self.engine.recognize_txt([_native(jobs[k][1]) for k,_,_ in candidates])
++                self.stats['item_ocr_inputs']+=len(candidates);self.stats['item_ocr_batches']+=1
++                for (key,first_text,score),text,other_score in zip(candidates,second.txts or [],second.scores or []):
++                    if (_good(text,float(other_score)) and
++                        re.sub(r'\s+','',_label(first_text))==re.sub(r'\s+','',_label(text))):
++                        self.cache[key]=('['+_label(first_text)+']',min(score,float(other_score)))
++                    else:self.stats['item_ocr_unresolved']+=1
++        replacements={}
++        for i,a,b,key in plans:
++            if self.cache.get(key):replacements.setdefault(i,[]).append((a,b,*self.cache[key]))
++        output=list(reads)
++        for i,a,b,key in plans:
++            if key not in self.cache and (key in suspected or re.search('[\u3400-\u9fff가-힣]',reads[i][0][a:b])):
++                output[i]=(output[i][0],min(output[i][1],.87))
++        for i,changes in replacements.items():
++            text,score=output[i];confs=list(getattr(infos[i],'confs',[]) or [])
++            if len(confs)==len(text):
++                protected=set(j for a,b,_,_ in changes for j in range(a,b))
++                context=[c for j,c in enumerate(confs) if j not in protected and not text[j].isspace()]
++                if context:score=float(np.mean(context))
++            for a,b,label,confidence in sorted(changes,reverse=True):
++                text=text[:a]+label+text[b:];score=min(score,confidence)
++                self.stats['item_ocr_confirmed']+=1
++            output[i]=(text,score)
++        while len(self.cache)>self.capacity:self.cache.popitem(last=False)
++        return output
+--- a/kain_maple_translator/main.py
++++ b/kain_maple_translator/main.py
+@@ -35,7 +35,7 @@
+ from .obs_source import OBSChatSource
+ from .chat_style import normalize_style, text_css, rgba_color, qt_rgba_color
+ from .visual_theme import normalize_variant, radius_px, panel_stylesheet
+-from .chat_render import soft_break_long_tokens
++from .chat_render import soft_break_long_tokens, colored_item_html
+ from .megaphone import tinted_rgba
+ from .window_behavior import (capture_allowed, foreground_context, is_topmost,
+                               set_native_stack, restore_below_foreground, Z_ORDER_MODES)
+@@ -307,9 +307,11 @@
+         is_announcement = record.get('kind','normal') not in ('normal', '')
+         # The captured pixel is ALREADY a composited Maple colour. Use high
+         # opacity rather than darkening it to the old fixed 28%.
+-        background=qt_rgba_color(str(record.get('band_color','')),self._band_opacity) if is_announcement else 'transparent'
++        source_colors=getattr(self,'_source_colors',True)
++        band=str(record.get('band_color',''))
++        background=qt_rgba_color(band,100 if source_colors else self._band_opacity) if is_announcement and re.fullmatch(r'#[0-9a-fA-F]{6}',band) else 'transparent'
+         row.setStyleSheet(f'QLabel#chatRow{{background-color:{background};padding:1px 4px;'
+-                          f'border-radius:{radius_px(self.theme_variant)//2}px;border:0;'
++                          f'border-radius:{0 if source_colors and is_announcement else radius_px(self.theme_variant)//2}px;border:0;'
+                           f'font-size:{self._size_pt}pt;}}')
+         # Explicit family on BOTH spans: Qt rich text does not always inherit
+         # a registered Noonnu font from QLabel.setFont().
+@@ -320,10 +322,14 @@
+         source_color=str(record.get('text_color',''))
+         if getattr(self, '_source_colors', True) and re.fullmatch(r'#[0-9a-fA-F]{6}', source_color):
+             body_css += f';color:{source_color};'
+-        source_css=body_css.removeprefix(text_css(self._style,message_style))
+-        row.setText(f'<span style="{font_css}{text_css(self._style,nickname_style)}">{html.escape(nick)}</span>'
+-                    f'<span style="{font_css}{text_css(self._style,message_style)}{source_css}"> : '
+-                    f'{html.escape(soft_break_long_tokens(translated))}</span>')
++        nick_css=text_css(self._style,nickname_style)
++        nickname_color=str(record.get('nickname_color',''))
++        if source_colors and re.fullmatch(r'#[0-9a-fA-F]{6}',nickname_color):
++            nick_css+=f';color:{nickname_color};'
++        item_color=str(record.get('item_color','')) if source_colors else ''
++        row.setText(f'<span style="{font_css}{nick_css}">{html.escape(nick)}</span>'
++                    f'<span style="{font_css}{body_css}"> : '
++                    f'{colored_item_html(translated,item_color)}</span>')
+         return row
+ 
+     def _clear_rows(self, rows):
+@@ -374,7 +380,7 @@
+         translated=str(message.get('translated','')).strip()
+         if not nick or not translated:return
+         record={'nickname':nick,'translated':translated,
+-                **{k:str(message.get(k,'')) for k in ('kind','prefix','tone','band_color','text_color')}}
++                **{k:str(message.get(k,'')) for k in ('kind','prefix','tone','band_color','text_color','nickname_color','item_color')}}
+         if record['kind'] not in ('normal','unknown','super','item','double_item'):
+             record['kind']='normal'
+         self._row_sequence += 1
+@@ -816,8 +822,9 @@
+         self.theme_choice.setCurrentIndex(max(0,self.theme_choice.findData(normalize_variant(cfg.get('theme_variant','rounded')))))
+         self.theme_choice.currentIndexChanged.connect(self._theme_preview_changed)
+         lay.addWidget(self.theme_choice)
+-        self.source_colors=QCheckBox('원문 채팅 글자색 유지 (고확 배경색과 별도 인식)')
++        self.source_colors=QCheckBox('게임 원본 배경·닉네임·아이템·본문 색상 유지')
+         self.source_colors.setChecked(bool(cfg.get('source_chat_colors',True)))
++        self.source_colors.setToolTip("켜면 확성기 배경은 캡처 색상을 100% 불투명도로 표시합니다.")
+         lay.addWidget(self.source_colors)
+         self.game_priority=QCheckBox('게임 우선 · 번역 프로그램 CPU 우선순위 낮추기')
+         self.game_priority.setChecked(bool(cfg.get('game_priority',False)))
+--- a/kain_maple_translator/megaphone.py
++++ b/kain_maple_translator/megaphone.py
+@@ -141,7 +141,7 @@
+     return {'kind':kind,'prefix':prefix,'tone':band.tone,'band_color':band.background}
+ 
+ 
+-def row_appearance(image: np.ndarray, rect: tuple[int,int,int,int], origin: tuple[int,int], body: str)->dict:
++def row_appearance(image: np.ndarray, rect: tuple[int,int,int,int], origin: tuple[int,int], body: str, source_meta=None)->dict:
+     x,y,w,h=rect
+     band=detect_band(image,(x-origin[0],y-origin[1],w,h))
+     if band.tone == 'none' and w >= 70:
+@@ -154,6 +154,7 @@
+         if local.shape[0] >= 6 and local.shape[1] >= 70:
+             band = detect_band(local, (0, 0, local.shape[1], local.shape[0]))
+     result = classify(band,body)
++    if not body:return result
+     lx, ly = max(0, x-origin[0]), max(0, y-origin[1])
+     patch = image[ly:ly+h, lx:lx+w, :3]
+     if patch.size:
+@@ -166,17 +167,10 @@
+             glyph_tone=_coloured_glyphs(sample)
+             if glyph_tone is not None:
+                 result.update(kind='unknown',prefix='[확성]',tone=glyph_tone)
+-        bg = np.median(image[max(0, ly):min(image.shape[0], ly+h), :, :3], axis=(0,1))
+-        delta = np.max(np.abs(sample.astype(np.float32)-bg), axis=2)
+-        ink = sample[delta > max(40, float(np.percentile(delta, 82)))]
+-        if len(ink) >= 5:
+-            b, g, r = np.median(ink, axis=0).astype(int)
+-            # Normal chat is drawn on a dark floating pane; keep its hue
+-            # readable if the original was a very dark colour.
+-            if band.tone == 'none' and max(r,g,b) < 145:
+-                factor = 180/max(1,r,g,b)
+-                r,g,b = [min(255, round(v*factor)) for v in (r,g,b)]
+-            result['text_color'] = f'#{r:02x}{g:02x}{b:02x}'
++        from .source_palette import sample_palette
++        result.update(sample_palette(patch,band.background,source_meta))
++        if band.tone=='none' and result.get('source_white_body'):
++            result.update(kind='normal',prefix='',tone='none',band_color='')
+     return result
+ 
+ 
+--- a/kain_maple_translator/obs_source.py
++++ b/kain_maple_translator/obs_source.py
+@@ -148,8 +148,19 @@
+    const nickname=(entry.prefix?entry.prefix+' ':'')+entry.nickname;
+    if(nick.textContent!==nickname)nick.textContent=nickname;
+    const translated=' : '+entry.translated;
+-   if(body.textContent!==translated)body.textContent=translated;
++   const itemColor=state.source_chat_colors!==false && /^#[0-9a-fA-F]{6}$/.test(String(entry.item_color||''))?entry.item_color:'';
++   const bodyKey=translated+'|'+itemColor;
++   if(body.dataset.renderKey!==bodyKey){
++     body.replaceChildren();
++     for(const part of translated.split(/(\[[^\[\]\n]+\])/)){
++       if(itemColor && /^\[[^\[\]\n]+\]$/.test(part)){
++         const link=document.createElement('span');link.textContent=part;link.style.color=itemColor;body.append(link);
++       }else body.append(document.createTextNode(part));
++     }
++     body.dataset.renderKey=bodyKey;
++   }
+    nick.style.color=special?(style.megaphone_nickname_color||'#fff38a'):(style.nickname_color||'#b5d6ff');
++   if(state.source_chat_colors!==false && /^#[0-9a-fA-F]{6}$/.test(String(entry.nickname_color||'')))nick.style.color=entry.nickname_color;
+    nick.style.fontWeight=style.nickname_bold?'bold':'normal';
+    nick.style.textDecoration=style.nickname_underline?'underline':'none';
+    body.style.color=special?(style.megaphone_message_color||'#ffffff'):(style.message_color||'#ffffff');
+@@ -157,9 +168,9 @@
+    body.style.fontWeight=style.message_bold?'bold':'normal';
+    body.style.textDecoration=style.message_underline?'underline':'none';
+    if(special && /^#[0-9a-fA-F]{6}$/.test(String(entry.band_color||''))){
+-     row.style.backgroundColor=rgba(entry.band_color,(state.megaphone_opacity??92)/100);
++     row.style.backgroundColor=rgba(entry.band_color,state.source_chat_colors!==false?1:(state.megaphone_opacity??92)/100);
+      row.style.padding='1px 4px';
+-     row.style.borderRadius=state.theme_variant==='square'?'0':'6px';
++     row.style.borderRadius=state.source_chat_colors!==false || state.theme_variant==='square'?'0':'6px';
+    }else{row.style.backgroundColor='transparent';row.style.padding='0';row.style.borderRadius='0';}
+    desired[special?'mega':'normal'].push(row);
+   });
+@@ -206,7 +217,8 @@
+                     'translated':str(item.get('translated',''))[:500],
+                     'kind':str(item.get('kind','normal'))[:32],
+                     'prefix':str(item.get('prefix',''))[:12],
+-                    'band_color':str(item.get('band_color',''))[:7], 'text_color':str(item.get('text_color',''))[:7]})
++                    'band_color':str(item.get('band_color',''))[:7], 'text_color':str(item.get('text_color',''))[:7],
++                    'nickname_color':str(item.get('nickname_color',''))[:7], 'item_color':str(item.get('item_color',''))[:7]})
+             else:
+                 name,body=item[:2]
+                 cleaned.append((str(name)[:80],str(body)[:500]))
+--- a/kain_maple_translator/recognition_batch.py
++++ b/kain_maple_translator/recognition_batch.py
+@@ -0,0 +1,19 @@
++"""Avoid padding short nicknames to long message widths; preserve input order."""
++from types import SimpleNamespace
++
++
++def recognize_width_buckets(engine,images,max_ratio=2.,max_batch=6):
++    if not images:return SimpleNamespace(txts=[],scores=[],word_results=[],batches=0)
++    indices=sorted(range(len(images)),key=lambda i:images[i].shape[1]/images[i].shape[0]);groups=[]
++    for index in indices:
++        ratio=images[index].shape[1]/images[index].shape[0]
++        if not groups or len(groups[-1])>=max_batch or ratio>groups[-1][0][1]*max_ratio:groups.append([])
++        groups[-1].append((index,ratio))
++    texts=['']*len(images);scores=[0.]*len(images);words=[None]*len(images)
++    for group in groups:
++        result=engine.recognize_txt([images[i] for i,_ in group])
++        if len(result.txts or [])!=len(group):raise RuntimeError('OCR bucket result count mismatch')
++        info=list(getattr(result,'word_results',None) or [])
++        for n,((i,_),text,score) in enumerate(zip(group,result.txts,result.scores)):
++            texts[i]=text;scores[i]=score;words[i]=info[n] if n<len(info) else None
++    return SimpleNamespace(txts=texts,scores=scores,word_results=words,batches=len(groups))
+--- a/kain_maple_translator/row_admission.py
++++ b/kain_maple_translator/row_admission.py
+@@ -1,22 +1,36 @@
+ """Keep unconfirmed OCR fragments out of ordinary chat history."""
+ from collections import OrderedDict
+ import re
++import copy
++import hashlib
++
++_CLASSIFIED_CACHE=OrderedDict()
+ 
+ 
+ def classified_chat_rows(lines, image, left, top):
+     from .core import merge_chat_ocr
+     from .megaphone import row_appearance
+     from .system_notices import merge_red_notices
++    key=(hashlib.blake2b(image.tobytes()+str(image.shape).encode(),digest_size=16).digest(),left,top,
++         tuple((line.text,float(line.confidence),tuple(line.rect),getattr(line,'channel_hint',False),
++                getattr(line,'ink_key',''),repr(getattr(line,'source_meta',{}))) for line in lines))
++    cached=_CLASSIFIED_CACHE.get(key)
++    if cached is not None:
++        _CLASSIFIED_CACHE.move_to_end(key)
++        return copy.deepcopy(cached)
+     origin = (left, top)
+     rows = merge_chat_ocr(lines, background_at=lambda rect: row_appearance(image, rect, origin, '').get('tone'))
+     for row in rows:
+-        row.update(row_appearance(image, row['rect'], origin, row['body']))
+-        if row.get('announcement_hint') and row.get('kind') == 'normal':
++        row.update(row_appearance(image, row['rect'], origin, row['body'],row.get('source_meta')))
++        if row.get('announcement_hint') and row.get('kind') == 'normal' and not row.get('source_white_body'):
+             row.update(kind='unknown', prefix='[확성]', tone='uncertain')
+     for notice in merge_red_notices(lines, image, left, top):
+         nx, ny, nw, nh = notice['rect']
+         rows = [r for r in rows if not (ny <= r['rect'][1]+r['rect'][3]/2 <= ny+nh)]
+-    return sorted(rows, key=lambda row: (row['rect'][1], row['rect'][0]))
++    rows=sorted(rows, key=lambda row: (row['rect'][1], row['rect'][0]))
++    _CLASSIFIED_CACHE[key]=copy.deepcopy(rows)
++    while len(_CLASSIFIED_CACHE)>16:_CLASSIFIED_CACHE.popitem(last=False)
++    return rows
+ 
+ 
+ class RowAdmission:
+@@ -34,12 +48,12 @@
+             key = (row['nickname'], re.sub(r'\s+', ' ', row['body']).strip())
+             known = self.announcements.get(key)
+             inherited = False
+-            if row.get('kind', 'normal') == 'normal' and known and captured_at-known[0] < 2.5:
++            if row.get('kind', 'normal') == 'normal' and not row.get('source_white_body') and known and captured_at-known[0] < 2.5:
+                 row.update(known[1])
+                 inherited = True
+             if row.get('kind', 'normal') != 'normal':
+                 if not inherited:
+-                    self.announcements[key] = (captured_at, {k: row.get(k, '') for k in ('kind','prefix','tone','band_color','text_color')})
++                    self.announcements[key] = (captured_at, {k: row.get(k, '') for k in ('kind','prefix','tone','band_color','text_color','nickname_color','item_color')})
+                     self.announcements.move_to_end(key)
+                 accepted.append(row)
+                 continue
+--- a/kain_maple_translator/source_palette.py
++++ b/kain_maple_translator/source_palette.py
+@@ -0,0 +1,54 @@
++"""Sample real glyph cores independently for sender, linked items and body."""
++import re
++import numpy as np
++
++
++def _rgb(value):return np.array([int(value[i:i+2],16) for i in (5,3,1)],dtype=float)
++
++
++def _hex(bgr):
++    b,g,r=[int(v) for v in bgr]
++    return f'#{r:02x}{g:02x}{b:02x}'
++
++
++def _mode(pixels,background=None):
++    if len(pixels)<5:return ''
++    if background is not None:
++        delta=np.max(np.abs(pixels.astype(float)-background),axis=1)
++        pixels=pixels[delta>=np.percentile(delta,78)]
++    q=pixels.astype(np.uint16)>>3;code=q[:,0]*1024+q[:,1]*32+q[:,2]
++    values,counts=np.unique(code,return_counts=True);choices=[]
++    for i in np.argsort(counts)[-12:]:
++        color=np.median(pixels[code==values[i]],axis=0);weight=float(counts[i])
++        if background is not None:weight*=max(1.,float(np.max(np.abs(color-background))))**.7
++        choices.append((weight,color))
++    return _hex(max(choices,key=lambda v:v[0])[1])
++
++
++def sample_palette(patch,band_color='',meta=None):
++    if patch.size==0:return {}
++    meta=meta or {};height,width=patch.shape[:2];pixels=patch[:,:,:3]
++    if re.fullmatch(r'#[0-9a-fA-F]{6}',band_color):bg=_rgb(band_color)
++    else:
++        from .ink_background import row_background
++        bg=np.median(row_background(pixels),axis=0)
++    delta=np.max(np.abs(pixels.astype(float)-bg),axis=2)
++    valid_y=np.mean(delta>35,axis=1)<.65
++    ink=(delta>28)&valid_y[:,None]
++    start=max(0,min(width,int(meta.get('body_start') or min(width//3,110))))
++    end=max(1,min(width,int(meta.get('name_end') or min(width//4,75))))
++    links=np.zeros(width,dtype=bool)
++    for x0,x1 in meta.get('item_ranges',[]):links[max(0,int(x0)-1):min(width,int(x1)+1)]=True
++    body_mask=ink.copy();body_mask[:,:start]=False;body_mask[:,links]=False
++    if np.count_nonzero(body_mask)<8:body_mask=ink.copy();body_mask[:,:start]=False
++    body=_mode(pixels[body_mask],bg);nick=_mode(pixels[:,:end][ink[:,:end]],bg)
++    item=_mode(pixels[ink&links[None,:]],bg);out={}
++    if body:
++        out['text_color']=body;c=_rgb(body)
++        out['source_white_body']=bool(c.min()>=175 and c.max()-c.min()<35)
++    if nick:out['nickname_color']=nick
++    if item:out['item_color']=item
++    if band_color:
++        sampled=_mode(pixels[(delta<22)&valid_y[:,None]])
++        if sampled:out['band_color']=sampled
++    return out
+--- a/kain_maple_translator/trade_memory.py
++++ b/kain_maple_translator/trade_memory.py
+@@ -151,7 +151,7 @@
+             item = r'(KAINITEM[A-Z]+TOKEN)'
+             price = r'(KAINPRICE[A-Z]+TOKEN)'
+             action = r'(S\s*>|B\s*>|WTS|WTB|selling|buying)'
+-            offer = r'(?:pm\s*(?:me\s*)?offers?|pmo|pm\s*offers?)'
++            offer = r'(?:pm\s*(?:me\s*)?offers?|pmo|pm\s*offers?|pm|whisper(?:\s+me)?)'
+             template = None
+             plain_offer=r'(?:this[.!]?\s*)?offers?\s+please[.!]?'
+             m=re.fullmatch(item+r'\s*'+action+r'\s*'+plain_offer,plan.masked,re.I)
+@@ -165,10 +165,10 @@
+             m = re.fullmatch(item+r'\s*'+offer+r'[.!]?', plan.masked, re.I)
+             if m:
+                 template = m.group(1)+' 가격 제안은 귓말로 주세요'
+-            m = re.fullmatch(item+r'\s*'+action+r'\s*'+offer+r'[.!]?', plan.masked, re.I)
++            m = re.fullmatch(item+r'\s*'+action+r'\s*(?:this[.!]?\s*)?'+offer+r'[.!]?', plan.masked, re.I)
+             if m:
+                 template = m.group(1)+(' 팝니다' if m.group(2).lower().replace(' ','') in ('s>','wts','selling') else ' 삽니다')+'. 가격 제안은 귓말로 주세요'
+-            m = re.fullmatch(item+r'\s*'+action+r'\s*'+price+r'(?:\s+(OBO|firm|PMO|PM\s*offers?))?[.!]?', plan.masked, re.I)
++            m = re.fullmatch(item+r'\s*'+action+r'\s*(?:for\s+)?'+price+r'(?:\s+(OBO|firm|PMO|PM\s*offers?))?[.!]?', plan.masked, re.I)
+             if m:
+                 label, verb, amount, suffix=m.groups()
+                 template=label+' '+amount+'에'+(' 팝니다' if verb.lower().replace(' ','') in ('s>','wts','selling') else ' 삽니다')
+--- a/kain_maple_translator/translation.py
++++ b/kain_maple_translator/translation.py
+@@ -332,6 +332,13 @@
+         raise TranslationError('아이템/문장 번역 계획이 너무 복잡합니다 · 원문 확인 필요')
+ 
+     def _translate(self, text: str, direction: str, generic, *, parse_sender=False) -> str:
++        result=self._translate_impl(text,direction,generic,parse_sender=parse_sender)
++        if direction=='en-ko' and '[' in text:
++            from .link_integrity import preserve_link_labels
++            result=preserve_link_labels(text,result)
++        return result
++
++    def _translate_impl(self, text: str, direction: str, generic, *, parse_sender=False) -> str:
+         # Local opt-in item names: never scrape the item source website.
+         from .item_catalog import current_catalog
+         item_catalog = current_catalog() if direction == 'en-ko' else None
+--- a/kain_maple_translator/vision.py
++++ b/kain_maple_translator/vision.py
+@@ -5,7 +5,7 @@
+ import re
+ import sys
+ from pathlib import Path
+-from dataclasses import dataclass
++from dataclasses import dataclass, field
+ 
+ 
+ @dataclass(frozen=True)
+@@ -14,6 +14,8 @@
+     confidence: float
+     rect: tuple[int, int, int, int]  # screen-space x, y, w, h
+     channel_hint: bool = False
++    ink_key: str = ""
++    source_meta: dict = field(default_factory=dict)
+ 
+ 
+ def changed(bgr: np.ndarray, previous: np.ndarray | None) -> tuple[bool, np.ndarray]:
+@@ -257,6 +259,20 @@
+             'EngineConfig.onnxruntime.inter_op_num_threads': 1,
+         })
+ 
++        # Dedicated 48px item recognition; established whole-line path stays 32px.
++        self.korean_link_ocr = RapidOCR(params={
++            'Global.use_det': False, 'Global.use_cls': False, 'Global.return_word_box': True,
++            'Rec.ocr_version': OCRVersion.PPOCRV5, 'Rec.model_type': ModelType.MOBILE,
++            'Rec.lang_type': LangRec.KOREAN, 'Rec.rec_img_shape': [3, 48, 320],
++            'Rec.model_path': str(model_root/names[2]),
++            'EngineConfig.onnxruntime.intra_op_num_threads': 2,
++            'EngineConfig.onnxruntime.inter_op_num_threads': 1,
++        })
++
++    def recognize_lines(self, images):
++        from .recognition_batch import recognize_width_buckets
++        return recognize_width_buckets(self.ocr,images)
++
+     def detect(self, bgr: np.ndarray, left: int, top: int, scale: float = 1.25) -> list[Line]:
+         """Main OCR plus targeted red/grey megaphone passes inside selected chat."""
+         main=self._detect_once(bgr,left,top,scale)
+--- a/kain_maple_translator/worker.py
++++ b/kain_maple_translator/worker.py
+@@ -19,7 +19,7 @@
+ from .timings import LatencyBook
+ 
+ LOGGER = logging.getLogger(__name__)
+-_APPEARANCE = ('kind', 'prefix', 'tone', 'band_color', 'text_color')
++_APPEARANCE = ('kind', 'prefix', 'tone', 'band_color', 'text_color', 'nickname_color', 'item_color')
+ 
+ 
+ class LiveWorker(QThread):
+@@ -67,6 +67,7 @@
+             cv2.putText(dummy,'KAIN 123',(5,23),cv2.FONT_HERSHEY_SIMPLEX,.5,(0,0,0),1)
+             recognizer.ocr.recognize_txt([dummy])
+             recognizer.korean_ocr.recognize_txt([dummy])
++            recognizer.korean_link_ocr.recognize_txt([dummy])
+             recognizer.ocr(dummy,use_det=True,use_cls=False,use_rec=True)
+             incremental = IncrementalChatOCR(recognizer)
+             self._translation_queue = TranslationQueue(Translator(body_only=True), self._emit, self.problem.emit)

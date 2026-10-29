@@ -1,0 +1,9 @@
+GeulClassic Translator Addon v0.4.32 — PATCH OVER v0.4.31
+
+- 'CH31 FM17' and 'FM17 CH31' in trade listings become '31채널 자유시장 17번 방'.
+- 'S> SP resets 60k ch31 FM17' market shorthand gains a deterministic offline path.
+- General chat never takes sampled text/nickname color from a transparent game background.
+- User-selected font colors take precedence; default megaphone colors still reflect original game palettes.
+- Qt floating chat supports left-mouse vertical drag scrolling in scroll-interactive (or free) mode, keeping overlay click-through when not requested.
+- OBS Browser Source mirrors the same color choices.
+- Existing window/setting/model functionality retained. Windows build and game UI still need testing.

@@ -1,0 +1,10 @@
+GeulClassic Translator Addon v0.4.38 — OCR/Market focused patch (2026-10-25)
+Base: complete v0.4.37 independent source and models, WGC/MSS and auto chat position unchanged.
+
+1) Incremental OCR: identical frame remains reused; weak reads are eligible for recheck after 0.15s rather than 0.5s; stronger reads expire after 2 or 8 seconds. Do NOT use Y-coordinate as an event key.
+2) Linked-item Korean OCR: add a 3-8 pixel crop margin around bracketed item labels, retaining original character and source-color geometry.
+3) Translation acceptance: mixed Korean/English equipment stats, scroll abbreviations and numeric market prices pass translation filtering. Korean-only messages still skipped.
+4) Scroll context: support 'Scroll for One-Handed Sword for ATT 60%' and 'Scroll for Wand for Magic ATT 70%'. Existing GFA=glove attack, WS=white scroll, CSS=clean slate logic preserved.
+5) De-duplication: sequence-overlap ChatFrameTracker and RepeatGuard preserved; using a global 1.8-second lockout or changing keys on scroll position would reintroduce duplicate output.
+
+QA: source unittest suite; model inference, Windows EXE build, and live-game accuracy still require Windows verification. User's WGC/MSS setting and previous program are not modified by creating this archive.

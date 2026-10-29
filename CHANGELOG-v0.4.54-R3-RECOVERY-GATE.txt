@@ -1,0 +1,32 @@
+GeulClassic Addon v0.4.54-R3 RECOVERY-GATE — 2026-10-26
+
+Base: GeulClassic-Addon-v0.4.54-R3-PROFILE-BUILD-FIX2-INDEPENDENT
+Scope: recovery detector throttling and diagnostics only.
+
+Changes:
+1. RecoveryGate: bounded 256-key LRU success/failure cache.
+2. Failure backoff per foreground key: 0.5s, 2s, 8s.
+3. Detector duty limiter: cooldown at least 0.3s or twice elapsed detector wall time.
+4. No ink segmentation: detector attempts at most once per 5s. Successful no-ink recovery is NOT replayed on later blank frames.
+5. Hash foreground row masks and local geometry, not full color BGR frames.
+6. JSONL: recovery_reasons, recovery_rows_found, recovery_gate_blocked, recovery_cache_hit, recovery_gate_block_reason.
+7. Summary: exact/individual recovery reason counts, detector wall ms sum/avg/p95, attempted-frame fraction vs previously supplied approximate baseline 43%.
+8. Added recovery gate regression tests, updated old source contract test for the new gate.
+
+Unchanged: OCR language order/models, capture frame queue, async recovery (not enabled), translation, potion and EXP tracking.
+
+Important: This package does NOT include a new 3-minute live-game trace. That requires running the Windows EXE and exporting from the user's own game session. Do not treat isolated mock tests as performance results.
+
+Validation: targeted tests pass, source compilation passes. Full suite includes slow all-potion image matching; full completion not guaranteed here. Windows installer build not verified in this Linux environment.
+
+Instructions:
+1. Extract into a NEW folder (do not overlay an older build).
+2. Run BUILD-WINDOWS.bat on Windows.
+3. Open game, enable chat OCR, test in busy chat for 3+ minutes.
+4. Run EXPORT-OCR-PROFILE.bat in this folder.
+5. Send OCR-STAGE-TRACE-EXPORT.jsonl and OCR-STAGE-SUMMARY.txt.
+
+Actual raw trace path:
+%LOCALAPPDATA%\KAINMapleTranslator\diagnostics\OCR-STAGE-TRACE-EXPORT.jsonl
+
+Compare: 'Recovery frame ratio' against the separately user-reported old approx. 43%. Compare under similar load, and watch for missed new chat lines as a tradeoff.

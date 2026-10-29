@@ -1,0 +1,10 @@
+GeulClassic v0.4.35 · Windows Graphics Capture / MSS Fallback
+
+- WGC game window selection by HWND / title + PID via existing find_maple_window.
+- Window-coordinate ROI projection with frame/client/visible bounds checks.
+- Native WGC callback feeds a 3-frame bounded raw image buffer; OCR/translation unchanged.
+- Primary WGC, configurable MSS mode, automatic fallback + reconnect.
+- Win64 Python 3.12 support: windows-capture==2.0.1 wheel; PyInstaller collect-all.
+- Diagnostics: capture_backend, capture_backend_note, wgc_frames, wgc_dropped_previews.
+- 11 new tests: bounds, crop ownership, queue, invalid geometry, MSS fallback, config.
+- No live Windows WGC test possible in this environment.

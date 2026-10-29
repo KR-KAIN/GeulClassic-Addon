@@ -1,0 +1,7 @@
+GeulClassic Addon v0.4.54-R3
+
+- Fixed EXP HUD parsing for Global Classic dotted thousands format (e.g. EXP. 7.465).
+- Added 1920x1080-grounded fallback EXP ROI based on user screenshot.
+- Added 1920x1080-grounded fallback quickslot ROI based on user screenshot.
+- locate_keyboard_near_hud now tries the grounded 1080p quickslot box before full-frame search.
+- Bundled a 1080p grounding regression test fixture.

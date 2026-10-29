@@ -1,0 +1,5 @@
+﻿v0.4.54-R1
+Fix history initialization handle leak: close the SQLite connection before re-raising any setup failure.
+Keeps corrupt input bytes intact and successful history connections open until explicit close.
+Adds regressions for retained failed connections and all five initialization failure stages.
+Existing v0.4.54 potion, translation, OCR and persistent-history features are preserved.

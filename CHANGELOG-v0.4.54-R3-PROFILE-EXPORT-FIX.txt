@@ -1,0 +1,16 @@
+GeulClassic v0.4.54-R3 PROFILE AUTO EXPORT FIX
+
+FIX 1: Live OCR performance JSONL is automatically created at OCR worker start.
+  %LOCALAPPDATA%\KAINMapleTranslator\diagnostics\OCR-STAGE-TRACE-EXPORT.jsonl
+FIX 2: The writer starts before model preparation. It records session_start,
+  ocr_ready, worker_error (exception type only), session_end; actual frame
+  measurements remain schema=1. No OCR/chat text or screenshots are recorded.
+FIX 3: EXPORT-OCR-PROFILE.bat copies the trace to the extracted build folder;
+  falls back to the prior R3 trace filename for backward compatibility.
+FIX 4: OCR-STAGE-SUMMARY.txt includes path stats and 10 slowest measured frames,
+  and explicitly reports Frames: 0 instead of fabricating measurements.
+FIX 5: Export parser compares the latest recorded session rather than mixing runs.
+
+No changes to actual OCR, translation, capture detection, or UI behavior.
+Tests: 71 selected regressions PASS in Linux source checks.
+Not verified: Windows installer/EXE build and live MapleStory gameplay.

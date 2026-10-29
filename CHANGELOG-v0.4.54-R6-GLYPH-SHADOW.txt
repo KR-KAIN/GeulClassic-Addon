@@ -1,0 +1,8 @@
+R6 GLYPH SAFE SCOPE
+- @-only rows may be skipped ONLY when every glyph bitmap is confirmed as @ (three consistent votes).
+- Normal body characters are SHADOW ONLY: OCR output is always authoritative.
+- Nickname prefixes and [item links] are always read by OCR and never used for shadow training.
+- Dictionary default OFF; existing OCR route is unchanged when OFF.
+- Per-profile dictionary storage keyed on configured game resolution + actual chat crop, DPI (if known), line height, ink color.
+- RESET-GLYPH-DICTIONARIES.bat clears learned glyph files.
+- No translation, recovery asynchronous worker, or ordinary text auto-resolution changes.

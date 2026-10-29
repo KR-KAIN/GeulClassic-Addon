@@ -1,0 +1,6 @@
+v0.4.31 — Windows OCR replay classification guard hotfix
+- v0.4.30 replay failed at scripts/replay_ocr_fixtures.py line 81: coloured magenta body without banner was treated as normal.
+- Verified glyph_color_confirmed flag from real source-pixel body hue detection; preserve announcement classification only with this proof.
+- Retain conservative fallback to normal when the candidate has no real banner, CH badge, or pixel proof.
+- New targeted regression tests (5).
+- Update Windows build version banner.

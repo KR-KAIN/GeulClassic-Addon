@@ -1,0 +1,115 @@
+{
+  "source": "MapleStory UI/Basic.img/ItemNo numeric glyphs, GMS v83. Copyright NEXON. Recognition-only templates.",
+  "digits": [
+    {
+      "digit": "0",
+      "file": "0.png",
+      "sha256": "4009937b56609c16b0d7a75f58116bfb2ca2be9a8f70e3254e80b82cf0a9cd73",
+      "bytes": 414,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/0"
+    },
+    {
+      "digit": "1",
+      "file": "1.png",
+      "sha256": "5d8ef1026c5264dca8e3f222b68cd378b0f6283c7db4b0923c3d1c3d010137e4",
+      "bytes": 381,
+      "size": [
+        5,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/1"
+    },
+    {
+      "digit": "2",
+      "file": "2.png",
+      "sha256": "7e1d5c0d0b9f8abf59a7e8c38496c28456b55d707fd0015a32138bc223b2f8d5",
+      "bytes": 431,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/2"
+    },
+    {
+      "digit": "3",
+      "file": "3.png",
+      "sha256": "ce205a5db100eb96767ca8d7dad5a946f55f1ae348d5a90eb9caa04743773c67",
+      "bytes": 428,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/3"
+    },
+    {
+      "digit": "4",
+      "file": "4.png",
+      "sha256": "c6880ba3726625f048dd925ce5eb10e18c448aa3a90c72994211c6f0b71c6f9e",
+      "bytes": 414,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/4"
+    },
+    {
+      "digit": "5",
+      "file": "5.png",
+      "sha256": "383ccd41fac1db646f6c2387c5e4d496a55dbef806dc5c9d2a5eb09a438ccd91",
+      "bytes": 420,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/5"
+    },
+    {
+      "digit": "6",
+      "file": "6.png",
+      "sha256": "b5ea87b80fcbb495816d2a5ab0b645f08c4374639f0958a4d8d392f6803bd7f0",
+      "bytes": 423,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/6"
+    },
+    {
+      "digit": "7",
+      "file": "7.png",
+      "sha256": "a810dabb3ba208bed62a95c1520f1120cadbe44ab0361b3f4b01065a4a252876",
+      "bytes": 412,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/7"
+    },
+    {
+      "digit": "8",
+      "file": "8.png",
+      "sha256": "017b1752833c6e4cff9a91263610eac7ecca7c33845f9595884d036cdf41e5f1",
+      "bytes": 428,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/8"
+    },
+    {
+      "digit": "9",
+      "file": "9.png",
+      "sha256": "e592b12d3075f0eec82960692190590d397a2f43f1a5e557608f21957a22c64c",
+      "bytes": 424,
+      "size": [
+        8,
+        11
+      ],
+      "source_url": "https://maplestory.io/api/wz/img/gms/83/UI/Basic.img/ItemNo/9"
+    }
+  ]
+}

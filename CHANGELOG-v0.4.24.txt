@@ -1,0 +1,10 @@
+v0.4.24 - incremental line OCR / batched offline translation
+- Line segmentation, background neutralization, recognition-only batch inference, scroll-stable image cache.
+- Multilingual and Korean OCR models bundled with SHA256 manifest; direction classifier disabled.
+- Capture/OCR/translation queues separated, bounded frame memory and explicit overload metrics.
+- Preserve all senders for shared translations; remove silent 12-request loss; batch up to 8 messages.
+- Broader/local megaphone background checks; foreground text colour preserved optionally.
+- Two-frame ordinary-chat confirmation; channel badge is not a sender; compatible-background wrapping only.
+- System item-acquisition notices excluded as requested; red player messages retained.
+- Context-safe slang expansion and direct party/trade/price intent rules; no fuzzy item/price mutation.
+- Capture order preserved in floating chat and OBS.

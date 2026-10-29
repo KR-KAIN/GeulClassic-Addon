@@ -1,0 +1,7 @@
+v0.4.19: one-time maplestory.io GMS(62) -> KMS(65 then 284) same-ID item localization.
+- No automatic internet traffic during game OCR; opt-in UPDATE-GMS-KMS-ITEMS.bat only.
+- Separate local DB with provenance/version, not bundled or secretly redistributed.
+- ID paired count is distinct from conflict-free English-name replacement count.
+- Existing user imported glossary takes priority; no overwrite of previous good sync after failures.
+- Keeps v0.4.18 wheel scroll, red megaphone OCR and short-path Windows builder.
+- API live results and Windows executable NOT verified in this environment.

@@ -1,0 +1,11 @@
+v0.4.18 — Translation chat wheel, licensed-DB review, Windows build path
+
+- Fixed input-transparent QScrollArea which prevented mouse wheel from reaching translated text.
+- HUD includes `휠 OFF/ON`: turn on to receive wheel input when overlay/docked, off to restore game click-through; free-floating mode receives wheel regardless.
+- Hidden scrollbars stay hidden; auto-follow pauses separately per normal/megaphone panel when scrolling up, resumes upon reaching latest.
+- Windows Python isolated build venv now lives at short `%LOCALAPPDATA%\KAINMapleTranslator\BuildVenv0418` path, avoiding excessive nested PySide6 wheel paths.
+- Switches dependency from full PySide6 (which includes Qt Addons) to PySide6-Essentials providing QtCore/Gui/Widgets actually used.
+- Planet Helper: view/compare only; terms prohibit automated collection and derivative data processing without approval.
+- MapleNote Big Bang: viewing for historical cross-check only, not a proof of Classic World item mappings; no bulk re-use permission established.
+- Preserves all existing OCR, red megaphone, OBS, and user-authorized catalog import features.
+- Windows build and live game mouse interaction require local validation.

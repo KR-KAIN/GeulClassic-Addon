@@ -1,0 +1,10 @@
+﻿v0.4.54
+- Unicode-safe bundled PNG decode; native pixel icon display; clipped screenshot fallback removed.
+- Actual ItemNo glyph recognition and strict OCR consensus; temporal confirmation survives slow inference.
+- Remove blank End/false lemon reference, add verified pink-tube Magic Potion reference.
+- OCR caches timestamp inference completion; same-ink admission survives slow frames.
+- Bottom-relative physical events survive window moves and ROI height drift; numeric units/signs remain distinct.
+- Natural vocative greetings; observed buy-scroll/offer/come-buy-it listings; exact link title echo removal.
+- Durable unlimited SQLite chat history; restore recent overlay; paged searchable archive; explicit clear only.
+- Startup exact-pixel replay suppression, original-text preservation, no sample persistence.
+- Builder asset checks cover numeric glyphs; exact v0.4.53 patch backs up removed reference.

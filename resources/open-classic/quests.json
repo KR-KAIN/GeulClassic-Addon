@@ -1,0 +1,7269 @@
+[
+  {
+    "id": "a-blacksmith-in-my-own-right",
+    "name": "A Blacksmith in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Blacksmith_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Blacksmith_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "silas-irons",
+    "turn_in": "silas-irons",
+    "start_map": "perion",
+    "prerequisites": [
+      "silas-irons-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      },
+      {
+        "monster": "dark-axe-stump"
+      },
+      {
+        "monster": "zombie-mushroom"
+      },
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-box-hidden-long-ago",
+    "name": "A Box Hidden Long Ago",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Box_Hidden_Long_Ago",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Box_Hidden_Long_Ago"
+    },
+    "changes": [],
+    "giver": "athena-pierce",
+    "turn_in": "athena-pierce",
+    "start_map": "bowman-instructional-school",
+    "prerequisites": [
+      "becoming-a-citizen-of-honor-henesys"
+    ],
+    "next": "a-worn-out-bow",
+    "steps": [
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      },
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-carpenter-in-my-own-right",
+    "name": "A Carpenter in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Carpenter_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Carpenter_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "vicious",
+    "turn_in": "vicious",
+    "start_map": "henesys-market",
+    "prerequisites": [
+      "vicious-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      },
+      {
+        "monster": "dark-axe-stump"
+      },
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-clue-to-the-secret-book",
+    "name": "A Clue to the Secret Book",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Clue_to_the_Secret_Book",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Clue_to_the_Secret_Book"
+    },
+    "changes": [],
+    "giver": "mr-wetbottom",
+    "turn_in": "ronnie",
+    "start_map": "vip-sauna",
+    "prerequisites": [],
+    "next": "hungry-ronnie",
+    "steps": [
+      {
+        "npc": "mr-wetbottom",
+        "map": "vip-sauna"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-craftsmans-touch",
+    "name": "A Craftsman's Touch",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Craftsman's_Touch",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Craftsman's_Touch"
+    },
+    "changes": [],
+    "giver": "vicious",
+    "turn_in": "vicious",
+    "start_map": "henesys-market",
+    "prerequisites": [
+      "a-worn-out-bow"
+    ],
+    "next": "a-memory-restored",
+    "steps": [
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      },
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-fathers-love-for-his-daughter",
+    "name": "A Father's Love for His Daughter",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Father's_Love_for_His_Daughter",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Father's_Love_for_His_Daughter"
+    },
+    "changes": [],
+    "giver": "bruce",
+    "turn_in": "ayan",
+    "start_map": "henesys",
+    "prerequisites": [
+      "bruces-cooking-ingredients"
+    ],
+    "next": "the-best-dad",
+    "steps": [
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      },
+      {
+        "npc": "ayan",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-gift-for-pia",
+    "name": "A Gift for Pia",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Gift_for_Pia",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Gift_for_Pia"
+    },
+    "changes": [],
+    "giver": "camila",
+    "turn_in": "pia",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "next": "pias-mischievous-wish",
+    "steps": [
+      {
+        "npc": "camila",
+        "map": "henesys"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-leatherworker-in-my-own-right",
+    "name": "A Leatherworker in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Leatherworker_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Leatherworker_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "jm-from-tha-streetz",
+    "turn_in": "jm-from-tha-streetz",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "jm-from-tha-streetz-looking-for-a-partner"
+    ],
+    "steps": [
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "wild-boar"
+      },
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-lost-thank-you",
+    "name": "A Lost Thank-You",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Lost_Thank-You",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Lost_Thank-You"
+    },
+    "changes": [],
+    "giver": "alex",
+    "turn_in": "alex",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "next": "too-shy-to-say-it-himself",
+    "steps": [
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-man-atoning",
+    "name": "A Man Atoning",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Man_Atoning",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Man_Atoning"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "manji",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "a-price-to-pay"
+    ],
+    "next": "a-name-never-given",
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "manji",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-marble-made-with-care",
+    "name": "A Marble Made With Care",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Marble_Made_With_Care",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Marble_Made_With_Care"
+    },
+    "changes": [],
+    "giver": "camila",
+    "turn_in": "pia",
+    "start_map": "henesys",
+    "prerequisites": [
+      "materials-for-a-special-marble"
+    ],
+    "next": "a-promise-between-three-friends",
+    "steps": [
+      {
+        "npc": "camila",
+        "map": "henesys"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-memory-restored",
+    "name": "A Memory Restored",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Memory_Restored",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Memory_Restored"
+    },
+    "changes": [],
+    "giver": "vicious",
+    "turn_in": "athena-pierce",
+    "start_map": "henesys-market",
+    "prerequisites": [
+      "a-craftsmans-touch"
+    ],
+    "steps": [
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      },
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-missing-comrade",
+    "name": "A Missing Comrade",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Missing_Comrade",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Missing_Comrade"
+    },
+    "changes": [],
+    "giver": "dark-lord",
+    "turn_in": "dark-lord",
+    "start_map": "thieves-hideout",
+    "prerequisites": [
+      "becoming-a-citizen-of-honor-kerning-city"
+    ],
+    "next": "an-unbreakable-code",
+    "steps": [
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      },
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-name-never-given",
+    "name": "A Name Never Given",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Name_Never_Given",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Name_Never_Given"
+    },
+    "changes": [],
+    "giver": "manji",
+    "turn_in": "maya",
+    "start_map": "perion",
+    "prerequisites": [
+      "a-man-atoning"
+    ],
+    "steps": [
+      {
+        "npc": "manji",
+        "map": "perion"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-name-on-a-note",
+    "name": "A Name on a Note",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Name_on_a_Note",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Name_on_a_Note"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "chrishrama",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [
+      "an-unknown-savior"
+    ],
+    "next": "a-price-to-pay",
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-name-she-couldnt-say",
+    "name": "A Name She Couldn't Say",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Name_She_Couldn't_Say",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Name_She_Couldn't_Say"
+    },
+    "changes": [],
+    "giver": "roxy",
+    "turn_in": "jane-doe",
+    "start_map": "kerning-city-civic-center",
+    "prerequisites": [
+      "another-lead"
+    ],
+    "next": "an-old-grudge",
+    "steps": [
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-price-to-pay",
+    "name": "A Price to Pay",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Price_to_Pay",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Price_to_Pay"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "chrishrama",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "a-name-on-a-note"
+    ],
+    "next": "a-man-atoning",
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-promise-between-three-friends",
+    "name": "A Promise Between Three Friends",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Promise_Between_Three_Friends",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Promise_Between_Three_Friends"
+    },
+    "changes": [],
+    "giver": "pia",
+    "turn_in": "camila",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "a-marble-made-with-care"
+    ],
+    "steps": [
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "camila",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-quiet-line-of-work",
+    "name": "A Quiet Line of Work",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Quiet_Line_of_Work",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Quiet_Line_of_Work"
+    },
+    "changes": [],
+    "giver": "chun-ji",
+    "turn_in": "chun-ji",
+    "start_map": "kerning-city-construction-site",
+    "prerequisites": [
+      "first-greeting-with-chun-ji"
+    ],
+    "next": "another-lead",
+    "steps": [
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      },
+      {
+        "monster": "wraith"
+      },
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-tailor-in-my-own-right",
+    "name": "A Tailor in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Tailor_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Tailor_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "francois",
+    "turn_in": "francois",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "francois-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      },
+      {
+        "monster": "wild-boar"
+      },
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-torn-letter",
+    "name": "A Torn Letter",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Torn_Letter",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Torn_Letter"
+    },
+    "changes": [],
+    "giver": "jane-doe",
+    "turn_in": "roxy",
+    "start_map": "niora-hospital",
+    "prerequisites": [
+      "worn-bandages"
+    ],
+    "next": "once-a-renowned-doctor",
+    "steps": [
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      },
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-truth-finally-known",
+    "name": "A Truth Finally Known",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Truth_Finally_Known",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Truth_Finally_Known"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "jane-doe",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "the-price-of-information"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-weaponcrafter-in-my-own-right",
+    "name": "A Weaponcrafter in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Weaponcrafter_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Weaponcrafter_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "mr-thunder",
+    "turn_in": "mr-thunder",
+    "start_map": "perion",
+    "prerequisites": [
+      "mr-thunder-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      },
+      {
+        "monster": "iron-hog"
+      },
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-worn-out-bow",
+    "name": "A Worn-Out Bow",
+    "source_page": "https://mapleclassic.wiki/wiki/A_Worn-Out_Bow",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_Worn-Out_Bow"
+    },
+    "changes": [],
+    "giver": "athena-pierce",
+    "turn_in": "vicious",
+    "start_map": "bowman-instructional-school",
+    "prerequisites": [
+      "a-box-hidden-long-ago"
+    ],
+    "next": "a-craftsmans-touch",
+    "steps": [
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      },
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "alexs-request",
+    "name": "Alex's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Alex's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Alex's_Request"
+    },
+    "changes": [],
+    "giver": "alex",
+    "turn_in": "chief-stan",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "next": "talking-to-stan",
+    "steps": [
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "an-arcforger-in-my-own-right",
+    "name": "An Arcforger in My Own Right!",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Arcforger_in_My_Own_Right!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Arcforger_in_My_Own_Right!"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "chrishrama",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "chrishrama-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "monster": "horny-mushroom"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "an-old-grudge",
+    "name": "An Old Grudge",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Old_Grudge",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Old_Grudge"
+    },
+    "changes": [],
+    "giver": "jane-doe",
+    "turn_in": "roxy",
+    "start_map": "niora-hospital",
+    "prerequisites": [
+      "a-name-she-couldnt-say"
+    ],
+    "next": "an-unresolved-question",
+    "steps": [
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      },
+      {
+        "monster": "shade"
+      },
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "an-unbreakable-code",
+    "name": "An Unbreakable Code",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Unbreakable_Code",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Unbreakable_Code"
+    },
+    "changes": [],
+    "giver": "dark-lord",
+    "turn_in": "slade",
+    "start_map": "thieves-hideout",
+    "prerequisites": [
+      "a-missing-comrade"
+    ],
+    "next": "what-it-takes",
+    "steps": [
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      },
+      {
+        "npc": "slade"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "an-unknown-savior",
+    "name": "An Unknown Savior",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Unknown_Savior",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Unknown_Savior"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "maya",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [],
+    "next": "a-name-on-a-note",
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "an-unresolved-question",
+    "name": "An Unresolved Question",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Unresolved_Question",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Unresolved_Question"
+    },
+    "changes": [],
+    "giver": "roxy",
+    "turn_in": "chun-ji",
+    "start_map": "kerning-city-civic-center",
+    "prerequisites": [
+      "an-old-grudge"
+    ],
+    "steps": [
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      },
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "andres-request",
+    "name": "Andre's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Andre's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Andre's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "shumis-request"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "octopus"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "another-lead",
+    "name": "Another Lead",
+    "source_page": "https://mapleclassic.wiki/wiki/Another_Lead",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Another_Lead"
+    },
+    "changes": [],
+    "giver": "chun-ji",
+    "turn_in": "roxy",
+    "start_map": "kerning-city-construction-site",
+    "prerequisites": [
+      "a-quiet-line-of-work"
+    ],
+    "next": "a-name-she-couldnt-say",
+    "steps": [
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      },
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arcons-blood",
+    "name": "Arcon's Blood?",
+    "source_page": "https://mapleclassic.wiki/wiki/Arcon's_Blood%3F",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arcon's_Blood%3F"
+    },
+    "changes": [],
+    "giver": "manji",
+    "turn_in": "manji",
+    "start_map": "perion",
+    "prerequisites": [
+      "making-a-sparkling-rock"
+    ],
+    "next": "getting-arcons-blood",
+    "steps": [
+      {
+        "npc": "manji",
+        "map": "perion"
+      },
+      {
+        "monster": "zombie-mushroom"
+      },
+      {
+        "npc": "manji",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arwen-and-the-glass-shoe",
+    "name": "Arwen and the Glass Shoe",
+    "source_page": "https://mapleclassic.wiki/wiki/Arwen_and_the_Glass_Shoe",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arwen_and_the_Glass_Shoe"
+    },
+    "changes": [],
+    "giver": "arwen-the-fairy",
+    "turn_in": "arwen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "arwen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "arwen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-alex-the-town-resident",
+    "name": "Asking After Alex, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Alex%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Alex%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "alex",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-anne-the-town-resident",
+    "name": "Asking After Anne, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Anne%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Anne%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "anne",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "anne",
+        "map": "the-hill-east-of-henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-bruce-the-town-resident",
+    "name": "Asking After Bruce, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Bruce%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Bruce%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "bruce",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-camila-the-town-resident",
+    "name": "Asking After Camila, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Camila%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Camila%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "camila",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "camila",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-chief-stan",
+    "name": "Asking After Chief Stan",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Chief_Stan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Chief_Stan"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "chief-stan",
+    "start_map": "henesys",
+    "prerequisites": [
+      "first-greeting-with-chief-stan"
+    ],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-chun-ji",
+    "name": "Asking After Chun Ji",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Chun_Ji",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Chun_Ji"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "chun-ji",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "first-greeting-with-chun-ji"
+    ],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-dark-lord",
+    "name": "Asking After Dark Lord",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Dark_Lord",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Dark_Lord"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "dark-lord",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "first-greeting-with-dark-lord"
+    ],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-icarus-the-town-resident",
+    "name": "Asking After Icarus, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Icarus%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Icarus%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-jake-the-town-resident",
+    "name": "Asking After Jake, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Jake%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Jake%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "jake",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jake",
+        "map": "subway-ticketing-booth"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-jane-doe-the-town-resident",
+    "name": "Asking After Jane Doe, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Jane_Doe%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Jane_Doe%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "jane-doe",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-maya-the-town-resident",
+    "name": "Asking After Maya, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Maya%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Maya%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "maya",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-mr-pickall-the-town-resident",
+    "name": "Asking After Mr. Pickall, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Mr._Pickall%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Mr._Pickall%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "mr-pickall",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "mr-pickall",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-mrs-ming-ming-the-town-resident",
+    "name": "Asking After Mrs. Ming Ming, the Town Resident.",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Mrs._Ming_Ming%2C_the_Town_Resident.",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Mrs._Ming_Ming%2C_the_Town_Resident."
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-nella-the-town-resident",
+    "name": "Asking After Nella, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Nella%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Nella%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-pia-the-town-resident",
+    "name": "Asking After Pia, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Pia%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Pia%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "pia",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-rina-the-town-resident",
+    "name": "Asking After Rina, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Rina%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Rina%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "rina",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-after-shumi-the-town-resident",
+    "name": "Asking After Shumi, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Shumi%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Shumi%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "shumi",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "asking-perion-for-help",
+    "name": "Asking Perion for Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_Perion_for_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_Perion_for_Help"
+    },
+    "changes": [],
+    "giver": "lewis",
+    "turn_in": "dances-with-balrog",
+    "start_map": "free-market-entrance",
+    "prerequisites": [
+      "chief-stans-reply"
+    ],
+    "next": "dances-with-balrogs-reply",
+    "steps": [
+      {
+        "npc": "lewis",
+        "map": "free-market-entrance"
+      },
+      {
+        "npc": "dances-with-balrog",
+        "map": "warriors-sanctuary"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "becoming-a-citizen-of-honor-henesys",
+    "name": "Becoming a Citizen of Honor (Henesys)",
+    "source_page": "https://mapleclassic.wiki/wiki/Becoming_a_Citizen_of_Honor_(Henesys)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Becoming_a_Citizen_of_Honor_(Henesys)"
+    },
+    "changes": [],
+    "turn_in": "athena-pierce",
+    "start_mode": "quest-log",
+    "prerequisites": [],
+    "next": "a-box-hidden-long-ago",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "becoming-a-citizen-of-honor-kerning-city",
+    "name": "Becoming a Citizen of Honor (Kerning City)",
+    "source_page": "https://mapleclassic.wiki/wiki/Becoming_a_Citizen_of_Honor_(Kerning_City)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Becoming_a_Citizen_of_Honor_(Kerning_City)"
+    },
+    "changes": [],
+    "turn_in": "dark-lord",
+    "start_mode": "quest-log",
+    "prerequisites": [],
+    "next": "a-missing-comrade",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "biggss-collection-of-items",
+    "name": "Biggs's Collection of Items",
+    "source_page": "https://mapleclassic.wiki/wiki/Biggs's_Collection_of_Items",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Biggs's_Collection_of_Items"
+    },
+    "changes": [],
+    "giver": "biggs",
+    "turn_in": "biggs",
+    "start_map": "southperry",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "biggs"
+      },
+      {
+        "npc": "biggs"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "borrowing-seras-mirror",
+    "name": "Borrowing Sera's Mirror",
+    "source_page": "https://mapleclassic.wiki/wiki/Borrowing_Sera's_Mirror",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Borrowing_Sera's_Mirror"
+    },
+    "changes": [],
+    "giver": "heena",
+    "turn_in": "sera",
+    "start_map": "mushroom-town-west-entrance",
+    "prerequisites": [],
+    "next": "bringing-a-mirror-to-heena",
+    "steps": [
+      {
+        "npc": "heena",
+        "map": "mushroom-town-west-entrance"
+      },
+      {
+        "npc": "sera",
+        "map": "mushroom-town-west-entrance"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "bringing-a-mirror-to-heena",
+    "name": "Bringing a Mirror to Heena",
+    "source_page": "https://mapleclassic.wiki/wiki/Bringing_a_Mirror_to_Heena",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bringing_a_Mirror_to_Heena"
+    },
+    "changes": [],
+    "giver": "sera",
+    "turn_in": "heena",
+    "start_map": "mushroom-town-west-entrance",
+    "prerequisites": [
+      "borrowing-seras-mirror"
+    ],
+    "steps": [
+      {
+        "npc": "sera",
+        "map": "mushroom-town-west-entrance"
+      },
+      {
+        "npc": "heena",
+        "map": "mushroom-town-west-entrance"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "bruces-cooking-ingredients",
+    "name": "Bruce's Cooking Ingredients",
+    "source_page": "https://mapleclassic.wiki/wiki/Bruce's_Cooking_Ingredients",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bruce's_Cooking_Ingredients"
+    },
+    "changes": [],
+    "giver": "bruce",
+    "turn_in": "bruce",
+    "start_map": "henesys",
+    "prerequisites": [
+      "mrs-ming-mings-advice"
+    ],
+    "next": "a-fathers-love-for-his-daughter",
+    "steps": [
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bruces-dilemma",
+    "name": "Bruce's Dilemma",
+    "source_page": "https://mapleclassic.wiki/wiki/Bruce's_Dilemma",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bruce's_Dilemma"
+    },
+    "changes": [],
+    "giver": "bruce",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "next": "mrs-ming-mings-advice",
+    "steps": [
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "building-a-new-house-for-blackbull",
+    "name": "Building a New House For Blackbull",
+    "source_page": "https://mapleclassic.wiki/wiki/Building_a_New_House_For_Blackbull",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Building_a_New_House_For_Blackbull"
+    },
+    "changes": [],
+    "giver": "blackbull",
+    "turn_in": "blackbull",
+    "start_map": "perion",
+    "prerequisites": [
+      "fixing-blackbulls-house"
+    ],
+    "steps": [
+      {
+        "npc": "blackbull",
+        "map": "perion"
+      },
+      {
+        "npc": "blackbull",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "camilas-gem",
+    "name": "Camila's Gem",
+    "source_page": "https://mapleclassic.wiki/wiki/Camila's_Gem",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Camila's_Gem"
+    },
+    "changes": [],
+    "giver": "camila",
+    "turn_in": "utah",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "camila",
+        "map": "henesys"
+      },
+      {
+        "npc": "utah",
+        "map": "utahs-pig-farm"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chief-stans-hammer",
+    "name": "Chief Stan's Hammer",
+    "source_page": "https://mapleclassic.wiki/wiki/Chief_Stan's_Hammer",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chief_Stan's_Hammer"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [
+      "chief-stans-past"
+    ],
+    "next": "memories-of-youth",
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chief-stans-past",
+    "name": "Chief Stan's Past",
+    "source_page": "https://mapleclassic.wiki/wiki/Chief_Stan's_Past",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chief_Stan's_Past"
+    },
+    "changes": [],
+    "giver": "jay",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [
+      "mrs-ming-mings-concern"
+    ],
+    "next": "chief-stans-hammer",
+    "steps": [
+      {
+        "npc": "jay",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chief-stans-reply",
+    "name": "Chief Stan's Reply",
+    "source_page": "https://mapleclassic.wiki/wiki/Chief_Stan's_Reply",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chief_Stan's_Reply"
+    },
+    "changes": [],
+    "giver": "chief-stan",
+    "turn_in": "lewis",
+    "start_map": "henesys",
+    "prerequisites": [
+      "welcome-to-the-free-market"
+    ],
+    "steps": [
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      },
+      {
+        "npc": "lewis",
+        "map": "free-market-entrance"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chief-stans-signature",
+    "name": "Chief Stan's Signature",
+    "source_page": "https://mapleclassic.wiki/wiki/Chief_Stan's_Signature",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chief_Stan's_Signature"
+    },
+    "changes": [],
+    "giver": "chief-stan",
+    "turn_in": "manji",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-filing-error"
+    ],
+    "next": "repairing-the-book",
+    "steps": [
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      },
+      {
+        "npc": "manji",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chrishrama-in-need-of-an-apprentice",
+    "name": "Chrishrama in Need of an Apprentice",
+    "source_page": "https://mapleclassic.wiki/wiki/Chrishrama_in_Need_of_an_Apprentice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chrishrama_in_Need_of_an_Apprentice"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "chrishrama",
+    "start_map": "sleepywood",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "monster": "dark-stump"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chrishrama-in-need-of-help",
+    "name": "Chrishrama in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Chrishrama_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chrishrama_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "chrishrama",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "chrishrama-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chriss-request",
+    "name": "Chris's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Chris's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chris's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "dr-faymuss-request"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "cold-milk",
+    "name": "Cold Milk",
+    "source_page": "https://mapleclassic.wiki/wiki/Cold_Milk",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cold_Milk"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "thirsty-ronnie"
+    ],
+    "next": "satisfied-ronnie",
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "collecting-100-cursed-dolls",
+    "name": "Collecting 100 Cursed Dolls",
+    "source_page": "https://mapleclassic.wiki/wiki/Collecting_100_Cursed_Dolls",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Collecting_100_Cursed_Dolls"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "collecting-70-cursed-dolls"
+    ],
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "monster": "zombie-lupin"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "collecting-150-cursed-dolls",
+    "name": "Collecting 150 Cursed Dolls",
+    "source_page": "https://mapleclassic.wiki/wiki/Collecting_150_Cursed_Dolls",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Collecting_150_Cursed_Dolls"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "collecting-100-cursed-dolls"
+    ],
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "monster": "zombie-lupin"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "collecting-200-cursed-dolls",
+    "name": "Collecting 200 Cursed Dolls",
+    "source_page": "https://mapleclassic.wiki/wiki/Collecting_200_Cursed_Dolls",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Collecting_200_Cursed_Dolls"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "collecting-150-cursed-dolls"
+    ],
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "monster": "zombie-lupin"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "collecting-50-cursed-dolls",
+    "name": "Collecting 50 Cursed Dolls",
+    "source_page": "https://mapleclassic.wiki/wiki/Collecting_50_Cursed_Dolls",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Collecting_50_Cursed_Dolls"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "returned-secret-book"
+    ],
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "monster": "zombie-lupin"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "collecting-70-cursed-dolls",
+    "name": "Collecting 70 Cursed Dolls",
+    "source_page": "https://mapleclassic.wiki/wiki/Collecting_70_Cursed_Dolls",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Collecting_70_Cursed_Dolls"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "collecting-50-cursed-dolls"
+    ],
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "monster": "zombie-lupin"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "cutthroat-mannys-request",
+    "name": "Cutthroat Manny's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Cutthroat_Manny's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cutthroat_Manny's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "chriss-request"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "evil-eye"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dances-with-balrogs-reply",
+    "name": "Dances with Balrog's Reply",
+    "source_page": "https://mapleclassic.wiki/wiki/Dances_with_Balrog's_Reply",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dances_with_Balrog's_Reply"
+    },
+    "changes": [],
+    "giver": "dances-with-balrog",
+    "turn_in": "lewis",
+    "start_map": "warriors-sanctuary",
+    "prerequisites": [
+      "asking-perion-for-help"
+    ],
+    "steps": [
+      {
+        "npc": "dances-with-balrog",
+        "map": "warriors-sanctuary"
+      },
+      {
+        "npc": "lewis",
+        "map": "free-market-entrance"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "delivering-a-box-of-fossils",
+    "name": "Delivering a Box of Fossils",
+    "source_page": "https://mapleclassic.wiki/wiki/Delivering_a_Box_of_Fossils",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Delivering_a_Box_of_Fossils"
+    },
+    "changes": [],
+    "giver": "winston",
+    "turn_in": "betty",
+    "start_map": "east-rocky-mountain-ii",
+    "prerequisites": [
+      "searching-for-fossils"
+    ],
+    "next": "research-on-plant-fossils",
+    "steps": [
+      {
+        "npc": "winston",
+        "map": "east-rocky-mountain-ii"
+      },
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "delivering-the-flying-medicine",
+    "name": "Delivering the Flying Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/Delivering_the_Flying_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Delivering_the_Flying_Medicine"
+    },
+    "changes": [],
+    "giver": "wing-the-fairy",
+    "turn_in": "icarus",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "the-ingredients-for-the-flying-medicine"
+    ],
+    "steps": [
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "delivering-the-weird-medicine",
+    "name": "Delivering the Weird Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/Delivering_the_Weird_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Delivering_the_Weird_Medicine"
+    },
+    "changes": [],
+    "giver": "teo",
+    "turn_in": "maya",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "making-sparkling-rock"
+    ],
+    "steps": [
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "don-hwangs-request",
+    "name": "Don Hwang's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Don_Hwang's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Don_Hwang's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "orange-mushroom"
+      },
+      {
+        "monster": "ribbon-pig"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "donating-to-henesys",
+    "name": "Donating to Henesys",
+    "source_page": "https://mapleclassic.wiki/wiki/Donating_to_Henesys",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Donating_to_Henesys"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "arthur",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "donating-to-kerning-city",
+    "name": "Donating to Kerning City",
+    "source_page": "https://mapleclassic.wiki/wiki/Donating_to_Kerning_City",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Donating_to_Kerning_City"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "roxy",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dr-faymuss-request",
+    "name": "Dr. Faymus's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Dr._Faymus's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dr._Faymus's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "andres-request"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "jr-necki"
+      },
+      {
+        "monster": "horny-mushroom"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "estelles-request",
+    "name": "Estelle's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Estelle's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Estelle's_Request"
+    },
+    "changes": [],
+    "giver": "estelle",
+    "turn_in": "estelle",
+    "start_map": "the-field-south-of-ellinia",
+    "prerequisites": [
+      "mrs-ming-mings-second-worry"
+    ],
+    "next": "estelles-special-sauce-quest",
+    "steps": [
+      {
+        "npc": "estelle",
+        "map": "the-field-south-of-ellinia"
+      },
+      {
+        "npc": "estelle",
+        "map": "the-field-south-of-ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "estelles-special-sauce-quest",
+    "name": "Estelle's Special Sauce (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Estelle's_Special_Sauce_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Estelle's_Special_Sauce_(quest)"
+    },
+    "changes": [],
+    "giver": "estelle",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "the-field-south-of-ellinia",
+    "prerequisites": [
+      "estelles-request"
+    ],
+    "steps": [
+      {
+        "npc": "estelle",
+        "map": "the-field-south-of-ellinia"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "finding-sophia",
+    "name": "Finding Sophia",
+    "source_page": "https://mapleclassic.wiki/wiki/Finding_Sophia",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Finding_Sophia"
+    },
+    "changes": [],
+    "giver": "teo",
+    "turn_in": "sophia",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "maya-of-henesys"
+    ],
+    "next": "making-a-sparkling-rock",
+    "steps": [
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "sophia",
+        "map": "perion-department-store"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "finding-the-instructor-bowman",
+    "name": "Finding the Instructor (Bowman)",
+    "source_page": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Bowman)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Bowman)"
+    },
+    "changes": [],
+    "giver": "athena-pierce",
+    "turn_in": "bowman-job-instructor",
+    "start_map": "bowman-instructional-school",
+    "prerequisites": [
+      "the-bowmans-next-journey"
+    ],
+    "next": "test-of-qualification-bowman",
+    "steps": [
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      },
+      {
+        "npc": "bowman-job-instructor",
+        "map": "the-road-to-the-dungeon"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "finding-the-instructor-magician",
+    "name": "Finding the Instructor (Magician)",
+    "source_page": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Magician)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Magician)"
+    },
+    "changes": [],
+    "giver": "grendel-the-really-old",
+    "turn_in": "magician-job-instructor",
+    "start_map": "magic-library",
+    "prerequisites": [
+      "the-magicians-next-journey"
+    ],
+    "next": "test-of-qualification-magician",
+    "steps": [
+      {
+        "npc": "grendel-the-really-old",
+        "map": "magic-library"
+      },
+      {
+        "npc": "magician-job-instructor",
+        "map": "the-forest-north-of-ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "finding-the-instructor-thief",
+    "name": "Finding the Instructor (Thief)",
+    "source_page": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Thief)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Thief)"
+    },
+    "changes": [],
+    "giver": "dark-lord",
+    "turn_in": "thief-job-instructor",
+    "start_map": "thieves-hideout",
+    "prerequisites": [
+      "the-thiefs-next-journey"
+    ],
+    "next": "test-of-qualification-thief",
+    "steps": [
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      },
+      {
+        "npc": "thief-job-instructor",
+        "map": "construction-site-north-of-kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "finding-the-instructor-warrior",
+    "name": "Finding the Instructor (Warrior)",
+    "source_page": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Warrior)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Finding_the_Instructor_(Warrior)"
+    },
+    "changes": [],
+    "giver": "dances-with-balrog",
+    "turn_in": "warrior-job-instructor",
+    "start_map": "warriors-sanctuary",
+    "prerequisites": [
+      "the-warriors-next-journey"
+    ],
+    "next": "test-of-qualification-warrior",
+    "steps": [
+      {
+        "npc": "dances-with-balrog",
+        "map": "warriors-sanctuary"
+      },
+      {
+        "npc": "warrior-job-instructor",
+        "map": "west-rocky-mountain-iv"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-alex-the-town-resident",
+    "name": "First Greeting with Alex, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Alex%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Alex%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "alex",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-anne-the-town-resident",
+    "name": "First Greeting with Anne, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Anne%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Anne%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "anne",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "anne",
+        "map": "the-hill-east-of-henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-athena-pierce",
+    "name": "First Greeting with Athena Pierce",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Athena_Pierce",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Athena_Pierce"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "athena-pierce",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-bruce-the-town-resident",
+    "name": "First Greeting with Bruce, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Bruce%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Bruce%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "bruce",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-camila-the-town-resident",
+    "name": "First Greeting with Camila, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Camila%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Camila%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "camila",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "camila",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-chief-stan",
+    "name": "First Greeting with Chief Stan",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Chief_Stan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Chief_Stan"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "chief-stan",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-chun-ji",
+    "name": "First Greeting with Chun Ji",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Chun_Ji",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Chun_Ji"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "chun-ji",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "chun-ji",
+        "map": "kerning-city-construction-site"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-dark-lord",
+    "name": "First Greeting with Dark Lord",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Dark_Lord",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Dark_Lord"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "dark-lord",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-icarus-the-town-resident",
+    "name": "First Greeting with Icarus, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Icarus%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Icarus%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-jake-the-town-resident",
+    "name": "First Greeting with Jake, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Jake%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Jake%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "jake",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jake",
+        "map": "subway-ticketing-booth"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-jane-doe-the-town-resident",
+    "name": "First Greeting with Jane Doe, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Jane_Doe%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Jane_Doe%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "jane-doe",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-maya-the-town-resident",
+    "name": "First Greeting with Maya, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Maya%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Maya%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "maya",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-mr-pickall-the-town-resident",
+    "name": "First Greeting with Mr. Pickall, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Mr._Pickall%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Mr._Pickall%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "mr-pickall",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "mr-pickall",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-mrs-ming-ming-the-town-resident",
+    "name": "First Greeting with Mrs. Ming Ming, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Mrs._Ming_Ming%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Mrs._Ming_Ming%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-nella-the-town-resident",
+    "name": "First Greeting with Nella, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Nella%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Nella%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-pia-the-town-resident",
+    "name": "First Greeting with Pia, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Pia%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Pia%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "pia",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-rina-the-town-resident",
+    "name": "First Greeting with Rina, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Rina%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Rina%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-henesys",
+    "turn_in": "rina",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "henesys"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-greeting-with-shumi-the-town-resident",
+    "name": "First Greeting with Shumi, the Town Resident",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Greeting_with_Shumi%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Greeting_with_Shumi%2C_the_Town_Resident"
+    },
+    "changes": [],
+    "giver": "community-board-kerning-city",
+    "turn_in": "shumi",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "community-board",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-material-delivery-for-building-a-new-house",
+    "name": "First Material Delivery for Building a New House",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Material_Delivery_for_Building_a_New_House",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Material_Delivery_for_Building_a_New_House"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "ronnie",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "returned-secret-book"
+    ],
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "monster": "horny-mushroom"
+      },
+      {
+        "monster": "curse-eye"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "first-time-together",
+    "name": "First Time Together",
+    "source_page": "https://mapleclassic.wiki/wiki/First_Time_Together",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/First_Time_Together"
+    },
+    "changes": [],
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "fixing-blackbulls-house",
+    "name": "Fixing Blackbull's House",
+    "source_page": "https://mapleclassic.wiki/wiki/Fixing_Blackbull's_House",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Fixing_Blackbull's_House"
+    },
+    "changes": [],
+    "giver": "blackbull",
+    "turn_in": "blackbull",
+    "start_map": "perion",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "blackbull",
+        "map": "perion"
+      },
+      {
+        "monster": "stump"
+      },
+      {
+        "monster": "dark-stump"
+      },
+      {
+        "npc": "blackbull",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "founders-first-step",
+    "name": "Founder's First Step",
+    "source_page": "https://mapleclassic.wiki/wiki/Founder's_First_Step",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Founder's_First_Step"
+    },
+    "changes": [],
+    "giver": "maple-administrator",
+    "start_mode": "automatic",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "francois-in-need-of-an-apprentice",
+    "name": "Francois in Need of an Apprentice",
+    "source_page": "https://mapleclassic.wiki/wiki/Francois_in_Need_of_an_Apprentice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Francois_in_Need_of_an_Apprentice"
+    },
+    "changes": [],
+    "giver": "francois",
+    "turn_in": "francois",
+    "start_map": "ellinia",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      },
+      {
+        "monster": "dark-stump"
+      },
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "francois-in-need-of-help",
+    "name": "Francois in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Francois_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Francois_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "francois",
+    "turn_in": "francois",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "francois-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "npc": "francois",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "getting-arcons-blood",
+    "name": "Getting Arcon's Blood",
+    "source_page": "https://mapleclassic.wiki/wiki/Getting_Arcon's_Blood",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Getting_Arcon's_Blood"
+    },
+    "changes": [],
+    "giver": "manji",
+    "turn_in": "sophia",
+    "start_map": "perion",
+    "prerequisites": [
+      "arcons-blood"
+    ],
+    "next": "making-sparkling-rock",
+    "steps": [
+      {
+        "npc": "manji",
+        "map": "perion"
+      },
+      {
+        "npc": "sophia",
+        "map": "perion-department-store"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "grandfathers-vitamin-gummy",
+    "name": "Grandfather's Vitamin Gummy",
+    "source_page": "https://mapleclassic.wiki/wiki/Grandfather's_Vitamin_Gummy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Grandfather's_Vitamin_Gummy"
+    },
+    "changes": [],
+    "giver": "mr-goldstein",
+    "turn_in": "mong-from-kong",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "the-final-ingredient-for-the-cure"
+    ],
+    "next": "its-all-in-the-mind",
+    "steps": [
+      {
+        "npc": "mr-goldstein",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "halloween-candies-quest",
+    "name": "Halloween Candies (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Halloween_Candies_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Halloween_Candies_(quest)"
+    },
+    "changes": [],
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "map": "kerning-city"
+      },
+      {
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "heros-gladius-quest",
+    "name": "Hero's Gladius (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Hero's_Gladius_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Hero's_Gladius_(quest)"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "manji",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "reawakening-the-gladius"
+    ],
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "manji",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "how-to-enjoy-mushrooms",
+    "name": "How to Enjoy Mushrooms",
+    "source_page": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms"
+    },
+    "changes": [],
+    "giver": "shane",
+    "turn_in": "shane",
+    "start_map": "ellinia",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "shane",
+        "map": "ellinia"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "npc": "shane",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "how-to-enjoy-mushrooms-even-more",
+    "name": "How to Enjoy Mushrooms Even More",
+    "source_page": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms_Even_More",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms_Even_More"
+    },
+    "changes": [],
+    "giver": "shane",
+    "turn_in": "shane",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "how-to-enjoy-mushrooms"
+    ],
+    "steps": [
+      {
+        "npc": "shane",
+        "map": "ellinia"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "npc": "shane",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "hungry-ronnie",
+    "name": "Hungry Ronnie",
+    "source_page": "https://mapleclassic.wiki/wiki/Hungry_Ronnie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Hungry_Ronnie"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "ronnie",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "a-clue-to-the-secret-book"
+    ],
+    "next": "still-hungry-ronnie",
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "monster": "lupin"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "i-need-help-on-my-homework",
+    "name": "I Need Help on My Homework!",
+    "source_page": "https://mapleclassic.wiki/wiki/I_Need_Help_on_My_Homework!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/I_Need_Help_on_My_Homework!"
+    },
+    "changes": [],
+    "giver": "wing-the-fairy",
+    "turn_in": "wing-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "i-need-to-find-my-daughter-1",
+    "name": "I Need to Find My Daughter 1",
+    "source_page": "https://mapleclassic.wiki/wiki/I_Need_to_Find_My_Daughter_1",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/I_Need_to_Find_My_Daughter_1"
+    },
+    "changes": [],
+    "giver": "bruce",
+    "turn_in": "ayan",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "next": "i-need-to-find-my-daughter-2",
+    "steps": [
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      },
+      {
+        "npc": "ayan",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "i-need-to-find-my-daughter-2",
+    "name": "I Need to Find My Daughter 2",
+    "source_page": "https://mapleclassic.wiki/wiki/I_Need_to_Find_My_Daughter_2",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/I_Need_to_Find_My_Daughter_2"
+    },
+    "changes": [],
+    "giver": "ayan",
+    "turn_in": "bruce",
+    "start_map": "perion",
+    "prerequisites": [
+      "i-need-to-find-my-daughter-1"
+    ],
+    "steps": [
+      {
+        "npc": "ayan",
+        "map": "perion"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "icarus-and-the-balloon",
+    "name": "Icarus and the Balloon",
+    "source_page": "https://mapleclassic.wiki/wiki/Icarus_and_the_Balloon",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Icarus_and_the_Balloon"
+    },
+    "changes": [],
+    "giver": "icarus",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "icaruss-hang-glider"
+    ],
+    "steps": [
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "icaruss-hang-glider",
+    "name": "Icarus's Hang Glider",
+    "source_page": "https://mapleclassic.wiki/wiki/Icarus's_Hang_Glider",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Icarus's_Hang_Glider"
+    },
+    "changes": [],
+    "giver": "icarus",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "im-bored-2"
+    ],
+    "steps": [
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "im-bored-1",
+    "name": "I'm Bored 1",
+    "source_page": "https://mapleclassic.wiki/wiki/I'm_Bored_1",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/I'm_Bored_1"
+    },
+    "changes": [],
+    "giver": "icarus",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "next": "im-bored-2",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "im-bored-2",
+    "name": "I'm Bored 2",
+    "source_page": "https://mapleclassic.wiki/wiki/I'm_Bored_2",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/I'm_Bored_2"
+    },
+    "changes": [],
+    "giver": "icarus",
+    "turn_in": "icarus",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "im-bored-1"
+    ],
+    "steps": [
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "in-search-of-wing-the-fairy",
+    "name": "In search of Wing the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/In_search_of_Wing_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/In_search_of_Wing_the_Fairy"
+    },
+    "changes": [],
+    "giver": "icarus",
+    "turn_in": "wing-the-fairy",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "icarus-and-the-balloon"
+    ],
+    "next": "the-ingredients-for-the-flying-medicine",
+    "steps": [
+      {
+        "npc": "icarus",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "its-all-in-the-mind",
+    "name": "It's All in the Mind",
+    "source_page": "https://mapleclassic.wiki/wiki/It's_All_in_the_Mind",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/It's_All_in_the_Mind"
+    },
+    "changes": [],
+    "giver": "mong-from-kong",
+    "turn_in": "jake",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "grandfathers-vitamin-gummy"
+    ],
+    "steps": [
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jake",
+        "map": "subway-ticketing-booth"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jane-and-the-mushroom",
+    "name": "Jane and the Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane_and_the_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane_and_the_Mushroom"
+    },
+    "changes": [],
+    "giver": "jane",
+    "turn_in": "jane",
+    "start_map": "lith-harbor",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "blue-mushroom"
+      },
+      {
+        "monster": "horny-mushroom"
+      },
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "janes-final-challenge",
+    "name": "Jane's Final Challenge",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane's_Final_Challenge",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane's_Final_Challenge"
+    },
+    "changes": [],
+    "giver": "jane",
+    "turn_in": "jane",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "janes-second-challenge"
+    ],
+    "steps": [
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "dark-axe-stump"
+      },
+      {
+        "monster": "drake"
+      },
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "janes-first-challenge",
+    "name": "Jane's First Challenge",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane's_First_Challenge",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane's_First_Challenge"
+    },
+    "changes": [],
+    "giver": "jane",
+    "turn_in": "jane",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "jane-and-the-mushroom"
+    ],
+    "steps": [
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "copper-drake"
+      },
+      {
+        "monster": "wraith"
+      },
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "janes-second-challenge",
+    "name": "Jane's Second Challenge",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane's_Second_Challenge",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane's_Second_Challenge"
+    },
+    "changes": [],
+    "giver": "jane",
+    "turn_in": "jane",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "janes-first-challenge"
+    ],
+    "steps": [
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "wraith"
+      },
+      {
+        "monster": "malady"
+      },
+      {
+        "npc": "jane",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jm-from-tha-streetz-in-need-of-help",
+    "name": "JM From tha Streetz in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "jm-from-tha-streetz",
+    "turn_in": "jm-from-tha-streetz",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "jm-from-tha-streetz-looking-for-a-partner"
+    ],
+    "steps": [
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "jr-necki"
+      },
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jm-from-tha-streetz-looking-for-a-partner",
+    "name": "JM From tha Streetz Looking for a Partner",
+    "source_page": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz_Looking_for_a_Partner",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz_Looking_for_a_Partner"
+    },
+    "changes": [],
+    "giver": "jm-from-tha-streetz",
+    "turn_in": "jm-from-tha-streetz",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "pig"
+      },
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "johns-last-present",
+    "name": "John's Last Present",
+    "source_page": "https://mapleclassic.wiki/wiki/John's_Last_Present",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/John's_Last_Present"
+    },
+    "changes": [],
+    "giver": "john",
+    "turn_in": "john",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "johns-present"
+    ],
+    "steps": [
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "johns-pink-flower-basket",
+    "name": "John's Pink Flower Basket",
+    "source_page": "https://mapleclassic.wiki/wiki/John's_Pink_Flower_Basket",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/John's_Pink_Flower_Basket"
+    },
+    "changes": [],
+    "giver": "john",
+    "turn_in": "john",
+    "start_map": "lith-harbor",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "johns-present",
+    "name": "John's Present",
+    "source_page": "https://mapleclassic.wiki/wiki/John's_Present",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/John's_Present"
+    },
+    "changes": [],
+    "giver": "john",
+    "turn_in": "john",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "johns-pink-flower-basket"
+    ],
+    "steps": [
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      },
+      {
+        "npc": "john",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "last-material-delivery-for-building-a-new-house",
+    "name": "Last Material Delivery for Building a New House",
+    "source_page": "https://mapleclassic.wiki/wiki/Last_Material_Delivery_for_Building_a_New_House",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Last_Material_Delivery_for_Building_a_New_House"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "ronnie",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "third-material-delivery-for-building-a-new-house"
+    ],
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "monster": "cold-eye"
+      },
+      {
+        "monster": "drake"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "letter-for-lucas",
+    "name": "Letter for Lucas",
+    "source_page": "https://mapleclassic.wiki/wiki/Letter_for_Lucas",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Letter_for_Lucas"
+    },
+    "changes": [],
+    "giver": "maria",
+    "turn_in": "lucas",
+    "start_map": "a-split-road",
+    "prerequisites": [],
+    "next": "lucas-reply",
+    "steps": [
+      {
+        "npc": "maria"
+      },
+      {
+        "npc": "lucas"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "looking-for-the-red-cape",
+    "name": "Looking for the Red Cape",
+    "source_page": "https://mapleclassic.wiki/wiki/Looking_for_the_Red_Cape",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Looking_for_the_Red_Cape"
+    },
+    "changes": [],
+    "giver": "pia",
+    "turn_in": "rina",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "pias-present-for-a-friend"
+    ],
+    "next": "what-pia-borrowed",
+    "steps": [
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "lucas-reply",
+    "name": "Lucas' Reply",
+    "source_page": "https://mapleclassic.wiki/wiki/Lucas'_Reply",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lucas'_Reply"
+    },
+    "changes": [],
+    "giver": "lucas",
+    "turn_in": "maria",
+    "start_map": "amherst",
+    "prerequisites": [
+      "letter-for-lucas"
+    ],
+    "steps": [
+      {
+        "npc": "lucas"
+      },
+      {
+        "npc": "maria"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "luke-the-security-guy",
+    "name": "Luke the Security Guy",
+    "source_page": "https://mapleclassic.wiki/wiki/Luke_the_Security_Guy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Luke_the_Security_Guy"
+    },
+    "changes": [],
+    "giver": "luke",
+    "turn_in": "luke",
+    "start_map": "henesys-dungeon-entrance",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "luke",
+        "map": "henesys-dungeon-entrance"
+      },
+      {
+        "monster": "jr-necki"
+      },
+      {
+        "monster": "stirge"
+      },
+      {
+        "npc": "luke",
+        "map": "henesys-dungeon-entrance"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "luke-the-security-guys-wish-to-travel",
+    "name": "Luke the Security Guy's Wish to Travel",
+    "source_page": "https://mapleclassic.wiki/wiki/Luke_the_Security_Guy's_Wish_to_Travel",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Luke_the_Security_Guy's_Wish_to_Travel"
+    },
+    "changes": [],
+    "giver": "luke",
+    "turn_in": "luke",
+    "start_map": "henesys-dungeon-entrance",
+    "prerequisites": [
+      "luke-the-security-guy"
+    ],
+    "steps": [
+      {
+        "npc": "luke",
+        "map": "henesys-dungeon-entrance"
+      },
+      {
+        "npc": "luke",
+        "map": "henesys-dungeon-entrance"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mais-final-training",
+    "name": "Mai's Final Training",
+    "source_page": "https://mapleclassic.wiki/wiki/Mai's_Final_Training",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mai's_Final_Training"
+    },
+    "changes": [],
+    "giver": "mai",
+    "turn_in": "mai",
+    "start_map": "a-split-road",
+    "prerequisites": [
+      "mais-training"
+    ],
+    "steps": [
+      {
+        "npc": "mai"
+      },
+      {
+        "npc": "mai"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "mais-training",
+    "name": "Mai's Training",
+    "source_page": "https://mapleclassic.wiki/wiki/Mai's_Training",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mai's_Training"
+    },
+    "changes": [],
+    "giver": "mai",
+    "turn_in": "mai",
+    "start_map": "a-split-road",
+    "prerequisites": [
+      "sams-suggestion"
+    ],
+    "next": "mais-final-training",
+    "steps": [
+      {
+        "npc": "mai"
+      },
+      {
+        "npc": "mai"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "make-a-match-cards-set",
+    "name": "Make a Match Cards Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Match_Cards_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Match_Cards_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-octopus-and-mushroom-omok-set",
+    "name": "Make a Octopus & Mushroom Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Octopus_%26_Mushroom_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Octopus_%26_Mushroom_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "make-a-pig-and-mushroom-omok-set"
+    ],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-pig-and-mushroom-omok-set",
+    "name": "Make a Pig & Mushroom Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Pig_%26_Mushroom_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Pig_%26_Mushroom_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "make-a-slime-and-octopus-omok-set"
+    ],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-pig-and-octopus-omok-set",
+    "name": "Make a Pig & Octopus Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Pig_%26_Octopus_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Pig_%26_Octopus_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "make-a-octopus-and-mushroom-omok-set"
+    ],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-slime-and-mushroom-omok-set",
+    "name": "Make a Slime & Mushroom Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Mushroom_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Mushroom_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-slime-and-octopus-omok-set",
+    "name": "Make a Slime & Octopus Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Octopus_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Octopus_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "make-a-slime-and-pig-omok-set"
+    ],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "make-a-slime-and-pig-omok-set",
+    "name": "Make a Slime & Pig Omok Set",
+    "source_page": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Pig_Omok_Set",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Make_a_Slime_%26_Pig_Omok_Set"
+    },
+    "changes": [],
+    "giver": "casey",
+    "turn_in": "casey",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "make-a-slime-and-mushroom-omok-set"
+    ],
+    "steps": [
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "casey",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "making-a-sparkling-rock",
+    "name": "Making a Sparkling Rock",
+    "source_page": "https://mapleclassic.wiki/wiki/Making_a_Sparkling_Rock",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Making_a_Sparkling_Rock"
+    },
+    "changes": [],
+    "giver": "sophia",
+    "turn_in": "manji",
+    "start_map": "perion-department-store",
+    "prerequisites": [
+      "finding-sophia"
+    ],
+    "next": "arcons-blood",
+    "steps": [
+      {
+        "npc": "sophia",
+        "map": "perion-department-store"
+      },
+      {
+        "npc": "manji",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "making-sparkling-rock",
+    "name": "Making Sparkling Rock",
+    "source_page": "https://mapleclassic.wiki/wiki/Making_Sparkling_Rock",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Making_Sparkling_Rock"
+    },
+    "changes": [],
+    "giver": "sophia",
+    "turn_in": "teo",
+    "start_map": "perion-department-store",
+    "prerequisites": [
+      "getting-arcons-blood"
+    ],
+    "next": "delivering-the-weird-medicine",
+    "steps": [
+      {
+        "npc": "sophia",
+        "map": "perion-department-store"
+      },
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "making-the-medicine",
+    "name": "Making the Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/Making_the_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Making_the_Medicine"
+    },
+    "changes": [],
+    "giver": "mong-from-kong",
+    "turn_in": "mong-from-kong",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "stirge-phobia"
+    ],
+    "next": "the-final-ingredient-for-the-cure",
+    "steps": [
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mar-the-fairy-and-the-water-of-life",
+    "name": "\"Mar\" the Fairy and the Water of Life",
+    "source_page": "https://mapleclassic.wiki/wiki/%22Mar%22_the_Fairy_and_the_Water_of_Life",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/%22Mar%22_the_Fairy_and_the_Water_of_Life"
+    },
+    "changes": [],
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "materials-for-a-special-marble",
+    "name": "Materials for a Special Marble",
+    "source_page": "https://mapleclassic.wiki/wiki/Materials_for_a_Special_Marble",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Materials_for_a_Special_Marble"
+    },
+    "changes": [],
+    "giver": "camila",
+    "turn_in": "camila",
+    "start_map": "henesys",
+    "prerequisites": [
+      "pias-mischievous-wish"
+    ],
+    "next": "a-marble-made-with-care",
+    "steps": [
+      {
+        "npc": "camila",
+        "map": "henesys"
+      },
+      {
+        "npc": "camila",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "maya-of-henesys",
+    "name": "Maya of Henesys",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya_of_Henesys",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya_of_Henesys"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "teo",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [],
+    "next": "finding-sophia",
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mayas-first-collection",
+    "name": "Maya's First Collection",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya's_First_Collection",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya's_First_Collection"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "maya",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [
+      "delivering-the-weird-medicine"
+    ],
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mayas-last-collection",
+    "name": "Maya's Last Collection",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya's_Last_Collection",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya's_Last_Collection"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "maya",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [
+      "mayas-third-collection"
+    ],
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mayas-second-collection",
+    "name": "Maya's Second Collection",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya's_Second_Collection",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya's_Second_Collection"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "maya",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [
+      "mayas-first-collection"
+    ],
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mayas-third-collection",
+    "name": "Maya's Third Collection",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya's_Third_Collection",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya's_Third_Collection"
+    },
+    "changes": [],
+    "giver": "maya",
+    "turn_in": "maya",
+    "start_map": "henesys-townstreet",
+    "prerequisites": [
+      "mayas-second-collection"
+    ],
+    "steps": [
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      },
+      {
+        "npc": "maya",
+        "map": "henesys-townstreet"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "memories-of-youth",
+    "name": "Memories of Youth",
+    "source_page": "https://mapleclassic.wiki/wiki/Memories_of_Youth",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Memories_of_Youth"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "chief-stan",
+    "start_map": "henesys",
+    "prerequisites": [
+      "chief-stans-hammer"
+    ],
+    "next": "regained-vitality",
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mothers-gold-watch",
+    "name": "Mother's Gold Watch",
+    "source_page": "https://mapleclassic.wiki/wiki/Mother's_Gold_Watch",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mother's_Gold_Watch"
+    },
+    "changes": [],
+    "giver": "chief-stan",
+    "turn_in": "alex",
+    "start_map": "henesys",
+    "prerequisites": [
+      "talking-to-stan"
+    ],
+    "steps": [
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-thunder-in-need-of-an-apprentice",
+    "name": "Mr. Thunder in Need of an Apprentice",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Thunder_in_Need_of_an_Apprentice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Thunder_in_Need_of_an_Apprentice"
+    },
+    "changes": [],
+    "giver": "mr-thunder",
+    "turn_in": "mr-thunder",
+    "start_map": "perion",
+    "prerequisites": [
+      "silas-irons-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      },
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-thunder-in-need-of-help",
+    "name": "Mr. Thunder in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Thunder_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Thunder_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "mr-thunder",
+    "turn_in": "mr-thunder",
+    "start_map": "perion",
+    "prerequisites": [
+      "mr-thunder-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      },
+      {
+        "monster": "axe-stump"
+      },
+      {
+        "npc": "mr-thunder",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mrs-ming-mings-advice",
+    "name": "Mrs. Ming Ming's Advice",
+    "source_page": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Advice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Advice"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "bruce",
+    "start_map": "henesys",
+    "prerequisites": [
+      "bruces-dilemma"
+    ],
+    "next": "bruces-cooking-ingredients",
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mrs-ming-mings-concern",
+    "name": "Mrs. Ming Ming's Concern",
+    "source_page": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Concern",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Concern"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "jay",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "next": "chief-stans-past",
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "jay",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mrs-ming-mings-first-worry",
+    "name": "Mrs. Ming Ming's First Worry",
+    "source_page": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_First_Worry",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_First_Worry"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mrs-ming-mings-second-worry",
+    "name": "Mrs. Ming Ming's Second Worry",
+    "source_page": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Second_Worry",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming's_Second_Worry"
+    },
+    "changes": [],
+    "giver": "mrs-ming-ming",
+    "turn_in": "estelle",
+    "start_map": "henesys",
+    "prerequisites": [
+      "mrs-ming-mings-first-worry"
+    ],
+    "next": "estelles-request",
+    "steps": [
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      },
+      {
+        "npc": "estelle",
+        "map": "the-field-south-of-ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "nellas-old-memory",
+    "name": "Nella's Old Memory",
+    "source_page": "https://mapleclassic.wiki/wiki/Nella's_Old_Memory",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Nella's_Old_Memory"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "alex",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "too-shy-to-say-it-himself"
+    ],
+    "next": "one-more-debt-to-repay",
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "not-ready-to-go-home-yet",
+    "name": "Not Ready to Go Home Yet",
+    "source_page": "https://mapleclassic.wiki/wiki/Not_Ready_to_Go_Home_Yet",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Not_Ready_to_Go_Home_Yet"
+    },
+    "changes": [],
+    "giver": "jm-from-tha-streetz",
+    "turn_in": "alex",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "one-more-debt-to-repay"
+    ],
+    "steps": [
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "olafs-first-training",
+    "name": "Olaf's First Training",
+    "source_page": "https://mapleclassic.wiki/wiki/Olaf's_First_Training",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Olaf's_First_Training"
+    },
+    "changes": [],
+    "giver": "olaf",
+    "turn_in": "olaf",
+    "start_map": "lith-harbor",
+    "prerequisites": [],
+    "next": "olafs-second-training",
+    "steps": [
+      {
+        "npc": "olaf",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "stump"
+      },
+      {
+        "monster": "slime"
+      },
+      {
+        "npc": "olaf",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "olafs-second-training",
+    "name": "Olaf's Second Training",
+    "source_page": "https://mapleclassic.wiki/wiki/Olaf's_Second_Training",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Olaf's_Second_Training"
+    },
+    "changes": [],
+    "giver": "olaf",
+    "turn_in": "olaf",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "olafs-first-training"
+    ],
+    "steps": [
+      {
+        "npc": "olaf",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "pig"
+      },
+      {
+        "monster": "orange-mushroom"
+      },
+      {
+        "npc": "olaf",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "old-gladius-quest",
+    "name": "Old Gladius (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Old_Gladius_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Old_Gladius_(quest)"
+    },
+    "changes": [],
+    "giver": "manji",
+    "turn_in": "chrishrama",
+    "start_map": "perion",
+    "prerequisites": [
+      "delivering-the-weird-medicine"
+    ],
+    "next": "reawakening-the-gladius",
+    "steps": [
+      {
+        "npc": "manji",
+        "map": "perion"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "once-a-renowned-doctor",
+    "name": "Once a Renowned Doctor",
+    "source_page": "https://mapleclassic.wiki/wiki/Once_a_Renowned_Doctor",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Once_a_Renowned_Doctor"
+    },
+    "changes": [],
+    "giver": "roxy",
+    "turn_in": "nella",
+    "start_map": "kerning-city-civic-center",
+    "prerequisites": [
+      "a-torn-letter"
+    ],
+    "next": "the-price-of-information",
+    "steps": [
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "one-more-debt-to-repay",
+    "name": "One More Debt to Repay",
+    "source_page": "https://mapleclassic.wiki/wiki/One_More_Debt_to_Repay",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/One_More_Debt_to_Repay"
+    },
+    "changes": [],
+    "giver": "alex",
+    "turn_in": "jm-from-tha-streetz",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "nellas-old-memory"
+    ],
+    "next": "not-ready-to-go-home-yet",
+    "steps": [
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "jm-from-tha-streetz",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "phils-call",
+    "name": "Phil's Call",
+    "source_page": "https://mapleclassic.wiki/wiki/Phil's_Call",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Phil's_Call"
+    },
+    "changes": [],
+    "giver": "phil",
+    "turn_in": "phil",
+    "start_map": "lith-harbor",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pia-and-the-blue-mushroom",
+    "name": "Pia and the Blue Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Pia_and_the_Blue_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pia_and_the_Blue_Mushroom"
+    },
+    "changes": [],
+    "giver": "pia",
+    "turn_in": "pia",
+    "start_map": "henesys-park",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pias-gift",
+    "name": "Pia's Gift",
+    "source_page": "https://mapleclassic.wiki/wiki/Pia's_Gift",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pia's_Gift"
+    },
+    "changes": [],
+    "giver": "rina",
+    "turn_in": "pia",
+    "start_map": "henesys",
+    "prerequisites": [
+      "what-pia-borrowed"
+    ],
+    "steps": [
+      {
+        "npc": "rina",
+        "map": "henesys"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pias-mischievous-wish",
+    "name": "Pia's Mischievous Wish",
+    "source_page": "https://mapleclassic.wiki/wiki/Pia's_Mischievous_Wish",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pia's_Mischievous_Wish"
+    },
+    "changes": [],
+    "giver": "pia",
+    "turn_in": "camila",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "a-gift-for-pia"
+    ],
+    "next": "materials-for-a-special-marble",
+    "steps": [
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "camila",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pias-present-for-a-friend",
+    "name": "Pia's Present For a Friend",
+    "source_page": "https://mapleclassic.wiki/wiki/Pia's_Present_For_a_Friend",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pia's_Present_For_a_Friend"
+    },
+    "changes": [],
+    "giver": "pia",
+    "turn_in": "pia",
+    "start_map": "henesys-park",
+    "prerequisites": [
+      "pia-and-the-blue-mushroom"
+    ],
+    "next": "looking-for-the-red-cape",
+    "steps": [
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      },
+      {
+        "npc": "pia",
+        "map": "henesys-park"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pios-collecting-recycled-goods",
+    "name": "Pio's Collecting Recycled Goods",
+    "source_page": "https://mapleclassic.wiki/wiki/Pio's_Collecting_Recycled_Goods",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pio's_Collecting_Recycled_Goods"
+    },
+    "changes": [],
+    "giver": "pio",
+    "turn_in": "pio",
+    "start_map": "amherst",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "pio"
+      },
+      {
+        "npc": "pio"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "progress-on-fossil-research",
+    "name": "Progress on Fossil Research",
+    "source_page": "https://mapleclassic.wiki/wiki/Progress_on_Fossil_Research",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Progress_on_Fossil_Research"
+    },
+    "changes": [],
+    "giver": "betty",
+    "turn_in": "winston",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "transporting-drakes-skull"
+    ],
+    "steps": [
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      },
+      {
+        "npc": "winston",
+        "map": "east-rocky-mountain-ii"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "proof-of-companionship",
+    "name": "Proof of Companionship",
+    "source_page": "https://mapleclassic.wiki/wiki/Proof_of_Companionship",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Proof_of_Companionship"
+    },
+    "changes": [],
+    "giver": "lakelis",
+    "turn_in": "lakelis",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "lakelis",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "king-slime"
+      },
+      {
+        "npc": "lakelis",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "proof-of-qualification-bowman",
+    "name": "Proof of Qualification (Bowman)",
+    "source_page": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Bowman)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Bowman)"
+    },
+    "changes": [],
+    "giver": "bowman-job-instructor",
+    "turn_in": "athena-pierce",
+    "start_map": "the-road-to-the-dungeon",
+    "prerequisites": [
+      "test-of-qualification-bowman"
+    ],
+    "steps": [
+      {
+        "npc": "bowman-job-instructor",
+        "map": "the-road-to-the-dungeon"
+      },
+      {
+        "npc": "athena-pierce",
+        "map": "bowman-instructional-school"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "proof-of-qualification-magician",
+    "name": "Proof of Qualification (Magician)",
+    "source_page": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Magician)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Magician)"
+    },
+    "changes": [],
+    "giver": "magician-job-instructor",
+    "turn_in": "grendel-the-really-old",
+    "start_map": "the-forest-north-of-ellinia",
+    "prerequisites": [
+      "test-of-qualification-magician"
+    ],
+    "steps": [
+      {
+        "npc": "magician-job-instructor",
+        "map": "the-forest-north-of-ellinia"
+      },
+      {
+        "npc": "grendel-the-really-old",
+        "map": "magic-library"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "proof-of-qualification-thief",
+    "name": "Proof of Qualification (Thief)",
+    "source_page": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Thief)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Thief)"
+    },
+    "changes": [],
+    "giver": "thief-job-instructor",
+    "turn_in": "dark-lord",
+    "start_map": "construction-site-north-of-kerning-city",
+    "prerequisites": [
+      "test-of-qualification-thief"
+    ],
+    "steps": [
+      {
+        "npc": "thief-job-instructor",
+        "map": "construction-site-north-of-kerning-city"
+      },
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "proof-of-qualification-warrior",
+    "name": "Proof of Qualification (Warrior)",
+    "source_page": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Warrior)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Proof_of_Qualification_(Warrior)"
+    },
+    "changes": [],
+    "giver": "warrior-job-instructor",
+    "turn_in": "dances-with-balrog",
+    "start_map": "west-rocky-mountain-iv",
+    "prerequisites": [
+      "test-of-qualification-warrior"
+    ],
+    "steps": [
+      {
+        "npc": "warrior-job-instructor",
+        "map": "west-rocky-mountain-iv"
+      },
+      {
+        "npc": "dances-with-balrog",
+        "map": "warriors-sanctuary"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rains-maple-quiz",
+    "name": "Rain's Maple Quiz",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-1",
+    "name": "Rain's Maple Quiz 1",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_1",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_1"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [],
+    "next": "rains-maple-quiz-2",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-2",
+    "name": "Rain's Maple Quiz 2",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_2",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_2"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-1"
+    ],
+    "next": "rains-maple-quiz-3",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-3",
+    "name": "Rain's Maple Quiz 3",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_3",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_3"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-2"
+    ],
+    "next": "rains-maple-quiz-4",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-4",
+    "name": "Rain's Maple Quiz 4",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_4",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_4"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-3"
+    ],
+    "next": "rains-maple-quiz-5",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-5",
+    "name": "Rain's Maple Quiz 5",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_5",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_5"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-4"
+    ],
+    "next": "rains-maple-quiz-6",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-6",
+    "name": "Rain's Maple Quiz 6",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_6",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_6"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-5"
+    ],
+    "next": "rains-maple-quiz-7",
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rains-maple-quiz-7",
+    "name": "Rain's Maple Quiz 7",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_7",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain's_Maple_Quiz_7"
+    },
+    "changes": [],
+    "giver": "rain",
+    "turn_in": "rain",
+    "start_map": "amherst",
+    "prerequisites": [
+      "rains-maple-quiz-6"
+    ],
+    "steps": [],
+    "region": "Maple Island"
+  },
+  {
+    "id": "reawakening-the-gladius",
+    "name": "Reawakening the Gladius",
+    "source_page": "https://mapleclassic.wiki/wiki/Reawakening_the_Gladius",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Reawakening_the_Gladius"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "chrishrama",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "old-gladius-quest"
+    ],
+    "next": "heros-gladius-quest",
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regained-vitality",
+    "name": "Regained Vitality",
+    "source_page": "https://mapleclassic.wiki/wiki/Regained_Vitality",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regained_Vitality"
+    },
+    "changes": [],
+    "giver": "chief-stan",
+    "turn_in": "mrs-ming-ming",
+    "start_map": "henesys",
+    "prerequisites": [
+      "memories-of-youth"
+    ],
+    "steps": [
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      },
+      {
+        "npc": "mrs-ming-ming",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "repairing-the-book",
+    "name": "Repairing the Book",
+    "source_page": "https://mapleclassic.wiki/wiki/Repairing_the_Book",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Repairing_the_Book"
+    },
+    "changes": [],
+    "giver": "manji",
+    "turn_in": "chrishrama",
+    "start_map": "perion",
+    "prerequisites": [
+      "chief-stans-signature"
+    ],
+    "next": "the-faded-ink",
+    "steps": [
+      {
+        "npc": "manji",
+        "map": "perion"
+      },
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "research-on-animal-fossils",
+    "name": "Research on Animal Fossils",
+    "source_page": "https://mapleclassic.wiki/wiki/Research_on_Animal_Fossils",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Research_on_Animal_Fossils"
+    },
+    "changes": [],
+    "giver": "betty",
+    "turn_in": "anne",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "research-on-plant-fossils"
+    ],
+    "next": "transporting-drakes-skull",
+    "steps": [
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      },
+      {
+        "npc": "anne",
+        "map": "the-hill-east-of-henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "research-on-plant-fossils",
+    "name": "Research on Plant Fossils",
+    "source_page": "https://mapleclassic.wiki/wiki/Research_on_Plant_Fossils",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Research_on_Plant_Fossils"
+    },
+    "changes": [],
+    "giver": "betty",
+    "turn_in": "betty",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "delivering-a-box-of-fossils"
+    ],
+    "next": "research-on-animal-fossils",
+    "steps": [
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      },
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "returned-secret-book",
+    "name": "Returned Secret Book",
+    "source_page": "https://mapleclassic.wiki/wiki/Returned_Secret_Book",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Returned_Secret_Book"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "mr-wetbottom",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "satisfied-ronnie"
+    ],
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "npc": "mr-wetbottom",
+        "map": "vip-sauna"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "returning-to-nina",
+    "name": "Returning to Nina",
+    "source_page": "https://mapleclassic.wiki/wiki/Returning_to_Nina",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Returning_to_Nina"
+    },
+    "changes": [],
+    "giver": "sen",
+    "turn_in": "nina",
+    "start_map": "mushroom-town-townstreet",
+    "prerequisites": [
+      "what-sen-wants-to-eat"
+    ],
+    "steps": [
+      {
+        "npc": "sen"
+      },
+      {
+        "npc": "nina"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "rinas-unagi-special-quest",
+    "name": "Rina's Unagi Special (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Rina's_Unagi_Special_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rina's_Unagi_Special_(quest)"
+    },
+    "changes": [],
+    "giver": "rina",
+    "turn_in": "ronnie",
+    "start_map": "henesys",
+    "prerequisites": [
+      "secret-to-unagi-special"
+    ],
+    "next": "thirsty-ronnie",
+    "steps": [
+      {
+        "npc": "rina",
+        "map": "henesys"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rogers-apple-quest",
+    "name": "Roger's Apple (quest)",
+    "source_page": "https://mapleclassic.wiki/wiki/Roger's_Apple_(quest)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Roger's_Apple_(quest)"
+    },
+    "changes": [],
+    "giver": "roger",
+    "turn_in": "roger",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "roger"
+      },
+      {
+        "npc": "roger"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "sabitrama-and-the-diet-medicine",
+    "name": "Sabitrama and the Diet Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/Sabitrama_and_the_Diet_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sabitrama_and_the_Diet_Medicine"
+    },
+    "changes": [],
+    "giver": "sabitrama",
+    "turn_in": "sabitrama",
+    "start_map": "sleepywood",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "sabitrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "sabitrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sabitramas-anti-aging-medicine",
+    "name": "Sabitrama's Anti-Aging Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/Sabitrama's_Anti-Aging_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sabitrama's_Anti-Aging_Medicine"
+    },
+    "changes": [],
+    "giver": "sabitrama",
+    "turn_in": "sabitrama",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "sabitrama-and-the-diet-medicine"
+    ],
+    "steps": [
+      {
+        "npc": "sabitrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "sabitrama",
+        "map": "sleepywood"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sams-suggestion",
+    "name": "Sam's Suggestion",
+    "source_page": "https://mapleclassic.wiki/wiki/Sam's_Suggestion",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sam's_Suggestion"
+    },
+    "changes": [],
+    "giver": "sam-maple-island",
+    "turn_in": "mai",
+    "start_map": "snail-hunting-ground-i",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "sam-maple-island"
+      },
+      {
+        "npc": "mai"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "satisfied-ronnie",
+    "name": "Satisfied Ronnie",
+    "source_page": "https://mapleclassic.wiki/wiki/Satisfied_Ronnie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Satisfied_Ronnie"
+    },
+    "changes": [],
+    "giver": "rowen-the-fairy",
+    "turn_in": "ronnie",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "cold-milk"
+    ],
+    "next": "returned-secret-book",
+    "steps": [
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "searching-for-fossils",
+    "name": "Searching for Fossils",
+    "source_page": "https://mapleclassic.wiki/wiki/Searching_for_Fossils",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Searching_for_Fossils"
+    },
+    "changes": [],
+    "giver": "winston",
+    "turn_in": "winston",
+    "start_map": "east-rocky-mountain-ii",
+    "prerequisites": [],
+    "next": "delivering-a-box-of-fossils",
+    "steps": [
+      {
+        "npc": "winston",
+        "map": "east-rocky-mountain-ii"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "monster": "axe-stump"
+      },
+      {
+        "npc": "winston",
+        "map": "east-rocky-mountain-ii"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "second-material-delivery-for-building-a-new-house",
+    "name": "Second Material Delivery for Building a New House",
+    "source_page": "https://mapleclassic.wiki/wiki/Second_Material_Delivery_for_Building_a_New_House",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Second_Material_Delivery_for_Building_a_New_House"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "ronnie",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "first-material-delivery-for-building-a-new-house"
+    ],
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "monster": "bubbling"
+      },
+      {
+        "monster": "jr-wraith"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "secret-to-unagi-special",
+    "name": "Secret to Unagi Special",
+    "source_page": "https://mapleclassic.wiki/wiki/Secret_to_Unagi_Special",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Secret_to_Unagi_Special"
+    },
+    "changes": [],
+    "giver": "rina",
+    "turn_in": "rina",
+    "start_map": "henesys",
+    "prerequisites": [
+      "still-hungry-ronnie"
+    ],
+    "next": "rinas-unagi-special-quest",
+    "steps": [
+      {
+        "npc": "rina",
+        "map": "henesys"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shumis-lost-coin",
+    "name": "Shumi's Lost Coin",
+    "source_page": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Coin",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Coin"
+    },
+    "changes": [],
+    "giver": "shumi",
+    "turn_in": "shumi",
+    "start_map": "kerning-city",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shumis-lost-roll-of-cash",
+    "name": "Shumi's Lost Roll of Cash",
+    "source_page": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Roll_of_Cash",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Roll_of_Cash"
+    },
+    "changes": [],
+    "giver": "shumi",
+    "turn_in": "shumi",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "shumis-lost-coin"
+    ],
+    "steps": [
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shumis-lost-sack-of-cash",
+    "name": "Shumi's Lost Sack of Cash",
+    "source_page": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Sack_of_Cash",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shumi's_Lost_Sack_of_Cash"
+    },
+    "changes": [],
+    "giver": "shumi",
+    "turn_in": "shumi",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "shumis-lost-roll-of-cash"
+    ],
+    "steps": [
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "shumi",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shumis-request",
+    "name": "Shumi's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Shumi's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shumi's_Request"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "don-hwangs-request"
+    ],
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "monster": "dark-stump"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "silas-irons-in-need-of-an-apprentice",
+    "name": "Silas Irons in Need of an Apprentice",
+    "source_page": "https://mapleclassic.wiki/wiki/Silas_Irons_in_Need_of_an_Apprentice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Silas_Irons_in_Need_of_an_Apprentice"
+    },
+    "changes": [],
+    "giver": "silas-irons",
+    "turn_in": "silas-irons",
+    "start_map": "perion",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      },
+      {
+        "monster": "stump"
+      },
+      {
+        "monster": "dark-stump"
+      },
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "silas-irons-in-need-of-help",
+    "name": "Silas Irons in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Silas_Irons_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Silas_Irons_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "silas-irons",
+    "turn_in": "silas-irons",
+    "start_map": "perion",
+    "prerequisites": [
+      "silas-irons-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      },
+      {
+        "monster": "bubbling"
+      },
+      {
+        "npc": "silas-irons",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "special-taste-of-florina-beach-i",
+    "name": "Special Taste of Florina Beach I",
+    "source_page": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_I",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_I"
+    },
+    "changes": [],
+    "giver": "riel",
+    "turn_in": "riel",
+    "start_map": "florina-beach",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      },
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "special-taste-of-florina-beach-ii",
+    "name": "Special Taste of Florina Beach II",
+    "source_page": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_II",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_II"
+    },
+    "changes": [],
+    "giver": "riel",
+    "turn_in": "riel",
+    "start_map": "florina-beach",
+    "prerequisites": [
+      "special-taste-of-florina-beach-i"
+    ],
+    "steps": [
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      },
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "special-taste-of-florina-beach-iii",
+    "name": "Special Taste of Florina Beach III",
+    "source_page": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_III",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_III"
+    },
+    "changes": [],
+    "giver": "riel",
+    "turn_in": "riel",
+    "start_map": "florina-beach",
+    "prerequisites": [
+      "special-taste-of-florina-beach-ii"
+    ],
+    "steps": [
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      },
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "special-taste-of-florina-beach-iv",
+    "name": "Special Taste of Florina Beach IV",
+    "source_page": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_IV",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Special_Taste_of_Florina_Beach_IV"
+    },
+    "changes": [],
+    "giver": "riel",
+    "turn_in": "riel",
+    "start_map": "florina-beach",
+    "prerequisites": [
+      "special-taste-of-florina-beach-iii"
+    ],
+    "steps": [
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      },
+      {
+        "npc": "riel",
+        "map": "florina-beach"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "still-hungry-ronnie",
+    "name": "Still Hungry Ronnie",
+    "source_page": "https://mapleclassic.wiki/wiki/Still_Hungry_Ronnie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Still_Hungry_Ronnie"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "rina",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "hungry-ronnie"
+    ],
+    "next": "secret-to-unagi-special",
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "stirge-phobia",
+    "name": "Stirge Phobia",
+    "source_page": "https://mapleclassic.wiki/wiki/Stirge_Phobia",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Stirge_Phobia"
+    },
+    "changes": [],
+    "giver": "jake",
+    "turn_in": "mong-from-kong",
+    "start_map": "subway-ticketing-booth",
+    "prerequisites": [],
+    "next": "making-the-medicine",
+    "steps": [
+      {
+        "npc": "jake",
+        "map": "subway-ticketing-booth"
+      },
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "strangers-identity",
+    "name": "Stranger's Identity",
+    "source_page": "https://mapleclassic.wiki/wiki/Stranger's_Identity",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Stranger's_Identity"
+    },
+    "changes": [],
+    "giver": "jane-doe",
+    "turn_in": "jane-doe",
+    "start_map": "niora-hospital",
+    "prerequisites": [
+      "strangers-request"
+    ],
+    "steps": [
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      },
+      {
+        "monster": "zombie-mushroom"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "strangers-request",
+    "name": "Stranger's Request",
+    "source_page": "https://mapleclassic.wiki/wiki/Stranger's_Request",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Stranger's_Request"
+    },
+    "changes": [],
+    "giver": "jane-doe",
+    "start_map": "niora-hospital",
+    "prerequisites": [],
+    "next": "strangers-identity",
+    "steps": [
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      },
+      {
+        "monster": "stirge"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "taking-out-the-alligators-1",
+    "name": "Taking Out the Alligators 1",
+    "source_page": "https://mapleclassic.wiki/wiki/Taking_Out_the_Alligators_1",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Taking_Out_the_Alligators_1"
+    },
+    "changes": [],
+    "giver": "ayan",
+    "turn_in": "ayan",
+    "start_map": "perion",
+    "prerequisites": [
+      "i-need-to-find-my-daughter-2"
+    ],
+    "steps": [
+      {
+        "npc": "ayan",
+        "map": "perion"
+      },
+      {
+        "monster": "jr-necki"
+      },
+      {
+        "monster": "ligator"
+      },
+      {
+        "npc": "ayan",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "taking-out-the-alligators-2",
+    "name": "Taking Out the Alligators 2",
+    "source_page": "https://mapleclassic.wiki/wiki/Taking_Out_the_Alligators_2",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Taking_Out_the_Alligators_2"
+    },
+    "changes": [],
+    "giver": "ayan",
+    "turn_in": "ayan",
+    "start_map": "perion",
+    "prerequisites": [
+      "taking-out-the-alligators-1"
+    ],
+    "steps": [
+      {
+        "npc": "ayan",
+        "map": "perion"
+      },
+      {
+        "monster": "croco"
+      },
+      {
+        "npc": "ayan",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "talking-to-stan",
+    "name": "Talking to Stan",
+    "source_page": "https://mapleclassic.wiki/wiki/Talking_to_Stan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Talking_to_Stan"
+    },
+    "changes": [],
+    "giver": "chief-stan",
+    "turn_in": "chief-stan",
+    "start_map": "henesys",
+    "prerequisites": [
+      "alexs-request"
+    ],
+    "next": "mothers-gold-watch",
+    "steps": [
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      },
+      {
+        "monster": "green-mushroom"
+      },
+      {
+        "monster": "blue-mushroom"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "teos-even-weirder-hobby",
+    "name": "Teo's Even Weirder Hobby",
+    "source_page": "https://mapleclassic.wiki/wiki/Teo's_Even_Weirder_Hobby",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Teo's_Even_Weirder_Hobby"
+    },
+    "changes": [],
+    "giver": "teo",
+    "turn_in": "teo",
+    "start_map": "lith-harbor",
+    "prerequisites": [
+      "teos-weird-hobby"
+    ],
+    "steps": [
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "pig"
+      },
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "teos-weird-hobby",
+    "name": "Teo's Weird Hobby",
+    "source_page": "https://mapleclassic.wiki/wiki/Teo's_Weird_Hobby",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Teo's_Weird_Hobby"
+    },
+    "changes": [],
+    "giver": "teo",
+    "turn_in": "teo",
+    "start_map": "lith-harbor",
+    "prerequisites": [],
+    "next": "teos-even-weirder-hobby",
+    "steps": [
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      },
+      {
+        "monster": "slime"
+      },
+      {
+        "npc": "teo",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "test-of-qualification-bowman",
+    "name": "Test of Qualification (Bowman)",
+    "source_page": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Bowman)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Bowman)"
+    },
+    "changes": [],
+    "giver": "bowman-job-instructor",
+    "turn_in": "bowman-job-instructor",
+    "start_map": "the-road-to-the-dungeon",
+    "prerequisites": [
+      "finding-the-instructor-bowman"
+    ],
+    "next": "proof-of-qualification-bowman",
+    "steps": [
+      {
+        "npc": "bowman-job-instructor",
+        "map": "the-road-to-the-dungeon"
+      },
+      {
+        "npc": "bowman-job-instructor",
+        "map": "the-road-to-the-dungeon"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "test-of-qualification-magician",
+    "name": "Test of Qualification (Magician)",
+    "source_page": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Magician)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Magician)"
+    },
+    "changes": [],
+    "giver": "magician-job-instructor",
+    "turn_in": "magician-job-instructor",
+    "start_map": "the-forest-north-of-ellinia",
+    "prerequisites": [
+      "finding-the-instructor-magician"
+    ],
+    "next": "proof-of-qualification-magician",
+    "steps": [
+      {
+        "npc": "magician-job-instructor",
+        "map": "the-forest-north-of-ellinia"
+      },
+      {
+        "npc": "magician-job-instructor",
+        "map": "the-forest-north-of-ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "test-of-qualification-thief",
+    "name": "Test of Qualification (Thief)",
+    "source_page": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Thief)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Thief)"
+    },
+    "changes": [],
+    "giver": "thief-job-instructor",
+    "turn_in": "thief-job-instructor",
+    "start_map": "construction-site-north-of-kerning-city",
+    "prerequisites": [
+      "finding-the-instructor-thief"
+    ],
+    "next": "proof-of-qualification-thief",
+    "steps": [
+      {
+        "npc": "thief-job-instructor",
+        "map": "construction-site-north-of-kerning-city"
+      },
+      {
+        "npc": "thief-job-instructor",
+        "map": "construction-site-north-of-kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "test-of-qualification-warrior",
+    "name": "Test of Qualification (Warrior)",
+    "source_page": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Warrior)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Test_of_Qualification_(Warrior)"
+    },
+    "changes": [],
+    "giver": "warrior-job-instructor",
+    "turn_in": "warrior-job-instructor",
+    "start_map": "west-rocky-mountain-iv",
+    "prerequisites": [
+      "finding-the-instructor-warrior"
+    ],
+    "next": "proof-of-qualification-warrior",
+    "steps": [
+      {
+        "npc": "warrior-job-instructor",
+        "map": "west-rocky-mountain-iv"
+      },
+      {
+        "npc": "warrior-job-instructor",
+        "map": "west-rocky-mountain-iv"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-best-dad",
+    "name": "The Best Dad",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Best_Dad",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Best_Dad"
+    },
+    "changes": [],
+    "giver": "ayan",
+    "turn_in": "bruce",
+    "start_map": "perion",
+    "prerequisites": [
+      "a-fathers-love-for-his-daughter"
+    ],
+    "steps": [
+      {
+        "npc": "ayan",
+        "map": "perion"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-bowmans-next-journey",
+    "name": "The Bowman's Next Journey",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Bowman's_Next_Journey",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Bowman's_Next_Journey"
+    },
+    "changes": [],
+    "giver": "athena-pierce",
+    "turn_in": "athena-pierce",
+    "start_mode": "quest-log",
+    "start_map": "bowman-instructional-school",
+    "prerequisites": [],
+    "next": "finding-the-instructor-bowman",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-dark-lords-signature",
+    "name": "The Dark Lord's Signature",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Dark_Lord's_Signature",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Dark_Lord's_Signature"
+    },
+    "changes": [],
+    "giver": "dark-lord",
+    "turn_in": "alex",
+    "start_map": "thieves-hideout",
+    "prerequisites": [
+      "the-faded-ink"
+    ],
+    "steps": [
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      },
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-faded-ink",
+    "name": "The Faded Ink",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Faded_Ink",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Faded_Ink"
+    },
+    "changes": [],
+    "giver": "chrishrama",
+    "turn_in": "hotel-receptionist",
+    "start_map": "sleepywood",
+    "prerequisites": [
+      "repairing-the-book"
+    ],
+    "steps": [
+      {
+        "npc": "chrishrama",
+        "map": "sleepywood"
+      },
+      {
+        "npc": "hotel-receptionist",
+        "map": "sleepywood-hotel"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-fifth-mark",
+    "name": "The Fifth Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Fifth_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Fifth_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-fourth-mark"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-filing-error",
+    "name": "The Filing Error",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Filing_Error",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Filing_Error"
+    },
+    "changes": [],
+    "giver": "lyn-the-librarian",
+    "turn_in": "chief-stan",
+    "prerequisites": [],
+    "next": "chief-stans-signature",
+    "steps": [
+      {
+        "npc": "lyn-the-librarian"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-final-ingredient-for-the-cure",
+    "name": "The Final Ingredient for the Cure",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Final_Ingredient_for_the_Cure",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Final_Ingredient_for_the_Cure"
+    },
+    "changes": [],
+    "giver": "mong-from-kong",
+    "turn_in": "mr-goldstein",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "making-the-medicine"
+    ],
+    "next": "grandfathers-vitamin-gummy",
+    "steps": [
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "mr-goldstein",
+        "map": "lith-harbor"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-final-mark",
+    "name": "The Final Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Final_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Final_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-fifth-mark"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-first-mark",
+    "name": "The First Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_First_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_First_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-marks-we-leave-behind"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-fourth-mark",
+    "name": "The Fourth Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Fourth_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Fourth_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "turn_in": "mong-from-kong",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-third-mark"
+    ],
+    "steps": [
+      {
+        "npc": "jay",
+        "map": "henesys"
+      },
+      {
+        "npc": "mong-from-kong",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-ingredients-for-the-flying-medicine",
+    "name": "The Ingredients for the Flying Medicine",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Ingredients_for_the_Flying_Medicine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Ingredients_for_the_Flying_Medicine"
+    },
+    "changes": [],
+    "giver": "wing-the-fairy",
+    "turn_in": "wing-the-fairy",
+    "start_map": "ellinia",
+    "prerequisites": [
+      "in-search-of-wing-the-fairy"
+    ],
+    "steps": [
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      },
+      {
+        "npc": "wing-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-journey-begins",
+    "name": "The Journey Begins",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Journey_Begins",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Journey_Begins"
+    },
+    "changes": [],
+    "giver": "maple-administrator",
+    "turn_in": "maple-administrator",
+    "start_mode": "automatic",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "maple-administrator",
+        "map": "henesys"
+      },
+      {
+        "npc": "maple-administrator",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-magicians-next-journey",
+    "name": "The Magician's Next Journey",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Magician's_Next_Journey",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Magician's_Next_Journey"
+    },
+    "changes": [],
+    "giver": "grendel-the-really-old",
+    "turn_in": "grendel-the-really-old",
+    "start_mode": "quest-log",
+    "start_map": "magic-library",
+    "prerequisites": [],
+    "next": "finding-the-instructor-magician",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-marks-we-leave-behind",
+    "name": "The Marks We Leave Behind",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Marks_We_Leave_Behind",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Marks_We_Leave_Behind"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-price-of-information",
+    "name": "The Price of Information",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Price_of_Information",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Price_of_Information"
+    },
+    "changes": [],
+    "giver": "nella",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "once-a-renowned-doctor"
+    ],
+    "next": "a-truth-finally-known",
+    "steps": [
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-reason-behind-the-mushroom-studies",
+    "name": "The Reason Behind the Mushroom Studies",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Reason_Behind_the_Mushroom_Studies",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Reason_Behind_the_Mushroom_Studies"
+    },
+    "changes": [],
+    "giver": "bruce",
+    "turn_in": "bruce",
+    "start_map": "henesys",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      },
+      {
+        "monster": "shroom"
+      },
+      {
+        "monster": "orange-mushroom"
+      },
+      {
+        "npc": "bruce",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-second-mark",
+    "name": "The Second Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Second_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Second_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-first-mark"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-stump-horror-story",
+    "name": "The Stump Horror Story",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Stump_Horror_Story",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Stump_Horror_Story"
+    },
+    "changes": [],
+    "giver": "ayan",
+    "turn_in": "ayan",
+    "start_map": "perion",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "ayan",
+        "map": "perion"
+      },
+      {
+        "monster": "stump"
+      },
+      {
+        "npc": "ayan",
+        "map": "perion"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-thiefs-next-journey",
+    "name": "The Thief's Next Journey",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Thief's_Next_Journey",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Thief's_Next_Journey"
+    },
+    "changes": [],
+    "giver": "dark-lord",
+    "turn_in": "dark-lord",
+    "start_mode": "quest-log",
+    "start_map": "thieves-hideout",
+    "prerequisites": [],
+    "next": "finding-the-instructor-thief",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-third-mark",
+    "name": "The Third Mark",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Third_Mark",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Third_Mark"
+    },
+    "changes": [],
+    "giver": "jay",
+    "start_map": "henesys",
+    "prerequisites": [
+      "the-second-mark"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-warriors-next-journey",
+    "name": "The Warrior's Next Journey",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Warrior's_Next_Journey",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Warrior's_Next_Journey"
+    },
+    "changes": [],
+    "giver": "dances-with-balrog",
+    "turn_in": "dances-with-balrog",
+    "start_mode": "quest-log",
+    "start_map": "warriors-sanctuary",
+    "prerequisites": [],
+    "next": "finding-the-instructor-warrior",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-weight-of-truth",
+    "name": "The Weight of Truth",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Weight_of_Truth",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Weight_of_Truth"
+    },
+    "changes": [],
+    "giver": "slade",
+    "turn_in": "dark-lord",
+    "prerequisites": [
+      "what-it-takes"
+    ],
+    "steps": [
+      {
+        "npc": "slade"
+      },
+      {
+        "npc": "dark-lord",
+        "map": "thieves-hideout"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "third-material-delivery-for-building-a-new-house",
+    "name": "Third Material Delivery for Building a New House",
+    "source_page": "https://mapleclassic.wiki/wiki/Third_Material_Delivery_for_Building_a_New_House",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Third_Material_Delivery_for_Building_a_New_House"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "ronnie",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "second-material-delivery-for-building-a-new-house"
+    ],
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "monster": "fire-boar"
+      },
+      {
+        "monster": "copper-drake"
+      },
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "thirsty-ronnie",
+    "name": "Thirsty Ronnie",
+    "source_page": "https://mapleclassic.wiki/wiki/Thirsty_Ronnie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Thirsty_Ronnie"
+    },
+    "changes": [],
+    "giver": "ronnie",
+    "turn_in": "rowen-the-fairy",
+    "start_map": "the-tree-tunnel-at-the-forest-up-north",
+    "prerequisites": [
+      "rinas-unagi-special-quest"
+    ],
+    "next": "cold-milk",
+    "steps": [
+      {
+        "npc": "ronnie",
+        "map": "the-tree-tunnel-at-the-forest-up-north"
+      },
+      {
+        "npc": "rowen-the-fairy",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "to-henesys-the-prairie-town",
+    "name": "To Henesys, the Prairie Town",
+    "source_page": "https://mapleclassic.wiki/wiki/To_Henesys%2C_the_Prairie_Town",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/To_Henesys%2C_the_Prairie_Town"
+    },
+    "changes": [],
+    "turn_in": "arthur",
+    "start_mode": "quest-log",
+    "prerequisites": [],
+    "next": "to-the-gray-city-kerning-city",
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "to-the-gray-city-kerning-city",
+    "name": "To the Gray City, Kerning City",
+    "source_page": "https://mapleclassic.wiki/wiki/To_the_Gray_City%2C_Kerning_City",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/To_the_Gray_City%2C_Kerning_City"
+    },
+    "changes": [],
+    "giver": "arthur",
+    "turn_in": "roxy",
+    "start_map": "henesys-town-hall",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "arthur",
+        "map": "henesys-town-hall"
+      },
+      {
+        "npc": "roxy",
+        "map": "kerning-city-civic-center"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "todds-how-to-hunt",
+    "name": "Todd's How-to-Hunt",
+    "source_page": "https://mapleclassic.wiki/wiki/Todd's_How-to-Hunt",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Todd's_How-to-Hunt"
+    },
+    "changes": [],
+    "giver": "todd",
+    "turn_in": "peter",
+    "start_map": "east-entrance-to-mushroom-town",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "todd"
+      },
+      {
+        "npc": "peter",
+        "map": "east-entrance-to-mushroom-town"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "too-shy-to-say-it-himself",
+    "name": "Too Shy to Say It Himself",
+    "source_page": "https://mapleclassic.wiki/wiki/Too_Shy_to_Say_It_Himself",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Too_Shy_to_Say_It_Himself"
+    },
+    "changes": [],
+    "giver": "alex",
+    "turn_in": "nella",
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "a-lost-thank-you"
+    ],
+    "next": "nellas-old-memory",
+    "steps": [
+      {
+        "npc": "alex",
+        "map": "kerning-city"
+      },
+      {
+        "npc": "nella",
+        "map": "kerning-city"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "transporting-drakes-skull",
+    "name": "Transporting Drake's Skull",
+    "source_page": "https://mapleclassic.wiki/wiki/Transporting_Drake's_Skull",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Transporting_Drake's_Skull"
+    },
+    "changes": [],
+    "giver": "anne",
+    "turn_in": "betty",
+    "start_map": "the-hill-east-of-henesys",
+    "prerequisites": [
+      "research-on-animal-fossils"
+    ],
+    "steps": [
+      {
+        "npc": "anne",
+        "map": "the-hill-east-of-henesys"
+      },
+      {
+        "npc": "betty",
+        "map": "ellinia"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "trick-or-treat",
+    "name": "Trick or Treat!",
+    "source_page": "https://mapleclassic.wiki/wiki/Trick_or_Treat!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Trick_or_Treat!"
+    },
+    "changes": [],
+    "start_map": "kerning-city",
+    "prerequisites": [
+      "halloween-candies-quest"
+    ],
+    "steps": [],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "vicious-in-need-of-an-apprentice",
+    "name": "Vicious in Need of an Apprentice",
+    "source_page": "https://mapleclassic.wiki/wiki/Vicious_in_Need_of_an_Apprentice",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Vicious_in_Need_of_an_Apprentice"
+    },
+    "changes": [],
+    "giver": "vicious",
+    "turn_in": "vicious",
+    "start_map": "henesys-market",
+    "prerequisites": [],
+    "steps": [
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      },
+      {
+        "monster": "stump"
+      },
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "vicious-in-need-of-help",
+    "name": "Vicious in Need of Help",
+    "source_page": "https://mapleclassic.wiki/wiki/Vicious_in_Need_of_Help",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Vicious_in_Need_of_Help"
+    },
+    "changes": [],
+    "giver": "vicious",
+    "turn_in": "vicious",
+    "start_map": "henesys-market",
+    "prerequisites": [
+      "vicious-in-need-of-an-apprentice"
+    ],
+    "steps": [
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      },
+      {
+        "monster": "axe-stump"
+      },
+      {
+        "npc": "vicious",
+        "map": "henesys-market"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "we-hold-your-place",
+    "name": "We Hold Your Place",
+    "source_page": "https://mapleclassic.wiki/wiki/We_Hold_Your_Place",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/We_Hold_Your_Place"
+    },
+    "changes": [],
+    "giver": "grendel-the-really-old",
+    "turn_in": "lyn-the-librarian",
+    "start_map": "magic-library",
+    "prerequisites": [
+      "the-dark-lords-signature"
+    ],
+    "steps": [
+      {
+        "npc": "grendel-the-really-old",
+        "map": "magic-library"
+      },
+      {
+        "npc": "lyn-the-librarian"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "welcome-to-the-free-market",
+    "name": "Welcome to the Free Market!",
+    "source_page": "https://mapleclassic.wiki/wiki/Welcome_to_the_Free_Market!",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Welcome_to_the_Free_Market!"
+    },
+    "changes": [],
+    "giver": "lewis",
+    "turn_in": "chief-stan",
+    "start_map": "free-market-entrance",
+    "prerequisites": [],
+    "next": "chief-stans-reply",
+    "steps": [
+      {
+        "npc": "lewis",
+        "map": "free-market-entrance"
+      },
+      {
+        "npc": "chief-stan",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "what-it-takes",
+    "name": "What It Takes",
+    "source_page": "https://mapleclassic.wiki/wiki/What_It_Takes",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/What_It_Takes"
+    },
+    "changes": [],
+    "giver": "slade",
+    "turn_in": "slade",
+    "prerequisites": [
+      "an-unbreakable-code"
+    ],
+    "next": "the-weight-of-truth",
+    "steps": [
+      {
+        "npc": "slade"
+      },
+      {
+        "npc": "slade"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "what-pia-borrowed",
+    "name": "What Pia Borrowed",
+    "source_page": "https://mapleclassic.wiki/wiki/What_Pia_Borrowed",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/What_Pia_Borrowed"
+    },
+    "changes": [],
+    "giver": "rina",
+    "turn_in": "rina",
+    "start_map": "henesys",
+    "prerequisites": [
+      "looking-for-the-red-cape"
+    ],
+    "next": "pias-gift",
+    "steps": [
+      {
+        "npc": "rina",
+        "map": "henesys"
+      },
+      {
+        "npc": "rina",
+        "map": "henesys"
+      }
+    ],
+    "region": "Victoria Island"
+  },
+  {
+    "id": "what-sen-wants-to-eat",
+    "name": "What Sen wants to eat",
+    "source_page": "https://mapleclassic.wiki/wiki/What_Sen_wants_to_eat",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/What_Sen_wants_to_eat"
+    },
+    "changes": [],
+    "giver": "nina",
+    "turn_in": "sen",
+    "start_map": "mushroom-town-nina",
+    "prerequisites": [],
+    "next": "returning-to-nina",
+    "steps": [
+      {
+        "npc": "nina"
+      },
+      {
+        "npc": "sen"
+      }
+    ],
+    "region": "Maple Island"
+  },
+  {
+    "id": "worn-bandages",
+    "name": "Worn Bandages",
+    "source_page": "https://mapleclassic.wiki/wiki/Worn_Bandages",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Worn_Bandages"
+    },
+    "changes": [],
+    "giver": "jane-doe",
+    "turn_in": "jane-doe",
+    "start_map": "niora-hospital",
+    "prerequisites": [],
+    "next": "a-torn-letter",
+    "steps": [
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      },
+      {
+        "npc": "jane-doe",
+        "map": "niora-hospital"
+      }
+    ],
+    "region": "Victoria Island"
+  }
+]

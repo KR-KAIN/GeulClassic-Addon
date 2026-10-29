@@ -1,0 +1,7 @@
+GeulClassic Translator Addon v0.4.34 — region picker invisibility regression fix
+Base: v0.4.33 independent source and resources.
+1. Windows transparent layered window hit-test: almost invisible alpha-2 full-screen painted layer to receive mouse drag, without dimming Maple.
+2. Picker launches successfully before hiding control and translation windows.
+3. ESC/right mouse cancel, close event restore, one-shot completed flag and 60-second timeout.
+4. Visibility-check fallback and exception recovery restore panels and unpause OCR.
+5. All existing application features remain intact. Windows EXE/game runtime remains unverified in this environment.

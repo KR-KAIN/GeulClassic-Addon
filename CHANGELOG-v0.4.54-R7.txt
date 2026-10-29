@@ -1,0 +1,38 @@
+GeulClassic Addon v0.4.54-R7: loss-aware screen-only pipeline patch
+
+BASELINE: v0.4.54-R6 GLYPH SHADOW BUILD FIX. Original ZIP preserved separately.
+
+1. Detector recovery gate: retained and explicitly re-tested the existing
+   foreground-key cache, failed backoff (0.5/2/8 seconds), 2x global duty
+   budget, no-ink 5-second retry, and success cache. No duplicate detector
+   mechanism was introduced.
+2. @ noise: classified OCR output now ignores messages whose BODY is solely
+   @ or fullwidth @, optionally whitespace. Mixed text/nicknames/item links
+   are unmodified. Already disabled-by-default @ glyph dictionary unchanged.
+3. Duplicates: suppress only identical content/kind occupying >=85 percent
+   of the same screen rectangle within one OCR classification. Repeated
+   messages in different positions, different prices, and different channels
+   survive. Existing physical-event ledger / frame pixel-change gate kept.
+4. Old frames: live stream discards screen frames older than 0.4 seconds
+   measured from capture timestamp before OCR, with an observable drop count.
+   Off-line/replay stream behavior remains unchanged unless explicitly opted in.
+5. JSONL: capture_expired_drops added. Existing performance fields unchanged.
+6. Build: R7 build label; Python and monotonic clock information collected
+   through scripts.build_info_r7.
+
+LIMITS: Expiry can lose truly transient messages during heavy congestion.
+No real game benchmark here. No GPU or process-memory access is added.
+No global text similarity / 10-second TTL blacklist due to lost-message risk.
+No unvalidated masking/thresholding/upscaling rewrite in this phase.
+
+R7 final screen-replay safety corrections:
+- Real user screenshot 2048x904: a slightly overwide OCR crop returned 0 rows
+  (or only an 8px HUD border); bounded text-ROI edge retries recover 4 rows.
+- The fallback is used ONLY for empty/obviously border-only uncertain
+  segmentation. Valid primary row crops are unchanged.
+- Preserve last available frame if capture producer pauses; age expiry only
+  removes a stale frame when a newer queued replacement is available.
+- Right/left magnet dock: align flush to game client edge (gap 0).
+- JSONL contains border_retry_used and classified/admitted/unique/processed
+  counters so real Windows misses can be localized without saving chat text.
+- No claim of fixed translation quality without gameplay remeasurement.

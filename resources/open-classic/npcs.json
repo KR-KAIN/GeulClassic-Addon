@@ -1,0 +1,3241 @@
+[
+  {
+    "id": "24-hr-mobile-store",
+    "name": "24 Hr Mobile Store",
+    "source_page": "https://mapleclassic.wiki/wiki/24_Hr_Mobile_Store",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/24_Hr_Mobile_Store"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/24-hr-mobile-store.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ant-tunnel-park",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "a-pile-of-blue-flowers",
+    "name": "A pile of blue flowers",
+    "source_page": "https://mapleclassic.wiki/wiki/A_pile_of_blue_flowers",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_pile_of_blue_flowers"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/a-pile-of-blue-flowers.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1063001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-deep-forest-of-patience-step-4",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "a-pile-of-flowers",
+    "name": "A pile of flowers",
+    "source_page": "https://mapleclassic.wiki/wiki/A_pile_of_flowers",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_pile_of_flowers"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/a-pile-of-flowers.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1043000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-forest-of-patience-step-2",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "a-pile-of-herbs",
+    "name": "A pile of herbs",
+    "source_page": "https://mapleclassic.wiki/wiki/A_pile_of_herbs",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_pile_of_herbs"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/a-pile-of-herbs.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1043001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-forest-of-patience-step-5",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "a-pile-of-pink-flowers",
+    "name": "A pile of pink flowers",
+    "source_page": "https://mapleclassic.wiki/wiki/A_pile_of_pink_flowers",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_pile_of_pink_flowers"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/a-pile-of-pink-flowers.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1063000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-deep-forest-of-patience-step-2",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "a-pile-of-white-flowers",
+    "name": "A pile of white flowers",
+    "source_page": "https://mapleclassic.wiki/wiki/A_pile_of_white_flowers",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/A_pile_of_white_flowers"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/a-pile-of-white-flowers.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1063002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-deep-forest-of-patience-step-7",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "alex",
+    "name": "Alex",
+    "source_page": "https://mapleclassic.wiki/wiki/Alex",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Alex"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/alex.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "andre",
+    "name": "Andre",
+    "source_page": "https://mapleclassic.wiki/wiki/Andre",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Andre"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/andre.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-hair-salon",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "anne",
+    "name": "Anne",
+    "source_page": "https://mapleclassic.wiki/wiki/Anne",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Anne"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/anne.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012110/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-hill-east-of-henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "anvil",
+    "name": "Anvil",
+    "source_page": "https://mapleclassic.wiki/wiki/Anvil",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Anvil"
+    },
+    "changes": [],
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arcane-station",
+    "name": "Arcane Station",
+    "source_page": "https://mapleclassic.wiki/wiki/Arcane_Station",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arcane_Station"
+    },
+    "changes": [],
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arthur",
+    "name": "Arthur",
+    "source_page": "https://mapleclassic.wiki/wiki/Arthur",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arthur"
+    },
+    "changes": [],
+    "map": "henesys-town-hall",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arturo",
+    "name": "Arturo",
+    "source_page": "https://mapleclassic.wiki/wiki/Arturo",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arturo"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/arturo.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1021100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion-department-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "arwen-the-fairy",
+    "name": "Arwen the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Arwen_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Arwen_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/arwen-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "athena-pierce",
+    "name": "Athena Pierce",
+    "source_page": "https://mapleclassic.wiki/wiki/Athena_Pierce",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Athena_Pierce"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/athena-pierce.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/10200/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "bowman-instructional-school",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "ayan",
+    "name": "Ayan",
+    "source_page": "https://mapleclassic.wiki/wiki/Ayan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Ayan"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/ayan.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bari",
+    "name": "Bari",
+    "source_page": "https://mapleclassic.wiki/wiki/Bari",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bari"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/bari.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/20001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "southperry",
+    "region": "Maple Island"
+  },
+  {
+    "id": "ben",
+    "name": "Ben",
+    "source_page": "https://mapleclassic.wiki/wiki/Ben",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Ben"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/ben.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9201034/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-civic-center",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "betty",
+    "name": "Betty",
+    "source_page": "https://mapleclassic.wiki/wiki/Betty",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Betty"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/betty.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032104/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bianca",
+    "name": "Bianca",
+    "source_page": "https://mapleclassic.wiki/wiki/Bianca",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bianca"
+    },
+    "changes": [],
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "biggs",
+    "name": "Biggs",
+    "source_page": "https://mapleclassic.wiki/wiki/Biggs",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Biggs"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/biggs.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/20002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "southperry",
+    "region": "Maple Island"
+  },
+  {
+    "id": "blackbull",
+    "name": "Blackbull",
+    "source_page": "https://mapleclassic.wiki/wiki/Blackbull",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Blackbull"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/blackbull.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1020000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bluebell-bud-sleepy-dungeon",
+    "name": "Bluebell Bud (Sleepy Dungeon)",
+    "source_page": "https://mapleclassic.wiki/wiki/Bluebell_Bud_(Sleepy_Dungeon)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bluebell_Bud_(Sleepy_Dungeon)"
+    },
+    "changes": [],
+    "map": "sleepy-dungeon-i",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bowman-job-instructor",
+    "name": "Bowman Job Instructor",
+    "source_page": "https://mapleclassic.wiki/wiki/Bowman_Job_Instructor",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bowman_Job_Instructor"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/bowman-job-instructor.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-road-to-the-dungeon",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bowman-job-instructor-2nd-job-test",
+    "name": "Bowman Job Instructor (2nd Job Test)",
+    "source_page": "https://mapleclassic.wiki/wiki/Bowman_Job_Instructor_(2nd_Job_Test)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bowman_Job_Instructor_(2nd_Job_Test)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/bowman-job-instructor-2nd-job-test.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ant-tunnel-for-bowman",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "brittany",
+    "name": "Brittany",
+    "source_page": "https://mapleclassic.wiki/wiki/Brittany",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Brittany"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/brittany.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012104/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-hair-salon",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "bruce",
+    "name": "Bruce",
+    "source_page": "https://mapleclassic.wiki/wiki/Bruce",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Bruce"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/bruce.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012111/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "camila",
+    "name": "Camila",
+    "source_page": "https://mapleclassic.wiki/wiki/Camila",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Camila"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/camila.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012108/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "casey",
+    "name": "Casey",
+    "source_page": "https://mapleclassic.wiki/wiki/Casey",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Casey"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/casey.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-park",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chef",
+    "name": "Chef",
+    "source_page": "https://mapleclassic.wiki/wiki/Chef",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chef"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/chef.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "cherry",
+    "name": "Cherry",
+    "source_page": "https://mapleclassic.wiki/wiki/Cherry",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cherry"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/cherry.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia-station",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chief-stan",
+    "name": "Chief Stan",
+    "source_page": "https://mapleclassic.wiki/wiki/Chief_Stan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chief_Stan"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/chief-stan.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chris",
+    "name": "Chris",
+    "source_page": "https://mapleclassic.wiki/wiki/Chris",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chris"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/chris.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-repair-shop",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chrishrama",
+    "name": "Chrishrama",
+    "source_page": "https://mapleclassic.wiki/wiki/Chrishrama",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chrishrama"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/chrishrama.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "chun-ji",
+    "name": "Chun Ji",
+    "source_page": "https://mapleclassic.wiki/wiki/Chun_Ji",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Chun_Ji"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/chun-ji.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9000007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-construction-site",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "cloto",
+    "name": "Cloto",
+    "source_page": "https://mapleclassic.wiki/wiki/Cloto",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cloto"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/cloto.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9020001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "1st-accompaniment-1st-stage",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "cloy",
+    "name": "Cloy",
+    "source_page": "https://mapleclassic.wiki/wiki/Cloy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cloy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/cloy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-park",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "community-board",
+    "name": "Community Board",
+    "source_page": "https://mapleclassic.wiki/wiki/Asking_After_Alex%2C_the_Town_Resident",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Asking_After_Alex%2C_the_Town_Resident"
+    },
+    "changes": []
+  },
+  {
+    "id": "community-board-henesys",
+    "name": "Community Board (Henesys)",
+    "source_page": "https://mapleclassic.wiki/wiki/Community_Board_(Henesys)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Community_Board_(Henesys)"
+    },
+    "changes": [],
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "community-board-kerning-city",
+    "name": "Community Board (Kerning City)",
+    "source_page": "https://mapleclassic.wiki/wiki/Community_Board_(Kerning_City)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Community_Board_(Kerning_City)"
+    },
+    "changes": [],
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "crumbling-statue",
+    "name": "Crumbling Statue",
+    "source_page": "https://mapleclassic.wiki/wiki/Crumbling_Statue",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Crumbling_Statue"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/crumbling-statue.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-deep-forest-of-patience-step-1",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "cutthroat-manny",
+    "name": "Cutthroat Manny",
+    "source_page": "https://mapleclassic.wiki/wiki/Cutthroat_Manny",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Cutthroat_Manny"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/cutthroat-manny.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1051000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-self-defence-item-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dances-with-balrog",
+    "name": "Dances with Balrog",
+    "source_page": "https://mapleclassic.wiki/wiki/Dances_with_Balrog",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dances_with_Balrog"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/dances-with-balrog.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/10202/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dark-lord",
+    "name": "Dark Lord",
+    "source_page": "https://mapleclassic.wiki/wiki/Dark_Lord",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dark_Lord"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/dark-lord.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/10203/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "region": "Victoria Island"
+  },
+  {
+    "id": "denma-the-owner",
+    "name": "Denma the Owner",
+    "source_page": "https://mapleclassic.wiki/wiki/Denma_the_Owner",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Denma_the_Owner"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/denma-the-owner.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-plastic-surgery",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "don-giovanni",
+    "name": "Don Giovanni",
+    "source_page": "https://mapleclassic.wiki/wiki/Don_Giovanni",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Don_Giovanni"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/don-giovanni.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-hair-salon",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "don-hwang",
+    "name": "Don Hwang",
+    "source_page": "https://mapleclassic.wiki/wiki/Don_Hwang",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Don_Hwang"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/don-hwang.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1051001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-self-defence-item-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "doofus",
+    "name": "Doofus",
+    "source_page": "https://mapleclassic.wiki/wiki/Doofus",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Doofus"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/doofus.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-market",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dr-faymus",
+    "name": "Dr. Faymus",
+    "source_page": "https://mapleclassic.wiki/wiki/Dr._Faymus",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dr._Faymus"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/dr-faymus.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1051002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-pharmacy",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "dr-feeble",
+    "name": "Dr. Feeble",
+    "source_page": "https://mapleclassic.wiki/wiki/Dr._Feeble",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Dr._Feeble"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/dr-feeble.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-plastic-surgery",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "el-moth",
+    "name": "El Moth",
+    "source_page": "https://mapleclassic.wiki/wiki/El_Moth",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/El_Moth"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/el-moth.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-tree-that-grew-iii",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "estelle",
+    "name": "Estelle",
+    "source_page": "https://mapleclassic.wiki/wiki/Estelle",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Estelle"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/estelle.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032105/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-field-south-of-ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "eurek-the-alchemist",
+    "name": "Eurek the Alchemist",
+    "source_page": "https://mapleclassic.wiki/wiki/Eurek_the_Alchemist",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Eurek_the_Alchemist"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/eurek-the-alchemist.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2040050/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "exit",
+    "name": "Exit",
+    "source_page": "https://mapleclassic.wiki/wiki/Exit",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Exit"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/exit.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052011/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "b1-area-1"
+  },
+  {
+    "id": "flint",
+    "name": "Flint",
+    "source_page": "https://mapleclassic.wiki/wiki/Flint",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Flint"
+    },
+    "changes": [],
+    "map": "henesys-town-hall",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "flora-the-fairy",
+    "name": "Flora the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Flora_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Flora_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/flora-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1031000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "francois",
+    "name": "Francois",
+    "source_page": "https://mapleclassic.wiki/wiki/Francois",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Francois"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/francois.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "fredrick",
+    "name": "Fredrick",
+    "source_page": "https://mapleclassic.wiki/wiki/Fredrick",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Fredrick"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/fredrick.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9030000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "free-market-entrance",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "free-market-maple-tv",
+    "name": "Free Market Maple TV",
+    "source_page": "https://mapleclassic.wiki/wiki/Free_Market_Maple_TV",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Free_Market_Maple_TV"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/free-market-maple-tv.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/255/npc/9250025/render/stand/0",
+      "retrieved": "2026-10-15T00:00:00.000Z"
+    },
+    "map": "free-market-entrance",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "fully-bloomed-bluebell-ellinia",
+    "name": "Fully Bloomed Bluebell (Ellinia)",
+    "source_page": "https://mapleclassic.wiki/wiki/Fully_Bloomed_Bluebell_(Ellinia)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Fully_Bloomed_Bluebell_(Ellinia)"
+    },
+    "changes": [],
+    "map": "the-field-up-north-of-ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "grendel-the-really-old",
+    "name": "Grendel the Really Old",
+    "source_page": "https://mapleclassic.wiki/wiki/Grendel_the_Really_Old",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Grendel_the_Really_Old"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/grendel-the-really-old.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/10201/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "magic-library",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "harry",
+    "name": "Harry",
+    "source_page": "https://mapleclassic.wiki/wiki/Harry",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Harry"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/harry.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1021001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "heena",
+    "name": "Heena",
+    "source_page": "https://mapleclassic.wiki/wiki/Heena",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Heena"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/heena.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "mushroom-town-west-entrance",
+    "region": "Maple Island"
+  },
+  {
+    "id": "hotel-receptionist",
+    "name": "Hotel Receptionist",
+    "source_page": "https://mapleclassic.wiki/wiki/Hotel_Receptionist",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Hotel_Receptionist"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/hotel-receptionist.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood-hotel",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "icarus",
+    "name": "Icarus",
+    "source_page": "https://mapleclassic.wiki/wiki/Icarus",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Icarus"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/icarus.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052106/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jack",
+    "name": "Jack",
+    "source_page": "https://mapleclassic.wiki/wiki/Jack",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jack"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jack.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1092010/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-civic-center",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jake",
+    "name": "Jake",
+    "source_page": "https://mapleclassic.wiki/wiki/Jake",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jake"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jake.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "subway-ticketing-booth",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jane",
+    "name": "Jane",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jane.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jane-doe",
+    "name": "Jane Doe",
+    "source_page": "https://mapleclassic.wiki/wiki/Jane_Doe",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jane_Doe"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jane-doe.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052105/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "niora-hospital",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jay",
+    "name": "Jay",
+    "source_page": "https://mapleclassic.wiki/wiki/Jay",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Jay"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jay.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012109/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "jm-from-tha-streetz",
+    "name": "JM From tha Streetz",
+    "source_page": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/JM_From_tha_Streetz"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/jm-from-tha-streetz.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "joel",
+    "name": "Joel",
+    "source_page": "https://mapleclassic.wiki/wiki/Joel",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Joel"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/joel.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia-station",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "john",
+    "name": "John",
+    "source_page": "https://mapleclassic.wiki/wiki/John",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/John"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/john.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/20000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "karl",
+    "name": "Karl",
+    "source_page": "https://mapleclassic.wiki/wiki/Karl",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Karl"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/karl.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1011000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "lakelis",
+    "name": "Lakelis",
+    "source_page": "https://mapleclassic.wiki/wiki/Lakelis",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lakelis"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/lakelis.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9020000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "leatherworking-station",
+    "name": "Leatherworking Station",
+    "source_page": "https://mapleclassic.wiki/wiki/Leatherworking_Station",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Leatherworking_Station"
+    },
+    "changes": [],
+    "map": "henesys-market",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "len-the-fairy",
+    "name": "Len the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Len_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Len_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/len-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1031100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia-department-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "lewis",
+    "name": "Lewis",
+    "source_page": "https://mapleclassic.wiki/wiki/Lewis",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lewis"
+    },
+    "changes": [],
+    "map": "free-market-entrance",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "louis",
+    "name": "Louis",
+    "source_page": "https://mapleclassic.wiki/wiki/Louis",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Louis"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/louis.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-forest-of-patience-step-1",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "lucas",
+    "name": "Lucas",
+    "source_page": "https://mapleclassic.wiki/wiki/Lucas",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lucas"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/lucas.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/12000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "amherst",
+    "region": "Maple Island"
+  },
+  {
+    "id": "lucy",
+    "name": "Lucy",
+    "source_page": "https://mapleclassic.wiki/wiki/Lucy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lucy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/lucy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/11100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "amherst-department-store",
+    "region": "Maple Island"
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "source_page": "https://mapleclassic.wiki/wiki/Luke",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Luke"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/luke.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1040000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-dungeon-entrance",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "luna",
+    "name": "Luna",
+    "source_page": "https://mapleclassic.wiki/wiki/Luna",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Luna"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/luna.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1011100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-department-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "lyn",
+    "name": "Lyn",
+    "source_page": "https://mapleclassic.wiki/wiki/Lyn",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Lyn"
+    },
+    "changes": [],
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "lyn-the-librarian",
+    "name": "Lyn the Librarian",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Filing_Error",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Filing_Error"
+    },
+    "changes": []
+  },
+  {
+    "id": "magician-job-instructor",
+    "name": "Magician Job Instructor",
+    "source_page": "https://mapleclassic.wiki/wiki/Magician_Job_Instructor",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Magician_Job_Instructor"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/magician-job-instructor.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-forest-north-of-ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "magician-job-instructor-2nd-job-test",
+    "name": "Magician Job Instructor (2nd Job Test)",
+    "source_page": "https://mapleclassic.wiki/wiki/Magician_Job_Instructor_(2nd_Job_Test)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Magician_Job_Instructor_(2nd_Job_Test)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/magician-job-instructor-2nd-job-test.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "magicians-tree-dungeon",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "mai",
+    "name": "Mai",
+    "source_page": "https://mapleclassic.wiki/wiki/Mai",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mai"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mai.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/12100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "a-split-road",
+    "region": "Maple Island"
+  },
+  {
+    "id": "manji",
+    "name": "Manji",
+    "source_page": "https://mapleclassic.wiki/wiki/Manji",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Manji"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/manji.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "maple-administrator",
+    "name": "Maple Administrator",
+    "source_page": "https://mapleclassic.wiki/wiki/Maple_Administrator",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maple_Administrator"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/maple-administrator.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "maple-administrator-truth-booth",
+    "name": "Maple Administrator (Truth Booth)",
+    "source_page": "https://mapleclassic.wiki/wiki/Maple_Administrator_(Truth_Booth)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maple_Administrator_(Truth_Booth)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/maple-administrator-truth-booth.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "truth-booth",
+    "region": "Truth Booth"
+  },
+  {
+    "id": "mar-the-fairy",
+    "name": "Mar the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Mar_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mar_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mar-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "marrs-forest",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "maria",
+    "name": "Maria",
+    "source_page": "https://mapleclassic.wiki/wiki/Maria",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maria"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/maria.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "a-split-road",
+    "region": "Maple Island"
+  },
+  {
+    "id": "max",
+    "name": "Max",
+    "source_page": "https://mapleclassic.wiki/wiki/Max",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Max"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/max.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2080002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city-civic-center",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "source_page": "https://mapleclassic.wiki/wiki/Maya",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Maya"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/maya.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-townstreet",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mike",
+    "name": "Mike",
+    "source_page": "https://mapleclassic.wiki/wiki/Mike",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mike"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mike.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1040001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion-dungeon-entrance",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mina",
+    "name": "Mina",
+    "source_page": "https://mapleclassic.wiki/wiki/Mina",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mina"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mina.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1001100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor-department-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mong-from-kong",
+    "name": "Mong from Kong",
+    "source_page": "https://mapleclassic.wiki/wiki/Mong_from_Kong",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mong_from_Kong"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mong-from-kong.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052012/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-goldstein",
+    "name": "Mr. Goldstein",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Goldstein",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Goldstein"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-goldstein.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-hong",
+    "name": "Mr. Hong",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Hong",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Hong"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-hong.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052017/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-kim",
+    "name": "Mr. Kim",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Kim",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Kim"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-kim.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-lee",
+    "name": "Mr. Lee",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Lee",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Lee"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-lee.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012009/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-park",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-oh",
+    "name": "Mr. Oh",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Oh",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Oh"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-oh.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-park",
+    "name": "Mr. Park",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Park",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Park"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-park.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-pickall",
+    "name": "Mr. Pickall",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Pickall",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Pickall"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-pickall.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9000008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-sweatbottom",
+    "name": "Mr. Sweatbottom",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Sweatbottom",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Sweatbottom"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-sweatbottom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "regular-sauna",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-thunder",
+    "name": "Mr. Thunder",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Thunder",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Thunder"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-thunder.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-wang",
+    "name": "Mr. Wang",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Wang",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Wang"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-wang.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mr-wetbottom",
+    "name": "Mr. Wetbottom",
+    "source_page": "https://mapleclassic.wiki/wiki/Mr._Wetbottom",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mr._Wetbottom"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mr-wetbottom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "vip-sauna",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mrs-ming-ming",
+    "name": "Mrs. Ming Ming",
+    "source_page": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mrs._Ming_Ming"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mrs-ming-ming.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012106/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "ms-tan",
+    "name": "Ms. Tan",
+    "source_page": "https://mapleclassic.wiki/wiki/Ms._Tan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Ms._Tan"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/ms-tan.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012105/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-skin-care",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "mysterious-statue",
+    "name": "Mysterious Statue",
+    "source_page": "https://mapleclassic.wiki/wiki/Mysterious_Statue",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Mysterious_Statue"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/mysterious-statue.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "natalie",
+    "name": "Natalie",
+    "source_page": "https://mapleclassic.wiki/wiki/Natalie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Natalie"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/natalie.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-hair-salon",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "natasha",
+    "name": "Natasha",
+    "source_page": "https://mapleclassic.wiki/wiki/Natasha",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Natasha"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/natasha.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1001001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor-armor-shop",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "nella",
+    "name": "Nella",
+    "source_page": "https://mapleclassic.wiki/wiki/Nella",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Nella"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/nella.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "nella-kpq-1st-stage",
+    "name": "Nella (KPQ 1st Stage)",
+    "source_page": "https://mapleclassic.wiki/wiki/Nella_(KPQ_1st_Stage)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Nella_(KPQ_1st_Stage)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/nella-kpq-1st-stage.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "1st-accompaniment-1st-stage",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "nina",
+    "name": "Nina",
+    "source_page": "https://mapleclassic.wiki/wiki/Nina",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Nina"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/nina.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "mushroom-town-nina",
+    "region": "Maple Island"
+  },
+  {
+    "id": "oak",
+    "name": "Oak",
+    "source_page": "https://mapleclassic.wiki/wiki/Oak",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Oak"
+    },
+    "changes": [],
+    "map": "henesys-town-hall",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "olaf",
+    "name": "Olaf",
+    "source_page": "https://mapleclassic.wiki/wiki/Olaf",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Olaf"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/olaf.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pan",
+    "name": "Pan",
+    "source_page": "https://mapleclassic.wiki/wiki/Pan",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pan"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/pan.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/21000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "southperry-armor-store",
+    "region": "Maple Island"
+  },
+  {
+    "id": "pason",
+    "name": "Pason",
+    "source_page": "https://mapleclassic.wiki/wiki/Pason",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pason"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/pason.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "source_page": "https://mapleclassic.wiki/wiki/Paul",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Paul"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/paul.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9000000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "peter",
+    "name": "Peter",
+    "source_page": "https://mapleclassic.wiki/wiki/Peter",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Peter"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/peter.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "east-entrance-to-mushroom-town",
+    "region": "Maple Island"
+  },
+  {
+    "id": "phil",
+    "name": "Phil",
+    "source_page": "https://mapleclassic.wiki/wiki/Phil",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Phil"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/phil.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pia",
+    "name": "Pia",
+    "source_page": "https://mapleclassic.wiki/wiki/Pia",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pia"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/pia.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-park",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "pio",
+    "name": "Pio",
+    "source_page": "https://mapleclassic.wiki/wiki/Pio",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pio"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/pio.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/10000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "amherst",
+    "region": "Maple Island"
+  },
+  {
+    "id": "pison",
+    "name": "Pison",
+    "source_page": "https://mapleclassic.wiki/wiki/Pison",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Pison"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/pison.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1081001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "florina-beach",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "purin",
+    "name": "Purin",
+    "source_page": "https://mapleclassic.wiki/wiki/Purin",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Purin"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/purin.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032009/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "before-takeoff-to-orbis",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rael",
+    "name": "Rael",
+    "source_page": "https://mapleclassic.wiki/wiki/Rael",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rael"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/rael.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1081102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "florina-beach",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rain",
+    "name": "Rain",
+    "source_page": "https://mapleclassic.wiki/wiki/Rain",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rain"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/rain.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/12101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "amherst",
+    "region": "Maple Island"
+  },
+  {
+    "id": "raymond",
+    "name": "Raymond",
+    "source_page": "https://mapleclassic.wiki/wiki/Raymond",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Raymond"
+    },
+    "changes": [],
+    "map": "henesys-town-hall",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab",
+    "name": "Regular Cab",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab-ellinia",
+    "name": "Regular Cab (Ellinia)",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab_(Ellinia)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab_(Ellinia)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab-ellinia.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab-henesys",
+    "name": "Regular Cab (Henesys)",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab_(Henesys)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab_(Henesys)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab-henesys.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab-kerning-city",
+    "name": "Regular Cab (Kerning City)",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab_(Kerning_City)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab_(Kerning_City)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab-kerning-city.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab-perion",
+    "name": "Regular Cab (Perion)",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab_(Perion)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab_(Perion)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab-perion.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "regular-cab-sleepywood",
+    "name": "Regular Cab (Sleepywood)",
+    "source_page": "https://mapleclassic.wiki/wiki/Regular_Cab_(Sleepywood)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Regular_Cab_(Sleepywood)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/regular-cab-sleepywood.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "riel",
+    "name": "Riel",
+    "source_page": "https://mapleclassic.wiki/wiki/Riel",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Riel"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/riel.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1081100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "florina-beach",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rina",
+    "name": "Rina",
+    "source_page": "https://mapleclassic.wiki/wiki/Rina",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rina"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/rina.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1010100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "river",
+    "name": "River",
+    "source_page": "https://mapleclassic.wiki/wiki/River",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/River"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/river.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1021000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "source_page": "https://mapleclassic.wiki/wiki/Robin",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Robin"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/robin.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "snail-hunting-ground-i",
+    "region": "Maple Island"
+  },
+  {
+    "id": "roel",
+    "name": "Roel",
+    "source_page": "https://mapleclassic.wiki/wiki/Roel",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Roel"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/roel.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1081101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "florina-beach",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "roger",
+    "name": "Roger",
+    "source_page": "https://mapleclassic.wiki/wiki/Roger",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Roger"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/roger.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "mushroom-town-roger",
+    "region": "Maple Island"
+  },
+  {
+    "id": "ronnie",
+    "name": "Ronnie",
+    "source_page": "https://mapleclassic.wiki/wiki/Ronnie",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Ronnie"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/ronnie.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-tree-tunnel-at-the-forest-up-north",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "rowen-the-fairy",
+    "name": "Rowen the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Rowen_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Rowen_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/rowen-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "roxy",
+    "name": "Roxy",
+    "source_page": "https://mapleclassic.wiki/wiki/Roxy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Roxy"
+    },
+    "changes": [],
+    "map": "kerning-city-civic-center",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sabitrama",
+    "name": "Sabitrama",
+    "source_page": "https://mapleclassic.wiki/wiki/Sabitrama",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sabitrama"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sabitrama.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1061005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "sleepywood",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sam",
+    "name": "Sam",
+    "source_page": "https://mapleclassic.wiki/wiki/Sam",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sam"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sam.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sam-maple-island",
+    "name": "Sam (Maple Island)",
+    "source_page": "https://mapleclassic.wiki/wiki/Sam_(Maple_Island)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sam_(Maple_Island)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sam-maple-island.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "snail-hunting-ground-i",
+    "region": "Maple Island"
+  },
+  {
+    "id": "scarlett",
+    "name": "Scarlett",
+    "source_page": "https://mapleclassic.wiki/wiki/Scarlett",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Scarlett"
+    },
+    "changes": [],
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "scrooge",
+    "name": "Scrooge",
+    "source_page": "https://mapleclassic.wiki/wiki/Scrooge",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Scrooge"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/scrooge.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/9030100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "free-market-entrance",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sen",
+    "name": "Sen",
+    "source_page": "https://mapleclassic.wiki/wiki/Sen",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sen"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sen.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "mushroom-town-townstreet",
+    "region": "Maple Island"
+  },
+  {
+    "id": "sera",
+    "name": "Sera",
+    "source_page": "https://mapleclassic.wiki/wiki/Sera",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sera"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sera.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "mushroom-town-west-entrance",
+    "region": "Maple Island"
+  },
+  {
+    "id": "serabi-the-fairy",
+    "name": "Serabi the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Serabi_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Serabi_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/serabi-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1031001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia-weapon-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sewing-machine",
+    "name": "Sewing Machine",
+    "source_page": "https://mapleclassic.wiki/wiki/Sewing_Machine",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sewing_Machine"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sewing-machine.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/255/npc/1530656/render/stand/0",
+      "retrieved": "2026-10-15T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shane",
+    "name": "Shane",
+    "source_page": "https://mapleclassic.wiki/wiki/Shane",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shane"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/shane.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "shanks",
+    "name": "Shanks",
+    "source_page": "https://mapleclassic.wiki/wiki/Shanks",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shanks"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/shanks.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/22000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "southperry",
+    "region": "Maple Island"
+  },
+  {
+    "id": "shumi",
+    "name": "Shumi",
+    "source_page": "https://mapleclassic.wiki/wiki/Shumi",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Shumi"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/shumi.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "sid",
+    "name": "Sid",
+    "source_page": "https://mapleclassic.wiki/wiki/Sid",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sid"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sid.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/11000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "amherst-weapon-store",
+    "region": "Maple Island"
+  },
+  {
+    "id": "silas-irons",
+    "name": "Silas Irons",
+    "source_page": "https://mapleclassic.wiki/wiki/Silas_Irons",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Silas_Irons"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/silas-irons.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/255/npc/1022004/render/stand/0",
+      "retrieved": "2026-10-15T00:00:00.000Z"
+    },
+    "map": "perion",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "source_page": "https://mapleclassic.wiki/wiki/Silver",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Silver"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/silver.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1001000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor-weapon-shop",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "slade",
+    "name": "Slade",
+    "source_page": "https://mapleclassic.wiki/wiki/An_Unbreakable_Code",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/An_Unbreakable_Code"
+    },
+    "changes": []
+  },
+  {
+    "id": "sophia",
+    "name": "Sophia",
+    "source_page": "https://mapleclassic.wiki/wiki/Sophia",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Sophia"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/sophia.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "perion-department-store",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "teo",
+    "name": "Teo",
+    "source_page": "https://mapleclassic.wiki/wiki/Teo",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Teo"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/teo.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "the-ticket-gate",
+    "name": "The Ticket Gate",
+    "source_page": "https://mapleclassic.wiki/wiki/The_Ticket_Gate",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/The_Ticket_Gate"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/the-ticket-gate.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "subway-ticketing-booth",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "thief-job-instructor",
+    "name": "Thief Job Instructor",
+    "source_page": "https://mapleclassic.wiki/wiki/Thief_Job_Instructor",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Thief_Job_Instructor"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/thief-job-instructor.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "construction-site-north-of-kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "thief-job-instructor-2nd-job-test",
+    "name": "Thief Job Instructor (2nd Job Test)",
+    "source_page": "https://mapleclassic.wiki/wiki/Thief_Job_Instructor_(2nd_Job_Test)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Thief_Job_Instructor_(2nd_Job_Test)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/thief-job-instructor-2nd-job-test.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "thiefs-construction-site",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "todd",
+    "name": "Todd",
+    "source_page": "https://mapleclassic.wiki/wiki/Todd",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Todd"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/todd.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/2004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "east-entrance-to-mushroom-town",
+    "region": "Maple Island"
+  },
+  {
+    "id": "tommy",
+    "name": "Tommy",
+    "source_page": "https://mapleclassic.wiki/wiki/Tommy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Tommy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/tommy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012113/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-town-hall",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "trainer-bartos",
+    "name": "Trainer Bartos",
+    "source_page": "https://mapleclassic.wiki/wiki/Trainer_Bartos",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Trainer_Bartos"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/trainer-bartos.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "pet-walking-road",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "trainer-frod",
+    "name": "Trainer Frod",
+    "source_page": "https://mapleclassic.wiki/wiki/Trainer_Frod",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Trainer_Frod"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/trainer-frod.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012007/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "pet-walking-road",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "treasure-chest-subway-depot-b1",
+    "name": "Treasure Chest (Subway Depot B1)",
+    "source_page": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B1)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B1)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/treasure-chest-subway-depot-b1.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "b1-subway-depot"
+  },
+  {
+    "id": "treasure-chest-subway-depot-b2",
+    "name": "Treasure Chest (Subway Depot B2)",
+    "source_page": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B2)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B2)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/treasure-chest-subway-depot-b2.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "b2-subway-depot"
+  },
+  {
+    "id": "treasure-chest-subway-depot-b3",
+    "name": "Treasure Chest (Subway Depot B3)",
+    "source_page": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B3)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Treasure_Chest_(Subway_Depot_B3)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/treasure-chest-subway-depot-b3.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "b3-subway-depot"
+  },
+  {
+    "id": "tulcus",
+    "name": "Tulcus",
+    "source_page": "https://mapleclassic.wiki/wiki/Tulcus",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Tulcus"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/tulcus.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1052104/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "the-swamp-of-despair-ii",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "utah",
+    "name": "Utah",
+    "source_page": "https://mapleclassic.wiki/wiki/Utah",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Utah"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/utah.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012107/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "utahs-pig-farm",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "valen",
+    "name": "Valen",
+    "source_page": "https://mapleclassic.wiki/wiki/Valen",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Valen"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/valen.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1081000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "florina-beach",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "vicious",
+    "name": "Vicious",
+    "source_page": "https://mapleclassic.wiki/wiki/Vicious",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Vicious"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/vicious.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1012002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "henesys-market",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "vip-cab-ellinia",
+    "name": "VIP Cab (Ellinia)",
+    "source_page": "https://mapleclassic.wiki/wiki/VIP_Cab_(Ellinia)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/VIP_Cab_(Ellinia)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/vip-cab-ellinia.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "vip-cab-lith-harbor",
+    "name": "VIP Cab (Lith Harbor)",
+    "source_page": "https://mapleclassic.wiki/wiki/VIP_Cab_(Lith_Harbor)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/VIP_Cab_(Lith_Harbor)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/vip-cab-lith-harbor.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1002004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "lith-harbor",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "warrior-job-instructor",
+    "name": "Warrior Job Instructor",
+    "source_page": "https://mapleclassic.wiki/wiki/Warrior_Job_Instructor",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Warrior_Job_Instructor"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/warrior-job-instructor.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "west-rocky-mountain-iv",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "warrior-job-instructor-2nd-job-test",
+    "name": "Warrior Job Instructor (2nd Job Test)",
+    "source_page": "https://mapleclassic.wiki/wiki/Warrior_Job_Instructor_(2nd_Job_Test)",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Warrior_Job_Instructor_(2nd_Job_Test)"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/warrior-job-instructor-2nd-job-test.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1072000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "warriors-rocky-mountain",
+    "region": "Hidden Street"
+  },
+  {
+    "id": "weaponcrafting-station",
+    "name": "Weaponcrafting Station",
+    "source_page": "https://mapleclassic.wiki/wiki/Weaponcrafting_Station",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Weaponcrafting_Station"
+    },
+    "changes": [],
+    "map": "kerning-city",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "weston",
+    "name": "Weston",
+    "source_page": "https://mapleclassic.wiki/wiki/Weston",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Weston"
+    },
+    "changes": [],
+    "map": "kerning-city-civic-center",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "wing-the-fairy",
+    "name": "Wing the Fairy",
+    "source_page": "https://mapleclassic.wiki/wiki/Wing_the_Fairy",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Wing_the_Fairy"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/wing-the-fairy.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1032106/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "ellinia",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "winston",
+    "name": "Winston",
+    "source_page": "https://mapleclassic.wiki/wiki/Winston",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Winston"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/winston.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/1022006/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "east-rocky-mountain-ii",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "woodworking-station",
+    "name": "Woodworking Station",
+    "source_page": "https://mapleclassic.wiki/wiki/Woodworking_Station",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Woodworking_Station"
+    },
+    "changes": [],
+    "map": "henesys-market",
+    "region": "Victoria Island"
+  },
+  {
+    "id": "yoona",
+    "name": "Yoona",
+    "source_page": "https://mapleclassic.wiki/wiki/Yoona",
+    "verified": {
+      "status": "unverified",
+      "source": "https://mapleclassic.wiki/wiki/Yoona"
+    },
+    "changes": [],
+    "sprite": {
+      "file": "npcs/yoona.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/npc/20100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    },
+    "map": "southperry",
+    "region": "Maple Island"
+  }
+]

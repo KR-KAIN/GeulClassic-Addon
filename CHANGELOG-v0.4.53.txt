@@ -1,0 +1,7 @@
+v0.4.53
+- Global Classic Public Release potion/liquid PNGs: 59 recovery/buff consumable entries / 54 distinct artworks / 62,831 bytes.
+- Offline automatic slot artwork matching before the hunter timer starts; canonical PNG output, pale potion support, stable identity and count-overlay caching.
+- Complete English scroll labels resolve before substring dictionaries; narrow repair for the observed mixed Korean/Atack scroll template.
+- Native Korean bracket labels stay protected; pixel bracket fallback when Korean OCR changes CTC alignment.
+- Explicit body colour after item spans; per-visual-row palette bounds for wrapped megaphones.
+- Builder verifies bundled PNG presence and SHA-256 before packaging.

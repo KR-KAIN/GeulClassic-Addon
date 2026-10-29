@@ -1,0 +1,17 @@
+글클메 번역애드온 v0.4.15 / KAIN Maple Translator 기반
+========================================================
+BASE: user-provided saved v0.4.13 full independent source
+
+1. CC BY-NC-SA 4.0 Classic Maple Wiki 공식 제공 JSON export를
+   BUILD-WINDOWS.bat 빌드 단계에서 받아 검증/오프라인 포함하도록 연결.
+   데이터 가져오기 실패 시 부풀린 건수를 표시하지 않고 보고서에 남김.
+   영어 데이터는 인증된 한국어명을 대체하지 않도록 우선순위 분리.
+2. 빨간 확성기: 빨강 띠 색 검출 + 본문용 대비 강화 OCR 재시도.
+   일반 채팅 OCR 성공 여부와 무관하게 빨간 띠/텍스트 영역에만 재시도.
+   overlapping results are de-duplicated, with complete chat preferred.
+3. 하단 선택된 채팅 범위 이외의 게임 화면은 캡처하지 않음.
+4. Windows EXE 자체는 이 Linux 작업 환경에서 실행/검증 불가.
+   소스와 오프라인 단위/통합 테스트를 수행 후 ZIP만 제공.
+5. Planet Helper 데이터를 수집/복제하지 않음.
+
+설치: ZIP 압축 풀기 → BUILD-WINDOWS.bat → 빌드 리포트 확인 → dist EXE 실행.

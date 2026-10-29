@@ -1,0 +1,9 @@
+v0.4.37 - Auto Game Window and Chat HUD Capture
+- WGC connects to Maple HWND and captures a single full-client probe frame.
+- Detects the blue Maple chat-toolbar button near the estimated bottom HUD.
+- Automatically switches the WGC capture source to the OCR chat ROI; no screen drag.
+- If visual detection fails, use a labelled game-geometry estimate, never a false high-confidence match.
+- MSS fallback computes game-relative estimated ROI without asking to select a region.
+- Existing manual crop is still available by disabling automatic detection in settings.
+- OCR/translation models, source palette, OBS and rendering pipeline preserved.
+- Not verified on a live Windows Maple client; run BUILD-WINDOWS.bat and inspect auto detection status.

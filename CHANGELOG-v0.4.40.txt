@@ -1,0 +1,26 @@
+GeulClassic Translator Addon v0.4.40 - integrated Maple bottom HUD / replay repair
+
+BASE: v0.4.39 full independent Windows source (unchanged OCR models and translation libraries).
+
+1. HUD alignment (layout.py)
+   - LEFT mini controller fills from client left to middle Maple bar; RIGHT English composer
+     fills from the middle Maple bar to client right. Removed 7px artificial side gaps.
+   - Both panels use the SAME top and bottom position and the available width.
+   - Layout follows Maple window movement and resizing as before.
+2. Visual fusion (main.py)
+   - Mini-panels have square inner join edges, no rounded floating-card corners.
+   - Compact insets shrink to 2px; input/output controls expand to fill the taller right panel.
+   - Settings/compose/chat windows remain separate Qt overlays, not injected into the game.
+3. Two-line gray megaphone OCR regression (core.py)
+   - Recognized chat-line boxes can overlap by up to 5 pixels due to OCR crop padding.
+     Now merge a true visual continuation if it lacks a nickname and is aligned with the
+     previous row. Prevents losing 'T FARMING' in the bundled gray-blue fixture.
+   - Avoids lowering the replay assertion; original fixture/expected text unchanged.
+4. Windows builder banners/report version now v0.4.40.
+5. auto_patcher.py standalone code includes 5 full files, exact SHA256 expected-baseline
+   guard, automatic original backup, replacement and rollback. Run ONLY against original
+   v0.4.39 extracted source, and rebuild EXE after patching.
+
+QA: Linux Python source tests PASS except onnxruntime-dependent 1 case
+    which cannot run in this environment. Actual Windows EXE build and live Maple HUD
+    rendering/Windows OCR replay require on-device testing; no success guarantee.

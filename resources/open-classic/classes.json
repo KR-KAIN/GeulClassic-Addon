@@ -1,0 +1,1590 @@
+[
+  {
+    "id": "bowman",
+    "name": "Bowman",
+    "scene": "henesys",
+    "verified": {
+      "status": "unverified"
+    },
+    "changes": [],
+    "skills": [
+      {
+        "id": "critical-shot",
+        "name": "Critical Shot",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-critical-shot.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/300/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "the-eye-of-amazon",
+        "name": "The Eye of Amazon",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-the-eye-of-amazon.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/300/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "focus",
+        "name": "Focus",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-focus.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/300/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "power-knockback",
+        "name": "Power Knockback",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-power-knockback.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "arrow-blow",
+        "name": "Arrow Blow",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-arrow-blow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/300/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "double-shot",
+        "name": "Double Shot",
+        "job": 1,
+        "branches": [
+          "Archer"
+        ],
+        "icon": {
+          "file": "skills/bowman-double-shot.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/300/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "bow-mastery",
+        "name": "Bow Mastery",
+        "job": 2,
+        "branches": [
+          "Hunter"
+        ],
+        "icon": {
+          "file": "skills/bowman-bow-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "amazons-judgement",
+        "name": "Amazon's Judgement",
+        "job": 2,
+        "branches": [
+          "Hunter",
+          "Crossbowman"
+        ],
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-bow",
+        "name": "Final Attack: Bow",
+        "job": 2,
+        "branches": [
+          "Hunter"
+        ],
+        "icon": {
+          "file": "skills/bowman-final-attack-bow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "bow-booster",
+        "name": "Bow Booster",
+        "job": 2,
+        "branches": [
+          "Hunter"
+        ],
+        "icon": {
+          "file": "skills/bowman-bow-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "soul-arrow-bow",
+        "name": "Soul Arrow: Bow",
+        "job": 2,
+        "branches": [
+          "Hunter"
+        ],
+        "icon": {
+          "file": "skills/bowman-soul-arrow-bow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "arrow-bomb",
+        "name": "Arrow Bomb",
+        "job": 2,
+        "branches": [
+          "Hunter"
+        ],
+        "icon": {
+          "file": "skills/bowman-arrow-bomb.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/310/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "crossbow-mastery",
+        "name": "Crossbow Mastery",
+        "job": 2,
+        "branches": [
+          "Crossbowman"
+        ],
+        "icon": {
+          "file": "skills/bowman-crossbow-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/320/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-crossbow",
+        "name": "Final Attack: Crossbow",
+        "job": 2,
+        "branches": [
+          "Crossbowman"
+        ],
+        "icon": {
+          "file": "skills/bowman-final-attack-crossbow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/320/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "crossbow-booster",
+        "name": "Crossbow Booster",
+        "job": 2,
+        "branches": [
+          "Crossbowman"
+        ],
+        "icon": {
+          "file": "skills/bowman-crossbow-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/320/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "soul-arrow-crossbow",
+        "name": "Soul Arrow: Crossbow",
+        "job": 2,
+        "branches": [
+          "Crossbowman"
+        ],
+        "icon": {
+          "file": "skills/bowman-soul-arrow-crossbow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/320/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "iron-arrow",
+        "name": "Iron Arrow",
+        "job": 2,
+        "branches": [
+          "Crossbowman"
+        ],
+        "icon": {
+          "file": "skills/bowman-iron-arrow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/320/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46085/bowman",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "magician",
+    "name": "Magician",
+    "scene": "ellinia",
+    "verified": {
+      "status": "unverified"
+    },
+    "changes": [],
+    "skills": [
+      {
+        "id": "holy-symbol",
+        "name": "Holy Symbol",
+        "job": 3,
+        "differs_from_original": "Reported to work as a revive for the Priest. In original MapleStory, Holy Symbol increased EXP gained by the party. 3rd job is not in the launch build, so this comes from pre-launch testing.",
+        "branches": [],
+        "icon": {
+          "file": "skills/magician-holy-symbol.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/231/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified"
+        }
+      },
+      {
+        "id": "improved-mp-recovery",
+        "name": "Improved MP Recovery",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-improved-mp-recovery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "max-mp-increase",
+        "name": "Max MP Increase",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-max-mp-increase.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "magic-guard",
+        "name": "Magic Guard",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-magic-guard.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "magic-armor",
+        "name": "Magic Armor",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-magic-armor.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "energy-bolt",
+        "name": "Energy Bolt",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-energy-bolt.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "magic-claw",
+        "name": "Magic Claw",
+        "job": 1,
+        "branches": [
+          "Magician"
+        ],
+        "icon": {
+          "file": "skills/magician-magic-claw.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/200/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "mp-eater",
+        "name": "MP Eater",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)",
+          "Wizard (Ice/Lightning)",
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-mp-eater.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "meditation",
+        "name": "Meditation",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)",
+          "Wizard (Ice/Lightning)"
+        ],
+        "icon": {
+          "file": "skills/magician-meditation.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "teleport",
+        "name": "Teleport",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)",
+          "Wizard (Ice/Lightning)",
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-teleport.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "slow",
+        "name": "Slow",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)",
+          "Wizard (Ice/Lightning)"
+        ],
+        "icon": {
+          "file": "skills/magician-slow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "fire-arrow",
+        "name": "Fire Arrow",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)"
+        ],
+        "icon": {
+          "file": "skills/magician-fire-arrow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "poison-breath",
+        "name": "Poison Breath",
+        "job": 2,
+        "branches": [
+          "Wizard (Fire/Poison)"
+        ],
+        "icon": {
+          "file": "skills/magician-poison-breath.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/210/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "cold-beam",
+        "name": "Cold Beam",
+        "job": 2,
+        "branches": [
+          "Wizard (Ice/Lightning)"
+        ],
+        "icon": {
+          "file": "skills/magician-cold-beam.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/220/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "thunder-bolt",
+        "name": "Thunder Bolt",
+        "job": 2,
+        "branches": [
+          "Wizard (Ice/Lightning)"
+        ],
+        "icon": {
+          "file": "skills/magician-thunder-bolt.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/220/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "heal",
+        "name": "Heal",
+        "job": 2,
+        "branches": [
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-heal.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/230/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "invincible",
+        "name": "Invincible",
+        "job": 2,
+        "branches": [
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-invincible.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/230/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "bless",
+        "name": "Bless",
+        "job": 2,
+        "branches": [
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-bless.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/230/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "holy-arrow",
+        "name": "Holy Arrow",
+        "job": 2,
+        "branches": [
+          "Cleric"
+        ],
+        "icon": {
+          "file": "skills/magician-holy-arrow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/230/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46084/magician",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "thief",
+    "name": "Thief",
+    "scene": "kerning-city",
+    "mood": "dusk",
+    "verified": {
+      "status": "unverified"
+    },
+    "changes": [],
+    "skills": [
+      {
+        "id": "nimble-body",
+        "name": "Nimble Body",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-nimble-body.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "keen-eyes",
+        "name": "Keen Eyes",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-keen-eyes.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "disorder",
+        "name": "Disorder",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-disorder.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "dark-sight",
+        "name": "Dark Sight",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-dark-sight.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "double-stab",
+        "name": "Double Stab",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-double-stab.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "lucky-seven",
+        "name": "Lucky Seven",
+        "job": 1,
+        "branches": [
+          "Rogue"
+        ],
+        "icon": {
+          "file": "skills/thief-lucky-seven.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/400/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "claw-mastery",
+        "name": "Claw Mastery",
+        "job": 2,
+        "branches": [
+          "Assassin"
+        ],
+        "icon": {
+          "file": "skills/thief-claw-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/410/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "critical-throw",
+        "name": "Critical Throw",
+        "job": 2,
+        "branches": [
+          "Assassin"
+        ],
+        "icon": {
+          "file": "skills/thief-critical-throw.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/410/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "critical-recovery",
+        "name": "Critical Recovery",
+        "job": 2,
+        "branches": [
+          "Assassin"
+        ],
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "claw-booster",
+        "name": "Claw Booster",
+        "job": 2,
+        "branches": [
+          "Assassin"
+        ],
+        "icon": {
+          "file": "skills/thief-claw-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/410/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "haste",
+        "name": "Haste",
+        "job": 2,
+        "branches": [
+          "Assassin",
+          "Bandit"
+        ],
+        "icon": {
+          "file": "skills/thief-haste.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/410/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "drain",
+        "name": "Drain",
+        "job": 2,
+        "branches": [
+          "Assassin"
+        ],
+        "icon": {
+          "file": "skills/thief-drain.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/410/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "dagger-mastery",
+        "name": "Dagger Mastery",
+        "job": 2,
+        "branches": [
+          "Bandit"
+        ],
+        "icon": {
+          "file": "skills/thief-dagger-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/420/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "nimble-recovery",
+        "name": "Nimble Recovery",
+        "job": 2,
+        "branches": [
+          "Bandit"
+        ],
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "dagger-booster",
+        "name": "Dagger Booster",
+        "job": 2,
+        "branches": [
+          "Bandit"
+        ],
+        "icon": {
+          "file": "skills/thief-dagger-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/420/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "steal",
+        "name": "Steal",
+        "job": 2,
+        "branches": [
+          "Bandit"
+        ],
+        "icon": {
+          "file": "skills/thief-steal.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/420/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "savage-blow",
+        "name": "Savage Blow",
+        "job": 2,
+        "branches": [
+          "Bandit"
+        ],
+        "icon": {
+          "file": "skills/thief-savage-blow.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/420/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46086/thief",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": "warrior",
+    "name": "Warrior",
+    "scene": "perion",
+    "verified": {
+      "status": "unverified"
+    },
+    "changes": [],
+    "skills": [
+      {
+        "id": "rush",
+        "name": "Rush",
+        "job": 2,
+        "differs_from_original": "Reported to be available at 2nd job. In original MapleStory, Rush was a 4th job skill.",
+        "branches": [
+          "Fighter",
+          "Page",
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-rush.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/112/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified"
+        }
+      },
+      {
+        "id": "improved-hp-recovery",
+        "name": "Improved HP Recovery",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "icon": {
+          "file": "skills/warrior-improved-hp-recovery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/100/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "max-hp-increase",
+        "name": "Max HP Increase",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "icon": {
+          "file": "skills/warrior-max-hp-increase.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/100/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "precise-strikes",
+        "name": "Precise Strikes",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "iron-body",
+        "name": "Iron Body",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "icon": {
+          "file": "skills/warrior-iron-body.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/100/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "power-strike",
+        "name": "Power Strike",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "icon": {
+          "file": "skills/warrior-power-strike.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/100/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "slash-blast",
+        "name": "Slash Blast",
+        "job": 1,
+        "branches": [
+          "Swordsman"
+        ],
+        "icon": {
+          "file": "skills/warrior-slash-blast.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/100/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "sword-mastery",
+        "name": "Sword Mastery",
+        "job": 2,
+        "branches": [
+          "Fighter",
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-sword-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "axe-mastery",
+        "name": "Axe Mastery",
+        "job": 2,
+        "branches": [
+          "Fighter"
+        ],
+        "icon": {
+          "file": "skills/warrior-axe-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-sword",
+        "name": "Final Attack: Sword",
+        "job": 2,
+        "branches": [
+          "Fighter",
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-final-attack-sword.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-axe",
+        "name": "Final Attack: Axe",
+        "job": 2,
+        "branches": [
+          "Fighter"
+        ],
+        "icon": {
+          "file": "skills/warrior-final-attack-axe.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "sword-booster",
+        "name": "Sword Booster",
+        "job": 2,
+        "branches": [
+          "Fighter",
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-sword-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "axe-booster",
+        "name": "Axe Booster",
+        "job": 2,
+        "branches": [
+          "Fighter"
+        ],
+        "icon": {
+          "file": "skills/warrior-axe-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "rage",
+        "name": "Rage",
+        "job": 2,
+        "branches": [
+          "Fighter"
+        ],
+        "icon": {
+          "file": "skills/warrior-rage.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/110/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "blunt-weapon-mastery",
+        "name": "Blunt Weapon Mastery",
+        "job": 2,
+        "branches": [
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-blunt-weapon-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/120/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-blunt-weapon",
+        "name": "Final Attack: Blunt Weapon",
+        "job": 2,
+        "branches": [
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-final-attack-blunt-weapon.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/120/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "blunt-weapon-booster",
+        "name": "Blunt Weapon Booster",
+        "job": 2,
+        "branches": [
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-blunt-weapon-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/120/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "threaten",
+        "name": "Threaten",
+        "job": 2,
+        "branches": [
+          "Page"
+        ],
+        "icon": {
+          "file": "skills/warrior-threaten.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/120/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "spear-mastery",
+        "name": "Spear Mastery",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-spear-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "polearm-mastery",
+        "name": "Polearm Mastery",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-polearm-mastery.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-spear",
+        "name": "Final Attack: Spear",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-final-attack-spear.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "final-attack-polearm",
+        "name": "Final Attack: Polearm",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-final-attack-polearm.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "spear-booster",
+        "name": "Spear Booster",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-spear-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "polearm-booster",
+        "name": "Polearm Booster",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-polearm-booster.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      },
+      {
+        "id": "iron-will",
+        "name": "Iron Will",
+        "job": 2,
+        "branches": [
+          "Spearman"
+        ],
+        "icon": {
+          "file": "skills/warrior-iron-will.png",
+          "source": "maplestory-io",
+          "source_url": "https://maplestory.io/api/GMS/83/job/130/skillbook",
+          "retrieved": "2026-10-14T00:00:00.000Z"
+        },
+        "verified": {
+          "status": "unverified",
+          "build": "founders-2026-10-06",
+          "source": "https://www.nexon.com/maplestory/game/mscw/classes-and-jobs/46083/warrior",
+          "date": "2026-10-14T00:00:00.000Z"
+        }
+      }
+    ]
+  }
+]

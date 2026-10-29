@@ -1,0 +1,8 @@
+GeulClassic Translation Addon v0.4.17 - BUILD ENTRYPOINT CORRECTION
+- Removed misleading top-level BUILD-ITEM-DB.bat (item indexing is automatic inside the real builder).
+- Rebuilt BUILD-WINDOWS.bat to invoke the complete PowerShell/PyInstaller pipeline and verify its success marker.
+- Matched START-SOURCE.bat virtualenv path to BUILD-WINDOWS.ps1 (.venv-win-build-028).
+- Clarified expected Korean names: 0 when separately verified KO files are not provided.
+- Preserved red megaphone detection and licensed Classic Wiki offline data integration from v0.4.15.
+- Added Windows EXE builder regression tests and startup report.
+- Full Windows EXE execution NOT tested here.

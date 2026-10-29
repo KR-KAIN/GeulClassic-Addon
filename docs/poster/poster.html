@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>글클메 애드온 사용법</title>
+<style>
+:root{--steel:#94a9bd;--steel-d:#5b7b9e;--steel-l:#c3cfdb;--body:#f5f6f7;--ink:#26313b;--sub:#5d6873;
+--lime:#b6d22a;--lime-d:#6f8a10;--orange:#f2862a;--orange-d:#b2560b;--pink:#d6479a;--pink-d:#93205f;--blue:#2f8be0;--blue-d:#1c5ea8}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1240px;background:#7f97ae;font-family:'Malgun Gothic','맑은 고딕',sans-serif;color:var(--ink);padding:34px}
+.win{background:var(--body);border:2px solid #fff;outline:2px solid var(--steel-d);border-radius:8px;margin-bottom:26px;overflow:hidden;
+  box-shadow:0 4px 0 rgba(0,0,0,.18)}
+.bar{background:linear-gradient(#ffffff,#e9eef3);border-bottom:2px solid var(--steel-l);padding:10px 18px;display:flex;align-items:center;gap:14px}
+.bar .t{font-weight:800;font-size:22px;letter-spacing:.5px}
+.bar .e{font:700 13px Consolas,monospace;color:#6b6bb0;letter-spacing:2px}
+.bar .x{margin-left:auto;width:22px;height:22px;border-radius:3px;background:#2f9be0;border:2px solid #0f5d96;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.6) 0 3px,transparent 3px 6px)}
+.in{padding:20px 24px}
+.hero{background:linear-gradient(#2d4a69,#1b2f45);color:#fff;border-radius:10px;padding:30px 34px;margin-bottom:26px;
+  border:3px solid #fff;outline:3px solid var(--steel-d);position:relative}
+.hero h1{font-size:58px;font-weight:900;letter-spacing:1px;text-shadow:0 3px 0 #0e1a27}
+.hero h1 small{font-size:24px;font-weight:700;color:#ffd75e;margin-left:14px;letter-spacing:0}
+.hero p{font-size:23px;margin-top:10px;color:#dfe8f2;line-height:1.5}
+.hero .chips{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+.chip{display:inline-block;border-radius:5px;padding:6px 14px;font-weight:800;font-size:18px;color:#fff;border:2px solid rgba(0,0,0,.35);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.35)}
+.lime{background:linear-gradient(#cfe64a,#9fbf16);color:#fff;text-shadow:0 1px 0 var(--lime-d)}
+.orange{background:linear-gradient(#ffa24a,#e2701a);text-shadow:0 1px 0 var(--orange-d)}
+.pink{background:linear-gradient(#ef62b2,#c22f84);text-shadow:0 1px 0 var(--pink-d)}
+.blue{background:linear-gradient(#56aaf0,#1f78d0);text-shadow:0 1px 0 var(--blue-d)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.feat{background:#fff;border:1px solid #d3dbe3;border-radius:6px;padding:14px 16px;display:flex;gap:14px;align-items:flex-start}
+.num{flex:0 0 40px;height:40px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:22px;color:#fff;
+  border:2px solid rgba(0,0,0,.3);box-shadow:inset 0 2px 0 rgba(255,255,255,.35)}
+.feat h3{font-size:21px;font-weight:800;margin-bottom:4px}
+.feat p{font-size:16.5px;color:var(--sub);line-height:1.5}
+.ex{font-family:Consolas,'Malgun Gothic',monospace;background:#eef2f6;border-radius:4px;padding:1px 6px;color:#24486b;font-size:15.5px}
+.shots{display:grid;grid-template-columns:auto auto;gap:18px;justify-content:center;align-items:start}
+.shot{text-align:center}
+.shot img{display:block;border-radius:4px;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.shot .cap{margin-top:8px;font-size:16px;font-weight:700;color:var(--sub)}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px}
+.step{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid #d3dbe3;border-radius:6px;padding:12px 14px}
+.step b.n{flex:0 0 34px;height:34px;border-radius:50%;background:var(--steel-d);color:#fff;display:flex;align-items:center;justify-content:center;font-size:19px}
+.step p{font-size:17.5px;line-height:1.5}
+.key{display:inline-block;border-radius:4px;padding:0 8px;font-weight:800;font-size:15.5px;color:#fff;border:1px solid rgba(0,0,0,.35);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.35);line-height:24px;margin:0 1px}
+.panelmap{display:flex;gap:26px;align-items:center}
+.panelmap ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:9px 22px;font-size:17px}
+.panelmap li{line-height:1.45}
+.note{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.note div{background:#fff;border:1px solid #d3dbe3;border-left:6px solid var(--steel-d);border-radius:6px;padding:12px 14px;font-size:16px;line-height:1.5}
+.note b{display:block;font-size:18px;margin-bottom:3px}
+.foot{color:#eaf0f6;font-size:15px;text-align:center;line-height:1.6;margin-top:6px}
+</style></head><body>
+
+<div class="hero">
+  <h1>글클메 애드온<small>메이플스토리 클래식 월드 실시간 채팅 번역기</small></h1>
+  <p>게임 채팅창의 영어를 읽어 <b>한국어로 바로 번역</b>하고, 한국어로 쓴 글은 <b>영어 거래 글</b>로 바꿔 줍니다.<br>
+     번역은 PC 안에서만 동작하는 오프라인 AI — 인터넷 번역 사이트·API 키·회원가입이 필요 없습니다.</p>
+  <div class="chips"><span class="chip lime">실시간 번역</span><span class="chip orange">거래·파티 글 해석</span>
+    <span class="chip pink">아이템 툴팁</span><span class="chip blue">시세 기록</span><span class="chip lime">경험치 측정기</span>
+    <span class="chip orange">한→영 입력기</span></div>
+</div>
+
+<div class="win"><div class="bar"><span class="e">FEATURES</span><span class="t">주요 기능</span><span class="x"></span></div><div class="in">
+<div class="grid">
+  <div class="feat"><span class="num lime">1</span><div><h3>실시간 채팅 번역</h3><p>게임 채팅창 글자를 화면 인식(OCR)으로 읽어 한국어로 번역합니다. 게임 파일·메모리·패킷은 건드리지 않습니다.</p></div></div>
+  <div class="feat"><span class="num orange">2</span><div><h3>확성기 / 일반 채팅 분리</h3><p>확성기는 게임 색 그대로 위 칸에, 일반 채팅은 아래 칸에 나눠 보여 줍니다. 창 모양도 게임 UI 그대로.</p></div></div>
+  <div class="feat"><span class="num pink">3</span><div><h3>거래·파티 글 해석</h3><p><span class="ex">S&gt; Glove ATT 60% 120k</span> → 장갑 공격력 60% 주문서 12만 메소에 팝니다<br><span class="ex">J&gt; KPQ rush</span> → 커닝 파퀘 연속 진행 참가 원해요 · 게임 약어·은어 수백 개</p></div></div>
+  <div class="feat"><span class="num blue">4</span><div><h3>아이템 툴팁</h3><p>번역된 <b>[아이템]</b>에 마우스를 올리면 게임과 똑같은 툴팁이 뜹니다. 판매자가 적은 옵션(공격력·업횟)은 반영, 없으면 노작 기준.</p></div></div>
+  <div class="feat"><span class="num orange">5</span><div><h3>한→영 입력기</h3><p>한국어로 <span class="ex">60% 주문서 200만 메소에 팝니다</span>를 쓰면 <span class="ex">S&gt; 60% scroll 2m</span>, <span class="ex">커닝 파퀘 3명 모집해요</span> → <span class="ex">R&gt; kPQ need 3</span>으로 바꿔 자동 복사.</p></div></div>
+  <div class="feat"><span class="num blue">6</span><div><h3>시세 보기</h3><p>확성기·채팅의 S&gt;/B&gt; 거래 글 가격을 자동으로 모아 아이템별 최근 7일 최저·중간·최고가를 보여 줍니다.</p></div></div>
+  <div class="feat"><span class="num lime">7</span><div><h3>경험치 측정기</h3><p>사냥 시간, 획득 EXP, 시간당 경험치, 다음 레벨까지 남은 시간, 단축키 물약 사용량을 자동으로 셉니다.</p></div></div>
+  <div class="feat"><span class="num pink">8</span><div><h3>알림 · 내역 · 방송</h3><p>원하는 단어가 나오면 키워드 알림, 번역 내역 저장·검색, OBS 브라우저 소스로 방송 화면에 번역 표시.</p></div></div>
+</div></div></div>
+
+<div class="win"><div class="bar"><span class="e">SCREENS</span><span class="t">실제 화면</span><span class="x"></span></div><div class="in">
+<div class="shots">
+  <div class="shot"><img src="chat.png" width="440"><div class="cap">확성기 · 일반 채팅 번역창</div></div>
+  <div class="shot"><img src="tooltip.png" width="332"><div class="cap">[아이템]에 마우스를 올리면 나오는 툴팁</div>
+    <div style="height:18px"></div><img src="meter.png" width="330"><div class="cap">경험치 측정기</div></div>
+</div>
+<div class="shots" style="margin-top:18px">
+  <div class="shot"><img src="price.png" width="620"><div class="cap">시세 보기 (최근 7일 거래 가격)</div></div>
+  <div class="shot"><img src="composer.png" width="390"><div class="cap">한→영 입력기 (번역 후 자동 복사)</div></div>
+</div>
+</div></div>
+
+<div class="win"><div class="bar"><span class="e">HOW TO USE</span><span class="t">사용법</span><span class="x"></span></div><div class="in">
+<div class="steps">
+  <div class="step"><b class="n">1</b><p>메이플스토리 클래식 월드를 켜고 <b>글클메 애드온</b>을 실행합니다. 컨트롤 패널이 게임 창 아래쪽에 붙습니다.</p></div>
+  <div class="step"><b class="n">2</b><p><span class="key pink">● 번역 OFF</span>를 눌러 <span class="key lime">● 번역 ON</span>으로 바꾸면 채팅 위치를 자동으로 찾아 번역을 시작합니다.</p></div>
+  <div class="step"><b class="n">3</b><p>번역이 이상하면 <span class="key pink">인식 영역</span>을 누르고 게임 채팅창을 마우스로 드래그해 지정합니다.</p></div>
+  <div class="step"><b class="n">4</b><p>번역창 위치는 <b>채팅 위 덮기 · 오른쪽 자석 · 왼쪽 자석 · 자유 플로팅</b> 중에서 고릅니다.</p></div>
+  <div class="step"><b class="n">5</b><p>지난 채팅을 보려면 <span class="key blue">휠 OFF</span> → <span class="key lime">휠 ON</span>으로 바꾸고 마우스 휠이나 드래그로 올립니다.</p></div>
+  <div class="step"><b class="n">6</b><p><span class="key blue">≡</span> 설정에서 글꼴·글자 크기·색·투명도, 키워드 알림, 시세 기록을 바꿀 수 있습니다.</p></div>
+  <div class="step"><b class="n">7</b><p>한국어 입력칸에 쓰고 <b>Enter</b> → 영어로 바뀌고 복사됩니다. 게임 채팅에 <b>Ctrl+V</b>로 붙여 넣으세요.</p></div>
+  <div class="step"><b class="n">8</b><p>[아이템] 이름에 마우스를 올리면 툴팁, <span class="key blue">시세 보기</span>로 가격 기록, <span class="key lime">경험치 측정기</span>로 사냥 기록.</p></div>
+</div></div></div>
+
+<div class="win"><div class="bar"><span class="e">CONTROL PANEL</span><span class="t">컨트롤 패널 버튼</span><span class="x"></span></div><div class="in">
+<div class="panelmap"><img src="panel.png" width="390" style="box-shadow:0 3px 10px rgba(0,0,0,.25);border-radius:4px">
+<ul>
+  <li><span class="key lime">● 번역 ON/OFF</span> 번역 켜기·끄기</li>
+  <li><span class="key blue">≡</span> 설정 (글꼴·색·알림)</li>
+  <li><span class="key pink">인식 영역</span> 채팅창 위치 직접 지정</li>
+  <li><b>오른쪽 자석 ▼</b> 번역창 배치 방식</li>
+  <li><span class="key blue">휠</span> 지난 채팅 스크롤 켜기</li>
+  <li><span class="key blue">이동</span> 번역창 위치·크기 조절</li>
+  <li><span class="key lime">번역</span> 오프라인 번역 시험</li>
+  <li><span class="key pink">OCR</span> 화면 인식 진단</li>
+  <li><span class="key blue">표시</span> 번역창 표시 시험</li>
+  <li><span class="key orange">OBS</span> 방송용 주소 복사</li>
+  <li><span class="key lime">경험치 측정기</span> 사냥 측정 창</li>
+  <li><span class="key blue">시세 보기</span> 거래 가격 기록</li>
+</ul></div></div></div>
+
+<div class="win"><div class="bar"><span class="e">NOTICE</span><span class="t">알아두기</span><span class="x"></span></div><div class="in">
+<div class="note">
+  <div><b>화면만 읽습니다</b>게임 파일·메모리·네트워크 패킷을 읽거나 바꾸지 않습니다. 채팅창 영역의 글자만 인식합니다.</div>
+  <div><b>오프라인 번역</b>번역 모델이 프로그램에 들어 있어 인터넷 없이 동작합니다. 대화 내용이 외부로 나가지 않습니다.</div>
+  <div><b>번역은 참고용</b>깨진 글자·처음 보는 줄임말은 틀릴 수 있습니다. 거래 전에는 원문과 가격을 꼭 확인하세요.</div>
+</div></div></div>
+
+<div class="foot">제작자 KAIN · github.com/KR-KAIN/GeulClassic-Addon<br>
+MapleStory 및 게임 그래픽 © NEXON · 공개 데이터 classicmaple.wiki (CC BY-NC-SA 4.0) · 비상업적 팬 제작 도구</div>
+</body></html>

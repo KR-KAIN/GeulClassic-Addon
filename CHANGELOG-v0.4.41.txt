@@ -1,0 +1,23 @@
+GeulClassic Translator Addon v0.4.41 — Windows OCR replay QA & squared Maple HUD
+
+BASE: complete v0.4.40 source; WGC/MSS, Korean item OCR, translation and color labels preserved.
+
+BUILD QA:
+- Fixed the recurring Windows OCR-REPLAY-REPORT failure on the immediately-repeated
+  gray megaphone fixture (recognition_batches/cache_hits assertion).
+- With deliberately short OCR confidence-cache TTL 0.15s, an unchanged image MAY be
+  re-recognized if a log statement or slow machine delays the second call.
+- Replay now verifies that recognized nickname/body/color remain identical; it does
+  NOT falsely treat expected model rechecks as build-breaking regressions.
+- The same repair applies to the four-row and synthetic-scroll unchanged fixtures.
+- Short runtime revalidation TTLs and real-inference OCR checks remain enabled.
+
+MAPLE HUD:
+- Left controller and right composer now force square Qt visual variant whenever
+  compact docking is active; this removes rounding from buttons/inputs/comboboxes
+  as well as card outer corners.
+- Removed middle joins and extra gutters from v0.4.40 remain unchanged.
+- Full-size fallback windows keep the user's selected theme.
+
+QA: source regression tests only on Linux, where Windows+ONNX+PySide6 runtime is absent.
+Windows EXE build and native Maple renderer require separate on-device validation.

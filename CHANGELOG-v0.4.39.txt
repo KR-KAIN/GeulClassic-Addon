@@ -1,0 +1,6 @@
+v0.4.39 - OCR/translation recovery + user palette labels
+
+Inherited v0.4.38 functions preserved. OCR cache/translation abbreviations/uncertain item retry and channel-bidirectional fixes.
+Visual announcement labels: grey=[일확], pink=[고확], mint/cyan/green=[하이퍼], yellow=[아확].
+All labels require pixel-based color evidence. White general chat remains unlabeled.
+Source includes independent Windows builder and a v0.4.38 auto_patcher.py.

@@ -1,0 +1,18 @@
+R9 visual chat-row fallback based on 2026-10-26 screen recording.
+Base: R8 TTL15 experiment (unchanged short/long TTL shadow/active behavior).
+
+Changes:
+- fast_vision.py: when legacy segmentation is empty/only full-width borders and uncertain,
+  detect bright near-neutral text cores over the translucent textured background.
+- Save original BGR row crop to existing OCR engine; normalized glyph mask is used
+  only to find row bounds and prepare the existing neutral OCR image.
+- Never re-run or globally strengthen OCR detector; suppress scrollbar and bottom UI border.
+- Only the failed segmentation path is changed. WGC/MSS, OCR models, translation,
+  glyph settings and TTL logic remain the same as R8.
+
+Validation:
+- Video-derived screen crops: sample bright rows visible despite legacy 0-row result.
+- Windows EXE build and runtime game recognition not verified in this environment.
+- The user's video contains player names; no screenshot/video samples shipped in ZIP.
+
+Rollback: Run separately preserved R8 EXE (or R7 EXE); do not overwrite folders.

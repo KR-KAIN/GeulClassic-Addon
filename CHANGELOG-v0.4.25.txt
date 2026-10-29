@@ -1,0 +1,11 @@
+v0.4.25 — consolidated resilience/latency patch, based on v0.4.24
+- Fix supplied Windows CP949 UnicodeEncodeError; UTF-8 Python/PowerShell/replay output.
+- Validated trade-template memory, exact Decimal prices, protected linked items/amounts, guarded slot recovery.
+- Safe OCR prefix corrections, context-aware shorthand, conservative clause splitting.
+- Capability-selected/observable INT8, no hidden corrupt-model FP32 retry, warmup, bounded decoding and repetition guard.
+- Explicit cubic primary OCR, adaptive line-height guard, isolated low-contrast recovery, calibrated badge/header/body split and independent prefix cache.
+- Pixel-first source context and known scrollbar history guard; unknown remains unknown.
+- Stage timing, p50/p95/max, retry rates, active OCR vs cached frames, UI-slot latency and CPU metrics.
+- Optional per-process Windows game-priority mode.
+- ORT pre-initialization telemetry opt-out in package, launch scripts, builder and PyInstaller runtime hook; API disable also retained.
+- Existing system-notice exclusion, red player megaphones, normal-chat admission, sender preservation and OBS order retained.

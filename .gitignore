@@ -1,0 +1,53 @@
+# Only what the app, its build and its tests need goes into the repository.
+# The project root also holds years of local reports (OCR results of real game
+# chat with other players' names, build logs): everything at the top level is
+# ignored unless listed below.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE*
+!/launch.py
+!/requirements.txt
+!/BUILD-WINDOWS.bat
+!/START-SOURCE.bat
+!/OPEN-BUILD-CONSOLE.bat
+!/EXPORT-OCR-PROFILE.bat
+!/RESET-GLYPH-DICTIONARIES.bat
+!/UPDATE-GMS-KMS-ITEMS.bat
+!/RUN-TTL15-ACTIVE.bat
+!/RUN-TTL15-SHADOW.bat
+!/COMMUNITY-TERMS-v0310.json
+!/ITEM-IMPORT-TEMPLATE.csv
+!/OPEN-DATA-LICENSE.md
+!/DB-SOURCE-REVIEW.md
+!/OBS-SETUP-KR.txt
+!/ABOUT-KAIN.txt
+!/CHANGELOG-*
+!/kain_maple_translator/
+!/scripts/
+!/tests/
+!/resources/
+!/docs/
+!/installer/
+!/item-sources/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Downloaded by the build (scripts/prepare_offline_models.py); 115 MB each,
+# over GitHub's 100 MB file limit
+resources/models/*.argosmodel
+
+# Kept out of the public repository
+#  - real game screenshots: other players' names are visible
+tests/fixtures/
+#  - meowdb item names: redistribution needs the site operator's permission
+resources/meowdb/
+#  - reference screenshots the UI pieces were cut from (character name, chat);
+#    the app never loads them
+resources/classic_ui/native_*.png
+
+# Installer output
+installer/Output/

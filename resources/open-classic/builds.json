@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cot2",
+    "name": "Closed Online Test 2",
+    "date": "2026-08-04T00:00:00.000Z",
+    "notes": "Pre-launch test. Values may differ from the live game."
+  },
+  {
+    "id": "founders-2026-10-06",
+    "name": "Founder's Access",
+    "date": "2026-10-06T00:00:00.000Z"
+  },
+  {
+    "id": "launch-2026-10-21",
+    "name": "Grand Launch",
+    "date": "2026-10-21T00:00:00.000Z"
+  }
+]

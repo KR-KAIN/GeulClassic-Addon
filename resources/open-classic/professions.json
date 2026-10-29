@@ -1,0 +1,80 @@
+[
+  {
+    "id": "arcforge",
+    "name": "Arcforge",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  },
+  {
+    "id": "leatherworking",
+    "name": "Leatherworking",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  },
+  {
+    "id": "smithing",
+    "name": "Smithing",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  },
+  {
+    "id": "tailoring",
+    "name": "Tailoring",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  },
+  {
+    "id": "weaponcrafting",
+    "name": "Weaponcrafting",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  },
+  {
+    "id": "woodcrafting",
+    "name": "Woodcrafting",
+    "verified": {
+      "status": "unverified",
+      "build": "founders-2026-10-06",
+      "source": "https://www.nexon.com/maplestory/news/general/45621/founder-s-access-release-notes",
+      "date": "2026-10-14T00:00:00.000Z"
+    },
+    "changes": [],
+    "required_level": 10,
+    "related_professions": []
+  }
+]

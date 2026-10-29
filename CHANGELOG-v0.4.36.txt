@@ -1,0 +1,18 @@
+GeulClassic Translator Addon v0.4.36 - OCR Korean model verification repair
+
+Base: unchanged v0.4.35 WGC + MSS fallback + same OCR models and translation code.
+
+Fix:
+- Build-time Korean OCR 32px test now uses labelled Hangul images rather than a Latin
+  'KAIN chat 123' test. No longer requires Korean model to read English digits.
+- 32px whole-line Korean model must still output Hangul on at least one of four
+  labelled Korean fixtures. 48px Korean item OCR must still identify a known
+  labelled '[아대 공격력 주문서 60%]' fixture.
+- Multilingual English/digit recognition, model SHA256, and detection tests stay
+  mandatory. Exact outputs are written to OCR-MODEL-REPORT.txt for diagnostics.
+- Correct Windows builder header version to 0.4.36.
+- Add isolated tests of pass + actual Korean/model failure paths.
+
+Scope: no change to WGC capture, MSS fallback, OCR runtime inference pipeline,
+translator, colors, GUI, or user settings.
+Windows EXE and Korean ONNX live inference are not verified in this Linux environment.

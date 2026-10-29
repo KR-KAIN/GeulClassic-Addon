@@ -1,0 +1,18 @@
+GeulClassic Translation Addon v0.4.20 — Windows Korean locale build-test fix
+
+Base: v0.4.19. No changes to translation, OCR, UI, API endpoints, data precedence, or user catalogs.
+
+FIX:
+- tests/test_v0419_item_api_sync.py: all 4 temporary test fixture writes now explicitly use UTF-8.
+- Fixes on Korean Windows where pathlib.write_text() defaulted to CP949 and _read_rows() expected UTF-8 JSON.
+- Additional regression tests require explicit UTF-8 for all item sync fixture text writes.
+- Report/build launcher version updated to v0.4.20.
+
+Preserves:
+- GMS v62 -> KMS 65/284 item-ID comparison and existing manual catalog precedence.
+- Red megaphone OCR, wheel-scrolling, OBS and existing features.
+- Existing optional local JSON DB is not overwritten during tests.
+
+Verification: source tests on Linux including an ASCII-locale rerun; Windows executable build/gameplay not available in this environment.
+Extract the entire ZIP into a clean folder. Launch BUILD-WINDOWS.bat.
+If Windows build fails, send BUILD-REPORT.txt and the stage-specific file listed there.

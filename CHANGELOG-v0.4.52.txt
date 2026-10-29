@@ -1,0 +1,1 @@
+v0.4.52: potion-only offline matching library (2 user-capture references, optional 7 canonical source icons), pre-start recognition, yellow/normal classification, visual event matching, Korean bracket guard; no unrelated item icons.

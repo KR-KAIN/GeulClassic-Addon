@@ -1,0 +1,22 @@
+{
+ "blue_disabled": 2,
+ "blue_hover": 2,
+ "blue_normal": 2,
+ "blue_pressed": 2,
+ "cancel_disabled": 2,
+ "cancel_hover": 2,
+ "cancel_normal": 2,
+ "cancel_pressed": 2,
+ "lime_disabled": 3,
+ "lime_hover": 2,
+ "lime_normal": 3,
+ "lime_pressed": 4,
+ "orange_disabled": 3,
+ "orange_hover": 3,
+ "orange_normal": 3,
+ "orange_pressed": 3,
+ "pink_disabled": 3,
+ "pink_hover": 3,
+ "pink_normal": 3,
+ "pink_pressed": 4
+}

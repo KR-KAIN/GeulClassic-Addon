@@ -1,0 +1,17 @@
+GeulClassic Translator Addon v0.4.33 — mixed item listing, non-dimming ROI, pastel megaphone
+Base: v0.4.32-INDEPENDENT; full independent Windows builder (not EXE).
+
+Changes:
+1. Parses SERPENT'S TONGUE / quote OCR variants with explicit 76 공격력 +4 no slots left ch 13 fm.
+   Uses verified item name 장팔사모 (Maple item ID 1432004). Keeps 76 and +4 separate; does not invent FM room.
+2. Handles a trailing CH N FM with no market room: 'N채널 자유시장 (방 번호 미기재)'. Existing CH31 FM17 unaffected.
+3. ROI RegionSelector no longer paints a full-desktop black semi-transparent layer. Small hint box and outline only.
+4. Adds low-saturation pastel banner detection with background flatness and foreground contrast guards.
+   Maintains white-on-dark general chat, gray-blue and strong-colored megaphones.
+5. Added 11 targeted tests for quote/OCR ambiguity, market detail, blank pastel, normal chat, banner, and no black overlay.
+
+Validation:
+- Automated source suite: 468 executed, 467 passed, 1 environment-dependent skipped (ONNX Runtime not installed).
+- Syntax compile PASS; Windows PowerShell 5.1 UTF-8 BOM/CRLF and BAT CRLF preserved.
+- Real-game full OCR and Windows EXE build have NOT been validated here. The Windows builder contains its own replay gate.
+- Previous v0.4.32 settings and features retained; keep the older version as backup.

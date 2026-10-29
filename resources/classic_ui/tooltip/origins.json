@@ -1,0 +1,422 @@
+{
+ "Can_reqLEV": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqSTR": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqDEX": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqINT": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqLUK": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqPOP": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_reqGrade": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_0": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_1": {
+  "x": -1,
+  "y": 0,
+  "isEmpty": false
+ },
+ "Can_2": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_3": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_4": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_5": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_6": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_7": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_8": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_9": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_none": {
+  "x": 0,
+  "y": -3,
+  "isEmpty": false
+ },
+ "Can_beginner": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_warrior": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_magician": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_bowman": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_thief": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_pirate": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_percent": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_max": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Can_durability": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqLEV": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqSTR": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqDEX": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqINT": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqLUK": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqPOP": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_reqGrade": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_0": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_1": {
+  "x": -1,
+  "y": 0,
+  "isEmpty": false
+ },
+ "Cannot_2": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_3": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_4": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_5": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_6": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_7": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_8": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_9": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_none": {
+  "x": 0,
+  "y": -3,
+  "isEmpty": false
+ },
+ "Cannot_beginner": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_warrior": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_magician": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_bowman": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_thief": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_pirate": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_durability": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Cannot_percent": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Dot_0": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Dot_1": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Dot_2": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_0": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_1": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_2": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_3": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_4": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_5": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Speed_6": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Frame2_nw": {
+  "x": 13,
+  "y": 13,
+  "isEmpty": false
+ },
+ "Frame2_ne": {
+  "x": 0,
+  "y": 13,
+  "isEmpty": false
+ },
+ "Frame2_sw": {
+  "x": 13,
+  "y": 0,
+  "isEmpty": false
+ },
+ "Frame2_se": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Frame2_n": {
+  "x": 0,
+  "y": 13,
+  "isEmpty": false
+ },
+ "Frame2_s": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Frame2_w": {
+  "x": 13,
+  "y": 0,
+  "isEmpty": false
+ },
+ "Frame2_e": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Frame2_c": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "Frame2_cover": {
+  "x": -3,
+  "y": -3,
+  "isEmpty": false
+ },
+ "Frame2_dotline": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "ItemIcon_base": {
+  "x": 0,
+  "y": 0,
+  "isEmpty": true
+ },
+ "ItemIcon_old": {
+  "x": -5,
+  "y": -5,
+  "isEmpty": false
+ },
+ "ItemIcon_new": {
+  "x": -7,
+  "y": -7,
+  "isEmpty": false
+ },
+ "ItemIcon_shade": {
+  "x": -17,
+  "y": -64,
+  "isEmpty": false
+ },
+ "ItemIcon_cover": {
+  "x": -4,
+  "y": -4,
+  "isEmpty": false
+ },
+ "ItemIcon_0": {
+  "x": -1,
+  "y": -1,
+  "isEmpty": false
+ },
+ "ItemIcon_1": {
+  "x": -1,
+  "y": -1,
+  "isEmpty": false
+ },
+ "ItemIcon_2": {
+  "x": -1,
+  "y": -1,
+  "isEmpty": false
+ },
+ "ItemIcon_3": {
+  "x": -1,
+  "y": -1,
+  "isEmpty": false
+ },
+ "ItemIcon_4": {
+  "x": -1,
+  "y": -1,
+  "isEmpty": false
+ }
+}

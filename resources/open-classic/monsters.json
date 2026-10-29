@@ -1,0 +1,2790 @@
+[
+  {
+    "id": "axe-stump",
+    "name": "Axe Stump",
+    "source_page": "https://mapleclassic.wiki/wiki/Axe_Stump",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Axe_Stump"
+    },
+    "changes": [],
+    "level": 17,
+    "hp": 371,
+    "exp": 32,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "firewood",
+        "rate_percent": 45.95,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 37,
+        "sample_drops": 17,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Axe_Stump"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 70.27,
+        "quantity": [
+          34,
+          41
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 37,
+        "sample_drops": 26,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Axe_Stump"
+      },
+      {
+        "item": "orihalcon-ore",
+        "rate_percent": 2.7,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 37,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Axe_Stump"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 2.7,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 37,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Axe_Stump"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/axe-stump.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "blue-mushroom",
+    "name": "Blue Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Blue_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Blue_Mushroom"
+    },
+    "changes": [],
+    "level": 19,
+    "hp": 342,
+    "exp": 35,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 3.33,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 30,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Mushroom"
+      },
+      {
+        "item": "blue-mushroom-cap",
+        "rate_percent": 46.67,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 30,
+        "sample_drops": 14,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Mushroom"
+      },
+      {
+        "item": "gold-ore",
+        "rate_percent": 3.33,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 30,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Mushroom"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 73.33,
+        "quantity": [
+          37,
+          46
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 30,
+        "sample_drops": 22,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Mushroom"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/blue-mushroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2220100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "blue-snail",
+    "name": "Blue Snail",
+    "source_page": "https://mapleclassic.wiki/wiki/Blue_Snail",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+    },
+    "changes": [],
+    "level": 2,
+    "hp": 51,
+    "exp": 4,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "snail-hunting-ground-ii",
+    "region": "Maple Island",
+    "drops": [
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 4.76,
+        "quantity": [
+          12,
+          19
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 105,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+      },
+      {
+        "item": "blue-snail-shell",
+        "rate_percent": 46.67,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 105,
+        "sample_drops": 49,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+      },
+      {
+        "item": "iron-ore",
+        "rate_percent": 2.86,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 105,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 64.76,
+        "quantity": [
+          6,
+          7
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 105,
+        "sample_drops": 68,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 2.86,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 105,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Blue_Snail"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/blue-snail.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/100101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "bubbling",
+    "name": "Bubbling",
+    "source_page": "https://mapleclassic.wiki/wiki/Bubbling",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Bubbling"
+    },
+    "changes": [],
+    "level": 15,
+    "hp": 259,
+    "exp": 28,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "bubblings-huge-bubble",
+        "rate_percent": 38.89,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 18,
+        "sample_drops": 7,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Bubbling"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 55.56,
+        "quantity": [
+          30,
+          37
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 18,
+        "sample_drops": 10,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Bubbling"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/bubbling.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1210103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "clang",
+    "name": "Clang",
+    "source_page": "https://mapleclassic.wiki/wiki/Clang",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Clang"
+    },
+    "changes": [],
+    "level": 49,
+    "hp": 2899,
+    "exp": 127,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/clang.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4230104/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "cold-eye",
+    "name": "Cold Eye",
+    "source_page": "https://mapleclassic.wiki/wiki/Cold_Eye",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Cold_Eye"
+    },
+    "changes": [],
+    "level": 40,
+    "hp": 1894,
+    "exp": 85,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/cold-eye.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4230100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "copper-drake",
+    "name": "Copper Drake",
+    "source_page": "https://mapleclassic.wiki/wiki/Copper_Drake",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Copper_Drake"
+    },
+    "changes": [],
+    "level": 45,
+    "hp": 2595,
+    "exp": 107,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/copper-drake.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "crimson-balrog",
+    "name": "Crimson Balrog",
+    "differs_from_original": "Reported to have far more HP than in original MapleStory. Exact value needed, with a screenshot.",
+    "mood": "cave",
+    "verified": {
+      "status": "unverified"
+    },
+    "changes": [],
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/crimson-balrog.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/8150000/render/stand",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "croco",
+    "name": "Croco",
+    "source_page": "https://mapleclassic.wiki/wiki/Croco",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Croco"
+    },
+    "changes": [],
+    "level": 52,
+    "hp": 3136,
+    "exp": 146,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/croco.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/5130103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "curse-eye",
+    "name": "Curse Eye",
+    "source_page": "https://mapleclassic.wiki/wiki/Curse_Eye",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Curse_Eye"
+    },
+    "changes": [],
+    "level": 33,
+    "hp": 1001,
+    "exp": 63,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/curse-eye.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3230100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "dark-axe-stump",
+    "name": "Dark Axe Stump",
+    "source_page": "https://mapleclassic.wiki/wiki/Dark_Axe_Stump",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Dark_Axe_Stump"
+    },
+    "changes": [],
+    "level": 23,
+    "hp": 547,
+    "exp": 43,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "firewood",
+        "rate_percent": 30,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 10,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Axe_Stump"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 80,
+        "quantity": [
+          47,
+          56
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 10,
+        "sample_drops": 8,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Axe_Stump"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/dark-axe-stump.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "dark-stone-golem",
+    "name": "Dark Stone Golem",
+    "source_page": "https://mapleclassic.wiki/wiki/Dark_Stone_Golem",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Dark_Stone_Golem"
+    },
+    "changes": [],
+    "level": 58,
+    "hp": 5428,
+    "exp": 192,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/dark-stone-golem.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/5130102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "dark-stump",
+    "name": "Dark Stump",
+    "source_page": "https://mapleclassic.wiki/wiki/Dark_Stump",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+    },
+    "changes": [],
+    "level": 11,
+    "hp": 236,
+    "exp": 21,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 1.69,
+        "quantity": [
+          19,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      },
+      {
+        "item": "iron-ore",
+        "rate_percent": 1.69,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      },
+      {
+        "item": "leaf",
+        "rate_percent": 47.46,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 56,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 64.41,
+        "quantity": [
+          23,
+          28
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 76,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 3.39,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      },
+      {
+        "item": "tree-branch",
+        "rate_percent": 20.34,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 118,
+        "sample_drops": 24,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Dark_Stump"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/dark-stump.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1110101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "drake",
+    "name": "Drake",
+    "source_page": "https://mapleclassic.wiki/wiki/Drake",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Drake"
+    },
+    "changes": [],
+    "level": 50,
+    "hp": 3218,
+    "exp": 133,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/drake.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/5130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "evil-eye",
+    "name": "Evil Eye",
+    "source_page": "https://mapleclassic.wiki/wiki/Evil_Eye",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Evil_Eye"
+    },
+    "changes": [],
+    "level": 27,
+    "hp": 606,
+    "exp": 50,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "evil-eye-tail",
+        "rate_percent": 47.54,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 61,
+        "sample_drops": 29,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Evil_Eye"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 75.41,
+        "quantity": [
+          53,
+          64
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 61,
+        "sample_drops": 46,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Evil_Eye"
+      },
+      {
+        "item": "orange-potion",
+        "rate_percent": 6.56,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 61,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Evil_Eye"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/evil-eye.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2230100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "fairy-2",
+    "name": "Fairy 2",
+    "source_page": "https://mapleclassic.wiki/wiki/Fairy_2",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Fairy_2"
+    },
+    "changes": [],
+    "level": 29,
+    "hp": 593,
+    "exp": 54,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/fairy-2.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3000002/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "fairy-3",
+    "name": "Fairy 3",
+    "source_page": "https://mapleclassic.wiki/wiki/Fairy_3",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Fairy_3"
+    },
+    "changes": [],
+    "level": 29,
+    "hp": 593,
+    "exp": 54,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/fairy-3.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3000003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "fairy-4",
+    "name": "Fairy 4",
+    "source_page": "https://mapleclassic.wiki/wiki/Fairy_4",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Fairy_4"
+    },
+    "changes": [],
+    "level": 29,
+    "hp": 593,
+    "exp": 54,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/fairy-4.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3000004/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "fire-boar",
+    "name": "Fire Boar",
+    "source_page": "https://mapleclassic.wiki/wiki/Fire_Boar",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Fire_Boar"
+    },
+    "changes": [],
+    "level": 32,
+    "hp": 842,
+    "exp": 60,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/fire-boar.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3210100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "green-mushroom",
+    "name": "Green Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Green_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+    },
+    "changes": [],
+    "level": 14,
+    "hp": 233,
+    "exp": 26,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "region": "Victoria Island",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 1.45,
+        "quantity": [
+          23,
+          30
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 9,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 0.65,
+        "quantity": [
+          21,
+          27
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "blue-potion",
+        "rate_percent": 0.97,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 6,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "blue-qi-pao-pants",
+        "rate_percent": 0.16,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "emerald-ore",
+        "rate_percent": 0.16,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "fragment-of-magic",
+        "rate_percent": 0.81,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "green-feather-hat",
+        "rate_percent": 0.16,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "green-mushroom-cap",
+        "rate_percent": 41.77,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 259,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 68.23,
+        "quantity": [
+          28,
+          35
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 423,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 3.55,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 22,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      },
+      {
+        "item": "silver-ore",
+        "rate_percent": 0.81,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 620,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Green_Mushroom"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/green-mushroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1110100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "horny-mushroom",
+    "name": "Horny Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Horny_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+    },
+    "changes": [],
+    "level": 22,
+    "hp": 403,
+    "exp": 41,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "ant-tunnel-i",
+    "region": "Victoria Island",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 0.63,
+        "quantity": [
+          25,
+          29
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 1.26,
+        "quantity": [
+          20,
+          30
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 8,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "black-sneak-pants",
+        "rate_percent": 0.16,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "blue-potion",
+        "rate_percent": 0.95,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 6,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "bronze-ore",
+        "rate_percent": 2.37,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 15,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "horny-mushroom-cap",
+        "rate_percent": 45.81,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 290,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "magic-potion",
+        "rate_percent": 0.95,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 6,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 67.77,
+        "quantity": [
+          44,
+          53
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 429,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "orange-potion",
+        "rate_percent": 2.53,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 16,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "sky-sneak-pants",
+        "rate_percent": 0.16,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      },
+      {
+        "item": "topaz-ore",
+        "rate_percent": 0.32,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 633,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Horny_Mushroom"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/horny-mushroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2110200/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "iron-hog",
+    "name": "Iron Hog",
+    "source_page": "https://mapleclassic.wiki/wiki/Iron_Hog",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Iron_Hog"
+    },
+    "changes": [],
+    "level": 28,
+    "hp": 572,
+    "exp": 52,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/iron-hog.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4230103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "jr-balrog",
+    "name": "Jr. Balrog",
+    "source_page": "https://mapleclassic.wiki/wiki/Jr._Balrog",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Jr._Balrog"
+    },
+    "changes": [],
+    "level": 80,
+    "hp": 325400,
+    "exp": 2188,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/jr-balrog.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/6400008/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "jr-boogie-1",
+    "name": "Jr. Boogie 1",
+    "source_page": "https://mapleclassic.wiki/wiki/Jr._Boogie_1",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Jr._Boogie_1"
+    },
+    "changes": [],
+    "level": 35,
+    "hp": 1395,
+    "exp": 69,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/jr-boogie-1.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3230300/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "jr-boogie-2",
+    "name": "Jr. Boogie 2",
+    "source_page": "https://mapleclassic.wiki/wiki/Jr._Boogie_2",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Jr._Boogie_2"
+    },
+    "changes": [],
+    "level": 35,
+    "hp": 1395,
+    "exp": 69,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/jr-boogie-2.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3230301/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "jr-necki",
+    "name": "Jr. Necki",
+    "source_page": "https://mapleclassic.wiki/wiki/Jr._Necki",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Jr._Necki"
+    },
+    "changes": [],
+    "level": 21,
+    "hp": 272,
+    "exp": 39,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/jr-necki.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2130103/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "jr-wraith",
+    "name": "Jr. Wraith",
+    "source_page": "https://mapleclassic.wiki/wiki/Jr._Wraith",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Jr._Wraith"
+    },
+    "changes": [],
+    "level": 34,
+    "hp": 982,
+    "exp": 66,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/jr-wraith.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3230101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "king-slime",
+    "name": "King Slime",
+    "source_page": "https://mapleclassic.wiki/wiki/King_Slime",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/King_Slime"
+    },
+    "changes": [],
+    "level": 32,
+    "hp": 16820,
+    "exp": 2400,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": []
+  },
+  {
+    "id": "ligator",
+    "name": "Ligator",
+    "source_page": "https://mapleclassic.wiki/wiki/Ligator",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Ligator"
+    },
+    "changes": [],
+    "level": 31,
+    "hp": 853,
+    "exp": 58,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/ligator.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3110100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "lorang",
+    "name": "Lorang",
+    "source_page": "https://mapleclassic.wiki/wiki/Lorang",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Lorang"
+    },
+    "changes": [],
+    "level": 38,
+    "hp": 1714,
+    "exp": 78,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/lorang.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3230102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "lupin",
+    "name": "Lupin",
+    "source_page": "https://mapleclassic.wiki/wiki/Lupin",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Lupin"
+    },
+    "changes": [],
+    "level": 37,
+    "hp": 1336,
+    "exp": 75,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/lupin.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/3210800/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "malady",
+    "name": "Malady",
+    "source_page": "https://mapleclassic.wiki/wiki/Malady",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Malady"
+    },
+    "changes": [],
+    "level": 55,
+    "hp": 2998,
+    "exp": 167,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": []
+  },
+  {
+    "id": "mano",
+    "name": "Mano",
+    "source_page": "https://mapleclassic.wiki/wiki/Mano",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Mano"
+    },
+    "changes": [],
+    "level": 20,
+    "hp": 7420,
+    "exp": 148,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "thicket-around-the-beach-iii",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/mano.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2220000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "mushmom",
+    "name": "Mushmom",
+    "source_page": "https://mapleclassic.wiki/wiki/Mushmom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Mushmom"
+    },
+    "changes": [],
+    "level": 40,
+    "hp": 34440,
+    "exp": 340,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "someone-elses-house",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/mushmom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/6130101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "source_page": "https://mapleclassic.wiki/wiki/Octopus",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Octopus"
+    },
+    "changes": [],
+    "level": 12,
+    "hp": 191,
+    "exp": 23,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "region": "Victoria Island",
+    "drops": [
+      {
+        "item": "aquamarine-ore",
+        "rate_percent": 4.35,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 4.35,
+        "quantity": [
+          16,
+          16
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      },
+      {
+        "item": "fragment-of-magic",
+        "rate_percent": 4.35,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 69.57,
+        "quantity": [
+          25,
+          30
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 16,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      },
+      {
+        "item": "octopus-leg",
+        "rate_percent": 47.83,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 11,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 4.35,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 23,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Octopus"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/octopus.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1120100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "orange-mushroom",
+    "name": "Orange Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Orange_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+    },
+    "changes": [],
+    "level": 8,
+    "hp": 142,
+    "exp": 15,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "region": "Victoria Island",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 1.63,
+        "quantity": [
+          11,
+          16
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 0.54,
+        "quantity": [
+          18,
+          18
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      },
+      {
+        "item": "bronze-ore",
+        "rate_percent": 2.17,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 63.59,
+        "quantity": [
+          17,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 117,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      },
+      {
+        "item": "orange-mushroom-cap",
+        "rate_percent": 48.37,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 89,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 2.17,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 184,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Orange_Mushroom"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/orange-mushroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1210102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "source_page": "https://mapleclassic.wiki/wiki/Pig",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Pig"
+    },
+    "changes": [],
+    "level": 7,
+    "hp": 128,
+    "exp": 13,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-pig-beach",
+    "region": "Victoria Island",
+    "drops": [
+      {
+        "item": "animal-fur-bundle",
+        "rate_percent": 2.41,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 6,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 1.2,
+        "quantity": [
+          15,
+          19
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 0.8,
+        "quantity": [
+          12,
+          12
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "gold-ore",
+        "rate_percent": 1.2,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "leather",
+        "rate_percent": 4.82,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 12,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 68.27,
+        "quantity": [
+          15,
+          18
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 170,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "pigs-head",
+        "rate_percent": 6.43,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 16,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 4.02,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 10,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "stiff-feather",
+        "rate_percent": 5.62,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 14,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      },
+      {
+        "item": "topaz-ore",
+        "rate_percent": 0.4,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 249,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Pig"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/pig.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1210100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "red-drake",
+    "name": "Red Drake",
+    "source_page": "https://mapleclassic.wiki/wiki/Red_Drake",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Red_Drake"
+    },
+    "changes": [],
+    "level": 60,
+    "hp": 5184,
+    "exp": 211,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/red-drake.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/6130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "red-snail",
+    "name": "Red Snail",
+    "source_page": "https://mapleclassic.wiki/wiki/Red_Snail",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+    },
+    "changes": [],
+    "level": 4,
+    "hp": 68,
+    "exp": 8,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "snail-hunting-ground-iii",
+    "region": "Maple Island",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 1.66,
+        "quantity": [
+          13,
+          17
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 1.1,
+        "quantity": [
+          10,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 69.06,
+        "quantity": [
+          9,
+          12
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 125,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "opal-ore",
+        "rate_percent": 1.1,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 1.66,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "red-snail-shell",
+        "rate_percent": 40.88,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 74,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "silver-ore",
+        "rate_percent": 2.21,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 4,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      },
+      {
+        "item": "wooden-sword",
+        "rate_percent": 0.55,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 181,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Red_Snail"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/red-snail.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/130101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "ribbon-pig",
+    "name": "Ribbon Pig",
+    "source_page": "https://mapleclassic.wiki/wiki/Ribbon_Pig",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+    },
+    "changes": [],
+    "level": 10,
+    "hp": 172,
+    "exp": 19,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "animal-fur-bundle",
+        "rate_percent": 5,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 5,
+        "quantity": [
+          16,
+          16
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 2.5,
+        "quantity": [
+          20,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "leather",
+        "rate_percent": 7.5,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 75,
+        "quantity": [
+          21,
+          26
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 30,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "mithril-ore",
+        "rate_percent": 2.5,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "pigs-ribbon",
+        "rate_percent": 47.5,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 19,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      },
+      {
+        "item": "stiff-feather",
+        "rate_percent": 12.5,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 40,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Ribbon_Pig"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/ribbon-pig.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/1210101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "shade",
+    "name": "Shade",
+    "source_page": "https://mapleclassic.wiki/wiki/Shade",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Shade"
+    },
+    "changes": [],
+    "level": 48,
+    "hp": 47000,
+    "exp": 488,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "region": "Victoria Island",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/shade.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/5090000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "shroom",
+    "name": "Shroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Shroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Shroom"
+    },
+    "changes": [],
+    "level": 3,
+    "hp": 62,
+    "exp": 6,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 4.76,
+        "quantity": [
+          20,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 21,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Shroom"
+      },
+      {
+        "item": "field-dagger",
+        "rate_percent": 4.76,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 21,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Shroom"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 61.9,
+        "quantity": [
+          8,
+          9
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 21,
+        "sample_drops": 13,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Shroom"
+      },
+      {
+        "item": "mushroom-spore",
+        "rate_percent": 42.86,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 21,
+        "sample_drops": 9,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Shroom"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/shroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/120100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "slime",
+    "name": "Slime",
+    "source_page": "https://mapleclassic.wiki/wiki/Slime",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Slime"
+    },
+    "changes": [],
+    "level": 6,
+    "hp": 115,
+    "exp": 12,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-tree-that-grew-i",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 0.91,
+        "quantity": [
+          14,
+          19
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 7,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 0.65,
+        "quantity": [
+          11,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "lemona",
+        "rate_percent": 0.13,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 70.74,
+        "quantity": [
+          13,
+          16
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 544,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "orihalcon-ore",
+        "rate_percent": 1.95,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 15,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 3.64,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 28,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "sapphire-ore",
+        "rate_percent": 0.26,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "slime-bubble",
+        "rate_percent": 4.94,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 38,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      },
+      {
+        "item": "squishy-liquid",
+        "rate_percent": 45.25,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 769,
+        "sample_drops": 348,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Slime"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/slime.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/210100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "snail",
+    "name": "Snail",
+    "source_page": "https://mapleclassic.wiki/wiki/Snail",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Snail"
+    },
+    "changes": [],
+    "level": 1,
+    "hp": 45,
+    "exp": 2,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "snail-hunting-ground-i",
+    "region": "Maple Island",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 0.97,
+        "quantity": [
+          20,
+          20
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 0.97,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "bronze-ore",
+        "rate_percent": 0.97,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "garnet-ore",
+        "rate_percent": 0.97,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 70.87,
+        "quantity": [
+          4,
+          5
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 73,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 2.91,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      },
+      {
+        "item": "snail-shell",
+        "rate_percent": 51.46,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 103,
+        "sample_drops": 53,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Snail"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/snail.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/100100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "stirge",
+    "name": "Stirge",
+    "source_page": "https://mapleclassic.wiki/wiki/Stirge",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Stirge"
+    },
+    "changes": [],
+    "level": 20,
+    "hp": 296,
+    "exp": 37,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 5,
+        "quantity": [
+          19,
+          19
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 20,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stirge"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 55,
+        "quantity": [
+          41,
+          49
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 20,
+        "sample_drops": 11,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stirge"
+      },
+      {
+        "item": "orange-potion",
+        "rate_percent": 10,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 20,
+        "sample_drops": 2,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stirge"
+      },
+      {
+        "item": "stirge-wing",
+        "rate_percent": 30,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 20,
+        "sample_drops": 6,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stirge"
+      }
+    ]
+  },
+  {
+    "id": "stone-golem",
+    "name": "Stone Golem",
+    "source_page": "https://mapleclassic.wiki/wiki/Stone_Golem",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Stone_Golem"
+    },
+    "changes": [],
+    "level": 56,
+    "hp": 5134,
+    "exp": 175,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/stone-golem.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/5130101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "stump",
+    "name": "Stump",
+    "source_page": "https://mapleclassic.wiki/wiki/Stump",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Stump"
+    },
+    "changes": [],
+    "level": 5,
+    "hp": 133,
+    "exp": 10,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-tree-that-grew-ii",
+    "drops": [
+      {
+        "item": "arrows-for-bows",
+        "rate_percent": 0.48,
+        "quantity": [
+          14,
+          14
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "arrows-for-crossbows",
+        "rate_percent": 1.45,
+        "quantity": [
+          10,
+          16
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 3,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "bronze-ore",
+        "rate_percent": 2.42,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 5,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "emerald-ore",
+        "rate_percent": 0.48,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "meso",
+        "rate_percent": 67.15,
+        "quantity": [
+          11,
+          14
+        ],
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 139,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "red-potion",
+        "rate_percent": 3.38,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 7,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "tree-branch",
+        "rate_percent": 45.41,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 94,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      },
+      {
+        "item": "wooden-wand",
+        "rate_percent": 0.48,
+        "observed_on": "2026-10-11T00:00:00.000Z",
+        "sample_kills": 207,
+        "sample_drops": 1,
+        "build": "founders-2026-10-06",
+        "source": "https://mapleclassic.wiki/wiki/Stump"
+      }
+    ],
+    "sprite": {
+      "file": "monsters/stump.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "super-jr-necki",
+    "name": "Super Jr. Necki",
+    "source_page": "https://mapleclassic.wiki/wiki/Super_Jr._Necki",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Super_Jr._Necki"
+    },
+    "changes": [],
+    "level": 200,
+    "hp": 9999,
+    "exp": 0,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-forest-of-patience-step-4",
+    "region": "Victoria Island",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/super-jr-necki.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/9100001/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "super-ribbon-pig",
+    "name": "Super Ribbon Pig",
+    "source_page": "https://mapleclassic.wiki/wiki/Super_Ribbon_Pig",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Super_Ribbon_Pig"
+    },
+    "changes": [],
+    "level": 200,
+    "hp": 9999,
+    "exp": 0,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "utahs-pig-farm",
+    "region": "Victoria Island",
+    "drops": []
+  },
+  {
+    "id": "super-slime",
+    "name": "Super Slime",
+    "source_page": "https://mapleclassic.wiki/wiki/Super_Slime",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Super_Slime"
+    },
+    "changes": [],
+    "level": 200,
+    "hp": 9999,
+    "exp": 0,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-deep-forest-of-patience-step-5",
+    "region": "Victoria Island",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/super-slime.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/9100000/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "super-stirge",
+    "name": "Super Stirge",
+    "source_page": "https://mapleclassic.wiki/wiki/Super_Stirge",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Super_Stirge"
+    },
+    "changes": [],
+    "level": 200,
+    "hp": 9999,
+    "exp": 0,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "b1-area-2",
+    "region": "Victoria Island",
+    "drops": []
+  },
+  {
+    "id": "tauromacis",
+    "name": "Tauromacis",
+    "source_page": "https://mapleclassic.wiki/wiki/Tauromacis",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Tauromacis"
+    },
+    "changes": [],
+    "level": 70,
+    "hp": 9328,
+    "exp": 337,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/tauromacis.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/7130100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "taurospear",
+    "name": "Taurospear",
+    "source_page": "https://mapleclassic.wiki/wiki/Taurospear",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Taurospear"
+    },
+    "changes": [],
+    "level": 75,
+    "hp": 12535,
+    "exp": 429,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/taurospear.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/7130101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "tortie",
+    "name": "Tortie",
+    "source_page": "https://mapleclassic.wiki/wiki/Tortie",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Tortie"
+    },
+    "changes": [],
+    "level": 46,
+    "hp": 2671,
+    "exp": 111,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/tortie.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4130101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "tutorial-jr-sentinel",
+    "name": "Tutorial Jr. Sentinel",
+    "source_page": "https://mapleclassic.wiki/wiki/Tutorial_Jr._Sentinel",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Tutorial_Jr._Sentinel"
+    },
+    "changes": [],
+    "level": 1,
+    "hp": 30,
+    "exp": 1,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/tutorial-jr-sentinel.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/9300018/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "ultra-jr-necki-1",
+    "name": "Ultra Jr. Necki 1",
+    "source_page": "https://mapleclassic.wiki/wiki/Ultra_Jr._Necki_1",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Ultra_Jr._Necki_1"
+    },
+    "changes": [],
+    "level": 200,
+    "hp": 930000,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "region": "Hidden Street",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/ultra-jr-necki-1.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/9100003/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "wild-boar",
+    "name": "Wild Boar",
+    "source_page": "https://mapleclassic.wiki/wiki/Wild_Boar",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Wild_Boar"
+    },
+    "changes": [],
+    "level": 25,
+    "hp": 510,
+    "exp": 46,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/wild-boar.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2230102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "wild-kargo",
+    "name": "Wild Kargo",
+    "source_page": "https://mapleclassic.wiki/wiki/Wild_Kargo",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Wild_Kargo"
+    },
+    "changes": [],
+    "level": 62,
+    "hp": 5057,
+    "exp": 231,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/wild-kargo.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/6230100/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "wraith",
+    "name": "Wraith",
+    "source_page": "https://mapleclassic.wiki/wiki/Wraith",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Wraith"
+    },
+    "changes": [],
+    "level": 48,
+    "hp": 2350,
+    "exp": 122,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/wraith.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4230102/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "zombie-lupin",
+    "name": "Zombie Lupin",
+    "source_page": "https://mapleclassic.wiki/wiki/Zombie_Lupin",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Zombie_Lupin"
+    },
+    "changes": [],
+    "level": 41,
+    "hp": 1774,
+    "exp": 89,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/zombie-lupin.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/4230101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "zombie-mushmom",
+    "name": "Zombie Mushmom",
+    "source_page": "https://mapleclassic.wiki/wiki/Zombie_Mushmom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Zombie_Mushmom"
+    },
+    "changes": [],
+    "level": 55,
+    "hp": 66640,
+    "exp": 668,
+    "boss": true,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "location": "the-grave-of-mushmom",
+    "drops": [],
+    "sprite": {
+      "file": "monsters/zombie-mushmom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/6300005/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "id": "zombie-mushroom",
+    "name": "Zombie Mushroom",
+    "source_page": "https://mapleclassic.wiki/wiki/Zombie_Mushroom",
+    "verified": {
+      "status": "unverified",
+      "build": "cot2",
+      "source": "https://mapleclassic.wiki/wiki/Zombie_Mushroom"
+    },
+    "changes": [],
+    "level": 24,
+    "hp": 436,
+    "exp": 45,
+    "boss": false,
+    "weak_to": [],
+    "strong_to": [],
+    "immune_to": [],
+    "drops": [],
+    "sprite": {
+      "file": "monsters/zombie-mushroom.png",
+      "source": "maplestory-io",
+      "source_url": "https://maplestory.io/api/GMS/83/mob/2230101/render/stand/0",
+      "retrieved": "2026-10-14T00:00:00.000Z"
+    }
+  }
+]

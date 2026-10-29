@@ -1,0 +1,13 @@
+글클메 번역애드온
+제작자 KAIN
+
+글로벌 클래식 메이플 실시간 하단 채팅 번역 도구.
+오프라인 번역 / 일반채팅·확성기 분리 / OBS 브라우저 소스 / 게임 창 자석 / 한글→영어 입력 보조 / 눈누 폰트 URL.
+
+데이터 관련 안내:
+NiaMeowDB의 전체 데이터베이스가 포함된 버전이 아닙니다.
+아이템 목록은 사용자가 적법하게 보유하고 있는 영어명·한국어명 CSV/JSON을 가져오는 방식으로 확장할 수 있습니다.
+NiaMeowDB: https://meowdb.com/msclassic/ko/item-db
+아이템 데이터 사용 조건: https://meowdb.com/reuse 및 https://meowdb.com/terms
+
+빌드: BUILD-WINDOWS.bat (Windows 10/11, Python 3.11/3.12 64-bit)

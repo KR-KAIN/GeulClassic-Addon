@@ -1,0 +1,10 @@
+GeulClassic Translation Addon v0.4.21 — Screenshot megaphone item localization
+BASE: v0.4.20 independent full source
+
+- Translate recognized English item names INSIDE megaphone linked item titles.
+- Preserve exact user-linked Korean item title over a generic translation.
+- Handle repeated S>/B> trade markers and trade prefixes without inventing source words.
+- Convert full level/class/equipment/DEX/CRIT shorthand; retain stat numbers.
+- Prioritize manual user catalog > synced ID translations > individually curated item names.
+- Keep red megaphone OCR, chat wheel, OBS, GMS-KMS sync, and Windows builder.
+- Build and sync reports remain required to verify Windows EXE and API success.
