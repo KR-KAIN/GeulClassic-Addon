@@ -194,6 +194,11 @@ def parse_chat_line(text: str) -> tuple[str, str] | None:
         return None
     value = re.sub(r"\s+", " ", text).strip()
     value = re.sub(r"^(?:\[)?\d{1,2}:\d{2}(?::\d{2})?(?:\])?\s+", "", value)
+    # R20.3: a game status line ('Your pet is running low on ...') has no
+    # speaker, even when OCR turns 'Your' into 'You :'
+    from .system_lines import system_line
+    if system_line(value):
+        return None
     # A nickname + optional CH badge + colon, with OCR decorations between.
     # Do not permit arbitrary long gap: prevents unrelated text from being named speaker.
     leading = re.match(r"^([\w][\w.\-]{1,23})\s*(.*)$", value, re.UNICODE)
@@ -290,6 +295,24 @@ def merge_chat_ocr(lines: list, background_at=None) -> list[dict]:
             decoration=joined.strip()
             if (decoration.startswith('@') and decoration.count('@')>=4 and
                     all(c in '@ \t0123456789①②③④⑤⑥⑦⑧⑨⓪' for c in decoration)):
+                continue
+            # R20.3: a game status line is its own row, never the second
+            # line of the message above ('My Huntington Your pet is ...')
+            from .system_lines import system_line
+            if system_line(joined):
+                x = min(item.rect[0] for item in row)
+                y = min(item.rect[1] for item in row)
+                r = max(item.rect[0] + item.rect[2] for item in row)
+                b = max(item.rect[1] + item.rect[3] for item in row)
+                source_meta=dict(getattr(row[0],'source_meta',{}) or {})
+                source_meta['paired_read']=False
+                source_meta['body_regions'],source_meta['item_regions']=[(0,0,r-x,b-y)],[]
+                result.append({'nickname': '시스템', 'body': joined, 'rect': (x,y,r-x,b-y),
+                               'source_band_tone': background_at((x,y,r-x,b-y)) if background_at else None,
+                               'announcement_hint': False,
+                               'confidence': min(float(item.confidence) for item in row),
+                               'source_meta':source_meta,'system_line':True,
+                               'visual_key':'/'.join(getattr(item,'ink_key','') for item in row) if all(getattr(item,'ink_key','') for item in row) else ''})
                 continue
             # A message spanning two in-game chat rows has no nickname on
             # its second line. Attach *only* a nearby visual continuation;

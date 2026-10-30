@@ -113,6 +113,72 @@ _KO_EN_CHAT = (
 )
 _KO_EN_TABLE = {k: v for keys, v in _KO_EN_CHAT for k in keys}
 
+# R20.3: everyday game talk the sentence model turned into nonsense ('여기는
+# 내자리야' -> "What's New", '같이 사냥할래?' -> 'How to get started?'), as the
+# short chat English Maple players write. Whole short lines only, matched
+# without spaces and with any usual sentence ending.
+_END = r'(?:요|용|여|야|임|이야|이에요|예요|에요|이요|입니다|습니다|다|죠|지|네|음|어|아|ㅇ|ㅎ|ㅋ)*'
+_ASK = r'(?:요|용|여|까|까요|ㄱ|ㄱㄱ|\?)*'
+_KO_EN_RULES = tuple((re.compile(p), en) for p, en in (
+    # spots and hunting grounds
+    (r'(?:여기|이자리|이곳|이맵)?(?:는|은|가)?(?:내|제|우리)(?:자리|사냥터|맵|구역|채널)' + _END, 'this is my spot'),
+    (r'(?:여기|이자리|이곳)(?:는|은)?(?:주인|임자)(?:있어|있음|있습니다|있다|있는데)' + _END, 'this spot is taken'),
+    (r'(?:자리|여기)?(?:좀)?(?:비켜|양보해|비워|빼)(?:줘|주세요|주실래요|줄래|주라|주실수있나요|주시겠어요)' + _ASK, 'pls find another spot'),
+    (r'(?:이|여기)?맵(?:에)?(?:빈)?자리(?:있어|있나|있음|있을까|있습니까)' + _ASK, 'any free spot here?'),
+    (r'(?:같이|함께)(?:사냥|파밍|렙업|퀘|퀘스트|파퀘)(?:할래|하실래|해|할까|하자|하실분|할사람|ㄱ|가능)' + _ASK + _END, 'wanna train together?'),
+    (r'(?:같이|함께)(?:해|하자|할래|하실래|ㄱㄱ|가|갈래|가실래)' + _ASK + _END, 'wanna go together?'),
+    # kill stealing, channels
+    (r'(?:누가|왜)?(?:내|제)?몹(?:을|좀)?(?:뺏|스틸|가져가|채가|훔쳐)\w{0,6}', 'pls stop ksing'),
+    (r'(?:스틸|뺏기|ks)(?:하지마|ㄴㄴ|그만|하지마세요|그만해|그만하세요)\w{0,3}', 'stop ks pls'),
+    (r'채널(?:좀)?(?:옮겨|바꿔|이동해|옮기세요)(?:줘|주세요|주실래요|줄래)?' + _ASK, 'cc pls'),
+    # coming and going
+    (r'(?:잠깐|잠시|금방)?(?:쉬었다|쉬다|화장실|밥먹고|다녀|씻고)(?:올게|올께|옴|올|오겠습니다|올게요|올께요)' + _END, 'brb'),
+    (r'(?:지금|금방|곧)(?:갈게|갈께|가요|가는중|감|갑니다)' + _END, 'omw'),
+    (r'(?:나중에|또|담에|다음에)(?:봐|봐요|뵈요|뵐게요|봅시다|만나요)' + _END, 'cya'),
+    (r'(?:잘자|굿밤|잘자요|좋은밤)' + _END, 'gn'),
+    (r'(?:어서와|어서오세요|웰백|웰컴백|왔어|오셨어요|오셨네요)' + _END, 'wb'),
+    # replies
+    (r'(?:모르겠|몰라|모름|모르겠어|모르겠네|ㅁㄹ)' + _END, 'idk'),
+    (r'(?:됐어|신경쓰지마|신경쓰지마세요|아무것도아니|됐습니다)' + _END, 'nvm'),
+    (r'(?:진짜|정말|레알|ㄹㅇ|실화)\?+', 'really?'),
+    (r'(?:ㄹㅇ|리얼|진짜임|진짜로)' + _END, 'fr'),
+    (r'(?:농담|장난|농담이|장난이)' + _END, 'jk'),
+    (r'(?:인정|ㅇㅈ|맞아|맞아요|맞습니다)' + _END, 'true'),
+    (r'(?:화이팅|파이팅|행운을빌어|행운을빌게|굿럭)' + _END, 'gl'),
+    (r'(?:즐겜|즐거운게임|재밌게하세요|즐겁게하세요)' + _END, 'hf'),
+    (r'(?:잘했어|잘했어요|나이스|굿잡|잘하시네요|잘하네)' + _END, 'gj'),
+    (r'(?:ㄱㄱ|고고|가자|갑시다|ㄱㄱㄱ)' + _END, 'go go'),
+    (r'(?:ㄴㅇㅅ|나이스)' + _END, 'nice'),
+    # requests
+    (r'(?:버프|뻐프)(?:좀)?(?:주세요|줘|부탁해요|부탁|가능)' + _ASK, 'buff pls'),
+    (r'(?:힐|힐좀)(?:주세요|줘|부탁해요|부탁|가능)' + _ASK, 'heal pls'),
+    (r'(?:잠깐만|잠시만)(?:기다려|기달려)(?:줘|주세요|요)?' + _END, 'wait pls'),
+    (r'(?:귓|귓말|귀말)(?:할게|할께|드릴게|보낼게)' + _END, "i'll pm you"),
+    (r'(?:어디서|어디에서)(?:사|구해|구하|팔아|파)' + _ASK + _END, 'where can i get it?'),
+    (r'(?:파세요|팔아요|팔아|파나요|파시나요|판매중)' + _ASK, 'selling?'),
+    (r'(?:살게|살께|구매할게|사겠습니다|제가살게)' + _END, "i'll buy"),
+    # happenings
+    (r'(?:렙업|레벨업|렙업했|레벨업했|업했)' + _END + r'!*', 'lvl up!'),
+    (r'(?:오늘)?(?:레벨|렙|lv)?(\d{1,3})(?:레벨|렙)?(?:찍었|달성했|달성|됐|되었|찍음|찍었어)' + _END + r'!*',
+     lambda m: f'hit lvl {m.group(1)}!'),
+    (r'(?:죽었|죽음|사망|죽었어)' + _END, 'i died'),
+    (r'(?:렉|랙)(?:걸려|걸림|심해|심하네|미쳤)' + _END, 'lag'),
+    (r'(?:포션|물약|포트|약)(?:이|을|도)?(?:다)?(?:떨어졌|떨어짐|없어|없음|다씀|다썼|바닥)' + _END, 'out of pots'),
+    (r'(?:돈|메소|메르)(?:이|가|도)?(?:없어|없음|부족해|부족|없네)' + _END, 'no mesos'),
+    (r'(?:이맵|여기)?(?:은|는)?(?:몹|몬스터|몬스터들|몹들)(?:이|가)?(?:너무)?(?:세|쎄|강해|강하네|세네|쎄네)' + _END, 'mobs are too strong here'),
+    (r'(?:보스|보스몹)(?:는|가)?(?:언제|몇시에)(?:나와|나오|젠|리젠|떠|뜸|나오나)' + _ASK + _END, 'when does the boss spawn?'),
+    (r'(?:좀)?도와(?:주실수있나|줄수있어|주실래|줄래|주실수있어)' + _ASK + _END, 'can you help me?'),
+    (r'(?:오늘|지금|이따|오늘저녁에|저녁에|오늘밤)?(?:같이)?(?:파티퀘스트|파퀘|파티|pq)(?:같이)?(?:하실|할|도실|돌|가실|갈)(?:분|사람)'
+     r'(?:있나|있어|있음|있으신가|구해|구함|계신가|계세)?' + _ASK + _END, 'anyone wanna PQ?'),
+    (r'(?:이|이거|이아이템|이템|이건)?(?:얼마에|얼마로)(?:팔면|팔아야|파는게|팔까)(?:될까|돼|되나|좋을까|되|하나)?' + _ASK + _END,
+     'how much should i sell this for?'),
+    (r'(?:이|이거|이아이템|이템|이건)?(?:얼마에|얼마로)(?:사면|사야|사는게|살까)(?:될까|돼|되나|좋을까|되|하나)?' + _ASK + _END,
+     'how much should i pay for this?'),
+    (r'길드(?:에)?(?:가입|들어가)(?:하고싶|하고싶어|하고싶습니다|할래|하고싶은데|하고싶어요|싶어)' + _END, 'i wanna join a guild'),
+    (r'(?:내일)(?:다시)?(?:접속|들어올|올)(?:할게|할께|게|께|게요|께요)?' + _END, 'ill be on tmr'),
+    (r'(?:이따|나중에|좀있다)(?:다시)?(?:접속|들어올|올)(?:할게|할께|게|께|게요|께요)?' + _END, 'ill be on later'),
+))
+
 
 def korean_chat_phrase(source: str) -> str | None:
     """Everyday Korean chat -> chat English, or None ('ㅋㅋㅋ' -> 'lol')."""
@@ -128,7 +194,83 @@ def korean_chat_phrase(source: str) -> str | None:
         return hit
     # '…요' / '…용' endings: '고마워용', '감사해요오'
     base = re.sub(r'(?:용|요오+|여)$', '요', text)
-    return _KO_EN_TABLE.get(base)
+    hit = _KO_EN_TABLE.get(base)
+    if hit:
+        return hit
+    compact = re.sub(r'\s+', '', str(source or '')).strip('.!~…').lower()
+    if len(compact) <= 20:
+        for pattern, english in _KO_EN_RULES:
+            m = pattern.fullmatch(compact)
+            if m:
+                return english(m) if callable(english) else english
+    return None
+
+
+# R20.3: English the sentence model wrote, in the short forms Maple chat uses
+_CHAT_FORMS = tuple((re.compile(p, re.I), short) for p, short in (
+    (r"\bthank you (?:very|so) much\b", 'ty so much'),
+    (r"\bthank you\b|\bthanks\b", 'ty'),
+    (r"\bplease\b", 'pls'),
+    (r"\b(?:i'?ll )?be right back\b", 'brb'),
+    (r"\bi (?:do not|don'?t) know\b", 'idk'),
+    (r"\bby the way\b", 'btw'),
+    (r"\bnever ?mind\b", 'nvm'),
+    (r"\bi (?:have|need) to go\b|\bi'?ve got to go\b|\bgot to go\b", 'gtg'),
+    (r"\b(?:i'?m )?on my way\b", 'omw'),
+    (r"\baway from (?:the )?keyboard\b", 'afk'),
+    (r"\bgood game\b", 'gg'),
+    (r"\bgood luck\b", 'gl'),
+    (r"\bhave fun\b", 'hf'),
+    (r"\bwelcome back\b", 'wb'),
+    (r"\bno problem\b", 'np'),
+    (r"\byou'?re welcome\b", 'yw'),
+    (r"\bin my opinion\b", 'imo'),
+    (r"\bto be honest\b", 'tbh'),
+    (r"\boh my god\b", 'omg'),
+    (r"\bright now\b", 'rn'),
+    (r"\bjust kidding\b", 'jk'),
+    (r"\bsee you(?: later| next time)?\b", 'cya'),
+    (r"\bgood night\b", 'gn'),
+    (r"\b(?:send me a |private )?(?:message|whisper) me\b", 'pm me'),
+    (r"\bchange (?:the )?channels?\b", 'cc'),
+    (r"\bkill ?steal(?:ing)?\b", 'ks'),
+    (r"\blooking for (?:a )?party\b", 'LFP'),
+    (r"\blooking for (?:more |party )?members\b", 'LFM'),
+    (r"\bparty quests?\b", 'PQ'),
+    (r"\bexperience points?\b|\bexperience\b", 'exp'),
+    (r"\bmesos?\b", 'meso'),
+    (r"\bcongratulations\b", 'congrats'),
+    (r"\bto level up\b", 'to lvl up'),
+))
+
+
+def chatify_english(text: str) -> str:
+    """'Thank you, please wait' -> 'ty, pls wait' (sentence-model output only)."""
+    out = str(text or '')
+    for pattern, short in _CHAT_FORMS:
+        out = pattern.sub(short, out)
+    return re.sub(r'\s{2,}', ' ', out).strip()
+
+
+def faithful_english(source: str, english: str, back) -> bool:
+    """Does the English say what the Korean said? It is turned back into
+    Korean (back) and must share enough two-letter Hangul pieces with the
+    source: "What's New" for '여기는 내자리야' shares none."""
+    ko = re.sub(r'[^가-힣]', '', str(source or ''))
+    if len(ko) < 4:
+        return True               # too short to judge; the tables cover these
+    try:
+        again = re.sub(r'[^가-힣]', '', str(back(english) or ''))
+    except Exception:
+        return True
+    a = {ko[i:i + 2] for i in range(len(ko) - 1)}
+    b = {again[i:i + 2] for i in range(len(again) - 1)}
+    if not b:
+        return False
+    return 2 * len(a & b) / (len(a) + len(b)) >= FAITHFUL_MIN
+
+
+FAITHFUL_MIN = 0.12
 
 
 # What the sentence model produces for short Korean it does not know

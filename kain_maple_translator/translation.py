@@ -615,6 +615,12 @@ class Translator:
                 return ' · '.join(self._translate(clause,direction,generic) for clause in clauses)
         from .chat_shorthand import shorthand_translation, expand_shorthand, trade_suffix
         if direction == 'en-ko':
+            # R20.3: the game's own status lines ('Your pet is running low on
+            # the allotted HP potions.') in the game's words, not the model's
+            from .system_lines import system_line
+            status = system_line(text)
+            if status is not None:
+                return status
             shorthand = shorthand_translation(text)
             if shorthand is not None:
                 return shorthand
@@ -734,13 +740,35 @@ class Translator:
         if direction == 'ko-en':
             # R19: 'About Us' / 'LOGIN JOIN' / '{{if price_varies}}' for short
             # Korean the model does not know: never hand that to the game chat
-            from .natural_chat import junk_english
+            from .natural_chat import junk_english, chatify_english
             if junk_english(result):
                 return text
+            # R20.3: the short forms Maple chat uses ('ty', 'pls', 'brb')
+            result = chatify_english(result)
         if direction == 'en-ko':
             result = koreanize_names(result)
         result = polish_translation(text, result, direction)
         return with_items(polish_scroll_result(polish_meso_units(polish_chat_result(text, naturalize_free_chat(text, result))))) if direction == "en-ko" else result
+
+    def compose(self, text: str) -> tuple[str, bool]:
+        """KO > EN for the composer: (English, sure). sure is False when the
+        sentence model wrote it and its English, turned back into Korean, no
+        longer says what the Korean said ("What's New" for '여기는 내자리야');
+        the composer then shows it without copying it to the game chat."""
+        result = self.translate(text, 'ko-en')
+        if not re.search('[가-힣]', text or ''):
+            return result, True
+        if re.search('[가-힣]', result or ''):
+            return result, False          # left untranslated
+        from .natural_chat import korean_chat_phrase, faithful_english
+        from .ko_trade import korean_post
+        try:
+            trusted = bool(korean_chat_phrase(text) or korean_post(text))
+        except Exception:
+            trusted = False
+        if trusted:
+            return result, True
+        return result, faithful_english(text, result, lambda value: translate_generic(value, 'en-ko'))
 
     def offline_test(self, direction='en-ko') -> str:
         return translate_generic('Where are you going?' if direction == 'en-ko' else '어디로 가세요?', direction)

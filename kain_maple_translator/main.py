@@ -1251,7 +1251,8 @@ class UpdateSignals(QObject):
 class CompactComposer(Glass):
     # Title band like the game's CHARACTER STAT window: the title and the
     # state in the game's own pixel font (the Korean wording is the tooltip).
-    STATE_WORDS={'입력 대기':'READY','번역 중':'TRANSLATING','복사됨':'COPIED','번역 오류':'ERROR'}
+    STATE_WORDS={'입력 대기':'READY','번역 중':'TRANSLATING','복사됨':'COPIED','번역 오류':'ERROR',
+                 '확인 필요':'CHECK','다르게 입력':'RETRY'}
 
     def paintEvent(self, event):
         from PySide6.QtGui import QPainter
@@ -1355,12 +1356,23 @@ class CompactComposer(Glass):
         self.status.setText('번역 중…')
         self.button.setEnabled(False)
 
-    def finish(self, value: str, error: str):
+    def finish(self, value: str, error: str, sure: bool = True):
         self.button.setEnabled(True)
+        self.result.setToolTip('')
         if error:
             self.status.setText('번역 오류')
             self.result.setText('')
             self.result.setPlaceholderText('번역 실패 · 로컬 모델 설치 상태 확인')
+        elif re.search('[가-힣]', value or ''):
+            # R20.3: the model gave up or wrote nonsense: nothing for the game
+            self.status.setText('다르게 입력')
+            self.result.setText('')
+            self.result.setPlaceholderText('번역이 어색해서 복사하지 않았어요 · 다르게 써 보세요')
+        elif not sure:
+            # R20.3: shown, not copied - the English may say something else
+            self.result.setText(value)
+            self.result.setToolTip('번역이 원문과 다를 수 있어요. 확인하고 [복사]를 누르세요.')
+            self.status.setText('확인 필요')
         else:
             self.result.setText(value)
             QApplication.clipboard().setText(value)
@@ -2966,11 +2978,14 @@ class Controller(QObject):
         translator=Translator('argos')
         def task():
             try:
-                result=translator.translate(text,'ko-en')
-                self.signals.done.emit(seq,result,'')
+                # R20.3: (English, sure) - unsure English is shown, not copied
+                result,sure=translator.compose(text)
+                self.signals.done.emit(seq,result,'' if sure else self.COMPOSE_UNSURE)
             except Exception as exc:
                 self.signals.done.emit(seq,'',str(exc))
         threading.Thread(target=task,daemon=True,name='maple-compose').start()
+
+    COMPOSE_UNSURE='\x00unsure'
 
     def compose_done(self, seq: int, translation: str, error: str):
         if seq != self.compose_sequence or self.closing:
@@ -2981,6 +2996,9 @@ class Controller(QObject):
                 QMessageBox.warning(self.left,'오프라인 모델 오류',error)
             else:
                 self.left.set_status('오프라인 EN↔KO 모델 PASS: ' + translation[5:])
+            return
+        if error==self.COMPOSE_UNSURE:
+            self.right.finish(translation,'',sure=False)
             return
         self.right.finish(translation,error)
         if error:

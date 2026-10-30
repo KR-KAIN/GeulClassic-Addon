@@ -21,7 +21,7 @@ import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 
-APP_VERSION = '0.4.54-R20.2'
+APP_VERSION = '0.4.54-R20.3'
 REPO = 'KR-KAIN/GeulClassic-Addon'
 API_LATEST = f'https://api.github.com/repos/{REPO}/releases/latest'
 DOWNLOAD_PREFIX = f'https://github.com/{REPO}/releases/download/'
