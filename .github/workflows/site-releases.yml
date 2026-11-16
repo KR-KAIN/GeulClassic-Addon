@@ -1,0 +1,48 @@
+name: Publish website release index
+on:
+  release:
+    types: [published, edited, deleted, unpublished, released, prereleased]
+  push:
+    branches: [main]
+    paths: ['.github/workflows/site-releases.yml']
+  workflow_dispatch:
+  # Also catch asset-only uploads and releases published by another Actions job.
+  schedule:
+    - cron: '3,18,33,48 * * * *'
+
+permissions:
+  contents: write
+concurrency:
+  group: publish-website-release-index
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - name: Publish public release notes and uploaded installers
+        shell: bash
+        run: |
+          set -euo pipefail
+          repository="repos/$GITHUB_REPOSITORY"
+          feed="$RUNNER_TEMP/site-releases.json"
+          gh api --paginate --slurp "$repository/releases?per_page=100" | jq -ce '
+            add | map(select(.draft == false and .prerelease == false and .published_at != null) | {
+              id, tag_name, name: (.name // .tag_name), body: (.body // ""), published_at, html_url,
+              assets: [.assets[] | select(.state == "uploaded") |
+                {name, size, browser_download_url} + (if .digest then {digest} else {} end)]
+            }) | sort_by(.published_at, .id) | reverse
+          ' > "$feed"
+
+          previous=$(gh api "$repository/git/trees/$TARGET_BRANCH?recursive=1" \
+            --jq '.tree[] | select(.path == "docs/releases.json") | .sha')
+          if [[ "$(git hash-object "$feed")" == "$previous" ]]; then exit 0; fi
+
+          jq -n --arg branch "$TARGET_BRANCH" --arg previous "$previous" --rawfile feed "$feed" '
+            {branch: $branch, message: "Sync website release index", content: ($feed | @base64)}
+            + (if $previous == "" then {} else {sha: $previous} end)
+          ' | gh api --silent --method PUT "$repository/contents/docs/releases.json" --input -
